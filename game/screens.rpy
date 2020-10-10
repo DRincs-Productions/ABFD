@@ -2,6 +2,14 @@
 ## Initialization
 ################################################################################
 
+# initial language
+init -3 python:
+    if persistent.lang is None:
+        persistent.lang = "english"
+
+    lang = persistent.lang
+
+
 init offset = -1
 
 
@@ -95,10 +103,17 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
+# Text bar transparency
+define persistent.say_window_alpha = 0.8
+
 screen say(who, what):
     style_prefix "say"
 
     window:
+        # Transparent text bar
+        if renpy.variant("pc"):
+            background Transform(style.window.background, alpha=persistent.say_window_alpha)
+
         id "window"
 
         if who is not None:
@@ -106,10 +121,29 @@ screen say(who, what):
             window:
                 id "namebox"
                 style "namebox"
-                text who id "who"
+                if (persistent.say_window_alpha < 0.6 and renpy.variant("pc")):
+                    text who id "who" outlines [(2, "#000", 0, 1)]
+                else:
+                    text who id "who"
 
-        text what id "what"
+        if (persistent.say_window_alpha < 0.6 and renpy.variant("pc")):
+            text what id "what" outlines [(2, "#000", 0, 1)]
+        else:
+            text what id "what"
 
+        # Text bar transparency controls
+        if renpy.variant("pc"):
+            vbar value FieldValue(persistent, 'say_window_alpha', 1.0, max_is_zero=False, offset=0, step=0.1):
+                top_bar "gui/slider/vertical2_idle_bar.png"
+                bottom_bar  "gui/slider/vertical2_hover_bar.png"
+                thumb "gui/slider/thumb_idle.png"
+                hover_thumb "gui/slider/thumb_hover.png"
+                align (1, 0.05)
+                xysize (40, 150)
+                thumb_offset 10
+
+            # Text bar hide (button)
+            imagebutton auto "gui/button/close_%s.png" align (0.997, 0.04) action HideInterface() focus_mask True
 
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
@@ -219,11 +253,12 @@ define config.narrator_menu = True
 
 style choice_vbox is vbox
 style choice_button is button
-style choice_button_text is button_text
+style choice_button_text is button_text:
+    outlines [(2, "#000", 0, 1)]
 
 style choice_vbox:
-    xalign 0.5
-    ypos 810
+    xalign 1.01
+    ypos 1870
     yanchor 0.5
 
     spacing gui.choice_spacing
@@ -305,8 +340,6 @@ screen navigation():
 
         else:
 
-            textbutton _("History") action ShowMenu("history")
-
             textbutton _("Save") action ShowMenu("save")
 
         textbutton _("Load") action ShowMenu("load")
@@ -319,14 +352,16 @@ screen navigation():
 
         elif not main_menu:
 
+            textbutton _("History") action ShowMenu("history")
+
             textbutton _("Main Menu") action MainMenu()
 
-        textbutton _("About") action ShowMenu("about")
+        # textbutton _("About") action ShowMenu("about")
 
-        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+        # if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Help") action ShowMenu("help")
+            # textbutton _("Help") action ShowMenu("help")
 
         if renpy.variant("pc"):
 
@@ -344,6 +379,13 @@ style navigation_button:
 
 style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
+    size 125
+    font gui.navigation_button
+
+style navigation_button_text_return:
+    size 150
+    idle_color "#e6005d"
+    font gui.navigation_button
 
 
 ## Main Menu screen ############################################################
@@ -368,15 +410,62 @@ screen main_menu():
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
     use navigation
+    if gui.show_logo:
+        vbox:
+            anchor (1.0, 1.0)
+            pos (0.999, 0.25) # setting both to 1.0 will put the all logos on the very edge
+            xsize 913 # X patreon icon
+            spacing 5
+
+            imagebutton:
+                idle Frame(patreon_idle, xfill=True, yfill=True)
+                hover Frame(patreon_hover, xfill=True, yfill=True)
+                action OpenURL("https://www.patreon.com/DRincs")
+                ysize 256 # Y patreon icon
+                xalign 0.5
+
+            hbox:
+                xalign 1.0
+                spacing 5
+
+                imagebutton:
+                    idle Frame(github_idle, xfill=True, yfill=True)
+                    hover Frame(github_hover, xfill=True, yfill=True)
+                    action OpenURL("https://github.com/DonRP")
+                    xsize 160
+                    ysize 160
+                imagebutton:
+                    idle Frame(discord_idle, xfill=True, yfill=True)
+                    hover Frame(discord_hover, xfill=True, yfill=True)
+                    action OpenURL("https://discord.gg/HFfeJKR")
+                    xsize 160
+                    ysize 160
+                imagebutton:
+                    idle Frame(buymeacoffee_idle, xfill=True, yfill=True)
+                    hover Frame(buymeacoffee_hover, xfill=True, yfill=True)
+                    action OpenURL("https://www.buymeacoffee.com/DRincs")
+                    xsize 160
+                    ysize 160
+                imagebutton:
+                    idle Frame(subscribestar_idle, xfill=True, yfill=True)
+                    hover Frame(subscribestar_hover, xfill=True, yfill=True)
+                    action OpenURL("https://www.subscribestar.com/drincs")
+                    xsize 160
+                    ysize 160
 
     if gui.show_name:
-
         vbox:
             text "[config.name!t]":
                 style "main_menu_title"
+                outlines [(0, "#bfbfbf", abs(6), abs(6))]
+                at transform:
+                    alpha 0.9
 
-            text "[config.version]":
+            text "v[config.version]":
                 style "main_menu_version"
+                outlines [(0, "#bfbfbf", abs(2), abs(2))]
+                at transform:
+                    alpha 0.5
 
 
 style main_menu_frame is empty
@@ -403,10 +492,15 @@ style main_menu_text:
 
 style main_menu_title:
     properties gui.text_properties("title")
+    color "#fffad1"
+    size 230
+    font gui.main_text_font
 
 style main_menu_version:
     properties gui.text_properties("version")
-
+    color "#9effa3"
+    size 60
+    font gui.main_text_font
 
 ## Game Menu screen ############################################################
 ##
@@ -495,7 +589,7 @@ style game_menu_label is gui_label
 style game_menu_label_text is gui_label_text
 
 style return_button is navigation_button
-style return_button_text is navigation_button_text
+style return_button_text is navigation_button_text_return
 
 style game_menu_outer_frame:
     bottom_padding 90
@@ -527,8 +621,10 @@ style game_menu_label:
 
 style game_menu_label_text:
     size gui.title_text_size
-    color gui.accent_color
+    # color gui.accent_color
     yalign 0.5
+    color "#dcc68f"
+    font gui.title_interface_text_font
 
 style return_button:
     xpos gui.navigation_xpos
@@ -695,18 +791,22 @@ style page_label_text:
     text_align 0.5
     layout "subtitle"
     hover_color gui.hover_color
+    idle_color "#dcc68f"
+    font gui.interface_text_font
 
 style page_button:
     properties gui.button_properties("page_button")
 
 style page_button_text:
     properties gui.button_text_properties("page_button")
+    font gui.interface_text_font
 
 style slot_button:
     properties gui.button_properties("slot_button")
 
 style slot_button_text:
     properties gui.button_text_properties("slot_button")
+    font gui.interface_text_font
 
 
 ## Preferences screen ##########################################################
@@ -749,6 +849,13 @@ screen preferences():
                     textbutton _("After Choices") action Preference("after choices", "toggle")
                     textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
 
+                vbox:
+                    style_prefix "radio"
+                    label _("Language")
+                    textbutton _( "English" ) action Language("english")
+                    textbutton _( "Italian" ) action Language("italian")
+                    textbutton _( "Russian" ) action Language("russian")
+
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
 
@@ -759,6 +866,16 @@ screen preferences():
                 box_wrap True
 
                 vbox:
+                    # Text bar transparency (Options)
+                    label _("Text Transparency")
+
+                    bar value FieldValue(persistent, 'say_window_alpha', 1.0, max_is_zero=False, offset=0, step=0.1, ):
+                        bar_invert True
+                        base_bar "gui/slider/horizontal_idle_bar.png"
+                        hover_base_bar  "gui/slider/horizontal_hover_bar.png"
+                        thumb "gui/slider/horizontal_idle_thumb.png"
+                        hover_thumb "gui/slider/horizontal_hover_thumb.png"
+                        xsize 1050
 
                     label _("Text Speed")
 
@@ -836,6 +953,7 @@ style pref_label:
 
 style pref_label_text:
     yalign 1.0
+    font gui.title_interface_text_font
 
 style pref_vbox:
     xsize 675

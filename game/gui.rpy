@@ -8,8 +8,10 @@ init offset = -2
 
 ## Calling gui.init resets the styles to sensible default values, and sets the
 ## width and height of the game.
+define gui.width = 3840
+define gui.height = 2160
 init python:
-    gui.init(3840, 2160)
+    gui.init(gui.width, gui.height)
 
 
 
@@ -23,7 +25,7 @@ init python:
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#0099cc'
+define gui.accent_color = '#45aaff'
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = '#888888'
@@ -33,7 +35,7 @@ define gui.idle_color = '#888888'
 define gui.idle_small_color = '#aaaaaa'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = '#66c1e0'
+define gui.hover_color = '#c5a283'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
@@ -44,8 +46,8 @@ define gui.insensitive_color = '#8888887f'
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
-define gui.muted_color = '#003d51'
-define gui.hover_muted_color = '#005b7a'
+define gui.muted_color = '#435eb0'
+define gui.hover_muted_color = '#4339b0'
 
 ## The colors used for dialogue and menu choice text.
 define gui.text_color = '#ffffff'
@@ -55,13 +57,25 @@ define gui.interface_text_color = '#ffffff'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "fonts/trebuc.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "fonts/trebucbd.ttf"
+
+## The font used for choice text.
+define gui.choice_text_font = "fonts/trebucit.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "fonts/trebuc.ttf"
+
+## The font used for out-of-game title text.
+define gui.title_interface_text_font = "fonts/hermes.ttf"
+
+## The font used for navigation button text.
+define gui.navigation_button = FontGroup().add("fonts/Bangers.ttf", 0x0000, 0x007f).add("fonts/Bangers.ttf", 0x00E0, 0x00f9).add("fonts/Bangers.ttf", 0x200b, 0x200b).add("fonts/Buran USSR.ttf", 0x0400, 0x04ff)
+
+## The font used for main menu text.
+define gui.main_text_font = "fonts/BRLNSB.ttf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 66
@@ -85,8 +99,19 @@ define gui.title_text_size = 150
 ## Main and Game Menus #########################################################
 
 ## The images used for the main and game menus.
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = "gui/main_menu.webp"
+define gui.game_menu_background = "gui/game_menu.webp"
+# Logos
+define patreon_idle = "gui/logos/patreon.webp"
+define patreon_hover = im.MatrixColor("gui/logos/patreon.webp", im.matrix.brightness(0.1))
+define discord_idle = "gui/logos/discord.webp"
+define discord_hover = im.MatrixColor("gui/logos/discord.webp", im.matrix.brightness(0.05))
+define github_idle = "gui/logos/github.webp"
+define github_hover = im.MatrixColor("gui/logos/github.webp", im.matrix.brightness(0.1))
+define subscribestar_idle = "gui/logos/subscribestar.webp"
+define subscribestar_hover = im.MatrixColor("gui/logos/subscribestar.webp", im.matrix.brightness(0.1))
+define buymeacoffee_idle = "gui/logos/buymeacoffee.webp"
+define buymeacoffee_hover = im.MatrixColor("gui/logos/buymeacoffee.webp", im.matrix.brightness(0.1))
 
 
 ## Dialogue ####################################################################
@@ -202,13 +227,13 @@ define gui.quick_button_text_selected_color = gui.accent_color
 ##
 ## Choice buttons are used in the in-game menus.
 
-define gui.choice_button_width = 2370
+define gui.choice_button_width = 860
 define gui.choice_button_height = None
 define gui.choice_button_tile = False
-define gui.choice_button_borders = Borders(300, 15, 300, 15)
-define gui.choice_button_text_font = gui.text_font
-define gui.choice_button_text_size = gui.text_size
-define gui.choice_button_text_xalign = 0.5
+define gui.choice_button_borders = Borders(60, 8, 60, 8)
+define gui.choice_button_text_font = gui.choice_text_font
+define gui.choice_button_text_size = (gui.text_size - 15)
+define gui.choice_button_text_xalign = 0
 define gui.choice_button_text_idle_color = "#cccccc"
 define gui.choice_button_text_hover_color = "#ffffff"
 define gui.choice_button_text_insensitive_color = "#444444"
@@ -255,7 +280,7 @@ define gui.skip_ypos = 30
 define gui.notify_ypos = 135
 
 ## The spacing between menu choices.
-define gui.choice_spacing = 66
+define gui.choice_spacing = 0
 
 ## Buttons in the navigation section of the main and game menus.
 define gui.navigation_spacing = 12

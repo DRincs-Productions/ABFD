@@ -21,6 +21,12 @@ define config.name = _("A Big Family in Debt")
 define gui.show_name = True
 
 
+## Determines if the logo given above is shown on the main menu screen. Set
+## this to False to hide the logo.
+
+define gui.show_logo = True
+
+
 ## The version of the game.
 
 define config.version = "0.1.0"
@@ -193,6 +199,10 @@ init python:
 
     build.documentation('*.html')
     build.documentation('*.txt')
+
+    ## Add "ambience" sound mode set in loop
+    ## to use: play ambience "..."
+    renpy.music.register_channel("ambience", "sfx", True)
 
 
 ## A Google Play license key is required to download expansion files and perform
