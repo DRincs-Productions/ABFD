@@ -3,7 +3,7 @@ image to_be_continued = "/images_tool/to_be_continued.webp"
 # Temporary end of the story (then play other stories)
 label temporary_end_story:
     "This is the temporary end (current version: [config.version]). You'll have to wait new update."
-    "If you want more updates, support me on {a=https://www.patreon.com/}Patreon"
+    "If you want more updates, support me on {a=https://www.patreon.com/DRincs}Patreon"
     return
 
 # Temporary end of the game
@@ -23,5 +23,5 @@ label temporary_end_game:
 # Coming soon text
 label coming_soon:
     "(Coming soon)"
-    "Support me on {a=https://www.patreon.com/}Patreon"
+    "Support me on {a=https://www.patreon.com/DRincs}Patreon"
     return
