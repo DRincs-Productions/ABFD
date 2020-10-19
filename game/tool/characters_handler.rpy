@@ -86,3 +86,213 @@ label renaming_mc:
             $ mp_ndata.male_sname = mcI.sname
         $ mp_ndata.save()
     return
+
+label live_with:
+    # allow default name(s) to be saved across multiple games
+    if renpy.variant("pc"):
+        if mp_ndata.mom_fname != None:
+            $ emyI.name_default = mp_ndata.mom_fname
+        if mp_ndata.mom_sname != None:
+            $ emyI.sname_default = mp_ndata.mom_sname
+        if mp_ndata.dad_fname != None:
+            $ jnI.name_default = mp_ndata.dad_fname
+        if mp_ndata.dad_sname != None:
+            $ jnI.sname_default = mp_ndata.dad_sname
+        if mp_ndata.bigsis_fname != None:
+            $ vctI.name_default = mp_ndata.bigsis_fname
+        if mp_ndata.bigsis_sname != None:
+            $ vctI.sname_default = mp_ndata.bigsis_sname
+        if mp_ndata.lilsis_fname != None:
+            $ miaI.name_default = mp_ndata.lilsis_fname
+        if mp_ndata.lilsis_sname != None:
+            $ miaI.sname_default = mp_ndata.lilsis_sname
+        if mp_ndata.female_fname != None:
+            $ arnI.name_default = mp_ndata.female_fname
+        if mp_ndata.female_sname != None:
+            $ arnI.sname_default = mp_ndata.female_sname
+    menu:
+        "Step family" if(incs):
+            $ incs = True
+            $ emyR.MClabel = "son"
+            $ emyR.NPClabel = "mom"
+            $ jnR.MClabel = emyR.MClabel
+            $ jnR.NPClabel = "dad"
+            $ vctR.MClabel = "brother"
+            $ vctR.NPClabel = "sister"
+            $ miaR.MClabel = vctR.MClabel
+            $ miaR.NPClabel = vctR.NPClabel
+            $ arnR.MClabel = vctR.MClabel
+            $ arnR.NPClabel = vctR.NPClabel
+            $ for_emyR.MClabel = emyR.NPClabel
+            $ for_emyR.NPClabel = "daughter"
+            $ for_jnR.MClabel = jnR.NPClabel
+            $ for_jnR.NPClabel = for_emyR.NPClabel
+        "Family friends":
+            $ incs = False
+            $ emyR.MClabel = "son of my friend"
+            $ emyR.NPClabel = "friend of your mom"
+            $ jnR.MClabel = emyR.MClabel
+            $ jnR.NPClabel = emyR.NPClabel
+            $ vctR.MClabel = "family friend"
+            $ vctR.NPClabel = "family friend"
+            $ miaR.MClabel = vctR.MClabel
+            $ miaR.NPClabel = vctR.NPClabel
+            $ arnR.MClabel = vctR.MClabel
+            $ arnR.NPClabel = vctR.NPClabel
+            $ for_emyR.MClabel = "mom"
+            $ for_emyR.NPClabel = "daughter"
+            $ for_jnR.MClabel = "dad"
+            $ for_jnR.NPClabel = for_emyR.NPClabel
+        "A rented house funded by the school":
+            $ incs = False
+            $ emyR.MClabel = "landlord"
+            $ emyR.NPClabel = "leaseholder"
+            $ jnR.MClabel = emyR.MClabel
+            $ jnR.NPClabel = emyR.NPClabel
+            $ vctR.MClabel = "housemate"
+            $ vctR.NPClabel = "housemate"
+            $ miaR.MClabel = vctR.MClabel
+            $ miaR.NPClabel = vctR.NPClabel
+            $ arnR.MClabel = vctR.MClabel
+            $ arnR.NPClabel = vctR.NPClabel
+            $ for_emyR.MClabel = emyR.NPClabel
+            $ for_emyR.NPClabel = emyR.MClabel
+            $ for_jnR.MClabel = jnR.NPClabel
+            $ for_jnR.NPClabel = jnR.MClabel
+        "{i}\"Customize\"":
+            call customize_mc_family
+        mc "Now I live with/in:"
+    if renpy.variant("pc"):
+        if emyI.name != emyI.name_default:
+            $ mp_ndata.mom_fname = emyI.name
+        if emyI.sname != emyI.sname_default:
+            $ mp_ndata.mom_sname = emyI.sname
+        if jnI.name != jnI.name_default:
+            $ mp_ndata.dad_fname = jnI.name
+        if jnI.sname != jnI.sname_default:
+            $ mp_ndata.dad_sname = jnI.sname
+        if vctI.name != vctI.name_default:
+            $ mp_ndata.bigsis_fname = vctI.name
+        if vctI.sname != vctI.sname_default:
+            $ mp_ndata.bigsis_sname = vctI.sname
+        if miaI.name != miaI.name_default:
+            $ mp_ndata.lilsis_fname = miaI.name
+        if miaI.sname != miaI.sname_default:
+            $ mp_ndata.lilsis_sname = miaI.sname
+        if arnI.name != arnI.name_default:
+            $ mp_ndata.female_fname = arnI.name
+        if arnI.sname != arnI.sname_default:
+            $ mp_ndata.female_sname = arnI.sname
+        $ mp_ndata.save()
+    return
+
+label renaming_mc_family:
+    show photo family 01
+    show arrow:
+        xalign 0.7 yalign 0.2 rotate 180
+    "My [emyR.NPClabel]'s name:"
+    $ emyI.changeName()
+    show arrow:
+        xalign 0.3 yalign 0.2 rotate 0
+    "My [jnR.NPClabel]'s name:"
+    $ jnI.changeName()
+    show photo family 02
+    show arrow:
+        xalign 0.2 yalign 0.2 rotate 0
+    "My little [miaR.NPClabel]'s name:"
+    $ miaI.changeName()
+    show arrow:
+        xalign 0.7 yalign 0.4 rotate 180
+    "My (coetaneous) [arnR.NPClabel]'s name:"
+    $ arnI.changeName()
+    show arrow:
+        xalign 0.2 yalign 0.2 rotate 0
+    "My big [vctR.NPClabel]'s name:"
+    $ vctI.changeName()
+    hide arrow
+    hide photo
+    return
+
+label customize_mc_family:
+    show photo family 01
+    show arrow:
+        xalign 0.7 yalign 0.2 rotate 180
+    "Her name is:"
+    $ emyI.changeName()
+    "She is my:"
+    $ emyR.changeNPClabel()
+    "I'm [emy]'s:"
+    $ emyR.changeMClabel()
+    show arrow:
+        xalign 0.3 yalign 0.2 rotate 0
+    "His name is:"
+    $ jnI.changeName()
+    "He is my:"
+    $ jnR.changeNPClabel()
+    "I'm [jn]'s:"
+    $ jnR.changeMClabel()
+    show photo family 02
+    show arrow:
+        xalign 0.7 yalign 0.1 rotate 180
+    "Her name is:"
+    $ miaI.changeName()
+    "She is my:"
+    $ miaR.changeNPClabel()
+    "I'm [mia]'s:"
+    $ miaR.changeMClabel()
+    menu:
+        "Yes":
+            $ skip = 1
+            $ vctR.MClabel = "[miaR.MClabel]"
+            $ vctR.NPClabel = "[miaR.NPClabel]"
+            $ arnR.MClabel = "[miaR.MClabel]"
+            $ arnR.NPClabel = "[miaR.NPClabel]"
+        "No":
+            $ skip = 0
+        "Do you want to assign the last two values to the other housemates too?"
+    show arrow:
+        xalign 0.7 yalign 0.4 rotate 180
+    "Her name is:"
+    $ arnI.changeName()
+    if (skip != 1):
+        "She is my:"
+        $ arnR.changeNPClabel()
+        "I'm [arn]'s:"
+        $ arnR.changeMClabel()
+    show arrow:
+        xalign 0.2 yalign 0.2 rotate 0
+    "Her name is:"
+    $ vctI.changeName()
+    if (skip != 1):
+        "She is my:"
+        $ vctR.changeNPClabel()
+        "I'm [vct]'s:"
+        $ vctR.changeMClabel()
+
+    hide arrow
+    "For [emy] and [jn], [vct] (also applies to [mia] and [arn]) is them:"
+    $ for_emyR.changeNPClabel()
+    $ for_jnR.NPClabel = for_emyR.NPClabel
+    "For [vct], [mia] and [arn], [jn] is them:"
+    $ for_jnR.changeMClabel()
+    "For [vct], [mia] and [arn], [emy] is them:"
+    $ for_emyR.changeMClabel()
+    hide photo
+    return
+
+label renaming_friend:
+    # allow default name(s) to be saved across multiple games
+    if renpy.variant("pc"):
+        if mp_ndata.malebff_fname != None:
+            $ bbfI.name_default = mp_ndata.malebff_fname
+        if mp_ndata.malebff_sname != None:
+            $ bbfI.sname_default = mp_ndata.malebff_sname
+    "[mc]'s [bbfR.NPClabel] is called:"
+    $ bbfI.changeName()
+    if renpy.variant("pc"):
+        if bbfI.name != bbfI.name_default:
+            $ mp_ndata.malebff_fname = bbfI.name
+        if bbfI.sname != bbfI.sname_default:
+            $ mp_ndata.malebff_sname = bbfI.sname
+        $ mp_ndata.save()
+    return

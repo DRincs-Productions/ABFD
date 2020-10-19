@@ -40,4 +40,6 @@ label start:
     call screen check_age
     "Welcome to [config.name]"
 
+    call intro
+
     return
