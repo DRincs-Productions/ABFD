@@ -11,3 +11,7 @@ define miaStry = "[mia] is the little one of the house. She is such a chatterer 
 define arnStry = ""
 ## Friend's family
 define bbfStry = "[bbf] is my [bbfR.NPClabel]. We go to the same school and we are in the same class."
+# School
+define catholic_institute = "{b}Orlando Catholic Institute{/b}"
+## Grade
+default grade = Grade(35, 35, 35, 35, 35, 35)

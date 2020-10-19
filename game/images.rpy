@@ -7,7 +7,7 @@ image photo family 02 = "/family/photo02.webp"
 ## Profile
 # Family
 image profile mc 01 = "/MC/profile01.webp"
-image profile jhon 01 = "/John/profile01.webp"
+image profile jn 01 = "/John/profile01.webp"
 image profile arn 01 = "/Arianna/profile01.webp"
 image profile vct 01 = "/Victoria/profile01.webp"
 image profile mia 01 = "/Mia/profile01.webp"
