@@ -3,6 +3,7 @@ define old_city = "{b}Atlanta{/b}"
 define city = "{b}Orlando{/b}"
 define jnMission = "{b}Iraq{/b}"
 define influencer = "{b}Influencer{/b}"
+define mrJohnson = "{b}Frank{/b}"
 # Characters story
 ## MC's family
 define mcStry = ""

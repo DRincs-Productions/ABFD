@@ -30,7 +30,7 @@ define bbf = Character("{b}[bbfI.name]{/b}", color="#19bb2c")
 default bbfR = Relationship("best friend", "best friend", True)
 # Friend's family
 default tamI = Information("Tammy", "Johnson", mcI.age, True, rel.widow, "", bbfStry)
-define tam = Character("{b}Mrs. [bbfI.name]{/b}", who_color="#19bb2c")
+define tam = Character("{b}Mrs. [tamI.name]{/b}", who_color="#bf5fec")
 
 # The game starts here.
 
