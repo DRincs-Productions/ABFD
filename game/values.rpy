@@ -1,6 +1,8 @@
 default incs = False
 define old_city = "{b}Atlanta{/b}"
 define city = "{b}Orlando{/b}"
+define jnMission = "{b}Iraq{/b}"
+define influencer = "{b}Influencer{/b}"
 # Characters story
 ## MC's family
 define mcStry = ""
