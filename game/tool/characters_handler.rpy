@@ -111,7 +111,7 @@ label live_with:
         if mp_ndata.female_sname != None:
             $ arnI.sname_default = mp_ndata.female_sname
     menu:
-        "Step family" if(incs):
+        "Step family":
             $ incs = True
             $ emyR.MClabel = "son"
             $ emyR.NPClabel = "mom"

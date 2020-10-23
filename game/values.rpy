@@ -1,4 +1,4 @@
-define incs = False
+default incs = False
 define old_city = "{b}Atlanta{/b}"
 define city = "{b}Orlando{/b}"
 # Characters story
