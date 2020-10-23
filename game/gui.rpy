@@ -112,6 +112,8 @@ define subscribestar_idle = "gui/logos/subscribestar.webp"
 define subscribestar_hover = im.MatrixColor("gui/logos/subscribestar.webp", im.matrix.brightness(0.1))
 define buymeacoffee_idle = "gui/logos/buymeacoffee.webp"
 define buymeacoffee_hover = im.MatrixColor("gui/logos/buymeacoffee.webp", im.matrix.brightness(0.1))
+define translation_idle = "gui/logos/translation.webp"
+define translation_hover = im.MatrixColor("gui/logos/translation.webp", im.matrix.brightness(0.1))
 
 
 ## Dialogue ####################################################################

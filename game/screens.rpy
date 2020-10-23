@@ -447,9 +447,9 @@ screen main_menu():
                     xsize 160
                     ysize 160
                 imagebutton:
-                    idle Frame(subscribestar_idle, xfill=True, yfill=True)
-                    hover Frame(subscribestar_hover, xfill=True, yfill=True)
-                    action OpenURL("https://www.subscribestar.com/drincs")
+                    idle Frame(translation_idle, xfill=True, yfill=True)
+                    hover Frame(translation_hover, xfill=True, yfill=True)
+                    action OpenURL("https://crowdin.com/project/ABFD")
                     xsize 160
                     ysize 160
 
