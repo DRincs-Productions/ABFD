@@ -44,3 +44,6 @@ init python:
             return self.get_convert(self.art)
         def get_music(self):
             return self.get_convert(self.music)
+
+## Grade MC
+default grade = Grade(35, 35, 35, 35, 35, 35)

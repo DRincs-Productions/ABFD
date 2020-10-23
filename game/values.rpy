@@ -13,5 +13,3 @@ define arnStry = ""
 define bbfStry = "[bbf] is my [bbfR.NPClabel]. We go to the same school and we are in the same class."
 # School
 define catholic_institute = "{b}Orlando Catholic Institute{/b}"
-## Grade
-default grade = Grade(35, 35, 35, 35, 35, 35)
