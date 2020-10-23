@@ -79,4 +79,46 @@ label presentations_montell:
     call clean_travel
 
 label prologue:
+    image background prologue 01:
+        "/intro/A01.webp" with dissolve
+        pause 1.6
+        "/intro/A02.webp"
+        pause 0.8
+        "/intro/A03.webp" with dissolve
+    image mc prologue 01:
+        pause 1.6
+        pause 0.9
+        "/intro/A03-MC.webp" with dissolve
+        pause 2.0
+        "/intro/c.webp" with dissolve
+    image text animated title:
+        pause 1.6
+        pause 0.9
+        "/intro/B01.webp"
+        pause 0.5
+        "/intro/B02.webp"
+        pause 0.5
+        "/intro/B03.webp"
+        pause 0.5
+        "/intro/c.webp"
+        pause 0.5
+        "/intro/B04.webp" with dissolve
+        pause 5.0
+        repeat
+    image car prologue = "/intro/A01-car.webp"
+
+    show background prologue 01
+    show text animated title
+    if renpy.variant("pc"):
+        show car prologue:
+            pause 0.3
+            xpos 0
+            ypos 0
+            linear 2.0 xpos -5000
+    show mc prologue 01
+    window hide
+    pause
+    hide car
+    hide mc
+    call temporary_end_game
     return
