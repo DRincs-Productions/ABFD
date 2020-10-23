@@ -50,6 +50,33 @@ label presentations:
     jump presentations
 
 label presentations_montell:
+    call travel_tammy_bbf
+    mc "{i}Now I'm on my way home, after spending the night at the {b}[tamI.sname]'s house{/b}. They are the only people from my old life that I still hang out with. Next to me there is:"
+    call renaming_friend
+    mc "{i}And she and her mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues, which is why I have known them since childhood."
+    mc "{i}And so, a few weeks after I left my old city, they too preferred to create a new life by moving here to my own neighborhood, apart from his brother who preferred to stay."
+    mc "{i}This neighborhood is a nice place to live, it is a quiet area, not far away there is the sea and some clubs, and there are beautiful girls."
+    tam ""
+    bbf "All is well. It's just that yesterday we played at the Consul until late at night."
+    tam "Who won in the end?"
+    bbf "I won, I literally shredded it. He is too scarce."
+    mc "It's just luck."
+    bbf "Modestly this is talent, you have to train to reach my level."
+    tam "Yeah, after school you stay in front of the TV or computer all day long."
+    mc "Don't worry Mrs. Johnson. I convince him to go out. We also joined the school's [mcSport] team."
+    bbf "I don't know if it was a good idea and then, mom, you know I don't go out much because I don't have many friends here."
+    tam "Don't worry, honey. I'm sure when you start [mcSport] you'll make a few friends."
+    tam "By the way [mc], did you give your [emyR.NPClabel] your school report card?"
+    mc "Not yet, I'm going to talk to her tonight."
+    tam "Well, you have arrived."
+    show background 02 house mc
+    call travel_tammy02
+    tam "Wait [mc]. Remember that if you don't tell her, I will tell [emy] when I see her."
+    mc "Ok, I will."
+    tam "Well, you can go."
+    bbf "Bye, [mc]. See you."
+    mc "Bye"
+    call clean_travel
 
 label prologue:
     return
