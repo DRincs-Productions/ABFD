@@ -28,37 +28,37 @@ translate None presentations_c48a2b2d:
 translate None presentations_257e6b0c:
 
     # mc "For me they are a second family." nointeract
-    mc "For me they are a second family." nointeract
+    mc "Per me sono una seconda famiglia."
 
 # game/first_day.rpy:36
 translate None presentations_2295c2b5:
 
-    # mc "[jn] is married to [emy] and for me he is like a second father. He [jn] is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
-    mc "[jn] is married to [emy] and for me he is like a second father. He [jn] is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
+    # mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
+    mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never home and when he is there he speaks very little. [emy] ha provato ad aiutarlo, ma ha ottenuto solo litigi e insulti."
 
 # game/first_day.rpy:39
 translate None presentations_125c6f5a:
 
     # mc "[emy] is the classic housewife, cooks, washes and takes care of the family. When she was young she was a {b}model{/b}, but she is very reserved about her past. Sometimes when I come home I see her flipping through old magazines. She leaves home very little, [jn] never takes her anywhere."
-    mc "[emy] is the classic housewife, cooks, washes and takes care of the family. When she was young she was a {b}model{/b}, but she is very reserved about her past. Sometimes when I come home I see her flipping through old magazines. She leaves home very little, [jn] never takes her anywhere."
+    mc "[emy] è la classica casalinga, cucina, lava e si prende cura della famiglia. Quando era giovane era una {b}modella{/b}, ma è molto riservata con il suo passato. A volte, quando torno a casa, la vedo sfogliare vecchie riviste. Esce molto poco da casa, [jn] non la porta mai da nessuna parte."
 
 # game/first_day.rpy:42
 translate None presentations_04328847:
 
-    # mc "[arn] is the same age as me, we attend the same {b}school{/b} and are in the same year, but in different classes. Her class is the best in the history of our school, while mine is probably the worst. That's why they left 2 days ago on a trip while we didn't."
-    mc "[arn] is the same age as me, we attend the same {b}school{/b} and are in the same year, but in different classes. Her class is the best in the history of our school, while mine is probably the worst. That's why they left 2 days ago on a trip while we didn't."
+    # mc "[arn] is the same age as me, we attend the same {b}school{/b} and are in the same year, but in different classes. Her class is the best in the history of our school, while mine is probably the worst. That's why, 2 days ago, they left on a school trip while we didn't."
+    mc "[arn] è la mia stessa età, frequentiamo la {b}stessa scuola{/b} e siamo allo stesso anno, ma in classi differenti. La sua classe è la migliore nella storia della nostra scuola, mentre la mia è probabilmente la peggiore. That's why, 2 days ago, they left on a school trip while we didn't."
 
 # game/first_day.rpy:45
 translate None presentations_7f055bbd:
 
-    # mc "[victoria] Victoria is a {b}college freshman{/b}, she likes to go out in the evening and have fun with her friends. The last few days have been difficult for her too, she often comes back completely {b}drunk{/b} in the evening. Our relationship is mostly love and hate."
-    mc "[victoria] Victoria is a {b}college freshman{/b}, she likes to go out in the evening and have fun with her friends. The last few days have been difficult for her too, she often comes back completely {b}drunk{/b} in the evening. Our relationship is mostly love and hate."
+    # mc "[victoria] is a {b}college freshman{/b}, she likes to go out in the evening and have fun with her friends. The last few days have been difficult for her too, she often comes back completely {b}drunk{/b} in the evening. Our relationship is mostly love and hate."
+    mc "[victoria] is a {b}college freshman{/b}, she likes to go out in the evening and have fun with her friends. The last few days have been difficult for her too, she often comes back completely {b}drunk{/b} in the evening. Il nostro rapporto è per lo più amore e odio."
 
 # game/first_day.rpy:48
 translate None presentations_fc340a3f:
 
-    # mc "[mia] is the youngest in the house and she is mommy's darling. Since she changed schools she has various difficulties and often asks me to {b}help her with her homework{/b}. Her big dream is to become an [influencer], but her [for_emyR.MClabel] forbids her to post pictures."
-    mc "[mia] is the youngest in the house and she is mommy's darling. Since she changed schools she has various difficulties and often asks me to {b}help her with her homework{/b}. Her big dream is to become an [influencer], but her [for_emyR.MClabel] forbids her to post pictures."
+    # mc "[mia] is the youngest in the house and she is [for_emyR.MClabel]'s darling. Since she changed schools she has various difficulties and often asks me to {b}help her with her homework{/b}. Her big dream is to become an [influencer], but her [for_emyR.MClabel] forbids her to post pictures."
+    mc "[mia] is the youngest in the house and she is [for_emyR.MClabel]'s darling. Da quando ha cambiato scuola, ha varie difficoltà e spesso mi chiede di {b}aiutarla con i compiti{/b}. Il suo grande sogno è quello di diventare una [influencer], ma sua [for_emyR.MClabel] le proibisce di pubblicare foto."
 
 # game/first_day.rpy:54
 translate None presentations_montell_a12d227b:
@@ -70,7 +70,7 @@ translate None presentations_montell_a12d227b:
 translate None presentations_montell_ee510808:
 
     # mc "{i}And she and her mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues, which is why I have known them since childhood."
-    mc "{i}And she and her mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues, which is why I have known them since childhood."
+    mc "{i}And she and her mother, [tam]. Anche loro hanno perso qualcuno nell'incidente aereo, suo padre e suo marito {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues, which is why I have known them since childhood."
 
 # game/first_day.rpy:57
 translate None presentations_montell_0ec471c1:
@@ -94,31 +94,31 @@ translate None presentations_montell_c0ca16a2:
 translate None presentations_montell_fed4a047:
 
     # bbf "All is well. It's just that yesterday we played at the Consul until late at night."
-    bbf "All is well. It's just that yesterday we played at the Consul until late at night."
+    bbf "Va tutto bene. It's just that yesterday we played at the Consul until late at night."
 
 # game/first_day.rpy:61
 translate None presentations_montell_83e1e81c:
 
     # tam "Who won in the end?"
-    tam "Who won in the end?"
+    tam "Chi ha vinto alla fine?"
 
 # game/first_day.rpy:62
 translate None presentations_montell_27cd9141:
 
     # bbf "I won, I literally shredded it. He is too scarce."
-    bbf "I won, I literally shredded it. He is too scarce."
+    bbf "Ho vinto, l'ho letteralmente stracciato. Lui è troppo scarso."
 
 # game/first_day.rpy:63
 translate None presentations_montell_c624707d:
 
     # mc "It's just luck."
-    mc "It's just luck."
+    mc "È solo fortuna."
 
 # game/first_day.rpy:64
 translate None presentations_montell_f80c5f58:
 
     # bbf "Modestly this is talent, you have to train to reach my level."
-    bbf "Modestly this is talent, you have to train to reach my level."
+    bbf "Modestamente questo è talento, devi allenarti per raggiungere il mio livello."
 
 # game/first_day.rpy:65
 translate None presentations_montell_6901723c:
@@ -130,7 +130,7 @@ translate None presentations_montell_6901723c:
 translate None presentations_montell_7b3919a5:
 
     # mc "Don't worry Mrs. Johnson. I convince him to go out. We also joined the school's [mcSport] team."
-    mc "Don't worry Mrs. Johnson. I convince him to go out. We also joined the school's [mcSport] team."
+    mc "Don't worry Mrs. Johnson. Lo convinco ad uscire. Ci siamo anche iscritti alla squadra di [mcSport] della scuola."
 
 # game/first_day.rpy:67
 translate None presentations_montell_061142cf:
@@ -142,7 +142,7 @@ translate None presentations_montell_061142cf:
 translate None presentations_montell_78aecda6:
 
     # tam "Don't worry, honey. I'm sure when you start [mcSport] you'll make a few friends."
-    tam "Don't worry, honey. I'm sure when you start [mcSport] you'll make a few friends."
+    tam "Non ti preoccupare, tesoro. Sono sicura che quando inizierai il [mcSport] ti farai qualche amichetto."
 
 # game/first_day.rpy:69
 translate None presentations_montell_4a23293d:
@@ -154,7 +154,7 @@ translate None presentations_montell_4a23293d:
 translate None presentations_montell_d79aa0ea:
 
     # mc "Not yet, I'm going to talk to her tonight."
-    mc "Not yet, I'm going to talk to her tonight."
+    mc "Non ancora, parlerò con lei stasera."
 
 # game/first_day.rpy:71
 translate None presentations_montell_1d95ff6e:
@@ -172,7 +172,7 @@ translate None presentations_montell_512ade0b:
 translate None presentations_montell_353f878d:
 
     # mc "Ok, I will."
-    mc "Ok, I will."
+    mc "Ok, lo farò."
 
 # game/first_day.rpy:76
 translate None presentations_montell_c120e326:
@@ -184,25 +184,25 @@ translate None presentations_montell_c120e326:
 translate None presentations_montell_3b1ddbb3:
 
     # bbf "Bye, [mc]. See you."
-    bbf "Bye, [mc]. See you."
+    bbf "Ciao, [mc]. Ci vediamo"
 
 # game/first_day.rpy:78
 translate None presentations_montell_3d532c40:
 
     # mc "Bye"
-    mc "Bye"
+    mc "Ciao"
 
 translate None strings:
 
     # game/first_day.rpy:16
     old "Rename the characters"
-    new "Rename the characters"
+    new "Rinomina i personaggi"
 
     # game/first_day.rpy:16
     old "More about my family"
-    new "More about my family"
+    new "Ulteriori informazioni sulla mia famiglia"
 
     # game/first_day.rpy:16
     old "Continue with the intro"
-    new "Continue with the intro"
+    new "Continua con l'intro"
 
