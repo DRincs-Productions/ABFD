@@ -34,7 +34,7 @@ translate None presentations_257e6b0c:
 translate None presentations_2295c2b5:
 
     # mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never at home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
-    mc "[jn] è sposato con [emy], per me è come un secondo padre. È un ex Navy Seals, con l’ultima missione in [jnMission] gli è stato riconosciuta la pensione. [jnMission] has changed him, he started drinking, he is never at home and when he is there he speaks very little. [emy] ha provato ad aiutarlo, ma ha ottenuto solo litigi e insulti."
+    mc "[jn] è sposato con [emy], per me è come un secondo padre. È un ex Navy Seals, con l’ultima missione in [jnMission] gli è stato riconosciuta la pensione. [jnMission] lo ha cambiato, ha iniziato a bere, non c'è mai a casa e quando c'è parla devvero poco. [emy] ha provato ad aiutarlo, ma ha ottenuto solo litigi e insulti."
 
 # game/first_day.rpy:39
 translate None presentations_125c6f5a:
@@ -70,31 +70,31 @@ translate None presentations_montell_a12d227b:
 translate None presentations_montell_ee510808:
 
     # mc "{i}And this is his mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues and that is why I have known them since childhood.
-    mc "{i}And this is his mother, [tam]. Anche loro hanno perso qualcuno nell'incidente aereo, suo padre e suo marito {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues and that is why I have known them since childhood."
+    mc "{i}E lei è sua madre, [tam]. Anche loro hanno perso qualcuno nell'incidente aereo, suo padre e suo marito {b}Mr. [mrJohnson] Johnson{/b}. Lui e mio padre erano colleghi ed è per questo che li conosco fin da quando ero piccolo."
 
 # game/first_day.rpy:57
 translate None presentations_montell_0ec471c1:
 
     # mc "{i}And so, a few weeks after I left my old city, they preferred to create a new life by moving here to my own neighborhood, except his brother who preferred to stay."
-    mc "{i}And so, a few weeks after I left my old city, they preferred to create a new life by moving here to my own neighborhood, except his brother who preferred to stay."
+    mc "{i}E così, poche settimane dopo che ho lasciato la mia vecchia città, hanno preferito creare una nuova vita trasferendosi qui nel mio quartiere, tranne suo fratello che ha preferito rimanere."
 
 # game/first_day.rpy:58
 translate None presentations_montell_2b6ed181:
 
     # mc "{i}This neighborhood is a nice place to live, it is a quiet area, not far away there is the sea, some clubs and there are beautiful girls."
-    mc "{i}This neighborhood is a nice place to live, it is a quiet area, not far away there is the sea, some clubs and there are beautiful girls."
+    mc "{i}Questo quartiere è un bel posto in cui vivere, è una zona tranquilla, non lontano c'è il mare, qualche locale e ci sono belle ragazze""
 
 # game/first_day.rpy:59
 translate None presentations_montell_c0ca16a2:
 
     # tam "What's wrong with you guys!? You are so quiet."
-    tam "What's wrong with you guys!? You are so quiet."
+    tam "Che vi prende ragazzi!? Siete così silenziosi."
 
 # game/first_day.rpy:60
 translate None presentations_montell_fed4a047:
 
     # bbf "All is well. It's just that yesterday we played at the [console] until late at night."
-    bbf "Va tutto bene. It's just that yesterday we played at the [console] until late at night."
+    bbf "Va tutto bene. È solo che ieri abbiamo giocato alla [console] fino a tardi."
 
 # game/first_day.rpy:61
 translate None presentations_montell_83e1e81c:
@@ -124,19 +124,19 @@ translate None presentations_montell_f80c5f58:
 translate None presentations_montell_6901723c:
 
     # tam "Yeah, after school you spend hours in front of a stupid monitor."
-    tam "Yeah, after school you spend hours in front of a stupid monitor."
+    tam "Già, dopo la scuola trascorri ore d'avanti ad uno stupido schermo."
 
 # game/first_day.rpy:66
 translate None presentations_montell_7b3919a5:
 
-    # mc "Don't worry, Mrs. [tamI.sname]. I convince him to go out. We also joined the school's [mcSport] team."
-    mc "Don't worry, Mrs. [tamI.sname]. Lo convinco ad uscire. Ci siamo anche iscritti alla squadra di [mcSport] della scuola."
+    # mc "Don't worry, [tam]. I convince him to go out. We also joined the school's [mcSport] team."
+    mc "Don't worry, [tam]. Lo convinco ad uscire. Ci siamo anche iscritti alla squadra di [mcSport] della scuola."
 
 # game/first_day.rpy:67
 translate None presentations_montell_061142cf:
 
     # bbf "I don't know if this was a good idea and then mom, you know I don't go out much because I don't have many friends here."
-    bbf "I don't know if this was a good idea and then mom, you know I don't go out much because I don't have many friends here."
+    bbf "Non so se questa sia stata una buona idea e poi mamma, lo sai che non esco molto perché non ho molti amici qui."
 
 # game/first_day.rpy:68
 translate None presentations_montell_78aecda6:
