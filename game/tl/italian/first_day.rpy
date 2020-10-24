@@ -34,7 +34,7 @@ translate None presentations_257e6b0c:
 translate None presentations_2295c2b5:
 
     # mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
-    mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never home and when he is there he speaks very little. [emy] ha provato ad aiutarlo, ma ha ottenuto solo litigi e insulti."
+    mc "[jn] è sposato con [emy], per me è come un secondo padre. È un ex Navy Seals, con l’ultima missione in [jnMission] gli è stato riconosciuta la pensione. [jnMission] has changed him, he started drinking, he is never home and when he is there he speaks very little. [emy] ha provato ad aiutarlo, ma ha ottenuto solo litigi e insulti."
 
 # game/first_day.rpy:39
 translate None presentations_125c6f5a:
@@ -46,19 +46,19 @@ translate None presentations_125c6f5a:
 translate None presentations_04328847:
 
     # mc "[arn] is the same age as me, we attend the same {b}school{/b} and are in the same year, but in different classes. Her class is the best in the history of our school, while mine is probably the worst. That's why, 2 days ago, they left on a school trip while we didn't."
-    mc "[arn] è la mia stessa età, frequentiamo la {b}stessa scuola{/b} e siamo allo stesso anno, ma in classi differenti. La sua classe è la migliore nella storia della nostra scuola, mentre la mia è probabilmente la peggiore. That's why, 2 days ago, they left on a school trip while we didn't."
+    mc "[arn] è la mia stessa età, frequentiamo la {b}stessa scuola{/b} e siamo allo stesso anno, ma in classi differenti. La sua classe è la migliore nella storia della nostra scuola, mentre la mia è probabilmente la peggiore. Ecco perché, 2 giorni fa, sono partiti in gita mentre noi no."
 
 # game/first_day.rpy:45
 translate None presentations_7f055bbd:
 
     # mc "[victoria] is a {b}college freshman{/b}, she likes to go out in the evening and have fun with her friends. The last few days have been difficult for her too, she often comes back completely {b}drunk{/b} in the evening. Our relationship is mostly love and hate."
-    mc "[victoria] is a {b}college freshman{/b}, she likes to go out in the evening and have fun with her friends. The last few days have been difficult for her too, she often comes back completely {b}drunk{/b} in the evening. Il nostro rapporto è per lo più amore e odio."
+    mc "[victoria] è una {b}matricola universitaria{/b}, le piace uscire la sera e divertirsi con le sue amiche. Anche per lei gli ultimi giorni sono stati difficili, spesso la sera torna completamente {b}ubriaca{/b}. Il nostro rapporto è per lo più amore e odio."
 
 # game/first_day.rpy:48
 translate None presentations_fc340a3f:
 
     # mc "[mia] is the youngest in the house and she is [for_emyR.MClabel]'s darling. Since she changed schools she has various difficulties and often asks me to {b}help her with her homework{/b}. Her big dream is to become an [influencer], but her [for_emyR.MClabel] forbids her to post pictures."
-    mc "[mia] is the youngest in the house and she is [for_emyR.MClabel]'s darling. Da quando ha cambiato scuola, ha varie difficoltà e spesso mi chiede di {b}aiutarla con i compiti{/b}. Il suo grande sogno è quello di diventare una [influencer], ma sua [for_emyR.MClabel] le proibisce di pubblicare foto."
+    mc "[mia] è la piccola di casa ed è la cocca di [for_emyR.MClabel]. Da quando ha cambiato scuola, ha varie difficoltà e spesso mi chiede di {b}aiutarla con i compiti{/b}. Il suo grande sogno è quello di diventare una [influencer], ma sua [for_emyR.MClabel] le proibisce di pubblicare foto."
 
 # game/first_day.rpy:54
 translate None presentations_montell_a12d227b:
@@ -178,7 +178,7 @@ translate None presentations_montell_353f878d:
 translate None presentations_montell_c120e326:
 
     # tam "Well, you can go."
-    tam "Well, you can go."
+    tam "Va bene, puoi andare."
 
 # game/first_day.rpy:77
 translate None presentations_montell_3b1ddbb3:
