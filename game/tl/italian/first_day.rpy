@@ -130,7 +130,7 @@ translate None presentations_montell_6901723c:
 translate None presentations_montell_7b3919a5:
 
     # mc "Don't worry, [tam]. I convince him to go out. We also joined the school's [mcSport] team."
-    mc "Don't worry, [tam]. Lo convinco ad uscire. Ci siamo anche iscritti alla squadra di [mcSport] della scuola."
+    mc "Non si preoccupi, [tam]. Lo convinco ad uscire. Ci siamo anche iscritti alla squadra di [mcSport] della scuola."
 
 # game/first_day.rpy:67
 translate None presentations_montell_061142cf:
