@@ -16,7 +16,7 @@ translate None NTR_enabler_886ea9ee:
 translate None NTR_enabler_d4c4d04e:
 
     # "Ok, you will no longer see references to NTR."
-    "Ok, non vedrai più i riferimenti a NTR."
+    "Ok, non vedrai più riferimenti a NTR."
 
 translate None strings:
 
