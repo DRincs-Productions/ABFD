@@ -4,25 +4,25 @@
 translate crowdin intro_87d1123e:
 
     # mc "Hi, I'm a normal [mcI.age] year old boy with classic problems and no desire to commit, but just to have fun. I don't have a {b}girlfriend{/b}, a {b}job{/b} or concrete plans for the future and my school situation is gross. In the {b}school report of the first quarter{/b} I have all [grade.average]."
-    mc "Ciao, sono un ragazzo normale di [mcI.age] con i classici problemi e nessuna voglia di impegnarmi, ma tanta per divertirmi. I don't have a {b}girlfriend{/b}, a {b}job{/b} or concrete plans for the future and my school situation is gross. In the {b}school report of the first quarter{/b} I have all [grade.average]."
+    mc "Ciao, sono un ragazzo normale di [mcI.age] con i classici problemi e nessuna voglia di impegnarmi, ma tanta per divertirmi. Non ho una {b}fidanzata{/b}, un {b}lavoro{/b} o piani concreti per il futuro e la mia situazione scolastica è indecente. Nella {b}pagella del prima quadrimestre{/b} ho tutte [grade.average]."
 
 # game/first_day.rpy:9
 translate crowdin intro_ea546e9e:
 
     # mc "My family is worried about my poor results and some of my behaviors, which is why they are deciding whether to keep me at home or have me transferred to a hateful [catholic_institute]. I have to make sure that this will never happen."
-    mc "La mia famiglia è preoccupata per i miei scarsi risultati e per alcuni comportamenti, per questo stanno decidendo se tenermi a casa o fare in modo che venga trasferito in un odioso [catholic_institute]. I have to make sure that this will never happen."
+    mc "La mia famiglia è preoccupata per i miei scarsi risultati e per alcuni comportamenti, per questo stanno decidendo se tenermi a casa o fare in modo che venga trasferito in un odioso [catholic_institute]. Devo fare in modo che questo non accada mai."
 
 # game/first_day.rpy:10
 translate crowdin intro_63d87681:
 
     # mc "To be honest, my real family died in a plane crash. After their death he moved me from [old_city] to [city] where I started a new life."
-    mc "Ad essere onesti, la mia vera famiglia è morta in un incidente aereo. After their death he moved me from [old_city] to [city] where I started a new life."
+    mc "Ad essere onesti, la mia vera famiglia è morta in un incidente aereo. Dopo la loro morte mi trasferì da [old_city] a [city] dove ho iniziato una nuova vita."
 
 # game/first_day.rpy:15
 translate crowdin presentations_c48a2b2d:
 
     # "{color=#ec5c09}Patreon" "Some characters are still in development. I will use {b}public votes{/b} to decide their appearance. Check my {b}{a=https://www.patreon.com/posts/revisiting-of-37922891}Post{/b}."
-    "{color=#ec5c09}Patreon" "Alcuni personaggi sono ancora in fase di sviluppo. I will use {b}public votes{/b} to decide their appearance. Check my {b}{a=https://www.patreon.com/posts/revisiting-of-37922891}Post{/b}."
+    "{color=#ec5c09}Patreon" "Alcuni personaggi sono ancora in fase di sviluppo. Utilizzerò {b}votazioni pubbliche{/b} per decidere il loro aspetto. Dai un'occhiata al mio {b}{a=https://www.patreon.com/posts/revisiting-of-37922891}Post{/b}."
 
 # game/first_day.rpy:16
 translate crowdin presentations_257e6b0c:
@@ -34,7 +34,7 @@ translate crowdin presentations_257e6b0c:
 translate crowdin presentations_2295c2b5:
 
     # mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never at home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
-    mc "[jn] è sposato con [emy], per me è come un secondo padre. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never at home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
+    mc "[jn] è sposato con [emy], per me è come un secondo padre. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] lo ha cambiato, ha iniziato a bere, non c'è mai a casa e quando c'è parla devvero poco. [emy] ha provato ad aiutarlo, ma ha ottenuto solo litigi e insulti."
 
 # game/first_day.rpy:39
 translate crowdin presentations_125c6f5a:
@@ -69,8 +69,8 @@ translate crowdin presentations_montell_a12d227b:
 # game/first_day.rpy:56
 translate crowdin presentations_montell_ee510808:
 
-    # mc "{i}And this is his mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. Lui e mio padre erano colleghi ed è per questo che li conosco fin da quando ero piccolo."
-    mc "{i}E lei è sua madre, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. Lui e mio padre erano colleghi ed è per questo che li conosco fin da quando ero piccolo."
+    # mc "{i}And this is his mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues and that is why I have known them since childhood."
+    mc "{i}E lei è sua madre, [tam]. Anche loro hanno perso qualcuno nell'incidente aereo, suo padre e suo marito {b}Mr. [mrJohnson] Johnson{/b}. Lui e mio padre erano colleghi ed è per questo che li conosco fin da quando ero piccolo."
 
 # game/first_day.rpy:57
 translate crowdin presentations_montell_0ec471c1:
@@ -88,13 +88,13 @@ translate crowdin presentations_montell_2b6ed181:
 translate crowdin presentations_montell_c0ca16a2:
 
     # tam "What's wrong with you guys!? You are so quiet."
-    tam "Che vi prende ragazzi!? You are so quiet."
+    tam "Che vi prende ragazzi!? Siete così silenziosi."
 
 # game/first_day.rpy:60
 translate crowdin presentations_montell_fed4a047:
 
     # bbf "All is well. It's just that yesterday we played at the [console] until late at night."
-    bbf "Va tutto bene. It's just that yesterday we played at the [console] until late at night."
+    bbf "Va tutto bene. È solo che ieri abbiamo giocato alla [console] fino a tardi."
 
 # game/first_day.rpy:61
 translate crowdin presentations_montell_83e1e81c:
@@ -106,7 +106,7 @@ translate crowdin presentations_montell_83e1e81c:
 translate crowdin presentations_montell_27cd9141:
 
     # bbf "I won, I literally shredded it. He is too scarce."
-    bbf "Ho vinto, l'ho letteralmente stracciato. He is too scarce."
+    bbf "Ho vinto, l'ho letteralmente stracciato. Lui è troppo scarso."
 
 # game/first_day.rpy:63
 translate crowdin presentations_montell_c624707d:
@@ -130,7 +130,7 @@ translate crowdin presentations_montell_6901723c:
 translate crowdin presentations_montell_7b3919a5:
 
     # mc "Don't worry, [tam]. I convince him to go out. We also joined the school's [mcSport] team."
-    mc "Non si preoccupi, [tam]. I convince him to go out. We also joined the school's [mcSport] team."
+    mc "Non si preoccupi, [tam]. Lo convinco ad uscire. Ci siamo anche iscritti alla squadra di [mcSport] della scuola."
 
 # game/first_day.rpy:67
 translate crowdin presentations_montell_061142cf:
@@ -142,7 +142,7 @@ translate crowdin presentations_montell_061142cf:
 translate crowdin presentations_montell_78aecda6:
 
     # tam "Don't worry, honey. I'm sure when you start [mcSport] you'll make a few friends."
-    tam "Non ti preoccupare, tesoro. I'm sure when you start [mcSport] you'll make a few friends."
+    tam "Non ti preoccupare, tesoro. Sono sicura che quando inizierai il [mcSport] ti farai qualche amichetto."
 
 # game/first_day.rpy:69
 translate crowdin presentations_montell_4a23293d:
@@ -166,7 +166,7 @@ translate crowdin presentations_montell_1d95ff6e:
 translate crowdin presentations_montell_512ade0b:
 
     # tam "Wait [mc]. Remember that if you don't tell her, I will tell [emy] when I see her."
-    tam "Aspetta [mc]. Remember that if you don't tell her, I will tell [emy] when I see her."
+    tam "Aspetta [mc]. Ricorda che se non glielo dici tu, lo dirò io a [emy] quando la vedo."
 
 # game/first_day.rpy:75
 translate crowdin presentations_montell_353f878d:
@@ -184,7 +184,7 @@ translate crowdin presentations_montell_c120e326:
 translate crowdin presentations_montell_3b1ddbb3:
 
     # bbf "Bye, [mc]. See you."
-    bbf "Ciao, [mc]. See you."
+    bbf "Ciao, [mc]. Ci vediamo"
 
 # game/first_day.rpy:78
 translate crowdin presentations_montell_3d532c40:
