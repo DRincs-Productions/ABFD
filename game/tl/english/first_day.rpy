@@ -33,8 +33,8 @@ translate None presentations_257e6b0c:
 # game/first_day.rpy:36
 translate None presentations_2295c2b5:
 
-    # mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
-    mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
+    # mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never at home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
+    mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never at home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
 
 # game/first_day.rpy:39
 translate None presentations_125c6f5a:
@@ -69,32 +69,32 @@ translate None presentations_montell_a12d227b:
 # game/first_day.rpy:56
 translate None presentations_montell_ee510808:
 
-    # mc "{i}And she and her mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues, which is why I have known them since childhood."
-    mc "{i}And she and her mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues, which is why I have known them since childhood."
+    # mc "{i}And this is his mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues and that is why I have known them since childhood.
+    mc "{i}And this is his mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues and that is why I have known them since childhood."
 
 # game/first_day.rpy:57
 translate None presentations_montell_0ec471c1:
 
-    # mc "{i}And so, a few weeks after I left my old city, they too preferred to create a new life by moving here to my own neighborhood, apart from his brother who preferred to stay."
-    mc "{i}And so, a few weeks after I left my old city, they too preferred to create a new life by moving here to my own neighborhood, apart from his brother who preferred to stay."
+    # mc "{i}And so, a few weeks after I left my old city, they preferred to create a new life by moving here to my own neighborhood, except his brother who preferred to stay."
+    mc "{i}And so, a few weeks after I left my old city, they preferred to create a new life by moving here to my own neighborhood, except his brother who preferred to stay."
 
 # game/first_day.rpy:58
 translate None presentations_montell_2b6ed181:
 
-    # mc "{i}This neighborhood is a nice place to live, it is a quiet area, not far away there is the sea and some clubs, and there are beautiful girls."
-    mc "{i}This neighborhood is a nice place to live, it is a quiet area, not far away there is the sea and some clubs, and there are beautiful girls."
+    # mc "{i}This neighborhood is a nice place to live, it is a quiet area, not far away there is the sea, some clubs and there are beautiful girls."
+    mc "{i}This neighborhood is a nice place to live, it is a quiet area, not far away there is the sea, some clubs and there are beautiful girls."
 
 # game/first_day.rpy:59
 translate None presentations_montell_c0ca16a2:
 
-    # tam ""
-    tam ""
+    # tam "What's wrong with you guys!? You are so quiet."
+    tam "What's wrong with you guys!? You are so quiet."
 
 # game/first_day.rpy:60
 translate None presentations_montell_fed4a047:
 
-    # bbf "All is well. It's just that yesterday we played at the Consul until late at night."
-    bbf "All is well. It's just that yesterday we played at the Consul until late at night."
+    # bbf "All is well. It's just that yesterday we played at the [console] until late at night."
+    bbf "All is well. It's just that yesterday we played at the [console] until late at night."
 
 # game/first_day.rpy:61
 translate None presentations_montell_83e1e81c:
@@ -123,20 +123,20 @@ translate None presentations_montell_f80c5f58:
 # game/first_day.rpy:65
 translate None presentations_montell_6901723c:
 
-    # tam "Yeah, after school you stay in front of the TV or computer all day long."
-    tam "Yeah, after school you stay in front of the TV or computer all day long."
+    # tam "Yeah, after school you spend hours in front of a stupid monitor."
+    tam "Yeah, after school you spend hours in front of a stupid monitor."
 
 # game/first_day.rpy:66
 translate None presentations_montell_7b3919a5:
 
-    # mc "Don't worry Mrs. Johnson. I convince him to go out. We also joined the school's [mcSport] team."
-    mc "Don't worry Mrs. Johnson. I convince him to go out. We also joined the school's [mcSport] team."
+    # mc "Don't worry, Mrs. [tamI.sname]. I convince him to go out. We also joined the school's [mcSport] team."
+    mc "Don't worry, Mrs. [tamI.sname]. I convince him to go out. We also joined the school's [mcSport] team."
 
 # game/first_day.rpy:67
 translate None presentations_montell_061142cf:
 
-    # bbf "I don't know if it was a good idea and then, mom, you know I don't go out much because I don't have many friends here."
-    bbf "I don't know if it was a good idea and then, mom, you know I don't go out much because I don't have many friends here."
+    # bbf "I don't know if this was a good idea and then mom, you know I don't go out much because I don't have many friends here."
+    bbf "I don't know if this was a good idea and then mom, you know I don't go out much because I don't have many friends here."
 
 # game/first_day.rpy:68
 translate None presentations_montell_78aecda6:
