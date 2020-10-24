@@ -1,5 +1,5 @@
 files:
-  - source: /game/tl/None/*.rpy
+  - source: /game/tl/crowdin/*.rpy
     ignore:
-      - /game/tl/None/common.rpy
+      - /game/tl/crowdin/common.rpy
     translation: /game/tl/%language%/%original_file_name%
