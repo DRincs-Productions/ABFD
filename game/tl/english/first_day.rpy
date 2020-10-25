@@ -123,8 +123,8 @@ translate crowdin presentations_montell_f80c5f58:
 # game/first_day.rpy:65
 translate crowdin presentations_montell_6901723c:
 
-    # tam "Yeah, after school you spend hours in front of a stupid monitor."
-    tam "Yeah, after school you spend hours in front of a stupid monitor."
+    # tam "Yeah! [bbf] spends hours in front of a stupid screen after school."
+    tam "Yeah! [bbf] spends hours in front of a stupid screen after school."
 
 # game/first_day.rpy:66
 translate crowdin presentations_montell_7b3919a5:
@@ -171,8 +171,8 @@ translate crowdin presentations_montell_512ade0b:
 # game/first_day.rpy:75
 translate crowdin presentations_montell_353f878d:
 
-    # mc "Ok, I will."
-    mc "Ok, I will."
+    # mc "All right, [tam]. I will."
+    mc "All right, [tam]. I will."
 
 # game/first_day.rpy:76
 translate crowdin presentations_montell_c120e326:
