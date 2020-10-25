@@ -34,7 +34,7 @@ translate crowdin presentations_257e6b0c:
 translate crowdin presentations_2295c2b5:
 
     # mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never at home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
-    mc "[jn] è sposato con [emy], per me è come un secondo padre. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] lo ha cambiato, ha iniziato a bere, non c'è mai a casa e quando c'è parla davvero poco. [emy] ha provato ad aiutarlo, ma ha ottenuto solo litigi e insulti."
+    mc "[jn] è sposato con [emy], per me è come un secondo padre. È un ex Navy Seals, con l’ultima missione in [jnMission] gli è stata riconosciuta la pensione. [jnMission] lo ha cambiato, ha iniziato a bere, non c'è mai a casa e quando c'è parla davvero poco. [emy] ha provato ad aiutarlo, ma ha ottenuto solo litigi e insulti."
 
 # game/first_day.rpy:39
 translate crowdin presentations_125c6f5a:
@@ -112,7 +112,7 @@ translate crowdin presentations_montell_27cd9141:
 translate crowdin presentations_montell_c624707d:
 
     # mc "It's just luck."
-    mc "It's just luck."
+    mc "La tua è solo fortuna."
 
 # game/first_day.rpy:64
 translate crowdin presentations_montell_f80c5f58:
