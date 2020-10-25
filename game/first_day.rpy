@@ -62,7 +62,7 @@ label presentations_montell:
     bbf "I won, I literally shredded it. He is too scarce."
     mc "It's just luck."
     bbf "Modestly this is talent, you have to train to reach my level."
-    tam "Yeah, after school you spend hours in front of a stupid monitor."
+    tam "Yeah! [bbf] spends hours in front of a stupid screen after school."
     mc "Don't worry, [tam]. I convince him to go out. We also joined the school's [mcSport] team."
     bbf "I don't know if this was a good idea and then mom, you know I don't go out much because I don't have many friends here."
     tam "Don't worry, honey. I'm sure when you start [mcSport] you'll make a few friends."
@@ -72,7 +72,7 @@ label presentations_montell:
     show background 02 house mc
     call travel_tammy02
     tam "Wait [mc]. Remember that if you don't tell her, I will tell [emy] when I see her."
-    mc "Ok, I will."
+    mc "All right, [tam]. I will."
     tam "Well, you can go."
     bbf "Bye, [mc]. See you."
     mc "Bye"
