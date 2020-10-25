@@ -10,13 +10,13 @@ translate crowdin NTR_enabler_0259bb1f:
 translate crowdin NTR_enabler_886ea9ee:
 
     # "Okay, NTR has been enabled."
-    "Okay, NTR è stato attivato."
+    "Okay, NTR attivato."
 
 # game/NTR.rpy:11
 translate crowdin NTR_enabler_d4c4d04e:
 
     # "Ok, you will no longer see references to NTR."
-    "Ok, non vedrai più riferimenti a NTR."
+    "Ok, non vedrete più riferimenti NTR."
 
 translate crowdin strings:
 
