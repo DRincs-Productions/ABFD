@@ -124,7 +124,7 @@ translate crowdin presentations_montell_f80c5f58:
 translate crowdin presentations_montell_6901723c:
 
     # tam "Yeah! [bbf] spends hours in front of a stupid screen after school."
-    tam "Yeah! [bbf] spends hours in front of a stupid screen after school."
+    tam "Già! [bbf] passa ore davanti a uno stupido schermo dopo la scuola."
 
 # game/first_day.rpy:66
 translate crowdin presentations_montell_7b3919a5:
@@ -172,7 +172,7 @@ translate crowdin presentations_montell_512ade0b:
 translate crowdin presentations_montell_353f878d:
 
     # mc "All right, [tam]. I will."
-    mc "All right, [tam]. I will."
+    mc "Va bene, [tam]. Lo farò."
 
 # game/first_day.rpy:76
 translate crowdin presentations_montell_c120e326:
