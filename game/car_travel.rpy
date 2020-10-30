@@ -18,7 +18,7 @@ image background animated residential:
     repeat
 
 label travel_tammy_bbf:
-    # play ambience "audio/ambience-car_inside.ogg"
+    play ambience "audio/ambience-car_inside.ogg"
     show car tammy
     show mc bbf
     with dissolve
@@ -26,6 +26,7 @@ label travel_tammy_bbf:
 
 label travel_tammy02:
     call clean_travel
+    play ambience "audio/ambience-house_entrance.ogg"
     show car tammy 02
     show mc 02 talk_ahead
     with dissolve

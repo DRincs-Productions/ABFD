@@ -109,6 +109,8 @@ label prologue:
         repeat
     image car prologue = "/intro/A01-car.webp"
 
+    play ambience "audio/ambience-suburb.ogg"
+    play sound "audio/sfx-engine_ignition.ogg"
     show background prologue A01
     show text animated title
     if renpy.variant("pc"):
@@ -131,6 +133,7 @@ label prologue:
     image background prologue C04 = "/intro/C04.webp"
     image background prologue C05 = "/intro/C05.webp"
     image note prologue = "/intro/note.webp"
+    stop ambience fadeout 1.0
     $ emyP.favour = 20
     $ x = 0
     show background living_room spydoor01
