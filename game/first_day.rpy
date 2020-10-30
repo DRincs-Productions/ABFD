@@ -135,7 +135,6 @@ label prologue:
     image note prologue = "/intro/note.webp"
     stop ambience fadeout 1.0
     play sound "audio/sfx-door1.ogg"
-    play music "audio/music-somber.ogg"
     $ emyP.favour = 20
     $ x = 0
     show background living_room spydoor01
@@ -143,6 +142,7 @@ label prologue:
     mc "I am home!"
     show mc living_room spydoor01 look01
     with dissolve
+    play music "audio/music-somber.ogg"
     mc "{i}What!? What is happening?"
     mc "{i}My [emyR.NPClabel] is crying!?"
     hide mc
