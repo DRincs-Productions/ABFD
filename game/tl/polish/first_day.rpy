@@ -212,103 +212,103 @@ translate crowdin strings:
 translate crowdin prologue_98a05b7e:
 
     # mc "I am home!"
-    mc "I am home!"
+    mc "Wróciłem!"
 
 # game/first_day.rpy:144
 translate crowdin prologue_092714c3:
 
     # mc "{i}What!? What is happening?"
-    mc "{i}What!? What is happening?"
+    mc "{i}Co!? Co się dzieje?”
 
 # game/first_day.rpy:145
 translate crowdin prologue_a1451e33:
 
     # mc "{i}My [emyR.NPClabel] is crying!?"
-    mc "{i}My [emyR.NPClabel] is crying!?"
+    mc "{i}Mój [emyR.NPClabel] płacze!?"
 
 # game/first_day.rpy:149
 translate crowdin prologue_87422b22:
 
     # emy "Hey, honey."
-    emy "Hey, honey."
+    emy "Hej, kochanie"
 
 # game/first_day.rpy:150
 translate crowdin prologue_d6975891:
 
     # mc "Hi [emyR.NPClabel]. What happened?"
-    mc "Hi [emyR.NPClabel]. What happened?"
+    mc "Cześć [emyR.NPClabel]. Co się stało?"
 
 # game/first_day.rpy:151
 translate crowdin prologue_556502aa:
 
     # emy "He is gone... [jn] is gone. This morning I woke up and he was gone. He left without even telling me anything."
-    emy "He is gone... [jn] is gone. This morning I woke up and he was gone. He left without even telling me anything."
+    emy "On zniknął... [jn] zniknął. Dziś rano obudziłam się i go nie było. Wyszedł, nie mówiąc mi o tym.”
 
 # game/first_day.rpy:155
 translate crowdin prologue_14092600:
 
     # mc "He is gone!? Where?"
-    mc "He is gone!? Where?"
+    mc "On zniknął!? Gdzie?"
 
 # game/first_day.rpy:156
 translate crowdin prologue_466e88ad:
 
     # emy "Eh, what do I know. He left home."
-    emy "Eh, what do I know. He left home."
+    emy "Eh, co wiem. On wyszedł z domu."
 
 # game/first_day.rpy:158
 translate crowdin prologue_7d010a14:
 
     # mc "What happened?"
-    mc "What happened?"
+    mc "Co się stało?"
 
 # game/first_day.rpy:161
 translate crowdin prologue_1d85bbe3:
 
     # mc "Oh finally! I couldn't take it anymore."
-    mc "Oh finally! I couldn't take it anymore."
+    mc "Oh wreszcie,! Nie mogłem już tego znieść.”
 
 # game/first_day.rpy:162
 translate crowdin prologue_ea9e147c:
 
     # emy "Ehi! You can't talk about your [jnR.NPClabel] like that."
-    emy "Ehi! You can't talk about your [jnR.NPClabel] like that."
+    emy "Ehi! Nie możesz mówić o swoim [jnR.NPClabel] w ten sposób."
 
 # game/first_day.rpy:164
 translate crowdin prologue_5d1ef22d:
 
     # mc "{i}I knew this would happen sooner or later."
-    mc "{i}I knew this would happen sooner or later."
+    mc "{i}wiedziałem, że stanie się to wcześniej czy później.”
 
 # game/first_day.rpy:165
 translate crowdin prologue_063d6293:
 
     # emy "Come on, sit down."
-    emy "Come on, sit down."
+    emy "Usiądź koło mnie "
 
 # game/first_day.rpy:168
 translate crowdin prologue_55626a62:
 
     # emy "When I woke up I found this in the kitchen. Do you realize... [mia] could have found it."
-    emy "When I woke up I found this in the kitchen. Do you realize... [mia] could have found it."
+    emy "Kiedy się obudziłam, znalazłam to w kuchni. Czy zdajesz sobie sprawę,... [mia] mogła to znaleźć."
 
 # game/first_day.rpy:174
 translate crowdin prologue_d2507cbc:
 
     # jn "{i}My presence only causes problem. I will fix our problem, but then I will not come back. [jn]"
-    jn "{i}My presence only causes problem. I will fix our problem, but then I will not come back. [jn]"
+    jn "{i}Moja obecność powoduje tylko problem. Naprawię nasz problem, ale wtedy nie wrócę. [jn]"
 
 # game/first_day.rpy:177
 translate crowdin prologue_d17c1849:
 
     # emy "Now how are we going to do without him!?"
-    emy "Now how are we going to do without him!?"
+    emy "Jak sobie poradzimy bez niego!?"
 
 # game/first_day.rpy:182
 translate crowdin prologue_e35eb632:
 
     # mc "[emyR.NPClabel] if anyone has lost, it's him. I could never leave a woman like you."
-    mc "[emyR.NPClabel] if anyone has lost, it's him. I could never leave a woman like you."
+    mc "[emyR.NPClabel] jeśli ktoś stracił, to on. Nigdy nie mógłbym zostawić takiej kobiety jak ty. "
 
 # game/first_day.rpy:183
 translate crowdin prologue_721bb2d8:
