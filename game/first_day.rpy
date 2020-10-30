@@ -118,7 +118,7 @@ label prologue:
             pause 0.3
             xpos 0
             ypos 0
-            linear 2.0 xpos -5000
+            linear 2.0 xpos -2500
     show mc prologue A01
     window hide
     pause
