@@ -386,7 +386,7 @@ translate crowdin prologue_end_7619bf8f:
 translate crowdin prologue_end_70b21ba8:
 
     # mc "{i}Who knows how is [mia]?! Maybe I should talk to her, she will probably tell me something more."
-    mc "{i}Who knows how is [mia]?! Forse dovrei parlare con lei, probabilmente mi dirà qualcosa in più."
+    mc "{i}Chi sà come sta [mia]?! Forse dovrei parlare con lei, probabilmente mi dirà qualcosa in più."
 
 translate crowdin strings:
 
@@ -412,7 +412,7 @@ translate crowdin strings:
 
     # game/first_day.rpy:178
     old "What happened? {color=#f00}(Probability 10%)"
-    new "Cosa è successo? {color=#f00}(Probability 10%)"
+    new "Cosa è successo? {color=#f00}(Probabilità 10%)"
 
     # game/first_day.rpy:178
     old "Go away"
