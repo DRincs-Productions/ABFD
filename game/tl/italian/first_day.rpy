@@ -308,7 +308,7 @@ translate crowdin prologue_d17c1849:
 translate crowdin prologue_e35eb632:
 
     # mc "[emyR.NPClabel] if anyone has lost, it's him. I could never leave a woman like you."
-    mc "[emyR.NPClabel] if anyone has lost, it's him. Non potrei mai lasciare una donna come te."
+    mc "[emyR.NPClabel] se qualcuno ci ha perso, è lui. Non potrei mai lasciare una donna come te."
 
 # game/first_day.rpy:183
 translate crowdin prologue_721bb2d8:
@@ -338,7 +338,7 @@ translate crowdin prologue_c2a201c9:
 translate crowdin prologue_4f8080f8:
 
     # emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. And if he wanted to continue, he could leave."
-    emy "Tesoro, tu lo sai, ho cercato di aiutarlo, ma ieri non ce la facevo più. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. E se voleva continuare, quella è la porta."
+    emy "Tesoro, tu lo sai, ho cercato di aiutarlo, ma ieri non ce la facevo più. Gli ho detto che poteva fare quello che voleva, ma questa non è una casa per i tossici o alcolizzati. E se voleva continuare, quella è la porta."
 
 # game/first_day.rpy:196
 translate crowdin prologue_5e467b9b:
@@ -368,7 +368,7 @@ translate crowdin prologue_4e38f9b3:
 translate crowdin prologue_76915bb5:
 
     # mc "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
-    mc "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
+    mc "OK, [emyR.NPClabel]. Ora sono un po' stanco, vado in camera mia."
 
 # game/first_day.rpy:206
 translate crowdin prologue_eaf16fc3:
@@ -380,13 +380,13 @@ translate crowdin prologue_eaf16fc3:
 translate crowdin prologue_end_7619bf8f:
 
     # mc "{i}Shit! I have enough problems on my own, that's all we needed."
-    mc "{i}Merda! I have enough problems on my own, that's all we needed."
+    mc "{i}Merda! Ho abbastanza problemi per conto mio, ora ci mancava solo questo."
 
 # game/first_day.rpy:212
 translate crowdin prologue_end_70b21ba8:
 
-    # mc "{i}Who knows how [mia] is?! Maybe I should talk to her, she will probably tell me something more."
-    mc "{i}Who knows how [mia] is?! Maybe I should talk to her, she will probably tell me something more."
+    # mc "{i}Who knows how is [mia]?! Maybe I should talk to her, she will probably tell me something more."
+    mc "{i}Who knows how is [mia]?! Forse dovrei parlare con lei, probabilmente mi dirà qualcosa in più."
 
 translate crowdin strings:
 
