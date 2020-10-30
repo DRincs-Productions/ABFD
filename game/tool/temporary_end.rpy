@@ -34,11 +34,11 @@ screen patreon_button():
     vbox:
         anchor (1.0, 1.0)
         pos (0.999, 0.25) # setting both to 1.0 will put the all logos on the very edge
-        xsize 913 # X patreon icon
+        xsize 455 # X patreon icon
         spacing 5
         imagebutton:
             idle Frame(patreon_idle, xfill=True, yfill=True)
             hover Frame(patreon_hover, xfill=True, yfill=True)
             action OpenURL("https://www.patreon.com/DRincs")
-            ysize 256 # Y patreon icon
+            ysize 128 # Y patreon icon
             xalign 0.5

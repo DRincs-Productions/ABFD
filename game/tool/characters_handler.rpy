@@ -202,11 +202,11 @@ label renaming_mc_family:
     "My little [miaR.NPClabel]'s name:"
     $ miaI.changeName()
     show arrow:
-        xalign 0.7 yalign 0.4 rotate 180
+        xalign 0.6 yalign 0.4 rotate 180
     "My (coetaneous) [arnR.NPClabel]'s name:"
     $ arnI.changeName()
     show arrow:
-        xalign 0.2 yalign 0.2 rotate 0
+        xalign 0.6 yalign 0.2 rotate 0
     "My big [vctR.NPClabel]'s name:"
     $ vctI.changeName()
     hide arrow
@@ -233,7 +233,7 @@ label customize_mc_family:
     $ jnR.changeMClabel()
     show photo family 02
     show arrow:
-        xalign 0.7 yalign 0.1 rotate 180
+        xalign 0.2 yalign 0.2 rotate 0
     "Her name is:"
     $ miaI.changeName()
     "She is my:"
@@ -251,7 +251,7 @@ label customize_mc_family:
             $ skip = 0
         "Do you want to assign the last two values to the other housemates too?"
     show arrow:
-        xalign 0.7 yalign 0.4 rotate 180
+        xalign 0.6 yalign 0.4 rotate 180
     "Her name is:"
     $ arnI.changeName()
     if (skip != 1):
@@ -260,7 +260,7 @@ label customize_mc_family:
         "I'm [arn]'s:"
         $ arnR.changeMClabel()
     show arrow:
-        xalign 0.2 yalign 0.2 rotate 0
+        xalign 0.6 yalign 0.2 rotate 0
     "Her name is:"
     $ vctI.changeName()
     if (skip != 1):
