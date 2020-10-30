@@ -295,8 +295,8 @@ translate crowdin prologue_55626a62:
 # game/first_day.rpy:174
 translate crowdin prologue_d2507cbc:
 
-    # jn "{i}My presence only causes problem. I will fix our problem, but then I will not come back. John"
-    jn "{i}My presence only causes problem. I will fix our problem, but then I will not come back. John"
+    # jn "{i}My presence only causes problem. I will fix our problem, but then I will not come back. [jn]"
+    jn "{i}My presence only causes problem. I will fix our problem, but then I will not come back. [jn]"
 
 # game/first_day.rpy:177
 translate crowdin prologue_d17c1849:
@@ -307,8 +307,8 @@ translate crowdin prologue_d17c1849:
 # game/first_day.rpy:182
 translate crowdin prologue_e35eb632:
 
-    # mc "Mom if anyone has lost, it's him. I could never leave a woman like you."
-    mc "Mom if anyone has lost, it's him. I could never leave a woman like you."
+    # mc "[emyR.NPClabel] if anyone has lost, it's him. I could never leave a woman like you."
+    mc "[emyR.NPClabel] if anyone has lost, it's him. I could never leave a woman like you."
 
 # game/first_day.rpy:183
 translate crowdin prologue_721bb2d8:
@@ -337,8 +337,8 @@ translate crowdin prologue_c2a201c9:
 # game/first_day.rpy:192
 translate crowdin prologue_4f8080f8:
 
-    # emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies and alcoholics. And if he wanted to continue, he could leave."
-    emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies and alcoholics. And if he wanted to continue, he could leave."
+    # emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. And if he wanted to continue, he could leave."
+    emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. And if he wanted to continue, he could leave."
 
 # game/first_day.rpy:196
 translate crowdin prologue_5e467b9b:
@@ -367,8 +367,8 @@ translate crowdin prologue_4e38f9b3:
 # game/first_day.rpy:204
 translate crowdin prologue_76915bb5:
 
-    # emy "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
-    emy "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
+    # mc "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
+    mc "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
 
 # game/first_day.rpy:206
 translate crowdin prologue_eaf16fc3:
@@ -379,14 +379,14 @@ translate crowdin prologue_eaf16fc3:
 # game/first_day.rpy:211
 translate crowdin prologue_end_7619bf8f:
 
-    # mc "{i}Shit! I've got enough problems of my own, now I need this too."
-    mc "{i}Shit! I've got enough problems of my own, now I need this too."
+    # mc "{i}Shit! I have enough problems on my own, that's all we needed."
+    mc "{i}Shit! I have enough problems on my own, that's all we needed."
 
 # game/first_day.rpy:212
 translate crowdin prologue_end_70b21ba8:
 
-    # mc "{i}Who knows how mine is?! maybe I should talk to her, she will probably tell me something more."
-    mc "{i}Who knows how mine is?! maybe I should talk to her, she will probably tell me something more."
+    # mc "{i}Who knows how [mia] is?! Maybe I should talk to her, she will probably tell me something more."
+    mc "{i}Who knows how [mia] is?! Maybe I should talk to her, she will probably tell me something more."
 
 translate crowdin strings:
 
@@ -411,8 +411,8 @@ translate crowdin strings:
     new "His loss"
 
     # game/first_day.rpy:178
-    old "What happened? {color=#f00}(Probability 10%%)"
-    new "What happened? {color=#f00}(Probability 10%%)"
+    old "What happened? {color=#f00}(Probability 10%)"
+    new "What happened? {color=#f00}(Probability 10%)"
 
     # game/first_day.rpy:178
     old "Go away"
