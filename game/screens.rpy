@@ -138,8 +138,8 @@ screen say(who, what):
                 bottom_bar  "gui/slider/vertical2_hover_bar.png"
                 thumb "gui/slider/thumb_idle.png"
                 hover_thumb "gui/slider/thumb_hover.png"
-                align (1, 0.05)
-                xysize (40, 150)
+                align (1, 0.1)
+                xysize (40, 100)
                 thumb_offset 10
 
             # Text bar hide (button)
@@ -258,7 +258,7 @@ style choice_button_text is button_text:
 
 style choice_vbox:
     xalign 1.01
-    ypos 1870
+    ypos 935
     yanchor 0.5
 
     spacing gui.choice_spacing
@@ -379,11 +379,11 @@ style navigation_button:
 
 style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
-    size 125
+    size 60
     font gui.navigation_button
 
 style navigation_button_text_return:
-    size 150
+    size 75
     idle_color "#e6005d"
     font gui.navigation_button
 
@@ -414,14 +414,14 @@ screen main_menu():
         vbox:
             anchor (1.0, 1.0)
             pos (0.999, 0.25) # setting both to 1.0 will put the all logos on the very edge
-            xsize 913 # X patreon icon
+            xsize 455 # X patreon icon
             spacing 5
 
             imagebutton:
                 idle Frame(patreon_idle, xfill=True, yfill=True)
                 hover Frame(patreon_hover, xfill=True, yfill=True)
                 action OpenURL("https://www.patreon.com/DRincs")
-                ysize 256 # Y patreon icon
+                ysize 128 # Y patreon icon
                 xalign 0.5
 
             hbox:
@@ -432,38 +432,38 @@ screen main_menu():
                     idle Frame(github_idle, xfill=True, yfill=True)
                     hover Frame(github_hover, xfill=True, yfill=True)
                     action OpenURL("https://github.com/DonRP")
-                    xsize 160
-                    ysize 160
+                    xsize 80
+                    ysize 80
                 imagebutton:
                     idle Frame(discord_idle, xfill=True, yfill=True)
                     hover Frame(discord_hover, xfill=True, yfill=True)
                     action OpenURL("https://discord.gg/HFfeJKR")
-                    xsize 160
-                    ysize 160
+                    xsize 80
+                    ysize 80
                 imagebutton:
                     idle Frame(buymeacoffee_idle, xfill=True, yfill=True)
                     hover Frame(buymeacoffee_hover, xfill=True, yfill=True)
                     action OpenURL("https://www.buymeacoffee.com/DRincs")
-                    xsize 160
-                    ysize 160
+                    xsize 80
+                    ysize 80
                 imagebutton:
                     idle Frame(translation_idle, xfill=True, yfill=True)
                     hover Frame(translation_hover, xfill=True, yfill=True)
                     action OpenURL("https://crowdin.com/project/ABFD")
-                    xsize 160
-                    ysize 160
+                    xsize 80
+                    ysize 80
 
     if gui.show_name:
         vbox:
             text "[config.name!t]":
                 style "main_menu_title"
-                outlines [(0, "#bfbfbf", abs(6), abs(6))]
+                outlines [(0, "#bfbfbf", abs(3), abs(3))]
                 at transform:
                     alpha 0.9
 
             text "v[config.version]":
                 style "main_menu_version"
-                outlines [(0, "#bfbfbf", abs(2), abs(2))]
+                outlines [(0, "#bfbfbf", abs(1), abs(1))]
                 at transform:
                     alpha 0.5
 
@@ -475,17 +475,17 @@ style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
 
 style main_menu_frame:
-    xsize 840
+    xsize 420
     yfill True
 
     background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
     xalign 1.0
-    xoffset -60
-    xmaximum 2400
+    xoffset -30
+    xmaximum 1200
     yalign 1.0
-    yoffset -60
+    yoffset -30
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
@@ -493,13 +493,13 @@ style main_menu_text:
 style main_menu_title:
     properties gui.text_properties("title")
     color "#fffad1"
-    size 230
+    size 115
     font gui.main_text_font
 
 style main_menu_version:
     properties gui.text_properties("version")
     color "#9effa3"
-    size 60
+    size 30
     font gui.main_text_font
 
 ## Game Menu screen ############################################################
@@ -592,32 +592,32 @@ style return_button is navigation_button
 style return_button_text is navigation_button_text_return
 
 style game_menu_outer_frame:
-    bottom_padding 90
-    top_padding 360
+    bottom_padding 45
+    top_padding 180
 
     background "gui/overlay/game_menu.png"
 
 style game_menu_navigation_frame:
-    xsize 840
+    xsize 420
     yfill True
 
 style game_menu_content_frame:
-    left_margin 120
-    right_margin 60
-    top_margin 30
+    left_margin 60
+    right_margin 30
+    top_margin 15
 
 style game_menu_viewport:
-    xsize 2760
+    xsize 1380
 
 style game_menu_vscrollbar:
     unscrollable gui.unscrollable
 
 style game_menu_side:
-    spacing 30
+    spacing 15
 
 style game_menu_label:
-    xpos 150
-    ysize 360
+    xpos 75
+    ysize 180
 
 style game_menu_label_text:
     size gui.title_text_size
@@ -629,7 +629,7 @@ style game_menu_label_text:
 style return_button:
     xpos gui.navigation_xpos
     yalign 1.0
-    yoffset -90
+    yoffset -45
 
 
 ## About screen ################################################################
@@ -784,8 +784,8 @@ style slot_time_text is slot_button_text
 style slot_name_text is slot_button_text
 
 style page_label:
-    xpadding 150
-    ypadding 9
+    xpadding 75
+    ypadding 5
 
 style page_label_text:
     text_align 0.5
@@ -950,14 +950,14 @@ style mute_all_button_text is check_button_text
 
 style pref_label:
     top_margin gui.pref_spacing
-    bottom_margin 6
+    bottom_margin 3
 
 style pref_label_text:
     yalign 1.0
     font gui.title_interface_text_font
 
 style pref_vbox:
-    xsize 675
+    xsize 338
 
 style radio_vbox:
     spacing gui.pref_button_spacing
@@ -980,18 +980,18 @@ style check_button_text:
     properties gui.button_text_properties("check_button")
 
 style slider_slider:
-    xsize 1050
+    xsize 525
 
 style slider_button:
     properties gui.button_properties("slider_button")
     yalign 0.5
-    left_margin 30
+    left_margin 15
 
 style slider_button_text:
     properties gui.button_text_properties("slider_button")
 
 style slider_vbox:
-    xsize 1350
+    xsize 675
 
 
 ## History screen ##############################################################
@@ -1103,7 +1103,7 @@ screen help():
         style_prefix "help"
 
         vbox:
-            spacing 45
+            spacing 23
 
             hbox:
 
@@ -1229,14 +1229,14 @@ style help_text is gui_text
 
 style help_button:
     properties gui.button_properties("help_button")
-    xmargin 24
+    xmargin 12
 
 style help_button_text:
     properties gui.button_text_properties("help_button")
 
 style help_label:
-    xsize 750
-    right_padding 60
+    xsize 375
+    right_padding 30
 
 style help_label_text:
     size gui.text_size
@@ -1273,7 +1273,7 @@ screen confirm(message, yes_action, no_action):
         vbox:
             xalign .5
             yalign .5
-            spacing 90
+            spacing 45
 
             label _(message):
                 style "confirm_prompt"
@@ -1281,7 +1281,7 @@ screen confirm(message, yes_action, no_action):
 
             hbox:
                 xalign 0.5
-                spacing 300
+                spacing 150
 
                 textbutton _("Yes") action yes_action
                 textbutton _("No") action no_action
@@ -1328,7 +1328,7 @@ screen skip_indicator():
     frame:
 
         hbox:
-            spacing 18
+            spacing 9
 
             text _("Skipping")
 
@@ -1533,7 +1533,7 @@ style nvl_button_text:
 
 style pref_vbox:
     variant "medium"
-    xsize 1350
+    xsize 675
 
 ## Since a mouse may not be present, we replace the quick menu with a version
 ## that uses fewer and bigger buttons that are easier to touch.
@@ -1582,7 +1582,7 @@ style game_menu_outer_frame:
 
 style game_menu_navigation_frame:
     variant "small"
-    xsize 1020
+    xsize 510
 
 style game_menu_content_frame:
     variant "small"
@@ -1590,7 +1590,7 @@ style game_menu_content_frame:
 
 style pref_vbox:
     variant "small"
-    xsize 1200
+    xsize 600
 
 style bar:
     variant "small"
@@ -1634,4 +1634,4 @@ style slider_pref_vbox:
 
 style slider_pref_slider:
     variant "small"
-    xsize 1800
+    xsize 900
