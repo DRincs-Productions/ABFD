@@ -6,15 +6,15 @@ image mc 02 get_out = "/car_travel/Tammy02-MC-get_out.webp"
 image mc 02 talk_ahead = "/car_travel/Tammy02-MC-talk_ahead.webp"
 image background 02 house mc = "/car_travel/background02/house-MC.webp"
 # Background
-image background animated car residential day:
-    Composite( (gui.width, gui.height),
-        (0, 0), im.Blur("/car_travel/residential_area.webp", 4),
-        (0, 150), im.Blur("/car_travel/car.webp", 3)) with Dissolve(1, alpha = True)
-    pause 3.0
-    Composite( (gui.width, gui.height),
-        (0, 0), im.Blur(im.Flip("/car_travel/background02/background02.webp", horizontal=True), 4),
-        (0, 150), im.Blur("/car_travel/car.webp", 3)) with Dissolve(1, alpha = True)
-    pause 3.0
+image background animated residential:
+    "/car_travel/background02/residential_area0.webp"
+    pause 0.7
+    "/car_travel/background02/residential_area1.webp"
+    pause 0.7
+    "/car_travel/background02/residential_area2.webp"
+    pause 0.7
+    "/car_travel/background02/residential_area3.webp"
+    pause 0.7
     repeat
 
 label travel_tammy_bbf:
@@ -37,13 +37,4 @@ label clean_travel:
     hide passenger_ahead
     hide mc
     hide car
-    return
-
-# animation
-label play_animation_residential:
-    show background animated car residential
-    return
-
-label stop_animation_residential:
-    show background car residential
     return

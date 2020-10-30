@@ -50,6 +50,7 @@ label presentations:
     jump presentations
 
 label presentations_montell:
+    show background animated residential
     call travel_tammy_bbf
     mc "{i}Now I'm on my way home, after spending the night at the {b}[tamI.sname]'s house{/b}. They are the only people from my old life that I still hang out with. Next to me there is:"
     call renaming_friend
