@@ -173,7 +173,7 @@ label prologue:
         show background prologue C02 blur with dissolve
     window hide
     pause
-    jn "{i}My presence only causes problem. I will fix our problem, but then I will not come back. John"
+    jn "{i}My presence only causes problem. I will fix our problem, but then I will not come back. [jn]"
     hide note
     show background prologue C02
     emy "Now how are we going to do without him!?"
@@ -181,7 +181,7 @@ label prologue:
         "His loss":
             $ x += 5
             show background prologue C03
-            mc "Mom if anyone has lost, it's him. I could never leave a woman like you."
+            mc "[emyR.NPClabel] if anyone has lost, it's him. I could never leave a woman like you."
             emy "Honey, I'm lucky to have you who know how to cheer me up."
         "What happened? {color=#f00}(Probability 10\%)":
             $ val = False
@@ -191,7 +191,7 @@ label prologue:
                 mc "What happened? Did he put his hands on you?"
                 emy "No No, honey we just had a fight as usual. You know that since he came back from [jnMission] he has become a different person."
                 mc "Yesterday I tried to hide the [jnAlcol], but it was useless. He found it and got drunk even more than usual."
-                emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies and alcoholics. And if he wanted to continue, he could leave."
+                emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. And if he wanted to continue, he could leave."
             else:
                 $ x -= 1
                 show background prologue C04
@@ -203,15 +203,15 @@ label prologue:
         "Go away":
             $ x -= 5
             show background prologue C04
-            emy "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
+            mc "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
             jump prologue_end
     emy "I've kept you long enough, go ahead."
 
 label prologue_end:
     show background prologue C05 with dissolve
     $ emyP.changeFavour(x)
-    mc "{i}Shit! I've got enough problems of my own, now I need this too."
-    mc "{i}Who knows how mine is?! maybe I should talk to her, she will probably tell me something more."
+    mc "{i}Shit! I have enough problems on my own, that's all we needed."
+    mc "{i}Who knows how is [mia]?! Maybe I should talk to her, she will probably tell me something more."
     stop music fadeout 1.0
     call temporary_end_game
     return
