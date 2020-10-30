@@ -134,6 +134,7 @@ label prologue:
     image background prologue C05 = "/intro/C05.webp"
     image note prologue = "/intro/note.webp"
     stop ambience fadeout 1.0
+    play sound "audio/sfx-door1.ogg"
     $ emyP.favour = 20
     $ x = 0
     show background living_room spydoor01
