@@ -314,107 +314,107 @@ translate crowdin prologue_e35eb632:
 translate crowdin prologue_721bb2d8:
 
     # emy "Honey, I'm lucky to have you who know how to cheer me up."
-    emy "Honey, I'm lucky to have you who know how to cheer me up."
+    emy "Kochanie, mam szczęście, że ciebie mam, wiesz jak mnie rozweselić."
 
 # game/first_day.rpy:189
 translate crowdin prologue_1925bafb:
 
     # mc "What happened? Did he put his hands on you?"
-    mc "What happened? Did he put his hands on you?"
+    mc "Co się stało? Czy On cię uderzył? ”
 
 # game/first_day.rpy:190
 translate crowdin prologue_86435f9b:
 
     # emy "No No, honey we just had a fight as usual. You know that since he came back from [jnMission] he has become a different person."
-    emy "No No, honey we just had a fight as usual. You know that since he came back from [jnMission] he has become a different person."
+    emy "Nie, nie, kochanie, po prostu pokłóciliśmy się jak zwykle. Wiesz, że od czasu powrotu z [jnMission] stał się inną osobą.”
 
 # game/first_day.rpy:191
 translate crowdin prologue_c2a201c9:
 
     # mc "Yesterday I tried to hide the [jnAlcol], but it was useless. He found it and got drunk even more than usual."
-    mc "Yesterday I tried to hide the [jnAlcol], but it was useless. He found it and got drunk even more than usual."
+    mc "Wczoraj próbowałem ukryć [jnAlcol], ale było to nie skuteczne. Znalazł go i upił się jeszcze bardziej niż zwykle ”
 
 # game/first_day.rpy:192
 translate crowdin prologue_4f8080f8:
 
     # emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. And if he wanted to continue, he could leave."
-    emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. And if he wanted to continue, he could leave."
+    emy „Kochanie, wiesz, próbowałam mu pomóc, ale wczoraj nie mogłam już tego znieść. Powiedziałam mu, że może robić, co chce, ale to nie jest dom dla ćpunów ani alkoholików. A gdyby chciał kontynuować, mógłby odejść ”
 
 # game/first_day.rpy:196
 translate crowdin prologue_5e467b9b:
 
     # mc "Okay, but I wanted to understand what happened yesterday. If he left for some reason or something you told him."
-    mc "Okay, but I wanted to understand what happened yesterday. If he left for some reason or something you told him."
+    mc "Ok, ale chciałem zrozumieć, co wydarzyło się wczoraj. Jeśli odszedł z jakiegoś powodu lub przez coś, co mu powiedziałeś. "
 
 # game/first_day.rpy:197
 translate crowdin prologue_965dba69:
 
     # emy "So in your opinion it may be my fault that he left!?"
-    emy "So in your opinion it may be my fault that he left!?"
+    emy "Więc twoim zdaniem to może być moja wina, że odszedł!?"
 
 # game/first_day.rpy:198
 translate crowdin prologue_3eb68609:
 
     # mc "No! I didn't mean that. It's just that..."
-    mc "No! I didn't mean that. It's just that..."
+    mc "Nie! Nie miałem tego na myśli. Po prostu… ”
 
 # game/first_day.rpy:199
 translate crowdin prologue_4e38f9b3:
 
     # emy "Now I want to be alone for a while, go ahead."
-    emy "Now I want to be alone for a while, go ahead."
+    emy "Chce teraz zostać sama na chwilę,"
 
 # game/first_day.rpy:204
 translate crowdin prologue_76915bb5:
 
     # mc "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
-    mc "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
+    mc "OK, [emyR.NPClabel]. Teraz jestem trochę zmęczony, idę do swojego pokoju ”
 
 # game/first_day.rpy:206
 translate crowdin prologue_eaf16fc3:
 
     # emy "I've kept you long enough, go ahead."
-    emy "I've kept you long enough, go ahead."
+    emy "Trzymałam cię wystarczająco długo, śmiało."
 
 # game/first_day.rpy:211
 translate crowdin prologue_end_7619bf8f:
 
     # mc "{i}Shit! I have enough problems on my own, that's all we needed."
-    mc "{i}Shit! I have enough problems on my own, that's all we needed."
+    mc "{i}Shit! Sam mam wystarczająco dużo problemów, nie potrzebuję kolejnych”
 
 # game/first_day.rpy:212
 translate crowdin prologue_end_70b21ba8:
 
     # mc "{i}Who knows how is [mia]?! Maybe I should talk to her, she will probably tell me something more."
-    mc "{i}Who knows how is [mia]?! Maybe I should talk to her, she will probably tell me something more."
+    mc "{i} Kto wie, jak się ma [mia]?! Może powinienem z nią porozmawiać, pewnie powie mi coś więcej ”
 
 translate crowdin strings:
 
     # game/first_day.rpy:152
     old "Where did he go?"
-    new "Where did he go?"
+    new "Gdzie on poszedł?”
 
     # game/first_day.rpy:152
     old "Why?"
-    new "Why?"
+    new "Dlaczego?"
 
     # game/first_day.rpy:152
     old "Well"
-    new "Well"
+    new "Cóż"
 
     # game/first_day.rpy:152
     old "{i}I knew it..."
-    new "{i}I knew it..."
+    new "{i} Wiedziałem…”
 
     # game/first_day.rpy:178
     old "His loss"
-    new "His loss"
+    new "Jego strata”
 
     # game/first_day.rpy:178
     old "What happened? {color=#f00}(Probability 10%)"
-    new "What happened? {color=#f00}(Probability 10%)"
+    new "Co się stało? {color=#f00}(Probability 10%)"
 
     # game/first_day.rpy:178
     old "Go away"
-    new "Go away"
+    new "Odejdź"
 
