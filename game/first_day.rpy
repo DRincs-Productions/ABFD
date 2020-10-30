@@ -75,18 +75,19 @@ label presentations_montell:
     tam "Wait [mc]. Remember that if you don't tell her, I will tell [emy] when I see her."
     mc "All right, [tam]. I will."
     tam "Well, you can go."
+    show mc 02 get_out
     bbf "Bye, [mc]. See you."
     mc "Bye"
     call clean_travel
 
 label prologue:
-    image background prologue 01:
+    image background prologue A01:
         "/intro/A01.webp" with dissolve
         pause 1.6
         "/intro/A02.webp"
         pause 0.8
         "/intro/A03.webp" with dissolve
-    image mc prologue 01:
+    image mc prologue A01:
         pause 1.6
         pause 0.9
         "/intro/A03-MC.webp" with dissolve
@@ -108,7 +109,7 @@ label prologue:
         repeat
     image car prologue = "/intro/A01-car.webp"
 
-    show background prologue 01
+    show background prologue A01
     show text animated title
     if renpy.variant("pc"):
         show car prologue:
@@ -116,10 +117,95 @@ label prologue:
             xpos 0
             ypos 0
             linear 2.0 xpos -5000
-    show mc prologue 01
+    show mc prologue A01
     window hide
     pause
     hide car
     hide mc
+    hide text
+
+    image background prologue C01 = "/intro/C01.webp"
+    image background prologue C02 = "/intro/C02.webp"
+    image background prologue C02 blur = im.Blur("/intro/C02.webp", 7)
+    image background prologue C03 = "/intro/C03.webp"
+    image background prologue C04 = "/intro/C04.webp"
+    image background prologue C05 = "/intro/C05.webp"
+    image note prologue = "/intro/note.webp"
+    $ emyP.favour = 20
+    $ x = 0
+    show background living_room spydoor01
+    show emy living_room spydoor01 cries
+    mc "I am home!"
+    show mc living_room spydoor01 look01
+    with dissolve
+    mc "{i}What!? What is happening?"
+    mc "{i}My [emyR.NPClabel] is crying!?"
+    hide mc
+    hide emy
+    show background prologue C01
+    emy "Hey, honey."
+    mc "Hi [emyR.NPClabel]. What happened?"
+    emy "He is gone... [jn] is gone. This morning I woke up and he was gone. He left without even telling me anything."
+    menu:
+        "Where did he go?":
+            $ x -= 1
+            mc "He is gone!? Where?"
+            emy "Eh, what do I know. He left home."
+        "Why?":
+            mc "What happened?"
+        "Well":
+            $ x -= 5
+            mc "Oh finally! I couldn't take it anymore."
+            emy "Ehi! You can't talk about your [jnR.NPClabel] like that."
+        "{i}I knew it...":
+            mc "{i}I knew this would happen sooner or later."
+    emy "Come on, sit down."
+    show background prologue C02
+    with dissolve
+    emy "When I woke up I found this in the kitchen. Do you realize... [mia] could have found it."
+    show note prologue
+    if renpy.variant("pc"):
+        show background prologue C02 blur with dissolve
+    window hide
+    pause
+    jn "{i}My presence only causes problem. I will fix our problem, but then I will not come back. John"
+    hide note
+    show background prologue C02
+    emy "Now how are we going to do without him!?"
+    menu:
+        "His loss":
+            $ x += 5
+            show background prologue C03
+            mc "Mom if anyone has lost, it's him. I could never leave a woman like you."
+            emy "Honey, I'm lucky to have you who know how to cheer me up."
+        "What happened? {color=#f00}(Probability 10\%)":
+            $ val = False
+            if (val):
+                $ x += 1
+                show background prologue C03
+                mc "What happened? Did he put his hands on you?"
+                emy "No No, honey we just had a fight as usual. You know that since he came back from [jnMission] he has become a different person."
+                mc "Yesterday I tried to hide the [jnAlcol], but it was useless. He found it and got drunk even more than usual."
+                emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies and alcoholics. And if he wanted to continue, he could leave."
+            else:
+                $ x -= 1
+                show background prologue C04
+                mc "Okay, but I wanted to understand what happened yesterday. If he left for some reason or something you told him."
+                emy "So in your opinion it may be my fault that he left!?"
+                mc "No! I didn't mean that. It's just that..."
+                emy "Now I want to be alone for a while, go ahead."
+                jump prologue_end
+        "Go away":
+            $ x -= 5
+            show background prologue C04
+            emy "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
+            jump prologue_end
+    emy "I've kept you long enough, go ahead."
+
+label prologue_end:
+    show background prologue C05 with dissolve
+    $ emyP.changeFavour(x)
+    mc "{i}Shit! I've got enough problems of my own, now I need this too."
+    mc "{i}Who knows how mine is?! maybe I should talk to her, she will probably tell me something more."
     call temporary_end_game
     return
