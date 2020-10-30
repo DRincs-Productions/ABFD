@@ -111,7 +111,7 @@ label live_with:
         if mp_ndata.female_sname != None:
             $ arnI.sname_default = mp_ndata.female_sname
     menu:
-        "Step family":
+        "Step family" if(incs):
             $ incs = True
             $ emyR.MClabel = "son"
             $ emyR.NPClabel = "mom"
@@ -278,6 +278,9 @@ label customize_mc_family:
     "For [vct], [mia] and [arn], [emy] is them:"
     $ for_emyR.changeMClabel()
     hide photo
+
+    if (emyR.NPClabel.lower() == "mom" or emyR.NPClabel.lower() == "mother"):
+        $ incs = True
     return
 
 label renaming_friend:
