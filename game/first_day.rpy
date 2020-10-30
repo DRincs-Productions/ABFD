@@ -110,7 +110,8 @@ label prologue:
     image car prologue = "/intro/A01-car.webp"
 
     play ambience "audio/ambience-suburb.ogg"
-    play sound "audio/sfx-engine_ignition.ogg"
+    if renpy.variant("pc"):
+        play sound "audio/sfx-engine_ignition.ogg"
     show background prologue A01
     show text animated title
     if renpy.variant("pc"):
