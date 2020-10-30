@@ -385,8 +385,8 @@ translate crowdin prologue_end_7619bf8f:
 # game/first_day.rpy:212
 translate crowdin prologue_end_70b21ba8:
 
-    # mc "{i}Who knows how [mia] is?! Maybe I should talk to her, she will probably tell me something more."
-    mc "{i}Who knows how [mia] is?! Maybe I should talk to her, she will probably tell me something more."
+    # mc "{i}Who knows how is [mia]?! Maybe I should talk to her, she will probably tell me something more."
+    mc "{i}Who knows how is [mia]?! Maybe I should talk to her, she will probably tell me something more."
 
 translate crowdin strings:
 
