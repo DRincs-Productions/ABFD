@@ -135,6 +135,7 @@ label prologue:
     image note prologue = "/intro/note.webp"
     stop ambience fadeout 1.0
     play sound "audio/sfx-door1.ogg"
+    play music "audio/music-somber.ogg"
     $ emyP.favour = 20
     $ x = 0
     show background living_room spydoor01
@@ -211,5 +212,6 @@ label prologue_end:
     $ emyP.changeFavour(x)
     mc "{i}Shit! I've got enough problems of my own, now I need this too."
     mc "{i}Who knows how mine is?! maybe I should talk to her, she will probably tell me something more."
+    stop music fadeout 1.0
     call temporary_end_game
     return
