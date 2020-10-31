@@ -22,5 +22,5 @@ translate crowdin strings:
 
     # game/NTR.rpy:5
     old "Remember: You can enable/disable it from your pc."
-    nowy "Pamiętaj: Możesz włączyć/wyłączyć go ze swojego pc."
+    new "Pamiętaj: Możesz włączyć/wyłączyć go ze swojego pc."
 
