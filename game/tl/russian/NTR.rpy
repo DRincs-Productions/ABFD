@@ -4,23 +4,23 @@
 translate crowdin NTR_enabler_0259bb1f:
 
     # "Do you want to enable {b}NTR{/b}?"
-    "Do you want to enable {b}NTR{/b}?"
+    "Вы хотите включить {b}NTR{/b}?"
 
 # game/NTR.rpy:8
 translate crowdin NTR_enabler_886ea9ee:
 
     # "Okay, NTR has been enabled."
-    "Okay, NTR has been enabled."
+    "Хорошо, NTR включен."
 
 # game/NTR.rpy:11
 translate crowdin NTR_enabler_d4c4d04e:
 
     # "Ok, you will no longer see references to NTR."
-    "Ok, you will no longer see references to NTR."
+    "Хорошо, вы больше никогда не увидите отсылки на NTR."
 
 translate crowdin strings:
 
     # game/NTR.rpy:5
     old "Remember: You can enable/disable it from your pc."
-    new "Remember: You can enable/disable it from your pc."
+    new "Помните: Вы можете включить/отключить его со своего компьютера."
 
