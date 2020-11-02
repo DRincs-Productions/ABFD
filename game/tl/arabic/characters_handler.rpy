@@ -156,7 +156,7 @@ translate crowdin customize_mc_family_2f9e588c:
     # "For [vct], [mia] and [arn], [emy] is them:"
     "For [vct], [mia] and [arn], [emy] is them:"
 
-# game/tool/characters_handler.rpy:290
+# game/tool/characters_handler.rpy:293
 translate crowdin renaming_friend_9d439fc7:
 
     # "[mc]'s [bbfR.NPClabel] is called:"
@@ -179,6 +179,58 @@ translate crowdin strings:
     # game/tool/characters_handler.rpy:113
     old "{i}\"Customize\""
     new "{i}\"Customize\""
+
+    # game/tool/characters_handler.rpy:116
+    old "son"
+    new "son"
+
+    # game/tool/characters_handler.rpy:117
+    old "mom"
+    new "mom"
+
+    # game/tool/characters_handler.rpy:119
+    old "dad"
+    new "dad"
+
+    # game/tool/characters_handler.rpy:120
+    old "brother"
+    new "brother"
+
+    # game/tool/characters_handler.rpy:121
+    old "sister"
+    new "sister"
+
+    # game/tool/characters_handler.rpy:127
+    old "daughter"
+    new "daughter"
+
+    # game/tool/characters_handler.rpy:132
+    old "son of my friend"
+    new "son of my friend"
+
+    # game/tool/characters_handler.rpy:133
+    old "mom's friend"
+    new "mom's friend"
+
+    # game/tool/characters_handler.rpy:135
+    old "dad's friend"
+    new "dad's friend"
+
+    # game/tool/characters_handler.rpy:136
+    old "family friend"
+    new "family friend"
+
+    # game/tool/characters_handler.rpy:148
+    old "landlord"
+    new "landlord"
+
+    # game/tool/characters_handler.rpy:149
+    old "leaseholder"
+    new "leaseholder"
+
+    # game/tool/characters_handler.rpy:152
+    old "housemate"
+    new "housemate"
 
     # game/tool/characters_handler.rpy:243
     old "Do you want to assign the last two values to the other housemates too?"
