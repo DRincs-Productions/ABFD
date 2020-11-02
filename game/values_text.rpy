@@ -5,6 +5,7 @@ define influencer = "{b}Influencer{/b}"
 define mrJohnson = "{b}Frank{/b}"
 define console = "{b}Console{/b}"
 define mcSport = "{b}Basket{/b}"
+define housemates = __("housemates")
 # Characters story
 ## MC's family
 define mcStry = ""

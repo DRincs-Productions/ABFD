@@ -127,6 +127,7 @@ label live_with:
             $ for_emyR.NPClabel = __("daughter")
             $ for_jnR.MClabel = jnR.NPClabel
             $ for_jnR.NPClabel = for_emyR.NPClabel
+            $ housemates = __("sisters")
         "Family friends":
             $ incs = False
             $ emyR.MClabel = __("son of my friend")
@@ -143,6 +144,7 @@ label live_with:
             $ for_emyR.NPClabel = __("daughter")
             $ for_jnR.MClabel = __("dad")
             $ for_jnR.NPClabel = for_emyR.NPClabel
+            $ housemates = __("housemates")
         "A rented house funded by the school":
             $ incs = False
             $ emyR.MClabel = __("landlord")
@@ -159,6 +161,7 @@ label live_with:
             $ for_emyR.NPClabel = emyR.MClabel
             $ for_jnR.MClabel = jnR.NPClabel
             $ for_jnR.NPClabel = jnR.MClabel
+            $ housemates = __("housemates")
         "{i}\"Customize\"":
             call customize_mc_family
         mc "Now I live with/in:"
@@ -249,7 +252,7 @@ label customize_mc_family:
             $ arnR.NPClabel = "[miaR.NPClabel]"
         "No":
             $ skip = 0
-        "Do you want to assign the last two values to the other housemates too?"
+        "Do you want to assign the last two values to the other [housemates] too?"
     show arrow:
         xalign 0.7 yalign 0.4 rotate 180
     "Her name is:"
@@ -281,6 +284,7 @@ label customize_mc_family:
 
     if (emyR.NPClabel.lower() == "mom" or emyR.NPClabel.lower() == "mother"):
         $ incs = True
+        $ housemates = __("sisters")
     return
 
 label renaming_friend:
