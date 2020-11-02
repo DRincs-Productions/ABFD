@@ -233,6 +233,14 @@ translate crowdin strings:
     new "housemate"
 
     # game/tool/characters_handler.rpy:243
-    old "Do you want to assign the last two values to the other housemates too?"
-    new "Do you want to assign the last two values to the other housemates too?"
+    old "Do you want to assign the last two values to the other [housemates] too?"
+    new "Do you want to assign the last two values to the other [housemates] too?"
+
+    # game/tool/characters_handler.rpy:130
+    old "sisters"
+    new "sisters"
+
+    # game/tool/characters_handler.rpy:147
+    old "housemates"
+    new "housemates"
 
