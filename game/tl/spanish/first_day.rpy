@@ -4,133 +4,133 @@
 translate crowdin intro_87d1123e:
 
     # mc "Hi, I'm a normal [mcI.age] year old boy with classic problems and no desire to commit, but just to have fun. I don't have a {b}girlfriend{/b}, a {b}job{/b} or concrete plans for the future and my school situation is gross. In the {b}school report of the first quarter{/b} I have all [grade.average]."
-    mc "Hi, I'm a normal [mcI.age] year old boy with classic problems and no desire to commit, but just to have fun. I don't have a {b}girlfriend{/b}, a {b}job{/b} or concrete plans for the future and my school situation is gross. In the {b}school report of the first quarter{/b} I have all [grade.average]."
+    mc "Hola, soy un chico normal de [mcI.age] años con problemas típicos y sin ganas de comprometerme con nada, solo me interesa divertirme. No tengo ni {b}novia{/b}, ni {b}trabajo{/b} ni planes para el futuro, y mi situación escolar es complicada. En las {b}notas del primer trimestre {/b} tengo todo [grade.average]."
 
 # game/first_day.rpy:9
 translate crowdin intro_ea546e9e:
 
     # mc "My family is worried about my poor results and some of my behaviors, which is why they are deciding whether to keep me at home or have me transferred to a hateful [catholic_institute]. I have to make sure that this will never happen."
-    mc "My family is worried about my poor results and some of my behaviors, which is why they are deciding whether to keep me at home or have me transferred to a hateful [catholic_institute]. I have to make sure that this will never happen."
+    mc "Mi familia está preocupada por mis resultados y por alguno de mis comportamientos, por lo que están decidiendo si me dejan quedarme en casa o me internan en un odioso [catholic_institute]. Me tengo que asegurar de que eso no pase nunca."
 
 # game/first_day.rpy:10
 translate crowdin intro_63d87681:
 
     # mc "To be honest, my real family died in a plane crash. After their death he moved me from [old_city] to [city] where I started a new life."
-    mc "To be honest, my real family died in a plane crash. After their death he moved me from [old_city] to [city] where I started a new life."
+    mc "Para serte sincero, mi familia real murió en un accidente de avión. After their death he moved me from [old_city] to [city] where I started a new life."
 
 # game/first_day.rpy:15
 translate crowdin presentations_c48a2b2d:
 
     # "{color=#ec5c09}Patreon" "Some characters are still in development. I will use {b}public votes{/b} to decide their appearance. Check my {b}{a=https://www.patreon.com/posts/revisiting-of-37922891}Post{/b}."
-    "{color=#ec5c09}Patreon" "Some characters are still in development. I will use {b}public votes{/b} to decide their appearance. Check my {b}{a=https://www.patreon.com/posts/revisiting-of-37922891}Post{/b}."
+    "{color=#ec5c09}Patreon" "Algunos personajes siguen en desarrollo. Haré {b}votaciones públicas{/b} para decidir su aspecto. Echa un vistazo a mi {b}{a=https://www.patreon.com/posts/revisiting-of-37922891}Post{/b}."
 
 # game/first_day.rpy:16
 translate crowdin presentations_52b3d4ce:
 
     # mc "For me they are a second family." nointeract
-    mc "For me they are a second family." nointeract
+    mc "Para mí, ellos son una segunda familia." nointeract
 
 # game/first_day.rpy:36
 translate crowdin presentations_059a5711:
 
     # mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never at home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
-    mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never at home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
+    mc "[jn] está casado con [emy], para mí es como un segundo padre. Es un ex-Navy Seal, que sirvió en [jnMission], tras esa ultima misión se le concedió la pensión militar. [jnMission] lo cambió, empezó a beber, nunca está en casa y cuando sí está habla muy poco. [emy] intentó ayudarlo, pero ella solo recibió insultos y peleas."
 
 # game/first_day.rpy:39
 translate crowdin presentations_125c6f5a:
 
     # mc "[emy] is the classic housewife, cooks, washes and takes care of the family. When she was young she was a {b}model{/b}, but she is very reserved about her past. Sometimes when I come home I see her flipping through old magazines. She leaves home very little, [jn] never takes her anywhere."
-    mc "[emy] is the classic housewife, cooks, washes and takes care of the family. When she was young she was a {b}model{/b}, but she is very reserved about her past. Sometimes when I come home I see her flipping through old magazines. She leaves home very little, [jn] never takes her anywhere."
+    mc "[emy] es la típica ama de casa, cocina, limpia, lava y cuida de la familia. Cuando ella era joven, era {b}modelo{/b}, pero es muy reservada respecto a su pasado. A veces, cuando llego a casa, la veo hojeando revistas viejas. Sale muy poco de casa, [jn] nunca la lleva a ninguna parte."
 
 # game/first_day.rpy:42
 translate crowdin presentations_f9938f03:
 
     # mc "[arn] is the same age as me, we attend the same {b}school{/b} and are in the same year, but in different classes. Her class is the best in the history of our school, while mine is probably the worst. That's why, 2 days ago, they left on a school trip while we didn't."
-    mc "[arn] is the same age as me, we attend the same {b}school{/b} and are in the same year, but in different classes. Her class is the best in the history of our school, while mine is probably the worst. That's why, 2 days ago, they left on a school trip while we didn't."
+    mc "[arn] tiene la misma edad que yo, vamos a la misma {b}escuela{/b} y vamos al mismo curso, pero en clases diferentes. Su clase es la mejor en la historia de nuestra escuela, mientra que la mía probablemente sea la peor. Por eso, hace 2 días, ellos se fueron de excursión escolar y nosotros no."
 
 # game/first_day.rpy:45
 translate crowdin presentations_216fbf35:
 
     # mc "[victoria] is a {b}college freshman{/b}, she likes to go out in the evening and have fun with her friends. The last few days have been difficult for her too, she often comes back completely {b}drunk{/b} in the evening. Our relationship is mostly love and hate."
-    mc "[victoria] is a {b}college freshman{/b}, she likes to go out in the evening and have fun with her friends. The last few days have been difficult for her too, she often comes back completely {b}drunk{/b} in the evening. Our relationship is mostly love and hate."
+    mc "[victoria] es una {b}estudiante de primer año en la universidad{/b}, a ella le gusta salir por la noche y divertirse con sus amigos. Los últimos días también han sido duros para ella, a menudo vuelve completamente {b}borracha{/b} de madrugada. Nuestra relación es mayor parte amor y odio."
 
 # game/first_day.rpy:48
 translate crowdin presentations_4a1cf873:
 
     # mc "[mia] is the youngest in the house and she is [for_emyR.MClabel]'s darling. Since she changed schools she has various difficulties and often asks me to {b}help her with her homework{/b}. Her big dream is to become an [influencer], but her [for_emyR.MClabel] forbids her to post pictures."
-    mc "[mia] is the youngest in the house and she is [for_emyR.MClabel]'s darling. Since she changed schools she has various difficulties and often asks me to {b}help her with her homework{/b}. Her big dream is to become an [influencer], but her [for_emyR.MClabel] forbids her to post pictures."
+    mc "[mia] es la pequeña de la casa y es el ojito derecho de [for_emyR.MClabel]. Desde que cambió de escuela, ha tenido dificultades y, a menudo, me pide que la {b}ayude con sus deberes{/b}. Su mayor sueño es convertirse en [influencer], pero su [for_emyR.MClabel] le prohíbe publicar fotos."
 
 # game/first_day.rpy:55
 translate crowdin presentations_montell_a12d227b:
 
     # mc "{i}Now I'm on my way home, after spending the night at the {b}[tamI.sname]'s house{/b}. They are the only people from my old life that I still hang out with. Next to me there is:"
-    mc "{i}Now I'm on my way home, after spending the night at the {b}[tamI.sname]'s house{/b}. They are the only people from my old life that I still hang out with. Next to me there is:"
+    mc "{i}Ahora estoy de camino a casa, después de pasar la noche en la casa de los {b}[tamI.sname]{/b}. Son las únicas personas de mi vida anterior con las que todavía tengo relación. A mi lado está:"
 
 # game/first_day.rpy:57
 translate crowdin presentations_montell_ec00e90a:
 
     # mc "{i}And this is his mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues and that is why I have known them since childhood."
-    mc "{i}And this is his mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues and that is why I have known them since childhood."
+    mc "{i}Y su madre, [tam]. Ellos también perdieron a alguien en el accidente de avión, su padre y marido, el {b}Sr. [mrJohnson] Johnson{/b}. Él y mi padre eran compañeros de trabajo y por eso les conozco desde pequeño."
 
 # game/first_day.rpy:58
 translate crowdin presentations_montell_adab5526:
 
     # mc "{i}And so, a few weeks after I left my old city, they preferred to create a new life by moving here to my own neighborhood, except his brother who preferred to stay."
-    mc "{i}And so, a few weeks after I left my old city, they preferred to create a new life by moving here to my own neighborhood, except his brother who preferred to stay."
+    mc "{i}Y así, unas semanas después de que dejara mi antigua ciudad, prefirieron comenzar una nueva vida mudándose aquí en mi mismo barrio, excepto su hermano, que prefirió quedarse."
 
 # game/first_day.rpy:59
 translate crowdin presentations_montell_24b5f748:
 
     # mc "{i}This neighborhood is a nice place to live, it is a quiet area, not far away there is the sea, some clubs and there are beautiful girls."
-    mc "{i}This neighborhood is a nice place to live, it is a quiet area, not far away there is the sea, some clubs and there are beautiful girls."
+    mc "{i}Este barrio es un sitio bonito para vivir, es una zona tranquila, el mar no está muy lejos, algunas discotecas y hay chicas muy guapas."
 
 # game/first_day.rpy:60
 translate crowdin presentations_montell_d0f687c5:
 
     # tam "What's wrong with you guys!? You are so quiet."
-    tam "What's wrong with you guys!? You are so quiet."
+    tam "¿¡Qué os pasa a vosotros dos!? Estáis muy callados."
 
 # game/first_day.rpy:61
 translate crowdin presentations_montell_2765955e:
 
     # bbf "All is well. It's just that yesterday we played at the [console] until late at night."
-    bbf "All is well. It's just that yesterday we played at the [console] until late at night."
+    bbf "No pasa nada. Es que anoche jugamos a la [console] hasta tarde."
 
 # game/first_day.rpy:62
 translate crowdin presentations_montell_83e1e81c:
 
     # tam "Who won in the end?"
-    tam "Who won in the end?"
+    tam "¿Quién ganó al final?"
 
 # game/first_day.rpy:63
 translate crowdin presentations_montell_27cd9141:
 
     # bbf "I won, I literally shredded it. He is too scarce."
-    bbf "I won, I literally shredded it. He is too scarce."
+    bbf "Yo gané, le pegué una paliza. El es muy malo."
 
 # game/first_day.rpy:64
 translate crowdin presentations_montell_c624707d:
 
     # mc "It's just luck."
-    mc "It's just luck."
+    mc "Tuviste suerte."
 
 # game/first_day.rpy:65
 translate crowdin presentations_montell_f80c5f58:
 
     # bbf "Modestly this is talent, you have to train to reach my level."
-    bbf "Modestly this is talent, you have to train to reach my level."
+    bbf "Es talento natural, tienes que entrenar para llegar a mi nivel."
 
 # game/first_day.rpy:66
 translate crowdin presentations_montell_98621ae6:
 
     # tam "Yeah! [bbf] spends hours in front of a stupid screen after school."
-    tam "Yeah! [bbf] spends hours in front of a stupid screen after school."
+    tam "Ya! [bbf] pasa horas frente la estúpida pantalla después de la escuela."
 
 # game/first_day.rpy:67
 translate crowdin presentations_montell_e1df17f8:
 
     # mc "Don't worry, [tam]. I convince him to go out. We also joined the school's [mcSport] team."
-    mc "Don't worry, [tam]. I convince him to go out. We also joined the school's [mcSport] team."
+    mc "No se preocupe, [tam]. Lo convencí para que saliera. También nos hemos apuntado al equipo de [mcSport] de la escuela."
 
 # game/first_day.rpy:68
 translate crowdin presentations_montell_df2224c0:
