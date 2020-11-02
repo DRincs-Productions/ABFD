@@ -4,61 +4,61 @@
 translate crowdin renaming_mc_24748d50:
 
     # "Player" "My name is:"
-    "Player" "My name is:"
+    "Giocatore" "Mi chiamo:"
 
 # game/tool/characters_handler.rpy:79
 translate crowdin renaming_mc_e6f6fb33:
 
     # "Player" "My surname is:"
-    "Player" "My surname is:"
+    "Giocatore" "Il mio cognome è:"
 
 # game/tool/characters_handler.rpy:113
 translate crowdin live_with_42cd0ea9:
 
     # mc "Now I live with/in:" nointeract
-    mc "Now I live with/in:" nointeract
+    mc "Ora vivo con/in:" nointeract
 
 # game/tool/characters_handler.rpy:193
 translate crowdin renaming_mc_family_90eebff9:
 
     # "My [emyR.NPClabel]'s name:"
-    "My [emyR.NPClabel]'s name:"
+    "Mia [emyR.NPClabel] si chiama:"
 
 # game/tool/characters_handler.rpy:197
 translate crowdin renaming_mc_family_66e9d7c7:
 
     # "My [jnR.NPClabel]'s name:"
-    "My [jnR.NPClabel]'s name:"
+    "Mio [jnR.NPClabel] si chiama:"
 
 # game/tool/characters_handler.rpy:202
 translate crowdin renaming_mc_family_52da3e95:
 
     # "My little [miaR.NPClabel]'s name:"
-    "My little [miaR.NPClabel]'s name:"
+    "Mia [miaR.NPClabel] più piccola si chiama:"
 
 # game/tool/characters_handler.rpy:206
 translate crowdin renaming_mc_family_c9cffb00:
 
     # "My (coetaneous) [arnR.NPClabel]'s name:"
-    "My (coetaneous) [arnR.NPClabel]'s name:"
+    "Mia [arnR.NPClabel] (coetanea) si chiama:"
 
 # game/tool/characters_handler.rpy:210
 translate crowdin renaming_mc_family_8c9af609:
 
     # "My big [vctR.NPClabel]'s name:"
-    "My big [vctR.NPClabel]'s name:"
+    "Mia [vctR.NPClabel] più grande si chiama:"
 
 # game/tool/characters_handler.rpy:220
 translate crowdin customize_mc_family_b13c3b91:
 
     # "Her name is:"
-    "Her name is:"
+    "Il suo nome è:"
 
 # game/tool/characters_handler.rpy:222
 translate crowdin customize_mc_family_1c98758a:
 
     # "She is my:"
-    "She is my:"
+    "Lei è la mia:"
 
 # game/tool/characters_handler.rpy:224
 translate crowdin customize_mc_family_176e4263:
@@ -70,7 +70,7 @@ translate crowdin customize_mc_family_176e4263:
 translate crowdin customize_mc_family_f2645812:
 
     # "His name is:"
-    "His name is:"
+    "Il suo nome è:"
 
 # game/tool/characters_handler.rpy:230
 translate crowdin customize_mc_family_65bb234d:
@@ -156,7 +156,7 @@ translate crowdin customize_mc_family_2f9e588c:
     # "For [vct], [mia] and [arn], [emy] is them:"
     "For [vct], [mia] and [arn], [emy] is them:"
 
-# game/tool/characters_handler.rpy:290
+# game/tool/characters_handler.rpy:293
 translate crowdin renaming_friend_9d439fc7:
 
     # "[mc]'s [bbfR.NPClabel] is called:"
@@ -179,6 +179,58 @@ translate crowdin strings:
     # game/tool/characters_handler.rpy:113
     old "{i}\"Customize\""
     new "{i}\"Customize\""
+
+    # game/tool/characters_handler.rpy:116
+    old "son"
+    new "son"
+
+    # game/tool/characters_handler.rpy:117
+    old "mom"
+    new "mom"
+
+    # game/tool/characters_handler.rpy:119
+    old "dad"
+    new "dad"
+
+    # game/tool/characters_handler.rpy:120
+    old "brother"
+    new "brother"
+
+    # game/tool/characters_handler.rpy:121
+    old "sister"
+    new "sister"
+
+    # game/tool/characters_handler.rpy:127
+    old "daughter"
+    new "daughter"
+
+    # game/tool/characters_handler.rpy:132
+    old "son of my friend"
+    new "son of my friend"
+
+    # game/tool/characters_handler.rpy:133
+    old "mom's friend"
+    new "mom's friend"
+
+    # game/tool/characters_handler.rpy:135
+    old "dad's friend"
+    new "dad's friend"
+
+    # game/tool/characters_handler.rpy:136
+    old "family friend"
+    new "family friend"
+
+    # game/tool/characters_handler.rpy:148
+    old "landlord"
+    new "landlord"
+
+    # game/tool/characters_handler.rpy:149
+    old "leaseholder"
+    new "leaseholder"
+
+    # game/tool/characters_handler.rpy:152
+    old "housemate"
+    new "housemate"
 
     # game/tool/characters_handler.rpy:243
     old "Do you want to assign the last two values to the other housemates too?"
