@@ -166,11 +166,11 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:113
     old "Step family"
-    new "Step family"
+    new "Famiglia adottiva"
 
     # game/tool/characters_handler.rpy:113
     old "Family friends"
-    new "Family friends"
+    new "Amici di famiglia"
 
     # game/tool/characters_handler.rpy:113
     old "A rented house funded by the school"
@@ -178,7 +178,7 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:113
     old "{i}\"Customize\""
-    new "{i}\"Customize\""
+    new "{i}\"Personalizza\""
 
     # game/tool/characters_handler.rpy:116
     old "son"
@@ -233,6 +233,14 @@ translate crowdin strings:
     new "housemate"
 
     # game/tool/characters_handler.rpy:243
-    old "Do you want to assign the last two values to the other housemates too?"
-    new "Do you want to assign the last two values to the other housemates too?"
+    old "Do you want to assign the last two values to the other [housemates] too?"
+    new "Do you want to assign the last two values to the other [housemates] too?"
+
+    # game/tool/characters_handler.rpy:130
+    old "sisters"
+    new "sisters"
+
+    # game/tool/characters_handler.rpy:147
+    old "housemates"
+    new "housemates"
 
