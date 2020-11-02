@@ -10,7 +10,7 @@ translate crowdin temporary_end_story_25e4d9c4_1:
 translate crowdin temporary_end_story_5f0229be_1:
 
     # "If you want more updates, support me on {a=https://www.patreon.com/DRincs}Patreon"
-    "If you want more updates, support me on {a=https://www.patreon.com/DRincs}Patreon"
+    "Se vuoi altri aggiornamenti, supportami su {a=https://www.patreon.com/DRincs}Patreon"
 
 # game/tool/temporary_end.rpy:16
 translate crowdin temporary_end_game_ae6086f7_1:
@@ -34,5 +34,5 @@ translate crowdin coming_soon_368b820a_1:
 translate crowdin coming_soon_3132c717_1:
 
     # "Support me on {a=https://www.patreon.com/DRincs}Patreon"
-    "Support me on {a=https://www.patreon.com/DRincs}Patreon"
+    "Sostienimi su {a=https://www.patreon.com/DRincs}Patreon"
 
