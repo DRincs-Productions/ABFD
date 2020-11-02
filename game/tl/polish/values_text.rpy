@@ -4,5 +4,5 @@ translate crowdin strings:
 
     # game/values_text.rpy:19
     old "{b}Orlando Catholic Institute{/b}"
-    new "{b}Orlando Catholic Institute{/b}"
+    new "{b}Instytut Katolicki Orlando {/b} "
 
