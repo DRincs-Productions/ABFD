@@ -15,8 +15,8 @@ translate crowdin intro_ea546e9e:
 # game/first_day.rpy:10
 translate crowdin intro_63d87681:
 
-    # mc "To be honest, my real family died in a plane crash. After their death he moved me from [old_city] to [city] where I started a new life."
-    mc "Szczerze mówiąc, moja rodzina zmarła w katastrofie samolotowej. Po śmierci przeprowadziłem się z [old_city] do [city], gdzie zacząłem nowe życie.”
+    # mc "To be honest, my real family died in a plane crash. After their death I moved from [old_city] to [city] where I started a new life."
+    mc "Szczerze mówiąc, moja rodzina zmarła w katastrofie samolotowej. After their death I moved from [old_city] to [city] where I started a new life."
 
 # game/first_day.rpy:15
 translate crowdin presentations_c48a2b2d:
