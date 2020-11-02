@@ -4,37 +4,37 @@
 translate crowdin renaming_mc_24748d50:
 
     # "Player" "My name is:"
-    "Player" "My name is:"
+    "Player" "Na imię mam:"
 
 # game/tool/characters_handler.rpy:79
 translate crowdin renaming_mc_e6f6fb33:
 
     # "Player" "My surname is:"
-    "Player" "My surname is:"
+    "Player" "Moje nazwisko:"
 
 # game/tool/characters_handler.rpy:113
 translate crowdin live_with_42cd0ea9:
 
     # mc "Now I live with/in:" nointeract
-    mc "Now I live with/in:" nointeract
+    mc "Teraz żyję z:" nointeract
 
 # game/tool/characters_handler.rpy:193
 translate crowdin renaming_mc_family_90eebff9:
 
     # "My [emyR.NPClabel]'s name:"
-    "My [emyR.NPClabel]'s name:"
+    "Moja [emyR.NPClabel]' s nazywa się:"
 
 # game/tool/characters_handler.rpy:197
 translate crowdin renaming_mc_family_66e9d7c7:
 
     # "My [jnR.NPClabel]'s name:"
-    "My [jnR.NPClabel]'s name:"
+    "Moja [jnR.NPClabel]' s nazywa się:"
 
 # game/tool/characters_handler.rpy:202
 translate crowdin renaming_mc_family_52da3e95:
 
     # "My little [miaR.NPClabel]'s name:"
-    "My little [miaR.NPClabel]'s name:"
+    "Moja mała [miaR.NPClabel]' s nazywa się:"
 
 # game/tool/characters_handler.rpy:206
 translate crowdin renaming_mc_family_c9cffb00:
@@ -233,6 +233,14 @@ translate crowdin strings:
     new "housemate"
 
     # game/tool/characters_handler.rpy:243
-    old "Do you want to assign the last two values to the other housemates too?"
-    new "Do you want to assign the last two values to the other housemates too?"
+    old "Do you want to assign the last two values to the other [housemates] too?"
+    new "Do you want to assign the last two values to the other [housemates] too?"
+
+    # game/tool/characters_handler.rpy:130
+    old "sisters"
+    new "sisters"
+
+    # game/tool/characters_handler.rpy:147
+    old "housemates"
+    new "housemates"
 
