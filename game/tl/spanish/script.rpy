@@ -4,5 +4,5 @@
 translate crowdin start_c09080c3:
 
     # "Welcome to [config.name]"
-    "Welcome to [config.name]"
+    "Bienvenido a [config.name]"
 
