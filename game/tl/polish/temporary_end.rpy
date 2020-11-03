@@ -28,7 +28,7 @@ translate crowdin temporary_end_game_e8ca7291_1:
 translate crowdin coming_soon_368b820a_1:
 
     # "(Coming soon)"
-    „(Już wkrótce)”
+    "(Już wkrótce)"
 
 # game/tool/temporary_end.rpy:29
 translate crowdin coming_soon_3132c717_1:
