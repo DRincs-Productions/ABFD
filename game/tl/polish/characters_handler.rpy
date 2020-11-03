@@ -40,207 +40,207 @@ translate crowdin renaming_mc_family_52da3e95:
 translate crowdin renaming_mc_family_c9cffb00:
 
     # "My (coetaneous) [arnR.NPClabel]'s name:"
-    "My (coetaneous) [arnR.NPClabel]'s name:"
+    "Mój [arnR.NPClabel]' s nazywa się:"
 
 # game/tool/characters_handler.rpy:210
 translate crowdin renaming_mc_family_8c9af609:
 
     # "My big [vctR.NPClabel]'s name:"
-    "My big [vctR.NPClabel]'s name:"
+    "Moja starsza [vctR.NPClabel]' s nazywa się:"
 
 # game/tool/characters_handler.rpy:220
 translate crowdin customize_mc_family_b13c3b91:
 
     # "Her name is:"
-    "Her name is:"
+    "Jej imię to:"
 
 # game/tool/characters_handler.rpy:222
 translate crowdin customize_mc_family_1c98758a:
 
     # "She is my:"
-    "She is my:"
+    "Ona jest moim:"
 
 # game/tool/characters_handler.rpy:224
 translate crowdin customize_mc_family_176e4263:
 
     # "I'm [emy]'s:"
-    "I'm [emy]'s:"
+    "Jestem [emy]' s:"
 
 # game/tool/characters_handler.rpy:228
 translate crowdin customize_mc_family_f2645812:
 
     # "His name is:"
-    "His name is:"
+    "Jej imię to:"
 
 # game/tool/characters_handler.rpy:230
 translate crowdin customize_mc_family_65bb234d:
 
     # "He is my:"
-    "He is my:"
+    "On jest moim:"
 
 # game/tool/characters_handler.rpy:232
 translate crowdin customize_mc_family_f40814cd:
 
     # "I'm [jn]'s:"
-    "I'm [jn]'s:"
+    "Jestem [jn]' s:"
 
 # game/tool/characters_handler.rpy:237
 translate crowdin customize_mc_family_b13c3b91_1:
 
     # "Her name is:"
-    "Her name is:"
+    "Jej imię to:"
 
 # game/tool/characters_handler.rpy:239
 translate crowdin customize_mc_family_1c98758a_1:
 
     # "She is my:"
-    "She is my:"
+    "Ona jest moim:"
 
 # game/tool/characters_handler.rpy:241
 translate crowdin customize_mc_family_21811c9e:
 
     # "I'm [mia]'s:"
-    "I'm [mia]'s:"
+    "Jestem [mia]' s:"
 
 # game/tool/characters_handler.rpy:255
 translate crowdin customize_mc_family_b13c3b91_2:
 
     # "Her name is:"
-    "Her name is:"
+    "Jej imię to:"
 
 # game/tool/characters_handler.rpy:258
 translate crowdin customize_mc_family_1c98758a_2:
 
     # "She is my:"
-    "She is my:"
+    "Ona jest moim:"
 
 # game/tool/characters_handler.rpy:260
 translate crowdin customize_mc_family_4b262b3d:
 
     # "I'm [arn]'s:"
-    "I'm [arn]'s:"
+    "Jestem [arn]' s:"
 
 # game/tool/characters_handler.rpy:264
 translate crowdin customize_mc_family_b13c3b91_3:
 
     # "Her name is:"
-    "Her name is:"
+    "Jej imię to:"
 
 # game/tool/characters_handler.rpy:267
 translate crowdin customize_mc_family_1c98758a_3:
 
     # "She is my:"
-    "She is my:"
+    "Ona jest moim:"
 
 # game/tool/characters_handler.rpy:269
 translate crowdin customize_mc_family_6cd3181f:
 
     # "I'm [vct]'s:"
-    "I'm [vct]'s:"
+    "Jestem [vct]' s:"
 
 # game/tool/characters_handler.rpy:273
 translate crowdin customize_mc_family_64c7ff47:
 
     # "For [emy] and [jn], [vct] (also applies to [mia] and [arn]) is them:"
-    "For [emy] and [jn], [vct] (also applies to [mia] and [arn]) is them:"
+    " Dla [emy] i [jn], [vct] (dotyczy również [mia] i [arn]) jest: "
 
 # game/tool/characters_handler.rpy:276
 translate crowdin customize_mc_family_f8f0e56e:
 
     # "For [vct], [mia] and [arn], [jn] is them:"
-    "For [vct], [mia] and [arn], [jn] is them:"
+    "Dla [vct], [mia] i [arn], [jn] jest:"
 
 # game/tool/characters_handler.rpy:278
 translate crowdin customize_mc_family_2f9e588c:
 
     # "For [vct], [mia] and [arn], [emy] is them:"
-    "For [vct], [mia] and [arn], [emy] is them:"
+    "Dla [vct], [mia] i [arn], [emy] jest:"
 
-# game/tool/characters_handler.rpy:293
+# game/tool/characters_handler.rpy: 293
 translate crowdin renaming_friend_9d439fc7:
 
     # "[mc]'s [bbfR.NPClabel] is called:"
-    "[mc]'s [bbfR.NPClabel] is called:"
+    "[mc]' s [bbfR.NPClabel] nazywa się: "
 
 translate crowdin strings:
 
     # game/tool/characters_handler.rpy:113
     old "Step family"
-    new "Step family"
+    new "Druga rodzina"
 
     # game/tool/characters_handler.rpy:113
     old "Family friends"
-    new "Family friends"
+    new "Znajomi Rodziny"
 
     # game/tool/characters_handler.rpy:113
     old "A rented house funded by the school"
-    new "A rented house funded by the school"
+    new "wynajęty dom ufundowany przez szkołę"
 
     # game/tool/characters_handler.rpy:113
     old "{i}\"Customize\""
-    new "{i}\"Customize\""
+    new "{i}\" Dostosuj \" "
 
     # game/tool/characters_handler.rpy:116
     old "son"
-    new "son"
+    new "syn"
 
     # game/tool/characters_handler.rpy:117
     old "mom"
-    new "mom"
+    new "mama"
 
     # game/tool/characters_handler.rpy:119
     old "dad"
-    new "dad"
+    new "tata"
 
     # game/tool/characters_handler.rpy:120
     old "brother"
-    new "brother"
+    new "brat"
 
     # game/tool/characters_handler.rpy:121
     old "sister"
-    new "sister"
+    new "siostra"
 
     # game/tool/characters_handler.rpy:127
     old "daughter"
-    new "daughter"
+    new "córka"
 
     # game/tool/characters_handler.rpy:132
     old "son of my friend"
-    new "son of my friend"
+    new "syn mojego przyjaciela"
 
     # game/tool/characters_handler.rpy:133
     old "mom's friend"
-    new "mom's friend"
+    new "przyjaciel mamy"
 
     # game/tool/characters_handler.rpy:135
     old "dad's friend"
-    new "dad's friend"
+    new "przyjaciel taty"
 
     # game/tool/characters_handler.rpy:136
     old "family friend"
-    new "family friend"
+    new "przyjaciel rodziny"
 
     # game/tool/characters_handler.rpy:148
     old "landlord"
-    new "landlord"
+    new "właściciel"
 
     # game/tool/characters_handler.rpy:149
     old "leaseholder"
-    new "leaseholder"
+    new „dzierżawca”
 
     # game/tool/characters_handler.rpy:152
     old "housemate"
-    new "housemate"
+    new „współlokator”
 
     # game/tool/characters_handler.rpy:243
     old "Do you want to assign the last two values to the other [housemates] too?"
-    new "Do you want to assign the last two values to the other [housemates] too?"
+    new "Czy chcesz przypisać ostatnie dwie wartości również do pozostałych [housemates]?"
 
     # game/tool/characters_handler.rpy:130
     old "sisters"
-    new "sisters"
+    new "siostry"
 
     # game/tool/characters_handler.rpy:147
     old "housemates"
-    new "housemates"
+    new „współlokatorzy"
 
