@@ -135,76 +135,76 @@ translate crowdin presentations_montell_e1df17f8:
 # game/first_day.rpy:68
 translate crowdin presentations_montell_df2224c0:
 
-    # bbf "I don't know if this was a good idea and then mom, you know I don't go out much because I don't have many friends here."
-    bbf "I don't know if this was a good idea and then mom, you know I don't go out much because I don't have many friends here."
+    # bbf "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
+    bbf "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
 
 # game/first_day.rpy:69
 translate crowdin presentations_montell_78aecda6:
 
     # tam "Don't worry, honey. I'm sure when you start [mcSport] you'll make a few friends."
-    tam "Don't worry, honey. I'm sure when you start [mcSport] you'll make a few friends."
+    tam "No te preocupes, cariño. Estoy segura que cuando empieces con el [mcSport], harás algunos amigos."
 
 # game/first_day.rpy:70
 translate crowdin presentations_montell_4a23293d:
 
-    # tam "By the way [mc], did you give your [emyR.NPClabel] your school report card?"
-    tam "By the way [mc], did you give your [emyR.NPClabel] your school report card?"
+    # tam "By the way [mc], did you give your to [emyR.NPClabel] your school report card?"
+    tam "By the way [mc], did you give your to [emyR.NPClabel] your school report card?"
 
 # game/first_day.rpy:71
 translate crowdin presentations_montell_d79aa0ea:
 
     # mc "Not yet, I'm going to talk to her tonight."
-    mc "Not yet, I'm going to talk to her tonight."
+    mc "Aún no, hableré con ella esta noche."
 
 # game/first_day.rpy:72
 translate crowdin presentations_montell_1d95ff6e:
 
     # tam "Well, you have arrived."
-    tam "Well, you have arrived."
+    tam "Bueno, ya hemos llegado."
 
 # game/first_day.rpy:75
 translate crowdin presentations_montell_512ade0b:
 
     # tam "Wait [mc]. Remember that if you don't tell her, I will tell [emy] when I see her."
-    tam "Wait [mc]. Remember that if you don't tell her, I will tell [emy] when I see her."
+    tam "Espera [mc]. Recuerda que si no se lo dices, le dire yo a [emy] cuando la vea."
 
 # game/first_day.rpy:76
 translate crowdin presentations_montell_6a90cac5:
 
     # mc "All right, [tam]. I will."
-    mc "All right, [tam]. I will."
+    mc "Perfecto, [tam]. Lo haré."
 
 # game/first_day.rpy:77
 translate crowdin presentations_montell_c120e326:
 
     # tam "Well, you can go."
-    tam "Well, you can go."
+    tam "Bueno, ya puedes salir."
 
 # game/first_day.rpy:79
 translate crowdin presentations_montell_3b1ddbb3:
 
     # bbf "Bye, [mc]. See you."
-    bbf "Bye, [mc]. See you."
+    bbf "Adiós, [mc]. Nos vemos."
 
 # game/first_day.rpy:80
 translate crowdin presentations_montell_3d532c40:
 
     # mc "Bye"
-    mc "Bye"
+    mc "Chao"
 
 translate crowdin strings:
 
     # game/first_day.rpy:16
     old "Rename the characters"
-    new "Rename the characters"
+    new "Renombra los personajes"
 
     # game/first_day.rpy:16
     old "More about my family"
-    new "More about my family"
+    new "Más sobre mi familia"
 
     # game/first_day.rpy:16
     old "Continue with the intro"
-    new "Continue with the intro"
+    new "Continuar con la introducción"
 
 # TODO: Translation updated at 2020-10-30 18:58
 
@@ -212,133 +212,133 @@ translate crowdin strings:
 translate crowdin prologue_98a05b7e:
 
     # mc "I am home!"
-    mc "I am home!"
+    mc "Estoy en casa!"
 
 # game/first_day.rpy:144
 translate crowdin prologue_092714c3:
 
     # mc "{i}What!? What is happening?"
-    mc "{i}What!? What is happening?"
+    mc "{i}¿¡Qué!? ¿Qué está pasando?"
 
 # game/first_day.rpy:145
 translate crowdin prologue_a1451e33:
 
     # mc "{i}My [emyR.NPClabel] is crying!?"
-    mc "{i}My [emyR.NPClabel] is crying!?"
+    mc "{i}¿¡[emyR.NPClabel] está llorando!?"
 
 # game/first_day.rpy:149
 translate crowdin prologue_87422b22:
 
     # emy "Hey, honey."
-    emy "Hey, honey."
+    emy "Hola, cariño."
 
 # game/first_day.rpy:150
 translate crowdin prologue_d6975891:
 
     # mc "Hi [emyR.NPClabel]. What happened?"
-    mc "Hi [emyR.NPClabel]. What happened?"
+    mc "Hey [emyR.NPClabel]. ¿Qué ha pasado?"
 
 # game/first_day.rpy:151
 translate crowdin prologue_556502aa:
 
     # emy "He is gone... [jn] is gone. This morning I woke up and he was gone. He left without even telling me anything."
-    emy "He is gone... [jn] is gone. This morning I woke up and he was gone. He left without even telling me anything."
+    emy "Se ha ido... [jn] se ha ido. Me levanté esta mañana y él ya se habia ido. Se fue sin siquiera decirme nada."
 
 # game/first_day.rpy:155
 translate crowdin prologue_14092600:
 
     # mc "He is gone!? Where?"
-    mc "He is gone!? Where?"
+    mc "¿¡Se ha ido!? A dónde?"
 
 # game/first_day.rpy:156
 translate crowdin prologue_466e88ad:
 
     # emy "Eh, what do I know. He left home."
-    emy "Eh, what do I know. He left home."
+    emy "Eh, Yo qué sé. Se fue de casa."
 
 # game/first_day.rpy:158
 translate crowdin prologue_7d010a14:
 
     # mc "What happened?"
-    mc "What happened?"
+    mc "¿Qué ha pasado?"
 
 # game/first_day.rpy:161
 translate crowdin prologue_1d85bbe3:
 
     # mc "Oh finally! I couldn't take it anymore."
-    mc "Oh finally! I couldn't take it anymore."
+    mc "¡Oh, por fin! No podía soportalo más."
 
 # game/first_day.rpy:162
 translate crowdin prologue_ea9e147c:
 
-    # emy "Ehi! You can't talk about your [jnR.NPClabel] like that."
-    emy "Ehi! You can't talk about your [jnR.NPClabel] like that."
+    # emy "Hey! You can't talk about your [jnR.NPClabel] like that."
+    emy "Hey! No puedes hablar así de tu [jnR.NPClabel]."
 
 # game/first_day.rpy:164
 translate crowdin prologue_5d1ef22d:
 
     # mc "{i}I knew this would happen sooner or later."
-    mc "{i}I knew this would happen sooner or later."
+    mc "{i}Sabía que esto pasaría tarde o temprano."
 
 # game/first_day.rpy:165
 translate crowdin prologue_063d6293:
 
     # emy "Come on, sit down."
-    emy "Come on, sit down."
+    emy "Vamos, sientate."
 
 # game/first_day.rpy:168
 translate crowdin prologue_55626a62:
 
     # emy "When I woke up I found this in the kitchen. Do you realize... [mia] could have found it."
-    emy "When I woke up I found this in the kitchen. Do you realize... [mia] could have found it."
+    emy "Cuando me desperté, encontré esto en la cocina. Te das cuenta... que [mia] podría haberlo encontrado."
 
 # game/first_day.rpy:174
 translate crowdin prologue_d2507cbc:
 
     # jn "{i}My presence only causes problem. I will fix our problem, but then I will not come back. [jn]"
-    jn "{i}My presence only causes problem. I will fix our problem, but then I will not come back. [jn]"
+    jn "{i}Mi presencia solo causa problemas. Arreglaré nuestro problema, pero entonces no volveré. [jn]"
 
 # game/first_day.rpy:177
 translate crowdin prologue_d17c1849:
 
     # emy "Now how are we going to do without him!?"
-    emy "Now how are we going to do without him!?"
+    emy "¿¡Qué vamos a hacer ahora sin él!?"
 
 # game/first_day.rpy:182
 translate crowdin prologue_e35eb632:
 
     # mc "[emyR.NPClabel] if anyone has lost, it's him. I could never leave a woman like you."
-    mc "[emyR.NPClabel] if anyone has lost, it's him. I could never leave a woman like you."
+    mc "[emyR.NPClabel], si alguien ha perdido, es él. Yo nunca podría abandonar a una mujer como tú."
 
 # game/first_day.rpy:183
 translate crowdin prologue_721bb2d8:
 
     # emy "Honey, I'm lucky to have you who know how to cheer me up."
-    emy "Honey, I'm lucky to have you who know how to cheer me up."
+    emy "Cariño, suerte que te tengo a ti, que sabes como animarme."
 
 # game/first_day.rpy:189
 translate crowdin prologue_1925bafb:
 
     # mc "What happened? Did he put his hands on you?"
-    mc "What happened? Did he put his hands on you?"
+    mc "¿Qué ha pasado? Te puso la mano encima?"
 
 # game/first_day.rpy:190
 translate crowdin prologue_86435f9b:
 
     # emy "No No, honey we just had a fight as usual. You know that since he came back from [jnMission] he has become a different person."
-    emy "No No, honey we just had a fight as usual. You know that since he came back from [jnMission] he has become a different person."
+    emy "No no cariño, solo discutimos como siempre. Ya sabes que desde que volvió de [jnMission] se ha convertido en una persona diferente."
 
 # game/first_day.rpy:191
 translate crowdin prologue_c2a201c9:
 
     # mc "Yesterday I tried to hide the [jnAlcol], but it was useless. He found it and got drunk even more than usual."
-    mc "Yesterday I tried to hide the [jnAlcol], but it was useless. He found it and got drunk even more than usual."
+    mc "Ayer intenté esconder el [jnAlcol], pero fue inútil. Lo encontró y se emborrachó aún más de lo normal."
 
 # game/first_day.rpy:192
 translate crowdin prologue_4f8080f8:
 
     # emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. And if he wanted to continue, he could leave."
-    emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. And if he wanted to continue, he could leave."
+    emy "Cariño, ya lo sabes, intenté ayudarlo, pero ayer no pude soportalo más. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. And if he wanted to continue, he could leave."
 
 # game/first_day.rpy:196
 translate crowdin prologue_5e467b9b:
