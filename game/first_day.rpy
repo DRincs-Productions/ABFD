@@ -65,9 +65,9 @@ label presentations_montell:
     bbf "Modestly this is talent, you have to train to reach my level."
     tam "Yeah! [bbf] spends hours in front of a stupid screen after school."
     mc "Don't worry, [tam]. I convince him to go out. We also joined the school's [mcSport] team."
-    bbf "I don't know if this was a good idea and then mom, you know I don't go out much because I don't have many friends here."
+    bbf "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
     tam "Don't worry, honey. I'm sure when you start [mcSport] you'll make a few friends."
-    tam "By the way [mc], did you give your [emyR.NPClabel] your school report card?"
+    tam "By the way [mc], did you give your to [emyR.NPClabel] your school report card?"
     mc "Not yet, I'm going to talk to her tonight."
     tam "Well, you have arrived."
     show background 02 house mc
@@ -162,7 +162,7 @@ label prologue:
         "Well":
             $ x -= 5
             mc "Oh finally! I couldn't take it anymore."
-            emy "Ehi! You can't talk about your [jnR.NPClabel] like that."
+            emy "Hey! You can't talk about your [jnR.NPClabel] like that."
         "{i}I knew it...":
             mc "{i}I knew this would happen sooner or later."
     emy "Come on, sit down."

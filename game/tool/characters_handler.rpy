@@ -273,7 +273,7 @@ label customize_mc_family:
         $ vctR.changeMClabel()
 
     hide arrow
-    "For [emy] and [jn], [vct] (also applies to [mia] and [arn]) is them:"
+    "Who is [vct] to [emy] and [jn] (also applies to [mia] and [arn])?"
     $ for_emyR.changeNPClabel()
     $ for_jnR.NPClabel = for_emyR.NPClabel
     "For [vct], [mia] and [arn], [jn] is them:"
