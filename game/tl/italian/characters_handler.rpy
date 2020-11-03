@@ -182,27 +182,27 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:116
     old "son"
-    new "son"
+    new "figlio"
 
     # game/tool/characters_handler.rpy:117
     old "mom"
-    new "mom"
+    new "mamma"
 
     # game/tool/characters_handler.rpy:119
     old "dad"
-    new "dad"
+    new "papà"
 
     # game/tool/characters_handler.rpy:120
     old "brother"
-    new "brother"
+    new "fratello"
 
     # game/tool/characters_handler.rpy:121
     old "sister"
-    new "sister"
+    new "sorella"
 
     # game/tool/characters_handler.rpy:127
     old "daughter"
-    new "daughter"
+    new "figlia"
 
     # game/tool/characters_handler.rpy:132
     old "son of my friend"
