@@ -135,8 +135,8 @@ translate crowdin presentations_montell_e1df17f8:
 # game/first_day.rpy:68
 translate crowdin presentations_montell_df2224c0:
 
-    # bbf "I don't know if this was a good idea and then mom, you know I don't go out much because I don't have many friends here."
-    bbf "Non so se questa sia stata una buona idea e poi mamma, lo sai che non esco molto perché non ho molti amici qui."
+    # bbf "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
+    bbf "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
 
 # game/first_day.rpy:69
 translate crowdin presentations_montell_78aecda6:
@@ -147,8 +147,8 @@ translate crowdin presentations_montell_78aecda6:
 # game/first_day.rpy:70
 translate crowdin presentations_montell_4a23293d:
 
-    # tam "By the way [mc], did you give your [emyR.NPClabel] your school report card?"
-    tam "A proposito [mc], hai dato a tua [emyR.NPClabel] la pagella scolastica?"
+    # tam "By the way [mc], did you give your to [emyR.NPClabel] your school report card?"
+    tam "By the way [mc], did you give your to [emyR.NPClabel] your school report card?"
 
 # game/first_day.rpy:71
 translate crowdin presentations_montell_d79aa0ea:
@@ -271,8 +271,8 @@ translate crowdin prologue_1d85bbe3:
 # game/first_day.rpy:162
 translate crowdin prologue_ea9e147c:
 
-    # emy "Ehi! You can't talk about your [jnR.NPClabel] like that."
-    emy "Ehi! Non puoi parlare così di tuo [jnR.NPClabel]."
+    # emy "Hey! You can't talk about your [jnR.NPClabel] like that."
+    emy "Hey! Non puoi parlare così di tuo [jnR.NPClabel]."
 
 # game/first_day.rpy:164
 translate crowdin prologue_5d1ef22d:
