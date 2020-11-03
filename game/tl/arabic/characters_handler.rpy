@@ -205,8 +205,8 @@ translate crowdin strings:
     new "daughter"
 
     # game/tool/characters_handler.rpy:132
-    old "my friend's son"
-    new "my friend's son"
+    old "friend's son"
+    new "friend's son"
 
     # game/tool/characters_handler.rpy:133
     old "mom's friend"
