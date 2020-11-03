@@ -64,7 +64,7 @@ translate crowdin customize_mc_family_1c98758a:
 translate crowdin customize_mc_family_176e4263:
 
     # "I'm [emy]'s:"
-    "I'm [emy]'s:"
+    "Per [emy], io sono suo:"
 
 # game/tool/characters_handler.rpy:228
 translate crowdin customize_mc_family_f2645812:
@@ -76,91 +76,91 @@ translate crowdin customize_mc_family_f2645812:
 translate crowdin customize_mc_family_65bb234d:
 
     # "He is my:"
-    "He is my:"
+    "Lui è il mio:"
 
 # game/tool/characters_handler.rpy:232
 translate crowdin customize_mc_family_f40814cd:
 
     # "I'm [jn]'s:"
-    "I'm [jn]'s:"
+    "Per [jn], io sono suo:"
 
 # game/tool/characters_handler.rpy:237
 translate crowdin customize_mc_family_b13c3b91_1:
 
     # "Her name is:"
-    "Her name is:"
+    "Il suo nome è:"
 
 # game/tool/characters_handler.rpy:239
 translate crowdin customize_mc_family_1c98758a_1:
 
     # "She is my:"
-    "She is my:"
+    "Lei è la mia:"
 
 # game/tool/characters_handler.rpy:241
 translate crowdin customize_mc_family_21811c9e:
 
     # "I'm [mia]'s:"
-    "I'm [mia]'s:"
+    "Per [mia], io sono suo:"
 
 # game/tool/characters_handler.rpy:255
 translate crowdin customize_mc_family_b13c3b91_2:
 
     # "Her name is:"
-    "Her name is:"
+    "Il suo nome è:"
 
 # game/tool/characters_handler.rpy:258
 translate crowdin customize_mc_family_1c98758a_2:
 
     # "She is my:"
-    "She is my:"
+    "Lei è la mia:"
 
 # game/tool/characters_handler.rpy:260
 translate crowdin customize_mc_family_4b262b3d:
 
     # "I'm [arn]'s:"
-    "I'm [arn]'s:"
+    "Per [arn], io sono suo:"
 
 # game/tool/characters_handler.rpy:264
 translate crowdin customize_mc_family_b13c3b91_3:
 
     # "Her name is:"
-    "Her name is:"
+    "Il suo nome è:"
 
 # game/tool/characters_handler.rpy:267
 translate crowdin customize_mc_family_1c98758a_3:
 
     # "She is my:"
-    "She is my:"
+    "Lei è la mia:"
 
 # game/tool/characters_handler.rpy:269
 translate crowdin customize_mc_family_6cd3181f:
 
     # "I'm [vct]'s:"
-    "I'm [vct]'s:"
+    "Per [vct], io sono suo:"
 
 # game/tool/characters_handler.rpy:273
 translate crowdin customize_mc_family_64c7ff47:
 
-    # "For [emy] and [jn], [vct] (also applies to [mia] and [arn]) is them:"
-    "For [emy] and [jn], [vct] (also applies to [mia] and [arn]) is them:"
+    # "Who is [vct] to [emy] and [jn] (also applies to [mia] and [arn])?"
+    "Who is [vct] to [emy] and [jn] (also applies to [mia] and [arn])?"
 
 # game/tool/characters_handler.rpy:276
 translate crowdin customize_mc_family_f8f0e56e:
 
     # "For [vct], [mia] and [arn], [jn] is them:"
-    "For [vct], [mia] and [arn], [jn] is them:"
+    "Per [vct], [mia] and [arn], [jn] è il loro:"
 
 # game/tool/characters_handler.rpy:278
 translate crowdin customize_mc_family_2f9e588c:
 
     # "For [vct], [mia] and [arn], [emy] is them:"
-    "For [vct], [mia] and [arn], [emy] is them:"
+    "Per [vct], [mia] and [arn], [emy] è la loro:"
 
 # game/tool/characters_handler.rpy:293
 translate crowdin renaming_friend_9d439fc7:
 
     # "[mc]'s [bbfR.NPClabel] is called:"
-    "[mc]'s [bbfR.NPClabel] is called:"
+    "Il [bbfR.NPClabel] di [mc] si chiama:"
 
 translate crowdin strings:
 
@@ -174,7 +174,7 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:113
     old "A rented house funded by the school"
-    new "A rented house funded by the school"
+    new "Una casa in affitto finanziata dalla scuola"
 
     # game/tool/characters_handler.rpy:113
     old "{i}\"Customize\""
@@ -206,19 +206,19 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:132
     old "friend's son"
-    new "friend's son"
+    new "/il figlio della mia amica"
 
     # game/tool/characters_handler.rpy:133
     old "mom's friend"
-    new "mom's friend"
+    new "/l'amica di mamma"
 
     # game/tool/characters_handler.rpy:135
     old "dad's friend"
-    new "dad's friend"
+    new "/l'amico di papà"
 
     # game/tool/characters_handler.rpy:136
     old "family friend"
-    new "family friend"
+    new "/un'amica di famiglia"
 
     # game/tool/characters_handler.rpy:148
     old "landlord"
@@ -230,7 +230,7 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:152
     old "housemate"
-    new "housemate"
+    new "coinquilina"
 
     # game/tool/characters_handler.rpy:243
     old "Do you want to assign the last two values to the other [housemates] too?"
@@ -238,9 +238,9 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:130
     old "sisters"
-    new "sisters"
+    new "sorelle"
 
     # game/tool/characters_handler.rpy:147
     old "housemates"
-    new "housemates"
+    new "coinquiline"
 
