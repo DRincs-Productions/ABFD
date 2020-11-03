@@ -4,13 +4,13 @@
 translate crowdin temporary_end_story_25e4d9c4_1:
 
     # "This is the temporary end (current version: [config.version]). You'll have to wait new update."
-    " To jest tymczasowy koniec (bieżąca wersja: [config.version]). Musisz poczekać na nową aktualizację.”
+    "To jest tymczasowy koniec (bieżąca wersja: [config.version]). Musisz poczekać na nową aktualizację.”
 
 # game/tool/temporary_end.rpy:7
 translate crowdin temporary_end_story_5f0229be_1:
 
     # "If you want more updates, support me on {a=https://www.patreon.com/DRincs}Patreon"
-    "Jeśli chcesz uzyskać więcej aktualizacji, wspieraj mnie na stronie {a=https: //www.patreon.com/DRincs} Patreon"
+    "Jeśli chcesz uzyskać więcej aktualizacji, wspieraj mnie na stronie {a=https: //www.patreon.com/DRincs}Patreon"
 
 # game/tool/temporary_end.rpy:16
 translate crowdin temporary_end_game_ae6086f7_1:
