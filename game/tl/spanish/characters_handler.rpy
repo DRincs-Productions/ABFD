@@ -22,31 +22,31 @@ translate crowdin live_with_42cd0ea9:
 translate crowdin renaming_mc_family_90eebff9:
 
     # "My [emyR.NPClabel]'s name:"
-    "My [emyR.NPClabel]'s name:"
+    "El nombre del [emyR.NPClabel] es:"
 
 # game/tool/characters_handler.rpy:197
 translate crowdin renaming_mc_family_66e9d7c7:
 
     # "My [jnR.NPClabel]'s name:"
-    "My [jnR.NPClabel]'s name:"
+    "El nombre del [jnR.NPClabel] es:"
 
 # game/tool/characters_handler.rpy:202
 translate crowdin renaming_mc_family_52da3e95:
 
     # "My little [miaR.NPClabel]'s name:"
-    "My little [miaR.NPClabel]'s name:"
+    "El nombre de la [miaR.NPClabel] más pequeña es:"
 
 # game/tool/characters_handler.rpy:206
 translate crowdin renaming_mc_family_c9cffb00:
 
     # "My (coetaneous) [arnR.NPClabel]'s name:"
-    "My (coetaneous) [arnR.NPClabel]'s name:"
+    "El nombre de la [arnR.NPClabel] de mi misma edad es:"
 
 # game/tool/characters_handler.rpy:210
 translate crowdin renaming_mc_family_8c9af609:
 
     # "My big [vctR.NPClabel]'s name:"
-    "My big [vctR.NPClabel]'s name:"
+    "El nombre de la [vctR.NPClabel] más mayor es:"
 
 # game/tool/characters_handler.rpy:220
 translate crowdin customize_mc_family_b13c3b91:
@@ -141,8 +141,8 @@ translate crowdin customize_mc_family_6cd3181f:
 # game/tool/characters_handler.rpy:273
 translate crowdin customize_mc_family_64c7ff47:
 
-    # "For [emy] and [jn], [vct] (also applies to [mia] and [arn]) is them:"
-    "Para [emy] y [jn], [vct] (también se incluye a [mia] y a [arn]) es:"
+    # "Who is [vct] to [emy] and [jn] (also applies to [mia] and [arn])?"
+    "Who is [vct] to [emy] and [jn] (also applies to [mia] and [arn])?"
 
 # game/tool/characters_handler.rpy:276
 translate crowdin customize_mc_family_f8f0e56e:
@@ -160,7 +160,7 @@ translate crowdin customize_mc_family_2f9e588c:
 translate crowdin renaming_friend_9d439fc7:
 
     # "[mc]'s [bbfR.NPClabel] is called:"
-    "[mc]'s [bbfR.NPClabel] is called:"
+    "El [bbfR.NPClabel] de [mc] se llama:"
 
 translate crowdin strings:
 
@@ -206,19 +206,19 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:132
     old "friend's son"
-    new "friend's son"
+    new "el hijo de una amiga"
 
     # game/tool/characters_handler.rpy:133
     old "mom's friend"
-    new "amigo de mamá"
+    new "la amiga de mamá"
 
     # game/tool/characters_handler.rpy:135
     old "dad's friend"
-    new "amigo de papá"
+    new "el amigo de papá"
 
     # game/tool/characters_handler.rpy:136
     old "family friend"
-    new "amigo de la familia"
+    new "amiga de la familia"
 
     # game/tool/characters_handler.rpy:148
     old "landlord"
