@@ -130,7 +130,7 @@ label live_with:
             $ housemates = __("sisters")
         "Family friends":
             $ incs = False
-            $ emyR.MClabel = __("my friend's son")
+            $ emyR.MClabel = __("friend's son")
             $ emyR.NPClabel = __("mom's friend")
             $ jnR.MClabel = emyR.MClabel
             $ jnR.NPClabel = __("dad's friend")
