@@ -141,8 +141,8 @@ translate crowdin customize_mc_family_6cd3181f:
 # game/tool/characters_handler.rpy:273
 translate crowdin customize_mc_family_64c7ff47:
 
-    # "For [emy] and [jn], [vct] (also applies to [mia] and [arn]) is them:"
-    "For [emy] and [jn], [vct] (also applies to [mia] and [arn]) is them:"
+    # "Who is [vct] to [emy] and [jn] (also applies to [mia] and [arn])?"
+    "Who is [vct] to [emy] and [jn] (also applies to [mia] and [arn])?"
 
 # game/tool/characters_handler.rpy:276
 translate crowdin customize_mc_family_f8f0e56e:
