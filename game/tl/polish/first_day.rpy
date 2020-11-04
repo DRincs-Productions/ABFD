@@ -136,7 +136,7 @@ translate crowdin presentations_montell_e1df17f8:
 translate crowdin presentations_montell_df2224c0:
 
     # bbf "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
-    bbf "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
+    bbf "Nie wiem, czy to był dobry pomysł, mamo, wiesz, że nie wychodzę zbyt często, ponieważ nie mam tu wielu przyjaciół ”
 
 # game/first_day.rpy:69
 translate crowdin presentations_montell_78aecda6:
@@ -148,7 +148,7 @@ translate crowdin presentations_montell_78aecda6:
 translate crowdin presentations_montell_4a23293d:
 
     # tam "By the way [mc], did you give your to [emyR.NPClabel] your school report card?"
-    tam "By the way [mc], did you give your to [emyR.NPClabel] your school report card?"
+    tam "Swoją drogą [mc], czy dałeś [emyR.NPClabel] swoją kartę ocen? ”
 
 # game/first_day.rpy:71
 translate crowdin presentations_montell_d79aa0ea:
@@ -272,7 +272,7 @@ translate crowdin prologue_1d85bbe3:
 translate crowdin prologue_ea9e147c:
 
     # emy "Hey! You can't talk about your [jnR.NPClabel] like that."
-    emy "Hey! Nie możesz mówić o swoim [jnR.NPClabel] w ten sposób."
+    emy "Hej! Nie możesz mówić o swoim [jnR.NPClabel] w ten sposób."
 
 # game/first_day.rpy:164
 translate crowdin prologue_5d1ef22d:
