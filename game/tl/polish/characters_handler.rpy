@@ -142,7 +142,7 @@ translate crowdin customize_mc_family_6cd3181f:
 translate crowdin customize_mc_family_64c7ff47:
 
     # "Who is [vct] to [emy] and [jn] (also applies to [mia] and [arn])?"
-    "Who is [vct] to [emy] and [jn] (also applies to [mia] and [arn])?"
+    "Kim jest [vct] dla [emy] i [jn] (dotyczy również [mia] i [arn])?"
 
 # game/tool/characters_handler.rpy:276
 translate crowdin customize_mc_family_f8f0e56e:
@@ -206,7 +206,7 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:132
     old "friend's son"
-    new "syn przyjaciela"
+    new "koleżanka syna"
 
     # game/tool/characters_handler.rpy:133
     old "mom's friend"
@@ -214,11 +214,11 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:135
     old "dad's friend"
-    new "przyjaciel taty"
+    new "przyjaciółka taty"
 
     # game/tool/characters_handler.rpy:136
     old "family friend"
-    new "przyjaciółka rodziny"
+    new "przyjaciel rodziny"
 
     # game/tool/characters_handler.rpy:148
     old "landlord"
