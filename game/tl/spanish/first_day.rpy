@@ -16,7 +16,7 @@ translate crowdin intro_ea546e9e:
 translate crowdin intro_63d87681:
 
     # mc "To be honest, my real family died in a plane crash. After their death I moved from [old_city] to [city] where I started a new life."
-    mc "Para serte sincero, mi familia real murió en un accidente de avión. After their death I moved from [old_city] to [city] where I started a new life."
+    mc "Para serte sincero, mi familia real murió en un accidente de avión. Después de su muerte me mudé de [old_city] a [city], dónde empecé una nueva vida."
 
 # game/first_day.rpy:15
 translate crowdin presentations_c48a2b2d:
@@ -136,7 +136,7 @@ translate crowdin presentations_montell_e1df17f8:
 translate crowdin presentations_montell_df2224c0:
 
     # bbf "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
-    bbf "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
+    bbf "Yo no se si eso fue una buena idea, además mamá, ya sabes que no salgo mucho porque no tengo muchos amigos aquí."
 
 # game/first_day.rpy:69
 translate crowdin presentations_montell_78aecda6:
@@ -148,13 +148,13 @@ translate crowdin presentations_montell_78aecda6:
 translate crowdin presentations_montell_4a23293d:
 
     # tam "By the way [mc], did you give your to [emyR.NPClabel] your school report card?"
-    tam "By the way [mc], did you give your to [emyR.NPClabel] your school report card?"
+    tam "Por cierto [mc], le diste a las notas de la escuela a [emyR.NPClabel]?"
 
 # game/first_day.rpy:71
 translate crowdin presentations_montell_d79aa0ea:
 
     # mc "Not yet, I'm going to talk to her tonight."
-    mc "Aún no, hableré con ella esta noche."
+    mc "Aún no, hablaré con ella esta noche."
 
 # game/first_day.rpy:72
 translate crowdin presentations_montell_1d95ff6e:
@@ -272,7 +272,7 @@ translate crowdin prologue_1d85bbe3:
 translate crowdin prologue_ea9e147c:
 
     # emy "Hey! You can't talk about your [jnR.NPClabel] like that."
-    emy "Hey! No puedes hablar así de tu [jnR.NPClabel]."
+    emy "Oye! No puedes hablar así de tu [jnR.NPClabel]."
 
 # game/first_day.rpy:164
 translate crowdin prologue_5d1ef22d:
@@ -338,83 +338,83 @@ translate crowdin prologue_c2a201c9:
 translate crowdin prologue_4f8080f8:
 
     # emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. And if he wanted to continue, he could leave."
-    emy "Cariño, ya lo sabes, intenté ayudarlo, pero ayer no pude soportalo más. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. And if he wanted to continue, he could leave."
+    emy "Cariño, ya lo sabes, intenté ayudarlo, pero ayer no pude soportalo más. Le dije que él podía hacer lo que quería, pero esta no es hogar para adictos o alcohólicos. Y que si quería continuar, podía irse."
 
 # game/first_day.rpy:196
 translate crowdin prologue_5e467b9b:
 
     # mc "Okay, but I wanted to understand what happened yesterday. If he left for some reason or something you told him."
-    mc "Okay, but I wanted to understand what happened yesterday. If he left for some reason or something you told him."
+    mc "Vale, pero quiero entender lo que pasó ayer. Si se fue por alguna razón o algo que le dijiste."
 
 # game/first_day.rpy:197
 translate crowdin prologue_965dba69:
 
     # emy "So in your opinion it may be my fault that he left!?"
-    emy "So in your opinion it may be my fault that he left!?"
+    emy "Así qué según tu opinion puede que sea mi culpa de que él se haya ido!?"
 
 # game/first_day.rpy:198
 translate crowdin prologue_3eb68609:
 
     # mc "No! I didn't mean that. It's just that..."
-    mc "No! I didn't mean that. It's just that..."
+    mc "No! No quería decir eso. Es solo que..."
 
 # game/first_day.rpy:199
 translate crowdin prologue_4e38f9b3:
 
     # emy "Now I want to be alone for a while, go ahead."
-    emy "Now I want to be alone for a while, go ahead."
+    emy "Quiero estar sola un rato, márchate."
 
 # game/first_day.rpy:204
 translate crowdin prologue_76915bb5:
 
     # mc "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
-    mc "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
+    mc "Vale, [emyR.NPClabel]. Estoy un poco cansado, me voy a mi cuarto."
 
 # game/first_day.rpy:206
 translate crowdin prologue_eaf16fc3:
 
     # emy "I've kept you long enough, go ahead."
-    emy "I've kept you long enough, go ahead."
+    emy "Te he estado ocupando demasiado tiempo, adelante."
 
 # game/first_day.rpy:211
 translate crowdin prologue_end_7619bf8f:
 
     # mc "{i}Shit! I have enough problems on my own, that's all we needed."
-    mc "{i}Shit! I have enough problems on my own, that's all we needed."
+    mc "{i}Mierda! Ya tengo suficiente con mis problemas, solo necesitábamos esto."
 
 # game/first_day.rpy:212
 translate crowdin prologue_end_70b21ba8:
 
     # mc "{i}Who knows how is [mia]?! Maybe I should talk to her, she will probably tell me something more."
-    mc "{i}Who knows how is [mia]?! Maybe I should talk to her, she will probably tell me something more."
+    mc "{i}¿¡Quién sabe como está [mia]!? Quizás debería hablar con ella, seguramente ella me dirá algo más."
 
 translate crowdin strings:
 
     # game/first_day.rpy:152
     old "Where did he go?"
-    new "Where did he go?"
+    new "¿A dónde fue él?"
 
     # game/first_day.rpy:152
     old "Why?"
-    new "Why?"
+    new "Por qué?"
 
     # game/first_day.rpy:152
     old "Well"
-    new "Well"
+    new "Bueno"
 
     # game/first_day.rpy:152
     old "{i}I knew it..."
-    new "{i}I knew it..."
+    new "{i}Lo sabía..."
 
     # game/first_day.rpy:178
     old "His loss"
-    new "His loss"
+    new "Su perdida"
 
     # game/first_day.rpy:178
     old "What happened? {color=#f00}(Probability 10%)"
-    new "What happened? {color=#f00}(Probability 10%)"
+    new "¿Qué ha pasado? {color=#f00}(Probabilidad del 10%)"
 
     # game/first_day.rpy:178
     old "Go away"
-    new "Go away"
+    new "Vete"
 
