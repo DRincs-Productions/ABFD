@@ -142,7 +142,7 @@ translate crowdin customize_mc_family_6cd3181f:
 translate crowdin customize_mc_family_64c7ff47:
 
     # "Who is [vct] to [emy] and [jn] (also applies to [mia] and [arn])?"
-    "Who is [vct] to [emy] and [jn] (also applies to [mia] and [arn])?"
+    "Chi è [vct] per [emy] e [jn] (vale anche per il [mia] e il [arn])?"
 
 # game/tool/characters_handler.rpy:276
 translate crowdin customize_mc_family_f8f0e56e:
@@ -234,7 +234,7 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:243
     old "Do you want to assign the last two values to the other [housemates] too?"
-    new "Do you want to assign the last two values to the other [housemates] too?"
+    new "Vuoi assegnare gli ultimi due valori anche alle altre [housemates]?"
 
     # game/tool/characters_handler.rpy:130
     old "sisters"
