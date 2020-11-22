@@ -1,4 +1,5 @@
 ## A Big Family in Debt
+![Last Release](https://img.shields.io/github/v/release/DonRP/ABFD)
 ![Last commit](https://img.shields.io/github/last-commit/DonRP/ABFD)
 ![License](https://img.shields.io/github/license/DonRP/ABFD)
 <span class="discord">
