@@ -11,6 +11,8 @@
 
 ABFD is a Game/Visual Novel for adults only. This repo was born for those who want to correct errors, improve some aspects of the game or create Mod.
 
+![alt text](https://github.com/DonRP/ABFD/blob/master/game/gui/main_menu.webp "Mai menu")
+
 Inside the repo there is only the code. Were you looking for another repo?
 - [ABFD-3D](https://github.com/DonRP/ABFD-3D)
 - [ABFD-art](https://github.com/DonRP/ABFD-art)
