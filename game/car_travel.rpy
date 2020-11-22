@@ -4,9 +4,9 @@ image car tammy 02 = "/car_travel/Tammy02.webp"
 image mc bbf = "/car_travel/Tammy01-MC-BBF.webp"
 image mc 02 get_out = "/car_travel/Tammy02-MC-get_out.webp"
 image mc 02 talk_ahead = "/car_travel/Tammy02-MC-talk_ahead.webp"
-image background 02 house mc = "/car_travel/background02/house-MC.webp"
+image bg 02 house mc = "/car_travel/background02/house-MC.webp"
 # Background
-image background animated residential:
+image bg animated residential:
     "/car_travel/background02/residential_area0.webp"
     pause 0.7
     "/car_travel/background02/residential_area1.webp"

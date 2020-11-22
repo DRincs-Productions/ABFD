@@ -13,6 +13,6 @@ image profile vct 01 = "/Victoria/profile01.webp"
 image profile mia 01 = "/Mia/profile01.webp"
 image profile emy 01 = "/Emily/profile01.webp"
 ## Background
-image background living_room spydoor01 = "/background/house/living_room-spydoor01.webp"
+image bg living_room spydoor01 = "/background/house/living_room-spydoor01.webp"
 image emy living_room spydoor01 cries = "/Emily/living_room/spydoor01-cries.webp"
 image mc living_room spydoor01 look01 = "/MC/living_room/spydoor01-look01.webp"
