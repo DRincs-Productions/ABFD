@@ -2,6 +2,7 @@
 ![Last Release](https://img.shields.io/github/v/release/DonRP/ABFD)
 ![Last commit](https://img.shields.io/github/last-commit/DonRP/ABFD)
 ![License](https://img.shields.io/github/license/DonRP/ABFD)
+[![Crowdin](https://badges.crowdin.net/ABFD/localized.svg)](https://crowdin.com/project/ABFD)
 <span class="discord">
 <a href="https://discord.gg/HFfeJKR" title="Discord"><img src="https://img.shields.io/discord/688162156151439536" alt="Discord" /></a>
 </span>
