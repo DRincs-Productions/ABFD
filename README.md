@@ -7,7 +7,7 @@
 <a href="https://discord.gg/HFfeJKR" title="Discord"><img src="https://img.shields.io/discord/688162156151439536" alt="Discord" /></a>
 </span>
 <span class="badge-patreon">
-<a href="https://patreon.com/DRincs" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a>
+<a href="https://patreon.com/m/4135825" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a>
 </span>
 
 ABFD is a Game/Visual Novel for adults only. This repo was born for those who want to correct errors, improve some aspects of the game or create Mod.
