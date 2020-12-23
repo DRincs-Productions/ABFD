@@ -420,7 +420,7 @@ screen main_menu():
             imagebutton:
                 idle Frame(patreon_idle, xfill=True, yfill=True)
                 hover Frame(patreon_hover, xfill=True, yfill=True)
-                action OpenURL("https://www.patreon.com/DRincs")
+                action OpenURL("https://www.patreon.com/m/4135825")
                 ysize 256 # Y patreon icon
                 xalign 0.5
 

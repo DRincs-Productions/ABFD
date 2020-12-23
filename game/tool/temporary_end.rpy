@@ -4,7 +4,7 @@ define to_be_continued_path = "images/coming_soon.webp"
 # Temporary end of the story (then play other stories)
 label temporary_end_story:
     "This is the temporary end (current version: [config.version]). You'll have to wait new update."
-    "If you want more updates, support me on {a=https://www.patreon.com/DRincs}Patreon"
+    "If you want more updates, support me on {a=https://www.patreon.com/m/4135825}Patreon"
     return
 
 # Temporary end of the game
@@ -26,7 +26,7 @@ label temporary_end_game:
 # Coming soon text
 label coming_soon:
     "(Coming soon)"
-    "Support me on {a=https://www.patreon.com/DRincs}Patreon"
+    "Support me on {a=https://www.patreon.com/m/4135825}Patreon"
     return
 
 screen patreon_button():
@@ -39,6 +39,6 @@ screen patreon_button():
         imagebutton:
             idle Frame(patreon_idle, xfill=True, yfill=True)
             hover Frame(patreon_hover, xfill=True, yfill=True)
-            action OpenURL("https://www.patreon.com/DRincs")
+            action OpenURL("https://www.patreon.com/m/4135825")
             ysize 256 # Y patreon icon
             xalign 0.5
