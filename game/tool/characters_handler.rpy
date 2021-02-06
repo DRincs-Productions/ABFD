@@ -370,15 +370,15 @@ label renaming_friend:
     # allow default name(s) to be saved across multiple games
     if renpy.variant("pc"):
         if mp_ndata.malebff_fname != None:
-            $ bbfI.name_default = mp_ndata.malebff_fname
+            $ bffI.name_default = mp_ndata.malebff_fname
         if mp_ndata.malebff_sname != None:
-            $ bbfI.sname_default = mp_ndata.malebff_sname
-    "[mc]'s [bbfR.NPClabel] is called:"
-    $ bbfI.changeName()
+            $ bffI.sname_default = mp_ndata.malebff_sname
+    "[mc]'s [bffR.NPClabel] is called:"
+    $ bffI.changeName()
     if renpy.variant("pc"):
-        if bbfI.name != bbfI.name_default:
-            $ mp_ndata.malebff_fname = bbfI.name
-        if bbfI.sname != bbfI.sname_default:
-            $ mp_ndata.malebff_sname = bbfI.sname
+        if bffI.name != bffI.name_default:
+            $ mp_ndata.malebff_fname = bffI.name
+        if bffI.sname != bffI.sname_default:
+            $ mp_ndata.malebff_sname = bffI.sname
         $ mp_ndata.save()
     return

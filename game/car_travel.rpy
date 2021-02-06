@@ -1,7 +1,7 @@
 # Tammy
 image car tammy = "/car_travel/Tammy01.webp"
 image car tammy 02 = "/car_travel/Tammy02.webp"
-image mc bbf = "/car_travel/Tammy01-MC-BBF.webp"
+image mc bff = "/car_travel/Tammy01-MC-bff.webp"
 image mc 02 get_out = "/car_travel/Tammy02-MC-get_out.webp"
 image mc 02 talk_ahead = "/car_travel/Tammy02-MC-talk_ahead.webp"
 image bg 02 house mc = "/car_travel/background02/house-MC.webp"
@@ -17,10 +17,10 @@ image bg animated residential:
     pause 0.7
     repeat
 
-label travel_tammy_bbf:
+label travel_tammy_bff:
     play ambience "audio/ambience-car_inside.ogg"
     show car tammy
-    show mc bbf
+    show mc bff
     with dissolve
     return
 
