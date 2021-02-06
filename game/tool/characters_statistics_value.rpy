@@ -45,7 +45,7 @@ label stats_default_bfffamily:
         'intelligence'  :   70,
         'videogame'     :   80,
     })
-    $ stats['tam'] = Statistics(friegender = "M", virgin = True, friendship = 90,
+    $ stats['tam'] = Statistics(friegender = "F", virgin = True, friendship = 90,
     other_values= {
         'strength'      :   30,
         'charisma'      :   20,
