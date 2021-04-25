@@ -46,6 +46,8 @@ init python:
 
             else:
                 self.average = self.get_convert(amt/item)
+            del item
+            del amt
         def get_average_matter(self, matter):
             """Returns the average of a matter"""
             return self.get_convert(self.get(matter))
