@@ -8,7 +8,7 @@ init:
         ease 0.3 alpha 1.0
     #tools
     transform middle_room:
-        size (136, 136)
+        size (226, 226)
         on selected_idle:
             yanchor 0 alpha 0.9
         on idle:
@@ -28,7 +28,7 @@ init:
         on selected_hover:
             yanchor 1 alpha 0.9
     transform middle_action:
-        size (120, 120)
+        size (190, 190)
         on selected_idle:
             yanchor 0 alpha 0.7
         on idle:
@@ -48,7 +48,7 @@ init:
         on selected_hover:
             yanchor 1 alpha 0.93
     transform small_menu:
-        size (80, 80)
+        size (100, 100)
         on selected_idle:
             yanchor 0 alpha 0.4
         on idle:
@@ -116,9 +116,9 @@ screen room_navigation():
 
                 # If the Locations where I am is the same as the Locations where the room is located
                 if (room.id_location == cur_location.id):
-                    button xysize (126, 190) action [Hide('wait_navigation'), SetVariable('prev_room', cur_room), SetVariable('cur_room', room), SetVariable('sp_bg_change_room', getBgRoomRoutine(cur_routines_location, room.id)), Jump('change_room')]:
-                        has vbox xsize 126 spacing 0
-                        frame xysize (126, 140) background None:
+                    button xysize (216, 300) action [Hide('wait_navigation'), SetVariable('prev_room', cur_room), SetVariable('cur_room', room), SetVariable('sp_bg_change_room', getBgRoomRoutine(cur_routines_location, room.id)), Jump('change_room')]:
+                        has vbox xsize 216 spacing 0
+                        frame xysize (216, 230) background None:
                             # Room icon
                             imagebutton:
                                 align (0.5, 0.0)
@@ -146,7 +146,7 @@ screen room_navigation():
                                                     action [Hide('wait_navigation'), SetVariable('prev_room', cur_room), SetVariable('cur_room', room), SetVariable('sp_bg_change_room', getBgRoomRoutine(cur_routines_location, room.id)), Jump('change_room')]
 
                         # Room name
-                        text room.name font 'DejaVuSans.ttf' size 18 drop_shadow [(2, 2)] xalign 0.5 text_align 0.5 line_leading 0 line_spacing -2
+                        text room.name font 'DejaVuSans.ttf' size 30 drop_shadow [(2, 2)] xalign 0.5 text_align 0.5 line_leading 0 line_spacing -2
                     key str(i) action [Hide('wait_navigation'), SetVariable('prev_room', cur_room), SetVariable('cur_room', room), SetVariable('sp_bg_change_room', getBgRoomRoutine(cur_routines_location, room.id)), Jump('change_room')]
 
         # Actions
@@ -201,8 +201,8 @@ screen room_navigation():
         align (0.5, 0.01)
         vbox:
             align (0.5, 0.01)
-            text "[tm.hour]:00" xalign (0.5) font 'DejaVuSans.ttf' size 60 drop_shadow [(2, 2)]
-            text tm.get_weekday_name() xalign (0.5) font 'DejaVuSans.ttf' size 24 drop_shadow [(2, 2)] line_leading -16
+            text "[tm.hour]:00" xalign (0.5) font 'DejaVuSans.ttf' size 90 drop_shadow [(2, 2)]
+            text tm.get_weekday_name() xalign (0.5) font 'DejaVuSans.ttf' size 36 drop_shadow [(2, 2)] line_leading -16
 
         if (map_looking):
             # Fixed button to wait
@@ -266,7 +266,7 @@ screen room_navigation():
         spacing 2
 
         # Money
-        text "$20" xalign (1.0) font 'DejaVuSans.ttf' size 30 drop_shadow [(2, 2)]
+        text "$20" xalign (1.0) font 'DejaVuSans.ttf' size 40 drop_shadow [(2, 2)]
 
         imagebutton:
             idle '/interface/menu-inventory.webp'
@@ -306,7 +306,7 @@ screen room_navigation():
                 xpos x-20
                 ypos y-20
                 font 'DejaVuSans.ttf' 
-                size 18 
+                size 27 
                 drop_shadow [(2, 2)] 
                 outlines [(2, "#000", 0, 1)]
 
