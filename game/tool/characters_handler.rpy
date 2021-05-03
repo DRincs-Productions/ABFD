@@ -154,6 +154,8 @@ label renaming_mc:
             $ mcI.set("sname_default", mp_ndata.male_sname)
 
     "Player" "My name is:"
+    $ renpy.music.set_pause(True, channel='music')
+    $ renpy.music.set_pause(True, channel='ambience')
     $ mcI.changeName()
     "Player" "My surname is:"
     $ mcI.changeSurname()

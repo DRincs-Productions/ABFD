@@ -108,7 +108,6 @@ label start:
             discord_rpc.run_callbacks()
 
     # The real start of the game
-    stop music fadeout 1.0
     call screen check_age
     "Welcome to [config.name]"
     call NTR_enabler
