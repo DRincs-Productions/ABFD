@@ -194,8 +194,7 @@ label live_with:
         if mp_ndata.female_sname != None:
             $ arnI.memory["sname_default"] = mp_ndata.female_sname
     menu:
-        "Step family" if(incs):
-            $ incs = True
+        "Step family" if(bl_values.get("incs")):
             $ emyR.MClabel = __("son")
             $ emyR.NPClabel = __("mom")
             $ jnR.MClabel = emyR.MClabel
@@ -212,7 +211,6 @@ label live_with:
             $ for_jnR.NPClabel = for_emyR.NPClabel
             $ housemates = __("sisters")
         "Family friends":
-            $ incs = False
             $ emyR.MClabel = __("friend's son")
             $ emyR.NPClabel = __("mom's friend")
             $ jnR.MClabel = emyR.MClabel
@@ -229,7 +227,6 @@ label live_with:
             $ for_jnR.NPClabel = for_emyR.NPClabel
             $ housemates = __("housemates")
         "A rented house funded by the school":
-            $ incs = False
             $ emyR.MClabel = __("landlord")
             $ emyR.NPClabel = __("leaseholder")
             $ jnR.MClabel = emyR.MClabel
@@ -364,10 +361,6 @@ label customize_mc_family:
     "For [vct], [mia] and [arn], [emy] is them:"
     $ for_emyR.changeMClabel()
     hide photo
-
-    if (emyR.NPClabel.lower() == "mom" or emyR.NPClabel.lower() == "mother"):
-        $ incs = True
-        $ housemates = __("sisters")
     return
 
 label renaming_friend:

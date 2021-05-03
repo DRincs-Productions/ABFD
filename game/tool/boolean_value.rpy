@@ -7,6 +7,7 @@ define bl_memory = [
     # Block all actions with check_block_spendtime
     "block_spendtime",
     "goout",
+    "incs",
 ]
 
 init python:
