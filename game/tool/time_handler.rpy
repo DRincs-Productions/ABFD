@@ -111,7 +111,7 @@ init python:
 # ATTENTION here it is initialized
 # when a save is loaded it is created with the updateTimeHandler() function
 # SO: if you don't use the default values, you must also change them in updateTimeHandler ()
-default tm = TimeHandler()
+default tm = TimeHandler(hour=17)
 
 init -9 python:
     def updateTimeHandler():
