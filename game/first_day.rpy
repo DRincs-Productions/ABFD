@@ -221,5 +221,4 @@ label prologue_end:
     mc "{i}Shit! I have enough problems on my own, that's all we needed."
     mc "{i}Who knows how is [mia]?! Maybe I should talk to her, she will probably tell me something more."
     stop music fadeout 1.0
-    call temporary_end_game
     return

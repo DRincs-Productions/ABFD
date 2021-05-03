@@ -117,4 +117,12 @@ label start:
 
     call intro
 
+    $ cur_room = rooms[0]
+    $ cur_location = locations[cur_room.id_location]
+    $ prev_room = rooms[0]
+    $ updateBL()
+
+    ## call screen room_navigation
+    call after_wait
+
     return
