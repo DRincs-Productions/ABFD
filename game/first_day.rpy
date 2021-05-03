@@ -4,10 +4,12 @@ label intro:
     show profile mc 01
     with dissolve
     call renaming_mc
-    $ grade.update_average()
-    mc "Hi, I'm a normal [mcI.age] year old boy with classic problems and no desire to commit, but just to have fun. I don't have a {b}girlfriend{/b}, a {b}job{/b} or concrete plans for the future and my school situation is gross. In the {b}school report of the first quarter{/b} I have all [grade.average]."
     $ renpy.music.set_pause(False, channel='music')
     $ renpy.music.set_pause(False, channel='ambience')
+    show profile mc 01
+    with dissolve
+    $ school_grades_mc.update_average()
+    mc "Hi, I'm a normal [mcI.age] year old boy with classic problems and no desire to commit, but just to have fun. I don't have a {b}girlfriend{/b}, a {b}job{/b} or concrete plans for the future and my school situation is gross. In the {b}school report of the first quarter{/b} I have all [school_grades_mc.average]."
     mc "My family is worried about my poor results and some of my behaviors, which is why they are deciding whether to keep me at home or have me transferred to a hateful [catholic_institute]. I have to make sure that this will never happen."
     mc "To be honest, my real family died in a plane crash. After their death I moved from [old_city] to [city] where I started a new life."
     call live_with
@@ -131,21 +133,21 @@ label prologue:
     hide mc
     hide text
 
+    image bg prologue C00 = "/intro/C00.webp"
+    image mc prologue C00 = "/intro/C00-MC.webp"
     image bg prologue C01 = "/intro/C01.webp"
     image bg prologue C02 = "/intro/C02.webp"
     image bg prologue C02 blur = im.Blur("/intro/C02.webp", 7)
     image bg prologue C03 = "/intro/C03.webp"
     image bg prologue C04 = "/intro/C04.webp"
     image bg prologue C05 = "/intro/C05.webp"
-    image note prologue = "/intro/note.webp"
+    image note prologue = "/tools/note.webp"
     stop ambience fadeout 1.0
     play sound "audio/sfx-door1.ogg"
-    $ emyP.favour = 20
     $ x = 0
-    show bg living_room spydoor01
-    show emy living_room spydoor01 cries
+    show bg prologue C00
     mc "I am home!"
-    show mc living_room spydoor01 look01
+    show mc prologue C00
     with dissolve
     play music "audio/music-somber.ogg"
     mc "{i}What!? What is happening?"
@@ -173,13 +175,14 @@ label prologue:
     show bg prologue C02
     with dissolve
     emy "When I woke up I found this in the kitchen. Do you realize... [mia] could have found it."
-    show note prologue
+    show note prologue at center_delay(0.1)
+    show text _("{color=#000}{size=120}{font=fonts/handwriting_alphabetizedcassettetapes-classic.ttf}My presence \n only causes problem. \n I will fix our problem, \n but then I will not come back \n\n    [jn]{/color}") at center_delay(0.1)
     if renpy.variant("pc"):
         show bg prologue C02 blur with dissolve
     window hide
     pause
-    jn "{i}My presence only causes problem. I will fix our problem, but then I will not come back. [jn]"
     hide note
+    hide text
     show bg prologue C02
     emy "Now how are we going to do without him!?"
     menu:
@@ -214,7 +217,7 @@ label prologue:
 
 label prologue_end:
     show bg prologue C05 with dissolve
-    $ emyP.changeFavour(x)
+    $ stats['emy'].change('favour', x)
     mc "{i}Shit! I have enough problems on my own, that's all we needed."
     mc "{i}Who knows how is [mia]?! Maybe I should talk to her, she will probably tell me something more."
     stop music fadeout 1.0

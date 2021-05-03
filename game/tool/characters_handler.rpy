@@ -156,6 +156,8 @@ label renaming_mc:
     "Player" "My name is:"
     $ renpy.music.set_pause(True, channel='music')
     $ renpy.music.set_pause(True, channel='ambience')
+    show profile mc 01 pause
+    with dissolve
     $ mcI.changeName()
     "Player" "My surname is:"
     $ mcI.changeSurname()
@@ -172,25 +174,25 @@ label live_with:
     # allow default name(s) to be saved across multiple games
     if renpy.variant("pc"):
         if mp_ndata.mom_fname != None:
-            $ emyI.name_default = mp_ndata.mom_fname
+            $ emyI.memory["name_default"] = mp_ndata.mom_fname
         if mp_ndata.mom_sname != None:
-            $ emyI.sname_default = mp_ndata.mom_sname
+            $ emyI.memory["sname_default"] = mp_ndata.mom_sname
         if mp_ndata.dad_fname != None:
-            $ jnI.name_default = mp_ndata.dad_fname
+            $ jnI.memory["name_default"] = mp_ndata.dad_fname
         if mp_ndata.dad_sname != None:
-            $ jnI.sname_default = mp_ndata.dad_sname
+            $ jnI.memory["sname_default"] = mp_ndata.dad_sname
         if mp_ndata.bigsis_fname != None:
-            $ vctI.name_default = mp_ndata.bigsis_fname
+            $ vctI.memory["name_default"] = mp_ndata.bigsis_fname
         if mp_ndata.bigsis_sname != None:
-            $ vctI.sname_default = mp_ndata.bigsis_sname
+            $ vctI.memory["sname_default"] = mp_ndata.bigsis_sname
         if mp_ndata.lilsis_fname != None:
-            $ miaI.name_default = mp_ndata.lilsis_fname
+            $ miaI.memory["name_default"] = mp_ndata.lilsis_fname
         if mp_ndata.lilsis_sname != None:
-            $ miaI.sname_default = mp_ndata.lilsis_sname
+            $ miaI.memory["sname_default"] = mp_ndata.lilsis_sname
         if mp_ndata.female_fname != None:
-            $ arnI.name_default = mp_ndata.female_fname
+            $ arnI.memory["name_default"] = mp_ndata.female_fname
         if mp_ndata.female_sname != None:
-            $ arnI.sname_default = mp_ndata.female_sname
+            $ arnI.memory["sname_default"] = mp_ndata.female_sname
     menu:
         "Step family" if(incs):
             $ incs = True
@@ -247,25 +249,25 @@ label live_with:
             call customize_mc_family
         mc "Now I live with/in:"
     if renpy.variant("pc"):
-        if emyI.name != emyI.name_default:
+        if emyI.name != emyI.memory["name_default"]:
             $ mp_ndata.mom_fname = emyI.name
-        if emyI.sname != emyI.sname_default:
+        if emyI.sname != emyI.memory["sname_default"]:
             $ mp_ndata.mom_sname = emyI.sname
-        if jnI.name != jnI.name_default:
+        if jnI.name != jnI.memory["name_default"]:
             $ mp_ndata.dad_fname = jnI.name
-        if jnI.sname != jnI.sname_default:
+        if jnI.sname != jnI.memory["sname_default"]:
             $ mp_ndata.dad_sname = jnI.sname
-        if vctI.name != vctI.name_default:
+        if vctI.name != vctI.memory["name_default"]:
             $ mp_ndata.bigsis_fname = vctI.name
-        if vctI.sname != vctI.sname_default:
+        if vctI.sname != vctI.memory["sname_default"]:
             $ mp_ndata.bigsis_sname = vctI.sname
-        if miaI.name != miaI.name_default:
+        if miaI.name != miaI.memory["name_default"]:
             $ mp_ndata.lilsis_fname = miaI.name
-        if miaI.sname != miaI.sname_default:
+        if miaI.sname != miaI.memory["sname_default"]:
             $ mp_ndata.lilsis_sname = miaI.sname
-        if arnI.name != arnI.name_default:
+        if arnI.name != arnI.memory["name_default"]:
             $ mp_ndata.female_fname = arnI.name
-        if arnI.sname != arnI.sname_default:
+        if arnI.sname != arnI.memory["sname_default"]:
             $ mp_ndata.female_sname = arnI.sname
         $ mp_ndata.save()
     return
@@ -372,15 +374,15 @@ label renaming_friend:
     # allow default name(s) to be saved across multiple games
     if renpy.variant("pc"):
         if mp_ndata.malebff_fname != None:
-            $ bffI.name_default = mp_ndata.malebff_fname
+            $ bffI.memory["name_default"] = mp_ndata.malebff_fname
         if mp_ndata.malebff_sname != None:
-            $ bffI.sname_default = mp_ndata.malebff_sname
+            $ bffI.memory["sname_default"] = mp_ndata.malebff_sname
     "[mc]'s [bffR.NPClabel] is called:"
     $ bffI.changeName()
     if renpy.variant("pc"):
-        if bffI.name != bffI.name_default:
+        if bffI.name != bffI.memory["name_default"]:
             $ mp_ndata.malebff_fname = bffI.name
-        if bffI.sname != bffI.sname_default:
+        if bffI.sname != bffI.memory["sname_default"]:
             $ mp_ndata.malebff_sname = bffI.sname
         $ mp_ndata.save()
     return

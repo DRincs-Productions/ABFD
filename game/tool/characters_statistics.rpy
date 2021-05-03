@@ -37,7 +37,7 @@ init python:
             if (friendship != None):
                 self.memory["friendship"] = friendship
             if (favour != None):
-                self.memory["favour"] = favour
+                self.memory['favour'] = favour
             if (love != None):
                 self.memory["love"] = love
             if (corruption != None):
@@ -124,7 +124,7 @@ init python:
                     notify(increase_friendship_notify)
                 elif (amt < 0):
                     notify(decrease_friendship_notify)
-            elif (text == "favour"):
+            elif (text == 'favour'):
                 if (amt > 0):
                     notify(increase_favour_notify)
                 elif (amt < 0):
@@ -216,11 +216,11 @@ init python:
             if (self.get("anger") > 0 and amt > 0):
                 self.changeAnger(-1)
                 return
-            if self.get("favour") != None and (self.get("favour") + amt) >= 105:
+            if self.get('favour') != None and (self.get('favour') + amt) >= 105:
                 self.changeLove(1)
-            if self.get("favour") != None and (self.get("favour") + amt) < 0:
+            if self.get('favour') != None and (self.get('favour') + amt) < 0:
                 self.changeAnger(10)
-            self.change("favour", amt, max=100, min=0)
+            self.change('favour', amt, max=100, min=0)
         def changeLove(self, amt):
             if (self.get("anger") > 0 and amt > 0):
                 self.changeAnger(-5)

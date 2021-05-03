@@ -1,4 +1,12 @@
 init:
+    #ABFD
+    transform center_delay(t=0, x=0.5, y=0.5):
+        alpha 0.0
+        xalign x
+        yalign y
+        pause t
+        ease 0.3 alpha 1.0
+    #tools
     transform middle_room:
         size (136, 136)
         on selected_idle:

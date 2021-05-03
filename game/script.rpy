@@ -112,6 +112,9 @@ label start:
     "Welcome to [config.name]"
     call NTR_enabler
 
+    call stats_default_family
+    call stats_default_bfffamily
+
     call intro
 
     return

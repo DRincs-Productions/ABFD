@@ -17,6 +17,7 @@ label stats_default_family:
         'charisma'      :   40,
         'intelligence'  :   50,
         'agility'       :   40,
+        'favour'        :   20,
     })
     $ stats['vct'] = Statistics(gender = "F", virgin = False, love = 10, against = 20,
     other_values= {
@@ -36,16 +37,17 @@ label stats_default_family:
     other_values= {
         'intelligence'  :   30,
     })
+    return
 
 label stats_default_bfffamily:
-    $ stats['bff'] = Statistics(friegender = "M", virgin = True, friendship = 90,
+    $ stats['bff'] = Statistics(gender = "M", virgin = True, friendship = 90,
     other_values= {
         'strength'      :   20,
         'perception'    :   40,
         'intelligence'  :   70,
         'videogame'     :   80,
     })
-    $ stats['tam'] = Statistics(friegender = "F", virgin = True, friendship = 90,
+    $ stats['tam'] = Statistics(gender = "F", virgin = True, friendship = 90,
     other_values= {
         'strength'      :   30,
         'charisma'      :   20,
@@ -53,3 +55,4 @@ label stats_default_bfffamily:
         'agility'       :   50,
         'yoga'          :   80,
     })
+    return

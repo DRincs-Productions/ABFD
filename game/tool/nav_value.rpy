@@ -1,4 +1,5 @@
 define rooms = [
+        Room(id="mc_room", id_location="house", name=_("MC room"), icon="icon myroom", bg="bg myroom"), 
     ]
 
 define locations = {
