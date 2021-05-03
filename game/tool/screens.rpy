@@ -38,7 +38,7 @@ init:
         on selected_hover:
             yanchor 1 alpha 1.0
     transform small_face:
-        size (60, 60)
+        size (100, 100)
         on selected_idle:
             yanchor 0 alpha 1.0
         on idle:
@@ -137,7 +137,7 @@ screen room_navigation():
                                     $ there_are_ch = True
 
                             if there_are_ch:
-                                hbox ypos 73 xalign 0.5 spacing - 30:
+                                hbox ypos 115 xalign 0.5 spacing - 30:
                                     for routine in cur_routines_location.values():
                                         # If it is the selected room
                                         if room.id == routine.id_room:
