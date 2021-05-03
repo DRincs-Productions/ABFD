@@ -319,7 +319,7 @@ screen menu_memo():
 
     # button for closure
     imagebutton:
-        pos (1740, 100)
+        pos (3480, 200)
         idle '/interface/button/close_idle.webp'
         hover '/interface/button/close_hover.webp'
         action [Hide('menu_memo')]
@@ -329,15 +329,15 @@ screen menu_memo():
         else:
             at close_zoom_mobile
 
-    hbox pos (150, 150) spacing 30:
-        frame ypos 25 xsize 400 ysize 850 background None:
+    hbox pos (300, 300) spacing 60:
+        frame ypos 50 xsize 800 ysize 1700 background None:
             has hbox
             # task title list
             viewport mousewheel 'change' draggable True id 'vp1':
-                has vbox spacing 5
+                has vbox spacing 10
                 for id_task in current_quest_stages.keys():
                     button:
-                        xsize 390
+                        xsize 780
                         background None
                         action [SetVariable('cur_task_menu', id_task), SetVariable('cur_quest_menu', quests_levels[id_task])]
                         xpadding 0 ypadding 0 xmargin 0 ymargin 0
@@ -350,49 +350,49 @@ screen menu_memo():
         # Information on the current quest
         if cur_task_menu != '':
             $ quest_menu = quest_stages[quests[cur_task_menu].stages_id[cur_quest_menu]]
-            frame area (0, 30, 1190, 850) background None:
+            frame area (0, 60, 2380, 1700) background None:
                 has vbox spacing 20
                 # Image
                 if quest_menu.bg != '' and quest_menu.bg != None:
                     add Frame(quest_menu.bg, Borders(0,0,0,0)):
-                        xsize 800
-                        ysize 400
-                        pos (195,0)
+                        xsize 1600
+                        ysize 800
+                        pos (390,0)
                 elif quests[cur_task_menu].bg != '' and quests[cur_task_menu].bg != None:
                     add Frame(quests[cur_task_menu].bg, Borders(0,0,0,0)):
-                        xsize 800
-                        ysize 400
-                        pos (195,0)
-                frame xsize 1180 xalign 0.5 background None:
-                    text quest_menu.title size 30 font 'DejaVuSans.ttf' xalign 0.5
-                frame area (0, 0, 1190, 400) background None:
+                        xsize 1600
+                        ysize 800
+                        pos (390,0)
+                frame xsize 2360 xalign 0.5 background None:
+                    text quest_menu.title size 60 font 'DejaVuSans.ttf' xalign 0.5
+                frame area (0, 0, 2380, 800) background None:
                     has hbox
                     viewport mousewheel 'change' draggable True id 'vp2':
-                        has vbox spacing 30
-                        text quests[cur_task_menu].description size 24 color gui.accent_color
+                        has vbox spacing 60
+                        text quests[cur_task_menu].description size 48 color gui.accent_color
                         if (current_quest_stages[cur_task_menu].active):
-                            text quest_menu.description size 24
-                            text quest_menu.advice size 28
+                            text quest_menu.description size 48
+                            text quest_menu.advice size 56
                             for item in quest_menu.goals:
-                                text item.description size 28
+                                text item.description size 56
                             if current_quest_stages[cur_task_menu].completed and (cur_quest_menu+1) == len(quests[cur_task_menu].stages_id):
                                 if quests[cur_task_menu].development:
-                                    text _("It is currently the end of this story, unfortunately you have to wait for an update to continue this story.") size 28
+                                    text _("It is currently the end of this story, unfortunately you have to wait for an update to continue this story.") size 56
                                 else:
-                                    text _("You have completed all the quests.") size 28
+                                    text _("You have completed all the quests.") size 56
                         else:
-                            text quest_menu.description_request size 24 color gui.accent_color
+                            text quest_menu.description_request size 48 color gui.accent_color
                     vbar value YScrollValue('vp2') style 'menu_vscroll'
     if (cur_task_menu != '' and quests_levels[cur_task_menu] > 0):
         # increases and decreases cur_quest menu
-        imagebutton pos (690, 360):
+        imagebutton pos (1380, 720):
             idle '/interface/button/prev_idle.webp'
             hover '/interface/button/prev_hover.webp'
             insensitive '/interface/button/prev_insensitive.webp'
             focus_mask True
             sensitive (cur_quest_menu > 0)
             action [SetVariable('cur_quest_menu', cur_quest_menu-1)]
-        imagebutton pos (1570, 360):
+        imagebutton pos (3140, 720):
             idle '/interface/button/next_idle.webp'
             hover '/interface/button/next_hover.webp'
             insensitive '/interface/button/next_insensitive.webp'
