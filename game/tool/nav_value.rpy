@@ -1,5 +1,5 @@
 define rooms = [
-        Room(id="mc_room", id_location="house", name=_("MC room"), icon="icon mcroom", bg="bg mcroom", id_actions = ["sleep","nap",]), 
+        Room(id="mc_room", id_location="house", name=_("[mc] room"), icon="icon mcroom", bg="bg mcroom", id_actions = ["sleep","nap",]), 
         Room(id="mia_room", id_location="house", name=_("[mia] room"), icon="icon miaroom", bg="bg miaroom"), 
         Room(id="livingroom", id_location="house", name=_("Lounge"), icon="icon livingroom", bg="bg livingroom"), 
     ]
