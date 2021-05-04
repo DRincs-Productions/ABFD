@@ -30,6 +30,9 @@ image icon map home a = im.MatrixColor("/interface/map-home.webp", im.matrix.bri
 ## Background
 # map
 image bg map = "location/map-[tm.image_time].webp"
+# door
+image bg door = "location/door.webp"
+image bg door open = "location/door-open.webp"
 # location
 image bg mcroom = "location/mcroom-[tm.image_time].webp"
 image bg miaroom = "location/miaroom-[tm.image_time].webp"
