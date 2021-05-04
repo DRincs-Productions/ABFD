@@ -228,4 +228,6 @@ label prologue_end:
             call navigation_tuturial
         "Skip":
             pass
+    # Start Main quest
+    $ quests["main"].start()
     return

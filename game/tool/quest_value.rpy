@@ -28,6 +28,9 @@ default current_task_stages = {}
 default quests_descriptions = {}
 
 define quests = {
+    "main"     :   Quest(id = "main", title = _("Main Quest"), bg="quest main", stages_id = ["main_introD"], development = True),
 }
 define quest_stages = {
+    # Main quest
+    "main_introD"           :   Stage(idQuestOrTask = "main", bg="quest main", title = _("The postit"), description = _("[emy] didn't want to go into detail about what happened yesterday. The only one who could tell me more is [mia]."), label_start="main_startstage"),
 }
