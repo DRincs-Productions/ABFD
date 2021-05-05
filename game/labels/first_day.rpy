@@ -231,3 +231,155 @@ label prologue_end:
     # Start Main quest
     $ quests["main"].start()
     return
+
+label introD:
+    show bg door open
+    menu:
+        "The door is closed:"
+        "Knock":
+            "knock-knock"
+            pass
+        "Back":
+            $ cur_room = prev_room
+            return
+
+    image bg prologue D01A = "/intro/D01A.webp"
+    image bg prologue D01B = "/intro/D01B.webp"
+    image bg prologue D02 = "/intro/D02.webp"
+
+    show bg prologue D01A
+    mc "Ehilà [mia]:"
+    show screen countdown(timer_range=5, timer_call='menu_slow')
+
+label introD_part2:
+    menu:
+        "How is the study going?":
+            hide screen countdown
+            show bg prologue D01B
+            mc "How is the study going?"
+            mia "Ehilà, Yes...I was reviewing tomorrow I have a math test."
+            mc "Are you ready?"
+            mia "I mean, math is not my strong suit."
+            mc "Ah, I hear you."
+            jump introD_part2
+        "Do you have a minute?":
+            hide screen countdown
+            show bg prologue D01B
+            mc "Do you have a minute? I wanted to talk a little bit about [emyR.NPClabel]."
+            mia "Yeah, you know about last night? About what... happened."
+            mc "Eh  I already know, unfortunately."
+        "How are you?":
+            hide screen countdown
+            show bg prologue D01B
+            mc "How are you? I know what happened yesterday."
+            mia "I'm fine, but..."
+        "Be quiet":
+            hide screen countdown
+            show bg prologue D01B
+            mia "[mc]?! You wanted to talk to me?"
+            mc "Yes, yes, sorry. I was just thinking for a second..."
+            mc "I wanted to ask you what happened last night."
+            pass
+    show bg prologue D02
+    mia "Last night I overheard [emy] and [jn] discussing their relationship... their problems..."
+    mc "Same as other days, nothing new."
+    mia "However, this time [emyR.NPClabel] started screaming and then went to bed. While [jn] stayed in the jump. Then around 3 o'clock I heard some unusual noises, then slamming the door of the house."
+    mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it."
+    mc "Unfortunately, I already know what it said. [emy] made me read it."
+
+    label introD_part3:
+    image bg prologue D03A = "/intro/D03A.webp"
+    image bg prologue D03B = "/intro/D03B.webp"
+    menu:
+        "What about [vct]?":
+            mc "What about [vct]? I haven't seen her since yesterday."
+            mia "She already knows everything, I wrote her what happened. Yesterday she stayed over at the college. Her friend's roommate was at her parents', so she had an extra bed."
+            jump introD_part3
+        "And then?":
+            mc "And then what happened? Did you talk to [emy]?"
+            mia "What could I do, I put the note back where it was and then played it cool. This night I hardly got a wink of sleep."
+            mia "The next day you could tell [emy] had been crying a lot, but I didn't know what to do. She tried to play it cool."
+            mia "I had breakfast and then stayed in my room. By lunch she had recovered a little. All she told me was that [jn] will be gone for a while. You know he doesn't talk to me about these things."
+        "OK, that's enough.":
+            mc "OK, OK, that's enough. "
+    mc "I don't want to see you so sad. I know a remedy to cheer up that sad little face."
+    mia "What's that? What is it?"
+    show bg prologue D03A
+    mia "Hahaha, stop it."
+    mc "What did you say? I don't have to stop?! Ok..."
+    mia "Hahaha, stop it."
+    show bg prologue D03B
+    "([mia] picks up the pillow and starts the fight.)"
+
+    label introD_fight:
+
+        "{color=#ec5c09}Patreon" "In development"
+
+        image bg prologue D04 = "/combact/Final/Mia01.webp"
+        show bg prologue D04
+        menu:
+            "Want to skip the \"dream\"?"
+            "Continue":
+                call after_deathA
+            "Skip":
+                pass
+
+label introF:
+    image bg prologue F01 = "/intro/F01.webp"
+    image bg prologue F02A = "/intro/F02A.webp"
+    image bg prologue F02B = "/intro/F02B.webp"
+    image bg prologue F02C = "/intro/F02C.webp"
+
+    show bg prologue F01
+    pause
+    show black with blink_transition
+    pause 0.01
+    hide black with blink_reverse
+    mia "Hey, [emyR.NPClabel]. He's opening his eyes."
+    show black with blink_transition
+    pause 0.01
+    hide black with blink_reverse
+    mc "{i}It was all a dream! Good thing."
+    mia "[mc]. Sorry, I didn't do it on purpose."
+    show black with blink_transition
+    pause 0.01
+    hide black with blink_reverse
+    mc "{i}Huh? What?"
+    emy "I told you with a little time and a little vinegar, you'll wake even a corpse."
+    show black with blink_transition
+    pause 0.01
+    hide black with blink_reverse
+    mc "Arg! What's that smell?!"
+    emy "Honey, be quiet."
+    show bg prologue F02A
+    mc "Arg! What a headache. What happened?"
+    mia "Don't you remember? We were playing and you tripped."
+    show bg prologue F02B
+    emy "Wow, that must have been a pretty bad beat. How are you feeling?"
+    mc "{i}Wow, she got so worried about me. She didn't even notice that her big boobs were right in front of me."
+    show screen countdown(timer_range=3, timer_call='menu_slow')
+    menu:
+        "Much better":
+            hide screen countdown
+            mc "Much better now."
+        "Start to recover":
+            hide screen countdown
+            mc "I'm starting to get better."
+        "Milk":
+            hide screen countdown
+            mc "Mhmm... I feel like milk."
+        "Remain silent":
+            hide screen countdown
+            mc "Mhmm..."
+    show bg prologue F02C
+    emy "Damn! It's so late! I'm going to...make something...in the kitchen. I have something in the oven..."
+    emy "[mia], come down and come help me."
+    mia "Ok, [emyR.NPClabel]."
+    mc "{i}Fuck what has gotten into me! Who knows what [emy] must have thought."
+    emy "{i}Oh my god, [emy] why didn't you put your bra on. If you would have done that I wouldn't ... have seen ... that bulge in her pants. I just don't want to think about it anymore."
+    emy "{i}I didn't think he was that gifted though."
+    mia "{i}..."
+
+    $ wait_hour = 2
+    call wait
+    return

@@ -37,3 +37,7 @@ image bg door open = "location/door-open.webp"
 image bg mcroom = "location/mcroom-[tm.image_time].webp"
 image bg miaroom = "location/miaroom-[tm.image_time].webp"
 image bg livingroom = "location/livingroom-[tm.image_time].webp"
+
+## Effect
+define blink_transition = ImageDissolve("location/door.webp", 0.2, ramplen=128)
+define blink_reverse = ImageDissolve("location/door.webp", 0.2, reverse=True, ramplen=128)
