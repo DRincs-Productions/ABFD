@@ -8,6 +8,8 @@ define bl_memory = [
     "block_spendtime",
     "goout",
     "incs",
+    # check if the mc has already unlocked the wardrobe (label: first_dress_up)
+    "mc_wardrobe",
 ]
 
 init python:

@@ -261,6 +261,17 @@ screen room_navigation():
             else:
                 at small_menu_mobile
 
+        if (cur_room.id == "mc_room" and bl_values["mc_wardrobe"]):
+            imagebutton:
+                idle '/interface/menu-wardrobe.webp'
+                focus_mask True
+                action [Hide('wait_navigation'), Jump('mc_wardrobe')]
+                if renpy.variant("pc"):
+                    at small_menu
+                    tooltip _("Settings")
+                else:
+                    at small_menu_mobile
+
     hbox:
         align (0.99, 0.01)
         spacing 2
