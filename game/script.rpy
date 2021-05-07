@@ -121,6 +121,7 @@ label start:
     $ cur_location = locations[cur_room.id_location]
     $ prev_room = rooms[0]
     $ updateBL()
+    $ bl_values["block_spendtime"] = True
 
     ## call screen room_navigation
     call after_wait
