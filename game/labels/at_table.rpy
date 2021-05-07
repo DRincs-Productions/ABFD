@@ -47,12 +47,12 @@ label dinner_family_emy_mia:
     show mc at_table dinner home
     show mia at_table dinner
     show emily at_table dinner
-    hide
+    window hide
     pause
     return
 
 label clean_dinner_family:
-    hide
+    window hide
     pause
     return
 
@@ -70,13 +70,13 @@ label first_at_table_preparation:
 
 label helpA:
     hide bg
-    hide
+    window hide
     pause
     show bg at_table help A
-    hide
+    window hide
     pause
     mc "{i}It's a boring job, but someone had to do it."
-    hide
+    window hide
     pause
     return
 
@@ -85,7 +85,7 @@ label at_table_dinner_A:
 
     "(Silence a very awkward)"
     mc "{i}Mhmm, maybe I should break the ice by congratulating [emy] on dinner. But I don't know if that's appropriate."
-    hide
+    window hide
     pause
     emy "Sorry honey, I didn't even ask you how it went at [bff]'s house today."
     mc "Don't apologize, you don't have to."
@@ -102,7 +102,7 @@ label at_table_dinner_A:
         "For now":
             mc "Yes, also because I haven't been here long. But I'm sure I'll be making more."
     mia "Do you miss [old_city]? I mean you left everyone you knew behind."
-    emy "[mia]! You don't have to ask those questions. It makes sense that you're still in some pain."ù
+    emy "[mia]! You don't have to ask those questions. It makes sense that you're still in some pain."
     menu:
         "Yeah":
             mc "Yeah, I miss it a little bit. But it's not bad here."
@@ -122,7 +122,7 @@ label at_table_dinner_A:
     mia "I don't know, that's the problem."
     emy "I'm sure if you studied you'll get through it."
 
-    hide
+    window hide
     pause
 
     mc "Great dinner. everything is great."
