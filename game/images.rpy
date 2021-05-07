@@ -41,3 +41,8 @@ image bg livingroom = "location/livingroom-[tm.image_time].webp"
 ## Effect
 define blink_transition = ImageDissolve("location/door.webp", 0.2, ramplen=128)
 define blink_reverse = ImageDissolve("location/door.webp", 0.2, reverse=True, ramplen=128)
+
+## Emily
+image bg emily kitchen talk = Composite( (gui.width, gui.height),
+    (0, 0), "/Emily/kitchen/talk.webp",
+    (0, 0), "check:/Emily/kitchen/talk[mc_dress_home].webp")

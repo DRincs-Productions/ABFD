@@ -20,3 +20,5 @@ define bffStory = __("[bff] is my [bffR.NPClabel]. We go to the same school and 
 define catholic_institute = __("{b}Orlando Catholic Institute{/b}")
 # Alcol
 define jnAlcol = "{b}Scotch{/b}"
+# Locali
+define pizzeria "{b}Da Luiggi{/b}"
