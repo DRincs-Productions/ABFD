@@ -283,7 +283,7 @@ label introD_part2:
     show bg prologue D02
     mia "Last night I overheard [emy] and [jn] discussing their relationship... their problems..."
     mc "Same as other days, nothing new."
-    mia "However, this time [emyR.NPClabel] started screaming and then went to bed. While [jn] stayed in the jump. Then around 3 o'clock I heard some unusual noises, then slamming the door of the house."
+    mia "However, this time [for_emyR.MClabel] started screaming and then went to bed. While [jn] stayed in the jump. Then around 3 o'clock I heard some unusual noises, then slamming the door of the house."
     mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it."
     mc "Unfortunately, I already know what it said. [emy] made me read it."
 
@@ -335,7 +335,7 @@ label introF:
     show black with blink_transition
     pause 0.01
     hide black with blink_reverse
-    mia "Hey, [emyR.NPClabel]. He's opening his eyes."
+    mia "Hey, [for_emyR.MClabel]. He's opening his eyes."
     show black with blink_transition
     pause 0.01
     hide black with blink_reverse
@@ -375,7 +375,7 @@ label introF:
     with hpunch
     emy "Damn! It's so late! I'm going to...make something...in the kitchen. I have something in the oven..."
     emy "[mia], come down and come help me."
-    mia "Ok, [emyR.NPClabel]."
+    mia "Ok, [for_emyR.MClabel]."
     mc "{i}Fuck what has gotten into me! Who knows what [emy] must have thought."
     emy "{i}Oh my god, [emy] why didn't you put your bra on. If you would have done that I wouldn't ... have seen ... that bulge in her pants. I just don't want to think about it anymore."
     emy "{i}I didn't think he was that gifted though."
