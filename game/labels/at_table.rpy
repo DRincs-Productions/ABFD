@@ -195,6 +195,7 @@ label at_table_dinner_A_part2:
     emy "A good movie is just what you need. I'm going to start sitting on the couch, as soon as you want to join me. Thanks again for the help, honey."
     hide black
 
+    $ quest_stages["subscribe_public_transport"].addInTask()
     $ cur_room = rooms[0]
 
     $ tm.new_hour(2)
