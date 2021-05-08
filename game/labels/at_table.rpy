@@ -10,31 +10,30 @@ image bg at_table dinner = "/family/at_table/dinner.webp"
 
 image mc at_table dinner:
     "/family/at_table/dinner-MC01A[mc_dress_normal].webp"
-    pause 0.3
+    pause 1
     "/family/at_table/dinner-MC01B[mc_dress_normal].webp"
-    pause 0.1
+    pause 0.3
     repeat
 
 image mc at_table dinner home:
-    "/family/at_table/dinner-MC01A[mc_dress_home].webp"
+    "/family/at_table/dinner-MC01A-home[mc_dress_home].webp"
+    pause 1
+    "/family/at_table/dinner-MC01B-home[mc_dress_home].webp"
     pause 0.3
-    "/family/at_table/dinner-MC01B[mc_dress_home].webp"
-    pause 0.1
     repeat
 
 image mia at_table dinner:
     "/family/at_table/dinner-MiaA-.webp"
-    pause 0.5
+    pause 3
     "/family/at_table/dinner-MiaB-.webp"
-    pause 0.1
+    pause 0.5
     repeat
 
 image emily at_table dinner:
-    pause 0.1
     "/family/at_table/dinner-EmilyA-.webp"
-    pause 0.10
+    pause 5
     "/family/at_table/dinner-EmilyB-.webp"
-    pause 0.1
+    pause 0.5
     repeat
 
 # help
@@ -44,22 +43,29 @@ image bg at_table help A = Composite( (gui.width, gui.height),
 
 label dinner_family_emy_mia:
     show bg at_table dinner
-    show mc at_table dinner home
     show mia at_table dinner
     show emily at_table dinner
+    show mc at_table dinner home
     window hide
     pause
     return
 
 label clean_dinner_family:
+    hide bg
+    hide mia
+    hide emily
+    hide mc
+    scene black
     window hide
     pause
+    hide black
     return
 
 label first_at_table_preparation:
     if (bl_values["mc_wardrobe"]):
         emy "Ok. it's ready, let's have dinner."
-        jump at_table_dinner_A
+        call at_table_dinner_A
+        call screen room_navigation
     else:
         show bg at_table preparation A
         emy "Here it is ready! Go change if you want to eat."
@@ -69,15 +75,14 @@ label first_at_table_preparation:
         call screen room_navigation
 
 label helpA:
-    hide bg
-    window hide
-    pause
     show bg at_table help A
     window hide
     pause
     mc "{i}It's a boring job, but someone had to do it."
+    scene black
     window hide
     pause
+    hide black
     return
 
 label at_table_dinner_A:
@@ -93,11 +98,11 @@ label at_table_dinner_A:
     emy "What did you guys eat?"
     mc "Last night [tam] wasn't home, so we ordered pizza from [pizzeria]. While for breakfast/lunch we got takeout at mcdonald with [tam]."
     emy "It sounds like [tam] didn't really want to sew Ah Ah. However, it's not very salty like they eat... so don't get used to it."
-    emy "You and [bff] have a good friendship, you seem almost like brothers. Even though you are very different."
     menu:
+        emy "You and [bff] have a good friendship, you seem almost like brothers. Even though you are very different."
         "Yeah, because...":
             mc "Yeah, we're very close. I've known him for a long time and also because we have a very similar background."
-        "[bbf]'s not that great":
+        "He's not that great":
             mc "Yes, he's a reliable friend. if a bit awkward and boring."
         "For now":
             mc "Yes, also because I haven't been here long. But I'm sure I'll be making more."
@@ -124,6 +129,9 @@ label at_table_dinner_A:
 
     window hide
     pause
+    "(A half hour later)"
+    window hide
+    pause
 
     mc "Great dinner. everything is great."
     emy "You mean \"was\"."
@@ -137,20 +145,21 @@ label at_table_dinner_A:
         "No":
             mc "No, I don't really want to."
             emy "What?! No... You make it come."
-            mc "Okay, [mom]."
+            mc "Okay, [emyR.NPClabel]."
             $ stats['emy'].change('favour', -2)
         "If I have to...":
-            emy "If I have to..."
-            mc "Yes, honey. Thank you."
+            mc "If I have to..."
+            emy "Yes, honey. Thank you."
             $ stats['emy'].change('favour', 1)
 
     call clean_dinner_family
     call helpA
 
-    hide bg
+    scene black    
     mc "This is the last dish."
     emy "Wait a minute."
     mc "{i}Why are you looking at me like that?"
+    hide black
     show bg emily kitchen talk
     emy "Honey, I called [tam]..."
     mc "{i}Oh no! She probably told her about the school report."
@@ -175,13 +184,15 @@ label at_table_dinner_A_part2:
                 emy "No, honey. I'll remember it."
             jump at_table_dinner_A_part2
         "Talk about [jn]":
-            mc "Have you heard from [-------------dad]?"
+            mc "Have you heard from [jnR.NPClabel]?"
             emy "No! And I don't want to talk about him for a while. I could use a little distraction."
         "No questions":
             mc "Okay, all clear."
     hide bg
+    scene black
     mc "There should be a good movie on tonight."
     emy "A good movie is just what you need. I'm going to start sitting on the couch, as soon as you want to join me. Thanks again for the help, honey."
+    hide black
 
     $ tm.new_hour(2)
     jump after_wait
