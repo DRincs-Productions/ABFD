@@ -1,5 +1,5 @@
-default mc_dress_normal = "-"
-default mc_dress_home = "-"
+default mc_dress_normal = ""
+default mc_dress_home = ""
 
 label mc_wardrobe:
     image bg mc dress_up 01 = "/MC/Dress up/01.webp"
@@ -7,9 +7,9 @@ label mc_wardrobe:
     menu:
         "What do you want to change?"
         "Normal clothes":
-            call mc_wardrobe_home
-        "Home clothes":
             call mc_wardrobe_normal
+        "Home clothes":
+            call mc_wardrobe_home
         "Close Wardrobe":
             hide mc
             pass
@@ -22,7 +22,7 @@ label mc_wardrobe_home:
         "Home clothes:"
         "Black T-shirt":
             show mc home 01
-            $ mc_dress_home = "-"
+            $ mc_dress_home = ""
         "White T-shirt":
             show mc home 02
             $ mc_dress_home = "-sumtime"
@@ -36,7 +36,7 @@ label mc_wardrobe_normal:
         "Normal clothes:"
         "Default":
             show mc normal 01
-            $ mc_dress_normal = "-"
+            $ mc_dress_normal = ""
         "Select and return":
             return
     jump mc_wardrobe_normal

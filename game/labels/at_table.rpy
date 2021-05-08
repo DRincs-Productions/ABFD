@@ -155,12 +155,13 @@ label at_table_dinner_A:
     call clean_dinner_family
     call helpA
 
-    scene black    
+    scene black
     mc "This is the last dish."
     emy "Wait a minute."
     mc "{i}Why are you looking at me like that?"
     hide black
     show bg emily kitchen talk
+    with hpunch
     emy "Honey, I called [tam]..."
     mc "{i}Oh no! She probably told her about the school report."
     emy "Tomorrow morning, she'll give you a ride to school. Because that bastard took the car away too."
@@ -193,6 +194,8 @@ label at_table_dinner_A_part2:
     mc "There should be a good movie on tonight."
     emy "A good movie is just what you need. I'm going to start sitting on the couch, as soon as you want to join me. Thanks again for the help, honey."
     hide black
+
+    $ cur_room = rooms[0]
 
     $ tm.new_hour(2)
     jump after_wait

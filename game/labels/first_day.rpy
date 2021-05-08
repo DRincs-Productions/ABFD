@@ -372,6 +372,7 @@ label introF:
             hide screen countdown
             mc "Mhmm..."
     show bg prologue F02C
+    with hpunch
     emy "Damn! It's so late! I'm going to...make something...in the kitchen. I have something in the oven..."
     emy "[mia], come down and come help me."
     mia "Ok, [emyR.NPClabel]."
