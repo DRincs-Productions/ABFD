@@ -196,6 +196,7 @@ label at_table_dinner_A_part2:
     hide black
 
     $ quest_stages["subscribe_public_transport"].addInTask()
+    $ sp_routine["mia_change_clothes"]  = Commitment(chs={"mia" : TalkObject()}, tm_start=21, tm_stop=24, id_location="house", id_room="mia_room", label_event="intro_mia_change_clothes", day_deadline=1)
     $ sp_routine["emily_watch_tv"]      = Commitment(chs={"emy" : TalkObject()}, tm_start=21, tm_stop=24, id_location="house", id_room="livingroom", label_event="intro_wach_tv", day_deadline=1)
     # TODO from 23 to null (mine and emy) will sleep in emily's room
     $ cur_room = rooms[0]

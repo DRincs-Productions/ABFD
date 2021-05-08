@@ -53,7 +53,7 @@ label close_map:
     jump change_room
 
 # Image of a closed door
-define bg_loc = "location/loc-[tm.image_time].webp"
+define bg_loc = "location/door.webp"
 # Is opened in change_room when a room id is in closed rooms
 label closed_room_event:
     # Custom code
