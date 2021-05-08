@@ -385,6 +385,7 @@ label introF:
     $ sp_routine["at_table preparation"] = Commitment(chs={"mia" : TalkObject(bg_before_after="bg at_table preparation", label_talk="first_at_table_preparation")}, tm_start=19, tm_stop=21, id_location="house", id_room="livingroom")
     $ quests["main"].next_stage()
 
+    $ del sp_routine["introD"]
     $ tm.new_hour(2)
     jump after_wait
     return
