@@ -31,6 +31,9 @@ default bffR = Relationship("best friend", "best friend", True)
 # Friend's family
 default tamI = Information(name = "Tammy", sname = "Johnson", age = (emyI.age-2), active = True, rel_status = rel.get('widow'), rel_partner = mrJohnson)
 define tam = Character("{b}Mrs. [tamI.name]{/b}", who_color="#bf5fec")
+# TV
+default kstI = Information(name = "Kirstin", sname = "O'Connor", age = (emyI.age), active = True, rel_status = rel.get('single'))
+define kst = Character("{b}[kstI.name]{/b}", who_color="#bf5fec")
 
 ## Functions for discord
 # https://arianeb.com/2019/07/19/adding-discord-rich-presence-to-renpy-games/

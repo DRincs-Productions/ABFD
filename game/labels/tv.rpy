@@ -18,6 +18,8 @@ image mia tv EMM01 B wach_tv = "/family/TV/EMM01B-Mia-wach_tv.webp"
 image bg tv EMM01 change = "/family/TV/EMM01-change.webp"
 image bg tv Emily01 = "/family/TV/Emily01.webp"
 
+image tv deadpool = "/TV/DeadPool.webp"
+image tv ciaodarwin = "/TV/CiaoDarwin.webp"
 image tv News 01 = Composite( (gui.width, gui.height),
     (0, 0), "/TV/News01.webp",
     (0, 0), "/TV/News-Icon.webp")
@@ -60,4 +62,77 @@ label intro_wach_tv:
     emy "Shh!"
     hide mia
     call News01
+    return
+
+label News01:
+    hide bg
+    show tv News 01
+    show bg tv
+    show emy tv
+    show mc TV
+    mia "Look at [for_emyR.MClabel]! There's [kst]. She was an old classmate of [for_emyR.MClabel]."
+    emy "Yeah! By now, all you have to do to work in this macho TV is sleep with the right people.... That's why he had so much practice in high school in high school."
+    mc "{i}Wow, I've never heard [emy] say that. They must have been enemies in high school."
+    mia "Eh... [for_emyR.MClabel] I didn't understand. What did you practice with? Maybe I could do it too to become famous."
+    emy "Ha Ha! [mia]... you're still too young to understand these things. You don't need to be like her to become famous."
+    kst "Good evening, [city] viewers. We interrupted the normal live broadcast because to report a shooting in [city] north."
+    kst "The police have already intervened. Police suspect that the shooting that occurred is the clash between two gangs, but the reason is still unclear."
+    kst "Some sources say that these gangs are going to sell new drugs on the black market."
+    mia "Oh no! [for_jnR.MClabel] is out there by himself...."
+    emy "Yeah! I don't want anything to happen to him. But [for_emyR.NPClabel], don't worry. He's seen worse things than a little gunfight."
+    kst "We take advantage of this time to announce other news as well.... blah blah...."
+    kst "This extraordinary live broadcast is over, I leave you the vision of the weather."
+    show tv Meteo01 1
+    "Young girl" "Good morning ... Emm ... good evening television viewers."
+    emy "And good night... TV has now reached the bottom."
+    show tv Meteo01 2
+    "Young girl" "Blah... blah... blah..."
+    window hide
+    pause
+    show tv Meteo01 2B
+    window hide
+    pause
+    show tv Meteo01 3
+    "Young girl" "Opss shrug...my earring fell out. Where are you? Stupid thing..."
+    window hide
+    pause
+    mc "{i}Wow I can't believe that just happened."
+    window hide
+    pause
+    show emy tv change
+    window hide
+    pause
+    show tv ciaodarwin
+    mc "{i}NOOO!!! Where did you go nice ass...."
+    hide tv
+    hide mc
+    hide emy
+    show bg tv EMM01 change
+    emy "This channel has really tired me out. There must at least be something decent around here."
+    mc "{i}[emyR.NPClabel]?! Fuck [emyR.NPClabel]."
+    show bg tv EMM0 final
+    emy "Enough! I'm tired. I'm going to bed."
+    mc "{i}Shit, she's so weird today."
+    emy "[mia], it's late! go brush your teeth and let's go to bed. you're sleeping with me today, you'll keep me company."
+    emy "[mc], don't be too late."
+    mia "Uffa! Why can you stay and I can't?! I'm a big girl now."
+
+    hide bg
+    show tv deadpool
+    show bg tv
+    show mc TV
+    window hide
+    pause
+    hide tv
+    hide mc
+    hide bg
+
+    scene black
+    show text _("{size=120}A few hours later.")
+    window hide
+    pause
+    hide black
+
+    $ del sp_routine["mia_change_clothes"]
+    $ tm.new_hour(2)
     return
