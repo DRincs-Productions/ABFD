@@ -231,6 +231,10 @@ label prologue_end:
     # Start Main quest
     $ quests["main"].start()
     return
+label introD_emy:
+    $ cur_room = prev_room
+    "For now it's better to dry her off. I could talk to [mia]..."
+    return
 
 label introD:
     show bg door open
