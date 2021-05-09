@@ -93,8 +93,8 @@ translate crowdin presentations_montell_d0f687c5:
 # game/first_day.rpy:61
 translate crowdin presentations_montell_2765955e:
 
-    # bbf "All is well. It's just that yesterday we played at the [console] until late at night."
-    bbf "Все хорошо. Просто вчера мы играли в [console] до поздней ночи."
+    # bff "All is well. It's just that yesterday we played at the [console] until late at night."
+    bff "All is well. Просто вчера мы играли в [console] до поздней ночи."
 
 # game/first_day.rpy:62
 translate crowdin presentations_montell_83e1e81c:
@@ -105,8 +105,8 @@ translate crowdin presentations_montell_83e1e81c:
 # game/first_day.rpy:63
 translate crowdin presentations_montell_27cd9141:
 
-    # bbf "I won, I literally shredded it. He is too scarce."
-    bbf "Я выиграл, я буквально уничтожил его. Он слишком слабый."
+    # bff "I won, I literally shredded it. He is too scarce."
+    bff "I won, I literally shredded it. Он слишком слабый."
 
 # game/first_day.rpy:64
 translate crowdin presentations_montell_c624707d:
@@ -117,14 +117,14 @@ translate crowdin presentations_montell_c624707d:
 # game/first_day.rpy:65
 translate crowdin presentations_montell_f80c5f58:
 
-    # bbf "Modestly this is talent, you have to train to reach my level."
-    bbf "Это талант, ты должен тренироваться, чтобы достичь моего уровня."
+    # bff "Modestly this is talent, you have to train to reach my level."
+    bff "Modestly this is talent, you have to train to reach my level."
 
 # game/first_day.rpy:66
 translate crowdin presentations_montell_98621ae6:
 
-    # tam "Yeah! [bbf] spends hours in front of a stupid screen after school."
-    tam "Ага! [bbf] проводит часы перед тупым экраном после школы."
+    # tam "Yeah! [bff] spends hours in front of a stupid screen after school."
+    tam "Ага! [bff] spends hours in front of a stupid screen after school."
 
 # game/first_day.rpy:67
 translate crowdin presentations_montell_e1df17f8:
@@ -135,8 +135,8 @@ translate crowdin presentations_montell_e1df17f8:
 # game/first_day.rpy:68
 translate crowdin presentations_montell_df2224c0:
 
-    # bbf "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
-    bbf "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
+    # bff "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
+    bff "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
 
 # game/first_day.rpy:69
 translate crowdin presentations_montell_78aecda6:
@@ -183,8 +183,8 @@ translate crowdin presentations_montell_c120e326:
 # game/first_day.rpy:79
 translate crowdin presentations_montell_3b1ddbb3:
 
-    # bbf "Bye, [mc]. See you."
-    bbf "Пока, [mc]. Увидимся."
+    # bff "Bye, [mc]. See you."
+    bff "Bye, [mc]. Увидимся."
 
 # game/first_day.rpy:80
 translate crowdin presentations_montell_3d532c40:
