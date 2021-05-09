@@ -4,5 +4,5 @@ translate crowdin strings:
 
     # game/options.rpy:15
     old "A Big Family in Debt"
-    new "A Big Family in Debt"
+    new "Una grossa famiglia in debito"
 
