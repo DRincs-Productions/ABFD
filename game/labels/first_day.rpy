@@ -440,7 +440,100 @@ label intro_sleep:
     jump morning_intro
 
 label intro_victoria:
-    jump morning_intro
+    mc "{i}Oh Fuck! There's someone. This voice, though... it's familiar."
+    mc "{i}Is that Victoria? Wow, that's the first time I've ever seen her so drunk. Nice little redheaded friend, though."
+
+    vct "Ha, haha... I'm drunk. Is this my house? Or yours?"
+    vct "Ha, haha... I'm kidding. I know I'm funny. This night is still young. We'll knock back two more beers, then go throw bottles at some cars."
+    "Red girl" "But if you can't even stand up. Ha, haha..."
+    menu:
+        "Go away":
+            mc "{i}Better get back to bed today was a rough day."
+        "Stay":
+            pass
+
+    vct "Hey! [krn] don't say what I can or what I... ... Oh my God, what was it like? A already! Or that I can not do."
+    vct "Now you, beauty. You stay right here. And I'm going to go get those damn beers. And when I come back, let's do what I said. "
+    "([vct] tries to walk on her own, but can't take a single step and falls on Kristen's back.)"
+
+    krn "Look out! [vct], are you okay?"
+    vct "Okay, okay. I admit it. I'm a little too drunk. You win. Now let's do whatever you want."
+    krn "I'd better take you to your room now."
+    vct "No, I said what you want. We both know what you want."
+    krn "[vct], I don't know what you're talking..."
+    vct "Shut up! And let me taste your tongue."
+    menu:
+        mc "{i}Oh my God, It can't really happen. What do I do now:"
+        "Intervene":
+            mc "{i}Better intervene before it gets too late."
+            jump morning_intro_part2
+        "Stay and watch":
+            mc "{i}Let's see! I'm really curious what happens next."
+            pass
+        "Go away":
+            mc "{i}Mhmm, maybe it's better to give some privacy."
+            return
+
+    krn "What? [vct] is too drunk. Haha..."
+    vct "Come on. I know. You were glued to me the whole time."
+    krn "[vct] you're drunk, you don't know what you're saying."
+    vct "Kiss me, redhead. You won't get another chance."
+
+    scene black
+    "([krn] shyly approaches [vct]'s mouth)"
+    "([vct] very confidently takes charge and kisses her)"
+    hide black
+
+    mc "{i}I can't believe this happened."
+    vct "Mhmm it tastes like cherry Big Babol. Not bad, it's my first time kissing a girl."
+    krn "It's late, I'd better go."
+    menu:
+        mc "{i}And... now?"
+        "Introduce yourself":
+            mc "{i}Maybe it's best to introduce myself. It might be useful in the future."
+            pass
+        "Go away":
+            mc "{i}Maybe it's best to leave some privacy."
+            return
+
+label morning_intro_part2:
+    mc "Hi, everything okay?"
+    krn "Hi, um yeah... [vct] had a bit too much to drink so I gave him a lift."
+    mc "They understand each other. Sorry I haven't introduced myself. I'm [mc], the [vctR.MClabel] of [vct]."
+    krn "[krn]. Nice to meet you. [vct] told me about you, I know you guys haven't had a bit that you've had ups and downs lately."
+    mc "Already more downs than ups."
+    vct "Hi. [krn], he's [mc], my [vctR.MClabel]. Sorry, I forgot... you have already introduced yourselves."
+    mc "You go to college together?"
+    vct "I'm going to sit down for a moment... You go ahead... Now I'll be back..."
+
+    krn "Yes! We take the same class."
+label morning_intro_part3:
+    menu:
+        "Party?":
+            mc "Was there a party today?"
+            krn "Yes, I guess you know a little bit about what college is like. By day on books and by night alcohol."
+            krn "If you're of age you could come sometime."
+            mc "Yeah, that's not a bad idea."
+            jump morning_intro_part3
+        "University?":
+            mc "How's college going?"
+            krn "Fine, for now."
+            jump morning_intro_part3
+        "Are you from here?":
+            mc "Are you from here? Want to stay over?"
+            krn "No thanks. I'm from North [city], but I'm staying in university housing."
+            jump morning_intro_part3
+        "End":
+            pass
+    
+    mc "Well... It's getting late and I better get going."
+    krn "Alright, it was nice to meet you."
+    mc "Yeah... you too. Hi"
+
+    mc "{i}What happened to [vct]?"
+    vct "zZz zZz ..."
+    mc "{i}Wow, she must be drunk off her ass. Should I take her to bed! But I don't think I can do it, she's bigger than me."
+    mc "{i}Whatever, she's asleep now."
     return
 
 label morning_intro:
