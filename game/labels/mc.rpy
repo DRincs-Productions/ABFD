@@ -10,7 +10,7 @@ default porn_icon_url = "https://www.patreon.com/m/4135825"
 default smartphone01_path = "images/tools/Smartphone01.webp"
 
 label sleep_fap01:
-    # TODO:
+    # TODO: button to move cell phone
     $ smartphone_porn = 1
     show bg mc FAP01A 01
     show face mc FAP01A
