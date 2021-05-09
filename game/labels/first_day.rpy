@@ -389,3 +389,59 @@ label introF:
     $ tm.new_hour(2)
     jump after_wait
     return
+
+label intro_sleep:
+    show bg mc sleep sl01A
+    mc "{i}What a strange day today has been. With everything that's happened to me I keep thinking about what that old man said. There's only one life, I mustn't waste it."
+    menu:
+        mc "{i}Mhmm... I have too many thoughts in my head..."
+        "Jerk off":
+            mc "{i}A hand job might help."
+            scene black
+            mc "{i}It would be better, take a tissue."
+            hide black
+            call sleep_fap01
+            scene black
+            window hide
+            pause
+        "Try to sleep":
+            pass
+    # TODO: GTA5 sound when changing characters
+    show bg mc sleep sl01A
+    window hide
+    pause
+    show bg mc sleep sl01B
+    window hide
+    pause
+    mc "zZz zZz ..."
+    scene black
+    show text _("{size=120}A few hours later.")
+    window hide
+    pause
+    hide black
+    show bg mc sleep sl01A
+    window hide
+    pause
+    show bg mc sleep sl02
+    with hpunch
+    window hide
+    pause
+    mc "{i}Ehm... What was that noise!!! The wind or... the burglars...?"
+    menu:
+        mc "{i}Maybe I should go check it out:"
+        "Yes":
+            mc "{i}It would be better, take my baseball bat."
+            $ tm.hour = 2
+            $ tm.update_image_time()
+            jump after_wait
+        "No":
+            mc "{i}Na... Nothing came out."
+            pass
+    jump morning_intro
+
+label intro_victoria:
+    jump morning_intro
+    return
+
+label morning_intro:
+    return

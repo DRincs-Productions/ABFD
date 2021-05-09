@@ -46,3 +46,91 @@ define blink_reverse = ImageDissolve("location/door.webp", 0.2, reverse=True, ra
 image bg emily kitchen talk = Composite( (gui.width, gui.height),
     (0, 0), "/Emily/kitchen/talk.webp",
     (0, 0), "check:/Emily/kitchen/talk[mc_dress_home].webp")
+
+## MC
+# FAP01A
+image bg mc FAP01A dick00 = "MC/sleep/FAP01A.webp"
+image bg mc FAP01A dick01 = Composite( (gui.width, gui.height),
+    (0, 0), "/MC/sleep/FAP01A.webp",
+    (0, 0), "/MC/sleep/FAP01A-dick01.webp")
+image bg mc FAP01A dick02 = Composite( (gui.width, gui.height),
+    (0, 0), "/MC/sleep/FAP01A.webp",
+    (0, 0), "/MC/sleep/FAP01A-dick02.webp")
+image bg mc FAP01A 01:
+    "bg mc FAP01A dick00"
+    pause 0.25
+    "bg mc FAP01A dick01"
+    pause 0.25
+    "bg mc FAP01A dick02"
+    pause 0.5
+    "bg mc FAP01A dick01"
+    pause 0.5
+    "bg mc FAP01A dick02"
+    pause 0.5
+    "bg mc FAP01A dick01"
+    pause 0.25
+    repeat
+image bg mc FAP01A 02:
+    "bg mc FAP01A dick02"
+    pause 0.4
+    "bg mc FAP01A dick01"
+    pause 0.3
+    "bg mc FAP01A dick00"
+    pause 0.3
+    "bg mc FAP01A dick01"
+    pause 0.3
+    "bg mc FAP01A dick00"
+    pause 0.3
+    "bg mc FAP01A dick01"
+    pause 0.3
+    "bg mc FAP01A dick00"
+    pause 0.25
+    "bg mc FAP01A dick01"
+    pause 0.25
+    "bg mc FAP01A dick00"
+    pause 0.25
+    "bg mc FAP01A dick01"
+    pause 0.25
+    "bg mc FAP01A dick00"
+    pause 0.25
+    "bg mc FAP01A dick01"
+    pause 0.05
+    repeat
+image bg mc FAP01A 03:
+    "bg mc FAP01A dick02"
+    pause 0.3
+    "bg mc FAP01A dick01"
+    pause 0.3
+    repeat
+image bg mc FAP01A 04:
+    "bg mc FAP01A dick02"
+    pause 0.2
+    "bg mc FAP01A dick01"
+    pause 0.2
+    repeat
+image bg mc FAP01A cum = "MC/sleep/FAP01B.webp"
+image face mc FAP01A:
+    "/intro/c.webp"
+    pause 6
+    "/MC/sleep/FAP01A-face01.webp"
+    pause 6
+    "/MC/sleep/FAP01A-face02.webp"
+    pause 6
+    repeat
+# Sleep
+image bg mc sleep sl01A = "MC/sleep/sl01A.webp"
+image bg mc sleep sl01B = "MC/sleep/sl01B.webp"
+image bg mc sleep sl02  = "MC/sleep/sl02.webp"
+
+## Tools
+# Smartphone
+image tools smartphone 01   = "/tools/Smartphone01.webp"
+
+## Porn
+# Smartphone
+image porn Lexx228 A        = "/MC/Lexx228/A0[smartphone_porn].webp"
+image porn MILFToon A       = "/MC/MILFToon/A0[smartphone_porn].webp"
+image porn SneakyBastard A  = "/MC/SneakyBastard/A0[smartphone_porn].webp"
+image icon Lexx228 A        = "/MC/Lexx228/00icon.webp"
+image icon MILFToon A       = "/MC/MILFToon/00icon.webp"
+image icon SneakyBastard A  = "/MC/SneakyBastard/00icon.webp"
