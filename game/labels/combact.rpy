@@ -29,7 +29,7 @@ image mc loses right 01:
     "mc normal joking 01"
 
 ## Mia
-image mia normal = "/combact/Mia Laughter Cushion 02.webp"
+image mia normal = "/combact/Mia Normal Pillow 01.webp"
 # attack
 image mia attack cushion left 01:
     "/combact/Mia attack Cushion left A 01.webp"
