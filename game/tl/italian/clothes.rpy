@@ -38,7 +38,7 @@ translate crowdin strings:
 
     # game/clothes.rpy:21
     old "Select and return"
-    new "Select and return"
+    new "Seleziona e torna indietro"
 
     # game/clothes.rpy:35
     old "Normal clothes:"
