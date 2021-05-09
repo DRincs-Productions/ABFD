@@ -5,13 +5,13 @@ image bg tv = "/family/TV/TV-back.webp"
 
 image bg tv EMM0 final = Composite( (gui.width, gui.height),
     (0, 0), "/family/TV/EMM0final.webp",
-    (0, 0), "/family/TV/EMM0final[mc_dress_normal].webp")
+    (0, 0), "/family/TV/EMM0final[mc_dress_home].webp")
 image bg tv EMM01 A = Composite( (gui.width, gui.height),
     (0, 0), "/family/TV/EMM01A-MC-wach_tv.webp",
-    (0, 0), "/family/TV/EMM01A-MC-wach_tv[mc_dress_normal].webp")
+    (0, 0), "/family/TV/EMM01A-MC-wach_tv[mc_dress_home].webp")
 image bg tv EMM01 B = Composite( (gui.width, gui.height),
     (0, 0), "/family/TV/EMM01B-MC-wach_tv.webp",
-    (0, 0), "/family/TV/EMM01B-MC-wach_tv[mc_dress_normal].webp")
+    (0, 0), "/family/TV/EMM01B-MC-wach_tv[mc_dress_home].webp")
 image mia tv EMM01 B intro = "/family/TV/EMM01B-Mia-intro.webp"
 image mia tv EMM01 B wach_tv = "/family/TV/EMM01B-Mia-wach_tv.webp"
 

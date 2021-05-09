@@ -39,7 +39,7 @@ image emily at_table dinner:
 # help
 image bg at_table help A = Composite( (gui.width, gui.height),
     (0, 0), "/family/at_table/help.webp",
-    (0, 0), "check:/family/at_table/help[mc_dress_normal].webp")
+    (0, 0), "check:/family/at_table/help[mc_dress_home].webp")
 
 label dinner_family_emy_mia:
     show bg at_table dinner
