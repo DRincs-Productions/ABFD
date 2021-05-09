@@ -192,8 +192,8 @@ label prologue:
             mc "[emyR.NPClabel] if anyone has lost, it's him. I could never leave a woman like you."
             emy "Honey, I'm lucky to have you who know how to cheer me up."
         "What happened? {color=#f00}(Probability 10\%)":
-            $ val = False
-            if (val):
+            $ val = renpy.random.randint(0, 10)
+            if (val < 2):
                 $ x += 1
                 show bg prologue C03
                 mc "What happened? Did he put his hands on you?"
