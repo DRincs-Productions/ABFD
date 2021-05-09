@@ -1,6 +1,8 @@
 label check_event_sleep:
     if(tm.day == 0):
         call intro_sleep
+    if(tm.day == 1 and tm.hour < 4):
+        call morning_intro
 
 # check_event_sp (Commitment): can be deleted.
 # check_event_df: and cannot be deleted.

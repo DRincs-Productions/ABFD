@@ -16,6 +16,7 @@ define ch_icons = {
         "emy"       :   "icon/Emily.webp",
         "mia"       :   "icon/Mia.webp",
         "vct"       :   "icon/Victoria.webp",
+        "unknown"   :   "icon/Unknown.webp",
     }
 
 default cur_room = rooms[0]

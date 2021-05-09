@@ -432,7 +432,9 @@ label intro_sleep:
         "Yes":
             mc "{i}It would be better, take my baseball bat."
             $ tm.hour = 2
+            $ tm.day = 1
             $ tm.update_image_time()
+            $ sp_routine["victoria_intro"] = Commitment(chs={"unknown" : TalkObject()}, tm_start=0, tm_stop=3, id_location="house", id_room="livingroom", label_event="intro_victoria", day_deadline=2)
             jump after_wait
         "No":
             mc "{i}Na... Nothing came out."
@@ -440,22 +442,39 @@ label intro_sleep:
     jump morning_intro
 
 label intro_victoria:
+    image bg prologue G01A = "/intro/G01A.webp"
+    image bg prologue G01B = "/intro/G01B.webp"
+    image bg prologue G02A = "/intro/G02A.webp"
+    image bg prologue G02A2 = "/intro/G02A2.webp"
+    image bg prologue G02B = "/intro/G02B.webp"
+    image bg prologue G03 = "/intro/G03.webp"
+    image bg prologue G04 vic = Composite( (gui.width, gui.height),
+        (0, 0), "/intro/G04.webp",
+        (0, 0), "/intro/G04-vic.webp")
+    image bg prologue G04 = "/intro/G04.webp"
+    image bg prologue G05 = "/intro/G05.webp"
+    image bg prologue G06 = "/intro/G06.webp"
+
+    show bg prologue G01A
     mc "{i}Oh Fuck! There's someone. This voice, though... it's familiar."
     mc "{i}Is that Victoria? Wow, that's the first time I've ever seen her so drunk. Nice little redheaded friend, though."
-
+    show bg prologue G01B
     vct "Ha, haha... I'm drunk. Is this my house? Or yours?"
     vct "Ha, haha... I'm kidding. I know I'm funny. This night is still young. We'll knock back two more beers, then go throw bottles at some cars."
     "Red girl" "But if you can't even stand up. Ha, haha..."
     menu:
         "Go away":
             mc "{i}Better get back to bed today was a rough day."
+            $ cur_room = prev_room
+            call morning_intro_end
+            return
         "Stay":
             pass
 
     vct "Hey! [krn] don't say what I can or what I... ... Oh my God, what was it like? A already! Or that I can not do."
     vct "Now you, beauty. You stay right here. And I'm going to go get those damn beers. And when I come back, let's do what I said. "
     "([vct] tries to walk on her own, but can't take a single step and falls on Kristen's back.)"
-
+    show bg prologue G02A
     krn "Look out! [vct], are you okay?"
     vct "Okay, okay. I admit it. I'm a little too drunk. You win. Now let's do whatever you want."
     krn "I'd better take you to your room now."
@@ -472,8 +491,10 @@ label intro_victoria:
             pass
         "Go away":
             mc "{i}Mhmm, maybe it's better to give some privacy."
+            $ cur_room = prev_room
+            call morning_intro_end
             return
-
+    show bg prologue G02A2
     krn "What? [vct] is too drunk. Haha..."
     vct "Come on. I know. You were glued to me the whole time."
     krn "[vct] you're drunk, you don't know what you're saying."
@@ -481,10 +502,11 @@ label intro_victoria:
 
     scene black
     "([krn] shyly approaches [vct]'s mouth)"
-    "([vct] very confidently takes charge and kisses her)"
     hide black
-
+    show bg prologue G03
+    "([vct] very confidently takes charge and kisses her)"
     mc "{i}I can't believe this happened."
+    show bg prologue G02B
     vct "Mhmm it tastes like cherry Big Babol. Not bad, it's my first time kissing a girl."
     krn "It's late, I'd better go."
     menu:
@@ -494,9 +516,12 @@ label intro_victoria:
             pass
         "Go away":
             mc "{i}Maybe it's best to leave some privacy."
+            $ cur_room = prev_room
+            call morning_intro_end
             return
 
 label morning_intro_part2:
+    show bg prologue G04 vic
     mc "Hi, everything okay?"
     krn "Hi, um yeah... [vct] had a bit too much to drink so I gave him a lift."
     mc "They understand each other. Sorry I haven't introduced myself. I'm [mc], the [vctR.MClabel] of [vct]."
@@ -505,7 +530,7 @@ label morning_intro_part2:
     vct "Hi. [krn], he's [mc], my [vctR.MClabel]. Sorry, I forgot... you have already introduced yourselves."
     mc "You go to college together?"
     vct "I'm going to sit down for a moment... You go ahead... Now I'll be back..."
-
+    show bg prologue G04
     krn "Yes! We take the same class."
 label morning_intro_part3:
     menu:
@@ -525,16 +550,28 @@ label morning_intro_part3:
             jump morning_intro_part3
         "End":
             pass
-    
+    show bg prologue G05
     mc "Well... It's getting late and I better get going."
     krn "Alright, it was nice to meet you."
     mc "Yeah... you too. Hi"
-
+    scene black
+    window hide
+    pause
     mc "{i}What happened to [vct]?"
+    hide black
+    show bg prologue G06
     vct "zZz zZz ..."
     mc "{i}Wow, she must be drunk off her ass. Should I take her to bed! But I don't think I can do it, she's bigger than me."
     mc "{i}Whatever, she's asleep now."
+label morning_intro_end:
+    # TODO: cur_room = prev_room: I shouldn't do it: but if I don't do it victoria_druck will be deleted. then I have to solve the problem
+    $ cur_room = prev_room
+    $ tm.hour = 3
+    $ tm.update_image_time()
+    $ del sp_routine["victoria_intro"]
+    $ sp_routine["victoria_druck"] = Commitment(chs={"vct" : TalkObject(bg_before_after="bg livingroom victoria drunk", label_talk="victoria_sleep_talk")}, tm_start=0, tm_stop=4, id_location="house", id_room="livingroom", day_deadline=2)
     return
 
 label morning_intro:
+    call temporary_end_game
     return

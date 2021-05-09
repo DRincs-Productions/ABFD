@@ -37,6 +37,9 @@ image bg door open = "location/door-open.webp"
 image bg mcroom = "location/mcroom-[tm.image_time].webp"
 image bg miaroom = "location/miaroom-[tm.image_time].webp"
 image bg livingroom = "location/livingroom-[tm.image_time].webp"
+image bg livingroom victoria drunk = Composite( (gui.width, gui.height),
+    (0, 0), "/location/livingroom-2.webp",
+    (0, 0), "/location/livingroom-2-victoriadrunk.webp")
 
 ## Effect
 define blink_transition = ImageDissolve("location/door.webp", 0.2, ramplen=128)
