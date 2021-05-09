@@ -70,18 +70,18 @@ label News01:
     show bg tv
     show emy tv
     show mc TV
-    mia "Look at [for_emyR.MClabel]! There's [kst]. She was an old classmate of [for_emyR.MClabel]."
+    mia "Look at [for_emyR.MClabel]! There's [nnc]. She was an old classmate of [for_emyR.MClabel]."
     emy "Yeah! By now, all you have to do to work in this macho TV is sleep with the right people.... That's why he had so much practice in high school in high school."
     mc "{i}Wow, I've never heard [emy] say that. They must have been enemies in high school."
     mia "Eh... [for_emyR.MClabel] I didn't understand. What did you practice with? Maybe I could do it too to become famous."
     emy "Haha... [mia]... you're still too young to understand these things. You don't need to be like her to become famous."
-    kst "Good evening, [city] viewers. We interrupted the normal live broadcast because to report a shooting in [city] north."
-    kst "The police have already intervened. Police suspect that the shooting that occurred is the clash between two gangs, but the reason is still unclear."
-    kst "Some sources say that these gangs are going to sell new drugs on the black market."
+    nnc "Good evening, [city] viewers. We interrupted the normal live broadcast because to report a shooting in [city] north."
+    nnc "The police have already intervened. Police suspect that the shooting that occurred is the clash between two gangs, but the reason is still unclear."
+    nnc "Some sources say that these gangs are going to sell new drugs on the black market."
     mia "Oh no! [for_jnR.MClabel] is out there by himself...."
     emy "Yeah! I don't want anything to happen to him. But [for_emyR.NPClabel], don't worry. He's seen worse things than a little gunfight."
-    kst "We take advantage of this time to announce other news as well.... blah blah...."
-    kst "This extraordinary live broadcast is over, I leave you the vision of the weather."
+    nnc "We take advantage of this time to announce other news as well.... blah blah...."
+    nnc "This extraordinary live broadcast is over, I leave you the vision of the weather."
     show tv Meteo01 1
     "Young girl" "Good morning ... Emm ... good evening television viewers."
     emy "And good night... TV has now reached the bottom."
