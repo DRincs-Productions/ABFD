@@ -318,6 +318,7 @@ label introD_part2:
     label introD_fight:
 
         "{color=#ec5c09}Patreon" "In development"
+        call combact_mia_intro
 
         image bg prologue D04 = "/combact/Final/Mia01.webp"
         show bg prologue D04
