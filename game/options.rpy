@@ -189,10 +189,43 @@ init python:
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
 
+    build.classify('**.rpym', None)
+    build.classify('game/tl/**.rpy', None)
+    build.classify('game/**.rpy', None)
+    build.classify('**.psd', None)
+    build.classify('game/cache/*', None)
+    # git
+    build.classify('.gitignore', None)
+    build.classify('LICENSE', None)
+    build.classify('README.md', None)
+    build.classify('crowdin.yml', None)
+    build.classify('game/images/.git/*', None)
+
     ## To archive files, classify them as 'archive'.
 
     # build.classify('game/**.png', 'archive')
     # build.classify('game/**.jpg', 'archive')
+
+    build.archive("images", "all")
+    build.classify('game/**.png', 'images')
+    build.classify('game/**.jpg', 'images')
+    build.classify('game/**.webp', 'images')
+
+    build.archive('video', 'all')
+    build.classify('game/**.webm', 'video')
+
+    build.archive('translate', 'all')
+    build.classify('game/tl/**.**', 'translate')
+
+    build.archive('scripts', 'all')
+    build.classify('game/*.rpyc', 'scripts')
+    build.classify('game/quests/**.rpyc', 'scripts')
+    build.classify('game/labels/**.rpyc', 'scripts')
+    build.classify('game/tool/**.rpyc', 'scripts')
+
+    build.archive('font', 'all')
+    build.classify('game/**.ttf', 'font')
+    build.classify('game/**.otf', 'font')
 
     ## Files matching documentation patterns are duplicated in a mac app build,
     ## so they appear in both the app and the zip file.
