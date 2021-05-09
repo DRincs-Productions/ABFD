@@ -159,8 +159,8 @@ translate crowdin customize_mc_family_2f9e588c:
 # game/tool/characters_handler.rpy:293
 translate crowdin renaming_friend_9d439fc7:
 
-    # "[mc]'s [bbfR.NPClabel] is called:"
-    "[mc]'s [bbfR.NPClabel] is called:"
+    # "[mc]'s [bffR.NPClabel] is called:"
+    "[mc]'s [bffR.NPClabel] is called:"
 
 translate crowdin strings:
 
