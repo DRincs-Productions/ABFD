@@ -268,7 +268,7 @@ screen room_navigation():
                 action [Hide('wait_navigation'), Jump('mc_wardrobe')]
                 if renpy.variant("pc"):
                     at small_menu
-                    tooltip _("Settings")
+                    tooltip _("Wardrobe")
                 else:
                     at small_menu_mobile
 

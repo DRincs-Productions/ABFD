@@ -33,10 +33,10 @@ default tamI = Information(name = "Tammy", sname = "Johnson", age = (emyI.age-2)
 define tam = Character("{b}Mrs. [tamI.name]{/b}", who_color="#bf5fec")
 # TV
 default nncI = Information(name = "Nancy", sname = "O'Connor", age = (emyI.age), active = True, rel_status = rel.get('single'))
-define nnc = Character("{b}[kstI.name]{/b}", who_color="#bf5fec")
+define nnc = Character("{b}[nncI.name]{/b}", who_color="#bf5fec")
 # Universita
-default krn = Information(name = "Kristen", sname = "Stewart", age = (vctI.age), active = True, rel_status = rel.get('single'))
-define krn = Character("{b}[kstI.name]{/b}", who_color="#bf5fec")
+default krnI = Information(name = "Kristen", sname = "Stewart", age = (vctI.age), active = True, rel_status = rel.get('single'))
+define krn = Character("{b}[krnI.name]{/b}", who_color="#bf5fec")
 
 ## Functions for discord
 # https://arianeb.com/2019/07/19/adding-discord-rich-presence-to-renpy-games/
