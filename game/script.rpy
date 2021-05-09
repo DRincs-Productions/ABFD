@@ -17,7 +17,7 @@ default for_emyR = Relationship("leaseholder", "landlord", True)
 default vctI = Information(name = "Victoria", sname = jnI.sname, age = (mcI.age+4), active = True, rel_status = rel.get('single'))
 define vct = Character("{b}[vctI.name]{/b}", color="#a800a3")
 default vctR = Relationship("housemate", "housemate", True)
-default vctN = Relationship("housemate", "Little bastard", True)
+default vctN = Relationship("", _("Little bastard"), True)
 default miaI = Information(name = "Mia", sname = jnI.sname, age = (mcI.age-1), active = True, rel_status = rel.get('single'))
 define mia = Character("{b}[miaI.name]{/b}", color="#d600d0")
 default miaR = Relationship(vctR.NPClabel, vctR.NPClabel, True)
@@ -34,6 +34,9 @@ define tam = Character("{b}Mrs. [tamI.name]{/b}", who_color="#bf5fec")
 # TV
 default nncI = Information(name = "Nancy", sname = "O'Connor", age = (emyI.age), active = True, rel_status = rel.get('single'))
 define nnc = Character("{b}[kstI.name]{/b}", who_color="#bf5fec")
+# Universita
+default krn = Information(name = "Kristen", sname = "Stewart", age = (vctI.age), active = True, rel_status = rel.get('single'))
+define krn = Character("{b}[kstI.name]{/b}", who_color="#bf5fec")
 
 ## Functions for discord
 # https://arianeb.com/2019/07/19/adding-discord-rich-presence-to-renpy-games/
