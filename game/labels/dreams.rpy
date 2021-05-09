@@ -77,7 +77,7 @@ label after_deathA_partA:
     mc "Really?! Where?"
     "old man" "There!"
     show bg dreams A042
-    mc "HAAA!!!! haaaa!!!"
+    mc "AAAAA!!!! aaaaaa!!!"
     "old man" "And another practice results just in time for the shift change."
 
     scene black

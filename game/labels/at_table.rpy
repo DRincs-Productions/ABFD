@@ -69,7 +69,7 @@ label first_at_table_preparation:
     else:
         show bg at_table preparation A
         emy "Here it is ready! Go change if you want to eat."
-        mia "Ah ah! Get a move on here we are hungry."
+        mia "Haha...  Get a move on here we are hungry."
         $ sp_actions["mc_wardrobe"] = Action(_("Wardrobe"), "/interface/menu-wardrobe.webp", label = "first_dress_up", sp_room='mc_room')
         show bg at_table preparation
         call screen room_navigation
@@ -97,7 +97,7 @@ label at_table_dinner_A:
     mc "Yesterday... If I remember correctly... We played some [console], and talked a little bit about school and old times."
     emy "What did you guys eat?"
     mc "Last night [tam] wasn't home, so we ordered pizza from [pizzeria]. While for breakfast/lunch we got takeout at mcdonald with [tam]."
-    emy "It sounds like [tam] didn't really want to sew Ah Ah. However, it's not very salty like they eat... so don't get used to it."
+    emy "It sounds like [tam] didn't really want to sew. Ha, haha...  However, it's not very salty like they eat... so don't get used to it."
     menu:
         emy "You and [bff] have a good friendship, you seem almost like brothers. Even though you are very different."
         "Yeah, because...":
@@ -121,7 +121,7 @@ label at_table_dinner_A:
 
     emy "What about you [mia]! Are you ready for the exam tomorrow?"
     mia "Mhmm, yes... but... the professor is up too strict. I'm sure he hates me."
-    emy "Ah Ah yes of course, of course."
+    emy "Haha...  yes of course, of course."
     mia "But he does."
     emy "And... Why would he hate you?"
     mia "I don't know, that's the problem."
@@ -135,7 +135,7 @@ label at_table_dinner_A:
 
     mc "Great dinner. everything is great."
     emy "You mean \"was\"."
-    mc "AhAh. Yeah, everything was great."
+    mc "Haha... Yeah, everything was great."
     emy "Honey, I'm glad you enjoyed it."
     menu:
         "[mia] If you need to come back, go ahead. Help me clear the table. Right?!"

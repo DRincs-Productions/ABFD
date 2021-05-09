@@ -74,7 +74,7 @@ label News01:
     emy "Yeah! By now, all you have to do to work in this macho TV is sleep with the right people.... That's why he had so much practice in high school in high school."
     mc "{i}Wow, I've never heard [emy] say that. They must have been enemies in high school."
     mia "Eh... [for_emyR.MClabel] I didn't understand. What did you practice with? Maybe I could do it too to become famous."
-    emy "Ha Ha! [mia]... you're still too young to understand these things. You don't need to be like her to become famous."
+    emy "Haha... [mia]... you're still too young to understand these things. You don't need to be like her to become famous."
     kst "Good evening, [city] viewers. We interrupted the normal live broadcast because to report a shooting in [city] north."
     kst "The police have already intervened. Police suspect that the shooting that occurred is the clash between two gangs, but the reason is still unclear."
     kst "Some sources say that these gangs are going to sell new drugs on the black market."

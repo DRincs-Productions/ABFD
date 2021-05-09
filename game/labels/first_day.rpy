@@ -305,9 +305,9 @@ label introD_part2:
     mc "I don't want to see you so sad. I know a remedy to cheer up that sad little face."
     mia "What's that? What is it?"
     show bg prologue D03A
-    mia "Hahaha, stop it."
+    mia "Ha, haha... Stop it."
     mc "What did you say? I don't have to stop?! Ok..."
-    mia "Hahaha, stop it."
+    mia "Ha, haha... Stop it."
     show bg prologue D03B
     "([mia] picks up the pillow and starts the fight.)"
 
