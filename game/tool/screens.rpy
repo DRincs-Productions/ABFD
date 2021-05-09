@@ -171,7 +171,7 @@ screen room_navigation():
                     if (routine != None and room.id == routine.id_room and room == cur_room):
                         # Insert in talk for every ch, main in that room
                         for ch in routine.chs.keys():
-                            frame xysize (120, 120) background None:
+                            frame xysize (190, 190) background None:
                                 imagebutton:
                                     idle '/interface/action-talk.webp'
                                     focus_mask True
