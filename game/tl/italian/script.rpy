@@ -12,5 +12,5 @@ translate crowdin strings:
 
     # game/script.rpy:20
     old "Little bastard"
-    new "Little bastard"
+    new "Piccolo bastardo"
 
