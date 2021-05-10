@@ -39,8 +39,8 @@ translate crowdin navigation_tuturial_ff0dcf51:
 # game/labels/tutorial.rpy:18
 translate crowdin navigation_tuturial_3ae9bef8:
 
-    # mc "Ok, now for some good memories. This is the second month in [city]. I started to get more comfortable. "
-    mc "Ok, now for some good memories. This is the second month in [city]. I started to get more comfortable. "
+    # mc "Ok, now for some good memories. This is the second month in [city]. I started to get more comfortable."
+    mc "Ok, now for some good memories. This is the second month in [city]. I started to get more comfortable."
 
 # game/labels/tutorial.rpy:23
 translate crowdin navigation_tuturial_254087e7:
@@ -75,8 +75,8 @@ translate crowdin navigation_tuturial_bd547e68:
 # game/labels/tutorial.rpy:31
 translate crowdin navigation_tuturial_5530a4a6:
 
-    # mc "As soon as I get a chance I may visit other neighborhoods by pressing here as well."
-    mc "As soon as I get a chance I may visit other neighborhoods by pressing here as well."
+    # mc "As soon as I get a chance to visit other neighborhoods, just press here."
+    mc "As soon as I get a chance to visit other neighborhoods, just press here."
 
 # game/labels/tutorial.rpy:32
 translate crowdin navigation_tuturial_2e2f2275:
