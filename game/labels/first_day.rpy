@@ -420,7 +420,7 @@ label intro_sleep:
     pause
     mc "zZz zZz ..."
     scene black
-    show text _("{size=120}A few hours later.")
+    show text _("{size=70}A few hours later.")
     window hide
     pause
     hide black
