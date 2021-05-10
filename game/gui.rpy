@@ -229,13 +229,13 @@ define gui.quick_button_text_selected_color = gui.accent_color
 ##
 ## Choice buttons are used in the in-game menus.
 
-define gui.choice_button_width = 430
+define gui.choice_button_width = 1185
 define gui.choice_button_height = None
 define gui.choice_button_tile = False
-define gui.choice_button_borders = Borders(10, 2, 10, 2)
-define gui.choice_button_text_font = gui.choice_text_font
-define gui.choice_button_text_size = (gui.text_size - 10)
-define gui.choice_button_text_xalign = 0
+define gui.choice_button_borders = Borders(150, 8, 150, 8)
+define gui.choice_button_text_font = gui.text_font
+define gui.choice_button_text_size = gui.text_size
+define gui.choice_button_text_xalign = 0.5
 define gui.choice_button_text_idle_color = "#cccccc"
 define gui.choice_button_text_hover_color = "#ffffff"
 define gui.choice_button_text_insensitive_color = "#444444"
@@ -282,7 +282,7 @@ define gui.skip_ypos = 15
 define gui.notify_ypos = 68
 
 ## The spacing between menu choices.
-define gui.choice_spacing = 0
+define gui.choice_spacing = 33
 
 ## Buttons in the navigation section of the main and game menus.
 define gui.navigation_spacing = 6
