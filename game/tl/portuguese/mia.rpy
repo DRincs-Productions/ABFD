@@ -3,14 +3,14 @@
 # game/labels/mia.rpy:13
 translate crowdin intro_mia_change_clothes_ba93ee43:
 
-    # mc "{i}The door is closed... I think it is cabiando" nointeract
-    mc "{i}The door is closed... I think it is cabiando" nointeract
+    # mc "{i}The door is closed... I think he's getting dressed." nointeract
+    mc "{i}The door is closed... I think he's getting dressed." nointeract
 
 # game/labels/mia.rpy:19
 translate crowdin intro_mia_change_clothes_5393446f:
 
-    # mc "{i}I can't believe I'm actually doing this...."
-    mc "{i}I can't believe I'm actually doing this...."
+    # mc "{i}I can't believe I'm actually doing this..."
+    mc "{i}I can't believe I'm actually doing this..."
 
 # game/labels/mia.rpy:20
 translate crowdin intro_mia_change_clothes_291ba8ed:
