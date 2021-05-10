@@ -13,8 +13,8 @@ translate crowdin strings:
     new "What do you want to change?"
 
     # game/clothes.rpy:7
-    old "Normal clothes"
-    new "Normal clothes"
+    old "Usual clothes"
+    new "Usual clothes"
 
     # game/clothes.rpy:7
     old "Home clothes"
@@ -41,6 +41,6 @@ translate crowdin strings:
     new "Select and return"
 
     # game/clothes.rpy:35
-    old "Normal clothes:"
-    new "Normal clothes:"
+    old "Usual clothes:"
+    new "Usual clothes:"
 
