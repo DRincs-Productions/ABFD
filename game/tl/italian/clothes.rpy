@@ -13,12 +13,12 @@ translate crowdin strings:
     new "Che cosa vuoi cambiare?"
 
     # game/clothes.rpy:7
-    old "Normal clothes"
-    new "Normal clothes"
+    old "Usual clothes"
+    new "Usual clothes"
 
     # game/clothes.rpy:7
     old "Home clothes"
-    new "Home clothes"
+    new "Abiti da casa"
 
     # game/clothes.rpy:7
     old "Close Wardrobe"
@@ -26,7 +26,7 @@ translate crowdin strings:
 
     # game/clothes.rpy:21
     old "Home clothes:"
-    new "Home clothes:"
+    new "Abiti da casa:"
 
     # game/clothes.rpy:21
     old "Black T-shirt"
@@ -41,6 +41,6 @@ translate crowdin strings:
     new "Seleziona e torna indietro"
 
     # game/clothes.rpy:35
-    old "Normal clothes:"
-    new "Normal clothes:"
+    old "Usual clothes:"
+    new "Usual clothes:"
 
