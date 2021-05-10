@@ -1,0 +1,1 @@
+{"layout": null, "orientation": "sensorLandscape", "package": "com.drincs.abfd", "include_pil": false, "expansion": false, "name": "A Big Family in Debt", "update_always": false, "source": false, "icon_name": "ABFD", "version": "0.1.0", "update_icons": true, "permissions": ["VIBRATE"], "numeric_version": "100", "include_sqlite": false, "store": "none"}

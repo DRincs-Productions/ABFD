@@ -420,7 +420,7 @@ screen main_menu():
             imagebutton:
                 idle Frame(patreon_idle, xfill=True, yfill=True)
                 hover Frame(patreon_hover, xfill=True, yfill=True)
-                action OpenURL("https://www.patreon.com/DRincs")
+                action OpenURL("https://www.patreon.com/4135825")
                 ysize 128 # Y patreon icon
                 xalign 0.5
 
@@ -438,12 +438,6 @@ screen main_menu():
                     idle Frame(discord_idle, xfill=True, yfill=True)
                     hover Frame(discord_hover, xfill=True, yfill=True)
                     action OpenURL("https://discord.gg/HFfeJKR")
-                    xsize 80
-                    ysize 80
-                imagebutton:
-                    idle Frame(buymeacoffee_idle, xfill=True, yfill=True)
-                    hover Frame(buymeacoffee_hover, xfill=True, yfill=True)
-                    action OpenURL("https://www.buymeacoffee.com/DRincs")
                     xsize 80
                     ysize 80
                 imagebutton:
