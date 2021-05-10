@@ -4,265 +4,265 @@
 translate crowdin intro_add709f6:
 
     # mc "Hi, I'm a normal [mcI.age] year old boy with classic problems and no desire to commit, but just to have fun. I don't have a {b}girlfriend{/b}, a {b}job{/b} or concrete plans for the future and my school situation is gross. In the {b}school report of the first quarter{/b} I have all [school_grades_mc.average]."
-    mc "Hi, I'm a normal [mcI.age] year old boy with classic problems and no desire to commit, but just to have fun. I don't have a {b}girlfriend{/b}, a {b}job{/b} or concrete plans for the future and my school situation is gross. In the {b}school report of the first quarter{/b} I have all [school_grades_mc.average]."
+    mc "Ciao, sono un ragazzo normale di [mcI.age] con i classici problemi e nessuna voglia di impegnarmi, ma tanta per divertirmi. Non ho una {b}fidanzata{/b}, un {b}lavoro{/b} o piani concreti per il futuro e la mia situazione scolastica è indecente. Nella {b}pagella del prima quadrimestre{/b} ho tutte [school_grades_mc.average]."
 
 # game/labels/first_day.rpy:13
 translate crowdin intro_ea546e9e:
 
     # mc "My family is worried about my poor results and some of my behaviors, which is why they are deciding whether to keep me at home or have me transferred to a hateful [catholic_institute]. I have to make sure that this will never happen."
-    mc "My family is worried about my poor results and some of my behaviors, which is why they are deciding whether to keep me at home or have me transferred to a hateful [catholic_institute]. I have to make sure that this will never happen."
+    mc "La mia famiglia è preoccupata per i miei scarsi risultati e per alcuni comportamenti, per questo stanno decidendo se tenermi a casa o fare in modo che venga trasferito in un odioso [catholic_institute]. Devo fare in modo che questo non accada mai."
 
 # game/labels/first_day.rpy:14
 translate crowdin intro_308b7484:
 
     # mc "To be honest, my real family died in a plane crash. After their death I moved from [old_city] to [city] where I started a new life."
-    mc "To be honest, my real family died in a plane crash. After their death I moved from [old_city] to [city] where I started a new life."
+    mc "Ad essere onesti, la mia vera famiglia è morta in un incidente aereo. Dopo la loro morte mi trasferì da [old_city] a [city] dove ho iniziato una nuova vita."
 
 # game/labels/first_day.rpy:19
 translate crowdin presentations_c48a2b2d:
 
     # "{color=#ec5c09}Patreon" "Some characters are still in development. I will use {b}public votes{/b} to decide their appearance. Check my {b}{a=https://www.patreon.com/posts/revisiting-of-37922891}Post{/b}."
-    "{color=#ec5c09}Patreon" "Some characters are still in development. I will use {b}public votes{/b} to decide their appearance. Check my {b}{a=https://www.patreon.com/posts/revisiting-of-37922891}Post{/b}."
+    "{color=#ec5c09}Patreon" "Alcuni personaggi sono ancora in fase di sviluppo. Utilizzerò {b}votazioni pubbliche{/b} per decidere il loro aspetto. Dai un'occhiata al mio {b}{a=https://www.patreon.com/posts/revisiting-of-37922891}Post{/b}."
 
 # game/labels/first_day.rpy:20
 translate crowdin presentations_52b3d4ce:
 
     # mc "For me they are a second family." nointeract
-    mc "For me they are a second family." nointeract
+    mc "Per me sono come una seconda famiglia."
 
 # game/labels/first_day.rpy:42
 translate crowdin presentations_059a5711:
 
     # mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never at home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
-    mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never at home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
+    mc "[jn] è sposato con [emy], per me è come un secondo padre. È un ex Navy Seals, con l’ultima missione in [jnMission] gli è stata riconosciuta la pensione. [jnMission] lo ha cambiato, ha iniziato a bere, non c'è mai a casa e quando c'è parla davvero poco. [emy] ha provato ad aiutarlo, ma ha ottenuto solo litigi e insulti."
 
 # game/labels/first_day.rpy:45
 translate crowdin presentations_125c6f5a:
 
     # mc "[emy] is the classic housewife, cooks, washes and takes care of the family. When she was young she was a {b}model{/b}, but she is very reserved about her past. Sometimes when I come home I see her flipping through old magazines. She leaves home very little, [jn] never takes her anywhere."
-    mc "[emy] is the classic housewife, cooks, washes and takes care of the family. When she was young she was a {b}model{/b}, but she is very reserved about her past. Sometimes when I come home I see her flipping through old magazines. She leaves home very little, [jn] never takes her anywhere."
+    mc "[emy] è la classica casalinga, cucina, lava e si prende cura della famiglia. Quando era giovane era una {b}modella{/b}, ma è molto riservata con il suo passato. A volte, quando torno a casa, la vedo sfogliare vecchie riviste. Esce molto poco da casa, [jn] non la porta mai da nessuna parte."
 
 # game/labels/first_day.rpy:48
 translate crowdin presentations_f9938f03:
 
     # mc "[arn] is the same age as me, we attend the same {b}school{/b} and are in the same year, but in different classes. Her class is the best in the history of our school, while mine is probably the worst. That's why, 2 days ago, they left on a school trip while we didn't."
-    mc "[arn] is the same age as me, we attend the same {b}school{/b} and are in the same year, but in different classes. Her class is the best in the history of our school, while mine is probably the worst. That's why, 2 days ago, they left on a school trip while we didn't."
+    mc "[arn] è la mia stessa età, frequentiamo la {b}stessa scuola{/b} e siamo allo stesso anno, ma in classi differenti. La sua classe è la migliore nella storia della nostra scuola, mentre la mia è probabilmente la peggiore. Ecco perché, 2 giorni fa, sono partiti in gita mentre noi no."
 
 # game/labels/first_day.rpy:51
 translate crowdin presentations_d32b7d45:
 
     # mc "[vct] is a {b}college freshman{/b}, she likes to go out in the evening and have fun with her friends. The last few days have been difficult for her too, she often comes back completely {b}drunk{/b} in the evening. Our relationship is mostly love and hate."
-    mc "[vct] is a {b}college freshman{/b}, she likes to go out in the evening and have fun with her friends. The last few days have been difficult for her too, she often comes back completely {b}drunk{/b} in the evening. Our relationship is mostly love and hate."
+    mc "[vct] è una {b}matricola universitaria{/b}, le piace uscire la sera e divertirsi con le sue amiche. Anche per lei gli ultimi giorni sono stati difficili, spesso la sera torna completamente {b}ubriaca{/b}. Il nostro rapporto è per lo più amore e odio."
 
 # game/labels/first_day.rpy:54
 translate crowdin presentations_4a1cf873:
 
     # mc "[mia] is the youngest in the house and she is [for_emyR.MClabel]'s darling. Since she changed schools she has various difficulties and often asks me to {b}help her with her homework{/b}. Her big dream is to become an [influencer], but her [for_emyR.MClabel] forbids her to post pictures."
-    mc "[mia] is the youngest in the house and she is [for_emyR.MClabel]'s darling. Since she changed schools she has various difficulties and often asks me to {b}help her with her homework{/b}. Her big dream is to become an [influencer], but her [for_emyR.MClabel] forbids her to post pictures."
+    mc "[mia] è la piccola di casa ed è la cocca di [for_emyR.MClabel]. Da quando ha cambiato scuola, ha varie difficoltà e spesso mi chiede di {b}aiutarla con i compiti{/b}. Il suo grande sogno è quello di diventare una [influencer], ma sua [for_emyR.MClabel] le proibisce di pubblicare foto."
 
 # game/labels/first_day.rpy:61
 translate crowdin presentations_montell_a12d227b:
 
     # mc "{i}Now I'm on my way home, after spending the night at the {b}[tamI.sname]'s house{/b}. They are the only people from my old life that I still hang out with. Next to me there is:"
-    mc "{i}Now I'm on my way home, after spending the night at the {b}[tamI.sname]'s house{/b}. They are the only people from my old life that I still hang out with. Next to me there is:"
+    mc "{i}Adesso sto tornando a casa, dopo aver passato la notte {b}a casa dei [tamI.sname]{/b}. Sono le uniche persone della mia vecchia vita che frequento ancora. A fianco a me c'è:"
 
 # game/labels/first_day.rpy:63
 translate crowdin presentations_montell_ec00e90a:
 
     # mc "{i}And this is his mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues and that is why I have known them since childhood."
-    mc "{i}And this is his mother, [tam]. They too lost someone in the plane crash, her father and her husband {b}Mr. [mrJohnson] Johnson{/b}. He and my father were colleagues and that is why I have known them since childhood."
+    mc "{i}E lei è sua madre, [tam]. Anche loro hanno perso qualcuno nell'incidente aereo, suo padre e suo marito {b}Mr. [mrJohnson] Johnson{/b}. Lui e mio padre erano colleghi ed è per questo che li conosco fin da quando ero piccolo."
 
 # game/labels/first_day.rpy:64
 translate crowdin presentations_montell_adab5526:
 
     # mc "{i}And so, a few weeks after I left my old city, they preferred to create a new life by moving here to my own neighborhood, except his brother who preferred to stay."
-    mc "{i}And so, a few weeks after I left my old city, they preferred to create a new life by moving here to my own neighborhood, except his brother who preferred to stay."
+    mc "{i}E così, poche settimane dopo che ho lasciato la mia vecchia città, hanno preferito creare una nuova vita trasferendosi qui nel mio quartiere, tranne suo fratello che ha preferito rimanere."
 
 # game/labels/first_day.rpy:65
 translate crowdin presentations_montell_24b5f748:
 
     # mc "{i}This neighborhood is a nice place to live, it is a quiet area, not far away there is the sea, some clubs and there are beautiful girls."
-    mc "{i}This neighborhood is a nice place to live, it is a quiet area, not far away there is the sea, some clubs and there are beautiful girls."
+    mc "{i}Questo quartiere è un bel posto in cui vivere, è una zona tranquilla, non lontano c'è il mare, qualche locale e ci sono belle ragazze"
 
 # game/labels/first_day.rpy:66
 translate crowdin presentations_montell_d0f687c5:
 
     # tam "What's wrong with you guys!? You are so quiet."
-    tam "What's wrong with you guys!? You are so quiet."
+    tam "Che vi prende ragazzi!? Siete così silenziosi."
 
 # game/labels/first_day.rpy:67
 translate crowdin presentations_montell_9dd18ea9:
 
     # bff "All is well. It's just that yesterday we played at the [console] until late at night."
-    bff "All is well. It's just that yesterday we played at the [console] until late at night."
+    bff "Va tutto bene. È solo che ieri abbiamo giocato alla [console] fino a tardi."
 
 # game/labels/first_day.rpy:68
 translate crowdin presentations_montell_83e1e81c:
 
     # tam "Who won in the end?"
-    tam "Who won in the end?"
+    tam "Chi ha vinto alla fine?"
 
 # game/labels/first_day.rpy:69
 translate crowdin presentations_montell_63e9c220:
 
     # bff "I won, I literally shredded it. He is too scarce."
-    bff "I won, I literally shredded it. He is too scarce."
+    bff "Ho vinto io, l'ho letteralmente stracciato. È troppo scarso."
 
 # game/labels/first_day.rpy:70
 translate crowdin presentations_montell_c624707d:
 
     # mc "It's just luck."
-    mc "It's just luck."
+    mc "È solo fortuna."
 
 # game/labels/first_day.rpy:71
 translate crowdin presentations_montell_93dbb65a:
 
     # bff "Modestly this is talent, you have to train to reach my level."
-    bff "Modestly this is talent, you have to train to reach my level."
+    bff "Modestamente questo è talento, devi allenarti duramente per raggiungere il mio livello."
 
 # game/labels/first_day.rpy:72
 translate crowdin presentations_montell_60438f94:
 
     # tam "Yeah! [bff] spends hours in front of a stupid screen after school."
-    tam "Yeah! [bff] spends hours in front of a stupid screen after school."
+    tam "Già! [bff] passa ore davanti a uno stupido schermo dopo la scuola."
 
 # game/labels/first_day.rpy:73
 translate crowdin presentations_montell_e1df17f8:
 
     # mc "Don't worry, [tam]. I convince him to go out. We also joined the school's [mcSport] team."
-    mc "Don't worry, [tam]. I convince him to go out. We also joined the school's [mcSport] team."
+    mc "Non si preoccupi, [tam]. Lo convinco ad uscire. Ci siamo anche iscritti alla squadra di [mcSport] della scuola."
 
 # game/labels/first_day.rpy:74
 translate crowdin presentations_montell_ce5abb14:
 
     # bff "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
-    bff "I don't know if that was a good idea and then mom, you know I don't go out much because I don't have many friends here."
+    bff "Non so se questa sia stata una buona idea e poi mamma, lo sai che non esco molto perché non ho molti amici qui."
 
 # game/labels/first_day.rpy:75
 translate crowdin presentations_montell_78aecda6:
 
     # tam "Don't worry, honey. I'm sure when you start [mcSport] you'll make a few friends."
-    tam "Don't worry, honey. I'm sure when you start [mcSport] you'll make a few friends."
+    tam "Non ti preoccupare, tesoro. Sono sicura che quando inizierai il [mcSport] ti farai qualche amichetto."
 
 # game/labels/first_day.rpy:76
 translate crowdin presentations_montell_2ab1ac6b:
 
     # tam "By the way [mc], did you give your to [emyR.NPClabel] your school report card?"
-    tam "By the way [mc], did you give your to [emyR.NPClabel] your school report card?"
+    tam "A proposito [mc], hai dato a tua [emyR.NPClabel] la pagella scolastica?"
 
 # game/labels/first_day.rpy:77
 translate crowdin presentations_montell_d79aa0ea:
 
     # mc "Not yet, I'm going to talk to her tonight."
-    mc "Not yet, I'm going to talk to her tonight."
+    mc "Non ancora, parlerò con lei stasera."
 
 # game/labels/first_day.rpy:78
 translate crowdin presentations_montell_1d95ff6e:
 
     # tam "Well, you have arrived."
-    tam "Well, you have arrived."
+    tam "Bene, sei arrivato."
 
 # game/labels/first_day.rpy:81
 translate crowdin presentations_montell_512ade0b:
 
     # tam "Wait [mc]. Remember that if you don't tell her, I will tell [emy] when I see her."
-    tam "Wait [mc]. Remember that if you don't tell her, I will tell [emy] when I see her."
+    tam "Aspetta [mc]. Ricorda che se non glielo dici tu, lo dirò io a [emy] quando la vedo."
 
 # game/labels/first_day.rpy:82
 translate crowdin presentations_montell_6a90cac5:
 
     # mc "All right, [tam]. I will."
-    mc "All right, [tam]. I will."
+    mc "Va bene, [tam]. Lo farò."
 
 # game/labels/first_day.rpy:83
 translate crowdin presentations_montell_c120e326:
 
     # tam "Well, you can go."
-    tam "Well, you can go."
+    tam "Va bene, puoi andare."
 
 # game/labels/first_day.rpy:85
 translate crowdin presentations_montell_0f2c1738:
 
     # bff "Bye, [mc]. See you."
-    bff "Bye, [mc]. See you."
+    bff "Ciao, [mc]. Ci vediamo"
 
 # game/labels/first_day.rpy:86
 translate crowdin presentations_montell_3d532c40:
 
     # mc "Bye"
-    mc "Bye"
+    mc "Ciao"
 
 # game/labels/first_day.rpy:149
 translate crowdin prologue_98a05b7e:
 
     # mc "I am home!"
-    mc "I am home!"
+    mc "Sono a casa!"
 
 # game/labels/first_day.rpy:153
 translate crowdin prologue_092714c3:
 
     # mc "{i}What!? What is happening?"
-    mc "{i}What!? What is happening?"
+    mc "{i}Cosa!? Che sta succedendo?"
 
 # game/labels/first_day.rpy:154
 translate crowdin prologue_a1451e33:
 
     # mc "{i}My [emyR.NPClabel] is crying!?"
-    mc "{i}My [emyR.NPClabel] is crying!?"
+    mc "{i}Mia [emyR.NPClabel] sta piangendo!?"
 
 # game/labels/first_day.rpy:158
 translate crowdin prologue_87422b22:
 
     # emy "Hey, honey."
-    emy "Hey, honey."
+    emy "Ehi, tesoro."
 
 # game/labels/first_day.rpy:159
 translate crowdin prologue_d6975891:
 
     # mc "Hi [emyR.NPClabel]. What happened?"
-    mc "Hi [emyR.NPClabel]. What happened?"
+    mc "Ciao [emyR.NPClabel]. Cosa è successo?"
 
 # game/labels/first_day.rpy:160
 translate crowdin prologue_556502aa:
 
     # emy "He is gone... [jn] is gone. This morning I woke up and he was gone. He left without even telling me anything."
-    emy "He is gone... [jn] is gone. This morning I woke up and he was gone. He left without even telling me anything."
+    emy "Se n'è andato... [jn] è andato via. Stamattina mi sono svegliata e non c'era. Lui se n'è andato senza nemmeno dirmi nulla."
 
 # game/labels/first_day.rpy:164
 translate crowdin prologue_14092600:
 
     # mc "He is gone!? Where?"
-    mc "He is gone!? Where?"
+    mc "Se n'è andato!? Dove?"
 
 # game/labels/first_day.rpy:165
 translate crowdin prologue_466e88ad:
 
     # emy "Eh, what do I know. He left home."
-    emy "Eh, what do I know. He left home."
+    emy "Eh, che ne so. Se ne andato da casa."
 
 # game/labels/first_day.rpy:167
 translate crowdin prologue_7d010a14:
 
     # mc "What happened?"
-    mc "What happened?"
+    mc "Cosa è successo?"
 
 # game/labels/first_day.rpy:170
 translate crowdin prologue_1d85bbe3:
 
     # mc "Oh finally! I couldn't take it anymore."
-    mc "Oh finally! I couldn't take it anymore."
+    mc "Oh finalmente! Non ne potevo più."
 
 # game/labels/first_day.rpy:171
 translate crowdin prologue_fcdd3dbf:
 
     # emy "Hey! You can't talk about your [jnR.NPClabel] like that."
-    emy "Hey! You can't talk about your [jnR.NPClabel] like that."
+    emy "Ehi! Non puoi parlare così di tuo [jnR.NPClabel]."
 
 # game/labels/first_day.rpy:173
 translate crowdin prologue_5d1ef22d:
 
     # mc "{i}I knew this would happen sooner or later."
-    mc "{i}I knew this would happen sooner or later."
+    mc "{i}Sapevo che prima o poi sarebbe successo."
 
 # game/labels/first_day.rpy:174
 translate crowdin prologue_063d6293:
