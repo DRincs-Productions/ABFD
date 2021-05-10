@@ -74,5 +74,5 @@ screen smartphone01_porn():
         idle Frame(smartphone01_porn_icon_idle, xfill=True, yfill=True)
         hover Frame(smartphone01_porn_icon_hover, xfill=True, yfill=True)
         action OpenURL(porn_icon_url)
-        ysize 125
-        xsize 125
+        ysize 70
+        xsize 70
