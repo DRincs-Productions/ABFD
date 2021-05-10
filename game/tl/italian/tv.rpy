@@ -4,7 +4,7 @@
 translate crowdin intro_wach_tv_3debaa5f:
 
     # mc "Has the movie started yet?"
-    mc "Has the movie started yet?"
+    mc "Il film è già iniziato?"
 
 # game/labels/tv.rpy:36
 translate crowdin intro_wach_tv_2fa0fa4d:
