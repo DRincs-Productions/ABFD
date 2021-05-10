@@ -70,7 +70,7 @@ translate crowdin at_table_dinner_A_48606c77:
 translate crowdin at_table_dinner_A_c331f251:
 
     # emy "It sounds like [tam] didn't really want to sew. Ha, haha... However, it is not very healthy as they eat.... so don't get used to it."
-    emy "Credo che [tam] non aveva molta voglia di cucinare. Ha, haha... However, it is not very healthy as they eat.... quindi non ti abituare."
+    emy "Credo che [tam] non aveva molta voglia di cucinare. Ha, haha... Tuttavia, non è molto sano come mangiano... quindi non ti abituare."
 
 # game/labels/at_table.rpy:101
 translate crowdin at_table_dinner_A_2cc787ab:
@@ -82,7 +82,7 @@ translate crowdin at_table_dinner_A_2cc787ab:
 translate crowdin at_table_dinner_A_9c64c2df:
 
     # mc "Yeah, we're very close. I've known him for a long time and then we have a very similar background."
-    mc "Già, siamo molto legati. I've known him for a long time and then we have a very similar background."
+    mc "Già, siamo molto legati. Lo conosco da molto tempo e poi abbiamo un passato molto simile."
 
 # game/labels/at_table.rpy:106
 translate crowdin at_table_dinner_A_d107a06b:
@@ -106,7 +106,7 @@ translate crowdin at_table_dinner_A_bef7a488:
 translate crowdin at_table_dinner_A_a9510619:
 
     # emy "[mia]! You don't have to ask those questions. It is obvious that he still suffers."
-    emy "[mia]! Non devi fargli queste domande. It is obvious that he still suffers."
+    emy "[mia]! Non devi fargli queste domande. È ovvio che ci soffre ancora."
 
 # game/labels/at_table.rpy:113
 translate crowdin at_table_dinner_A_26b073b2:
@@ -214,7 +214,7 @@ translate crowdin at_table_dinner_A_e056d578:
 translate crowdin at_table_dinner_A_cc0fe43b:
 
     # mc "Okay, fine."
-    mc "Okay, fine."
+    mc "Okay, va bene."
 
 # game/labels/at_table.rpy:146
 translate crowdin at_table_dinner_A_df4048f6:
