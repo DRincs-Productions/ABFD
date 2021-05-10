@@ -15,9 +15,9 @@ label after_deathA:
     "old man" "Wait your turn."
     mc "Turn?!"
     menu:
-        "old man" "Do not see are busy, when the time comes you can ask all the questions you want."
-        "But am I the only one?":
-            mc "Ehmm... But... am I the only one?"
+        "old man" "Can't you see I'm busy. When it's your turn you can have all the answers you want."
+        "But I'm the only one.":
+            mc "Ehmm... But... I'm the only one."
             "old man" "You have to wait."
         "Ok":
             mc "Ok"
@@ -28,7 +28,7 @@ label after_deathA:
     hide black
     hide text
     show bg dreams A03
-    "(From pc of old humo you start to hear a very faint sound)"
+    "(From the old man's pc, you begin to hear a very faint sound)"
     "Cronist" "... Maradona takes off from the middle of the field... goes for goal... and it's... GOAL!!! GOAL!!! Maradona's hat-trick."
     "old man" "GOAL!!! GOAL!!!"
     mc "{i}Fucking old man..."
@@ -51,24 +51,24 @@ label after_deathA_partA:
             jump after_deathA_partA
         "Famous people?":
             mc "Can I meet any famous people?"
-            "old man" "No, I'm sorry. It's not your area."
+            "old man" "No, I'm sorry. You can't have access to that area, that's restricted area."
             jump after_deathA_partA
         "No questions":
-            mc "I have no more questions"
-    "old man" "Ok... I found your file... [mc] of [mcI.age] years old... "
+            mc "No further questions."
+    "old man" "Ok... I found your file... [mc] of [mcI.age] years old..."
     mc "Mhmm... yes?!"
-    "old man" "Missing parents, still a virgin, no desire to strive, no good action in particular and not bad either...."
+    "old man" "Missing parents, still a virgin, no desire to strive, no good/bad deeds in particular.... Nothing in particular."
     "old man" "Mhmm... interesting... they haven't made any decisions yet. So... I should carefully inspect your file."
-    "old man" "{i}I'm almost done with my shift, just didn't need your file. I should stay a few more hours."
+    "old man" "{i}I'm almost done with my shift. Ouch, another practice. I should stay a few more hours."
     "old man" "Or..."
-    mc "Or..."
-    "old man" "Or?"
+    mc "Or???"
+    "old man" "Or..."
     "old man" "I have an idea! Boy come with me."
     show bg dreams A040
     "old man" "Come on, come closer. Don't be afraid, I won't bite. You can see the whole world from up here. And right down here is your neighborhood."
     mc "Oh! Wow! This view is terrifying and awesome at the same time."
     "old man" "Boy listen to an old man who has a little more experience than you. Up here it's an extremely boring place, it's all so repetitive. You don't have any freedom of choice."
-    "old man" "While down there... eh down there it's great only you are the limit of your actions."
+    "old man" "While down there... Eh, there's no limit down there. Only the limit of your imagination."
     "old man" "You can do anything you want. Drugs, alcohol, sex ... or if it makes you feel better you can help people. The choice is yours alone. You shouldn't have wasted all this time reflecting on your past, but taking action."
     mc "Yeah, too bad I can't do that anymore."
     "old man" "Yeah...too bad..."
@@ -78,7 +78,7 @@ label after_deathA_partA:
     "old man" "There!"
     show bg dreams A042
     mc "AAAAA!!!! aaaaaa!!!"
-    "old man" "And another practice results just in time for the shift change."
+    "old man" "Another case solved. Just in time for the shift change."
 
     scene black
     window hide

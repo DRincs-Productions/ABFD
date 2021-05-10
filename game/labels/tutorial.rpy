@@ -15,7 +15,7 @@ label navigation_tuturial:
     mc "It's a very complex and lengthy study that I'm not getting into."
     mc "But after a little bit of research in sociopsychology. I discovered something interesting about society. A person is who they are not by their choice, but based on the people and from the environment around them."
     mc "Hm... That's kind of an ugly way of looking at it. I like to think that each person has their own destiny and story that characterizes them."
-    mc "Ok, now for some good memories. This is the second month in [city]. I started to get more comfortable. "
+    mc "Ok, now for some good memories. This is the second month in [city]. I started to get more comfortable."
     hide mc
     show bg tuturial room
     show arrow:
@@ -28,7 +28,7 @@ label navigation_tuturial:
     show bg tuturial map
     "{color=#ec5c09}Patreon" "In development"
     mc "And this is the map of the neighborhood where I live."
-    mc "As soon as I get a chance I may visit other neighborhoods by pressing here as well."
+    mc "As soon as I get a chance to visit other neighborhoods, just press here."
     mc "This neighborhood is not a metropolis like the ones to the north. Nor is it a ghetto, full of bad guys, like the one to the east. This is a quiet neighborhood. With a beach even if it has nothing to do with the southern peninsula."
     mc "In [city] there are many places to visit and discover."
     show bg tuturial

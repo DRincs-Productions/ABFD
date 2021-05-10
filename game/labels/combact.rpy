@@ -67,7 +67,7 @@ label combact_mia_intro_part2:
             $ mia_fun += 10
             show mc funny face 01
             show mia laughter cushion 01
-        "Tickle leta":
+        "Lethal Tickling":
             hide mc
             hide mia
             $ mia_fun += 20

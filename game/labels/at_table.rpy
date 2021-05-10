@@ -68,8 +68,8 @@ label first_at_table_preparation:
         call screen room_navigation
     else:
         show bg at_table preparation A
-        emy "Here it is ready! Go change if you want to eat."
-        mia "Haha...  Get a move on here we are hungry."
+        emy "Dinner is almost ready. Go change if you want to eat."
+        mia "Haha...  Make it quick, we're hungry here."
         $ sp_actions["mc_wardrobe"] = Action(_("Wardrobe"), "/interface/menu-wardrobe.webp", label = "first_dress_up", sp_room='mc_room')
         show bg at_table preparation
         call screen room_navigation
@@ -97,17 +97,17 @@ label at_table_dinner_A:
     mc "Yesterday... If I remember correctly... We played some [console], and talked a little bit about school and old times."
     emy "What did you guys eat?"
     mc "Last night [tam] wasn't home, so we ordered pizza from [pizzeria]. While for breakfast/lunch we got takeout at mcdonald with [tam]."
-    emy "It sounds like [tam] didn't really want to sew. Ha, haha...  However, it's not very salty like they eat... so don't get used to it."
+    emy "It sounds like [tam] didn't really want to sew. Ha, haha...  However, it is not very healthy as they eat.... so don't get used to it."
     menu:
         emy "You and [bff] have a good friendship, you seem almost like brothers. Even though you are very different."
         "Yeah, because...":
-            mc "Yeah, we're very close. I've known him for a long time and also because we have a very similar background."
+            mc "Yeah, we're very close. I've known him for a long time and then we have a very similar background."
         "He's not that great":
-            mc "Yes, he's a reliable friend. if a bit awkward and boring."
+            mc "Yes, he's a reliable friend. Even if it is a little funny and boring."
         "For now":
             mc "Yes, also because I haven't been here long. But I'm sure I'll be making more."
     mia "Do you miss [old_city]? I mean you left everyone you knew behind."
-    emy "[mia]! You don't have to ask those questions. It makes sense that you're still in some pain."
+    emy "[mia]! You don't have to ask those questions. It is obvious that he still suffers."
     menu:
         "Yeah":
             mc "Yeah, I miss it a little bit. But it's not bad here."
@@ -119,7 +119,7 @@ label at_table_dinner_A:
             mc "I'd rather not talk about it yet, I think you'll understand."
     mia "Mhmm, I understand."
 
-    emy "What about you [mia]! Are you ready for the exam tomorrow?"
+    emy "What about you [mia]?! Are you ready for the exam tomorrow?"
     mia "Mhmm, yes... but... the professor is up too strict. I'm sure he hates me."
     emy "Haha...  yes of course, of course."
     mia "But he does."
@@ -138,9 +138,9 @@ label at_table_dinner_A:
     mc "Haha... Yeah, everything was great."
     emy "Honey, I'm glad you enjoyed it."
     menu:
-        "[mia] If you need to come back, go ahead. Help me clear the table. Right?!"
+        "[mia], if you need to review for tomorrow, go ahead. [mc] will help me clear the table. Right?!"
         "Yes":
-            mc "Okay, that's good."
+            mc "Okay, fine."
             $ stats['emy'].change('favour', 2)
         "No":
             mc "No, I don't really want to."
@@ -166,27 +166,27 @@ label at_table_dinner_A:
     mc "{i}Oh no! She probably told her about the school report."
     emy "Tomorrow morning, she'll give you a ride to school. Because that bastard took the car away too."
     mc "{i}Phew, danger averted."
-    emy "But I don't want to be too much trouble. You're a big boy now. Tomorrow she'll give you a ride, but then you'll have to make your own arrangements. You should get a season ticket for public transportation, I'll give you the money tomorrow."
+    emy "But I don't want to be too much trouble. You're a big boy now. Tomorrow she'll give you a ride, but then you'll have to make your own arrangements. You should get a public transportation pass, I'll give you the money."
     mc "Beh... we could use your car."
-    emy "That piece of crap!? Honey it hasn't been turned on in years, I don't think it still works. I should get it checked out first."
+    emy "That piece of crap!? Honey, we haven't turned it on in years. I don't think it still works. I should get it checked out first."
 
 label at_table_dinner_A_part2:
     menu:
-        emy "I'm not gonna tell you again, so we're good?"
+        emy "I won't say it again. So, are we clear?"
         "Where do I go?":
             mc "All clear, however I don't know where to get subscriptions."
-            emy "Any store or tobacconist. I know the sandwich shop at your school sells them."
+            emy "Any store or newsstand. I know the sandwich shop at your school sells them."
             jump at_table_dinner_A_part2
         "I would like the money now":
             mc "Could you give me the money right away? I'm afraid I might forget."
             if (stats['emy'].get('favour') < 2):
-                emy "Do you see any pockets? I don't have any money on me"
+                emy "Do you see any pockets? I don't have any money on me."
             else:
                 emy "No, honey. I'll remember it."
             jump at_table_dinner_A_part2
         "Talk about [jn]":
             mc "Have you heard from [jnR.NPClabel]?"
-            emy "No! And I don't want to talk about him for a while. I could use a little distraction."
+            emy "No! And I don't want to talk about him for a while. I need a little distraction."
         "No questions":
             mc "Okay, all clear."
     hide bg

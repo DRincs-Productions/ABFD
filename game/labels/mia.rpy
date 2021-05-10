@@ -11,12 +11,12 @@ image bg mia dress_up 01C = "/Mia/Dress up/01.webp"
 label intro_mia_change_clothes:
     show bg door open
     menu:
-        mc "{i}The door is closed... I think it is cabiando"
+        mc "{i}The door is closed... I think he's getting dressed."
         "Spy":
             show bg mia dress_up 01A
             pause
             show bg mia dress_up 01A mc
-            mc "{i}I can't believe I'm actually doing this...."
+            mc "{i}I can't believe I'm actually doing this..."
             mc "{i}I'm so worked up. I'm starting to get hard."
             show bg mia dress_up 01A
             pause

@@ -6,7 +6,7 @@ label mc_wardrobe:
     show bg mc dress_up 01
     menu:
         "What do you want to change?"
-        "Normal clothes":
+        "Usual clothes":
             call mc_wardrobe_normal
         "Home clothes":
             call mc_wardrobe_home
@@ -33,7 +33,7 @@ label mc_wardrobe_home:
 label mc_wardrobe_normal:
     image mc normal 01 = "/MC/Dress up/01-normal.webp"
     menu:
-        "Normal clothes:"
+        "Usual clothes:"
         "Default":
             show mc normal 01
             $ mc_dress_normal = ""
