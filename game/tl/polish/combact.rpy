@@ -19,6 +19,6 @@ translate crowdin strings:
     new "Funny face"
 
     # game/labels/combact.rpy:62
-    old "Tickle leta"
-    new "Tickle leta"
+    old "Lethal Tickling"
+    new "Lethal Tickling"
 
