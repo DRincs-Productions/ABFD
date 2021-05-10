@@ -9,14 +9,14 @@ translate crowdin first_at_table_preparation_bba393c8:
 # game/labels/at_table.rpy:71
 translate crowdin first_at_table_preparation_612e2ac5:
 
-    # emy "Here it is ready! Go change if you want to eat."
-    emy "Here it is ready! Go change if you want to eat."
+    # emy "Dinner is almost ready. Go change if you want to eat."
+    emy "Dinner is almost ready. Go change if you want to eat."
 
 # game/labels/at_table.rpy:72
 translate crowdin first_at_table_preparation_de3c2312:
 
-    # mia "Haha... Get a move on here we are hungry."
-    mia "Haha... Get a move on here we are hungry."
+    # mia "Haha... Make it quick, we're hungry here."
+    mia "Haha... Make it quick, we're hungry here."
 
 # game/labels/at_table.rpy:81
 translate crowdin helpA_a4315a3c:
@@ -69,8 +69,8 @@ translate crowdin at_table_dinner_A_48606c77:
 # game/labels/at_table.rpy:100
 translate crowdin at_table_dinner_A_c331f251:
 
-    # emy "It sounds like [tam] didn't really want to sew. Ha, haha... However, it's not very salty like they eat... so don't get used to it."
-    emy "It sounds like [tam] didn't really want to sew. Ha, haha... However, it's not very salty like they eat... so don't get used to it."
+    # emy "It sounds like [tam] didn't really want to sew. Ha, haha... However, it is not very healthy as they eat.... so don't get used to it."
+    emy "It sounds like [tam] didn't really want to sew. Ha, haha... However, it is not very healthy as they eat.... so don't get used to it."
 
 # game/labels/at_table.rpy:101
 translate crowdin at_table_dinner_A_2cc787ab:
@@ -81,14 +81,14 @@ translate crowdin at_table_dinner_A_2cc787ab:
 # game/labels/at_table.rpy:104
 translate crowdin at_table_dinner_A_9c64c2df:
 
-    # mc "Yeah, we're very close. I've known him for a long time and also because we have a very similar background."
-    mc "Yeah, we're very close. I've known him for a long time and also because we have a very similar background."
+    # mc "Yeah, we're very close. I've known him for a long time and then we have a very similar background."
+    mc "Yeah, we're very close. I've known him for a long time and then we have a very similar background."
 
 # game/labels/at_table.rpy:106
 translate crowdin at_table_dinner_A_d107a06b:
 
-    # mc "Yes, he's a reliable friend. if a bit awkward and boring."
-    mc "Yes, he's a reliable friend. if a bit awkward and boring."
+    # mc "Yes, he's a reliable friend. Even if it is a little funny and boring."
+    mc "Yes, he's a reliable friend. Even if it is a little funny and boring."
 
 # game/labels/at_table.rpy:108
 translate crowdin at_table_dinner_A_64e91d02:
@@ -105,8 +105,8 @@ translate crowdin at_table_dinner_A_bef7a488:
 # game/labels/at_table.rpy:110
 translate crowdin at_table_dinner_A_a9510619:
 
-    # emy "[mia]! You don't have to ask those questions. It makes sense that you're still in some pain."
-    emy "[mia]! You don't have to ask those questions. It makes sense that you're still in some pain."
+    # emy "[mia]! You don't have to ask those questions. It is obvious that he still suffers."
+    emy "[mia]! You don't have to ask those questions. It is obvious that he still suffers."
 
 # game/labels/at_table.rpy:113
 translate crowdin at_table_dinner_A_26b073b2:
@@ -141,8 +141,8 @@ translate crowdin at_table_dinner_A_739dcef9:
 # game/labels/at_table.rpy:122
 translate crowdin at_table_dinner_A_379631f0:
 
-    # emy "What about you [mia]! Are you ready for the exam tomorrow?"
-    emy "What about you [mia]! Are you ready for the exam tomorrow?"
+    # emy "What about you [mia]?! Are you ready for the exam tomorrow?"
+    emy "What about you [mia]?! Are you ready for the exam tomorrow?"
 
 # game/labels/at_table.rpy:123
 translate crowdin at_table_dinner_A_e6bdb60e:
@@ -213,8 +213,8 @@ translate crowdin at_table_dinner_A_e056d578:
 # game/labels/at_table.rpy:143
 translate crowdin at_table_dinner_A_cc0fe43b:
 
-    # mc "Okay, that's good."
-    mc "Okay, that's good."
+    # mc "Okay, fine."
+    mc "Okay, fine."
 
 # game/labels/at_table.rpy:146
 translate crowdin at_table_dinner_A_df4048f6:
@@ -291,8 +291,8 @@ translate crowdin at_table_dinner_A_c668a663:
 # game/labels/at_table.rpy:169
 translate crowdin at_table_dinner_A_d2b56740:
 
-    # emy "But I don't want to be too much trouble. You're a big boy now. Tomorrow she'll give you a ride, but then you'll have to make your own arrangements. You should get a season ticket for public transportation, I'll give you the money tomorrow."
-    emy "But I don't want to be too much trouble. You're a big boy now. Tomorrow she'll give you a ride, but then you'll have to make your own arrangements. You should get a season ticket for public transportation, I'll give you the money tomorrow."
+    # emy "But I don't want to be too much trouble. You're a big boy now. Tomorrow she'll give you a ride, but then you'll have to make your own arrangements. You should get a public transportation pass, I'll give you the money."
+    emy "But I don't want to be too much trouble. You're a big boy now. Tomorrow she'll give you a ride, but then you'll have to make your own arrangements. You should get a public transportation pass, I'll give you the money."
 
 # game/labels/at_table.rpy:170
 translate crowdin at_table_dinner_A_002abd73:
@@ -303,14 +303,14 @@ translate crowdin at_table_dinner_A_002abd73:
 # game/labels/at_table.rpy:171
 translate crowdin at_table_dinner_A_b8c6c389:
 
-    # emy "That piece of crap!? Honey it hasn't been turned on in years, I don't think it still works. I should get it checked out first."
-    emy "That piece of crap!? Honey it hasn't been turned on in years, I don't think it still works. I should get it checked out first."
+    # emy "That piece of crap!? Honey, we haven't turned it on in years. I don't think it still works. I should get it checked out first."
+    emy "That piece of crap!? Honey, we haven't turned it on in years. I don't think it still works. I should get it checked out first."
 
 # game/labels/at_table.rpy:174
 translate crowdin at_table_dinner_A_part2_975ba825:
 
-    # emy "I'm not gonna tell you again, so we're good?" nointeract
-    emy "I'm not gonna tell you again, so we're good?" nointeract
+    # emy "I won't say it again. So, are we clear?" nointeract
+    emy "I won't say it again. So, are we clear?" nointeract
 
 # game/labels/at_table.rpy:177
 translate crowdin at_table_dinner_A_part2_ded1eb5d:
@@ -321,8 +321,8 @@ translate crowdin at_table_dinner_A_part2_ded1eb5d:
 # game/labels/at_table.rpy:178
 translate crowdin at_table_dinner_A_part2_1a1faa7b:
 
-    # emy "Any store or tobacconist. I know the sandwich shop at your school sells them."
-    emy "Any store or tobacconist. I know the sandwich shop at your school sells them."
+    # emy "Any store or newsstand. I know the sandwich shop at your school sells them."
+    emy "Any store or newsstand. I know the sandwich shop at your school sells them."
 
 # game/labels/at_table.rpy:181
 translate crowdin at_table_dinner_A_part2_a528b8c6:
@@ -333,8 +333,8 @@ translate crowdin at_table_dinner_A_part2_a528b8c6:
 # game/labels/at_table.rpy:183
 translate crowdin at_table_dinner_A_part2_001576e6:
 
-    # emy "Do you see any pockets? I don't have any money on me"
-    emy "Do you see any pockets? I don't have any money on me"
+    # emy "Do you see any pockets? I don't have any money on me."
+    emy "Do you see any pockets? I don't have any money on me."
 
 # game/labels/at_table.rpy:185
 translate crowdin at_table_dinner_A_part2_3904fab1:
@@ -351,8 +351,8 @@ translate crowdin at_table_dinner_A_part2_1b74e0e3:
 # game/labels/at_table.rpy:189
 translate crowdin at_table_dinner_A_part2_2bb66d88:
 
-    # emy "No! And I don't want to talk about him for a while. I could use a little distraction."
-    emy "No! And I don't want to talk about him for a while. I could use a little distraction."
+    # emy "No! And I don't want to talk about him for a while. I need a little distraction."
+    emy "No! And I don't want to talk about him for a while. I need a little distraction."
 
 # game/labels/at_table.rpy:191
 translate crowdin at_table_dinner_A_part2_24a822f7:
@@ -403,8 +403,8 @@ translate crowdin strings:
     new "I do not want to talk about it"
 
     # game/labels/at_table.rpy:140
-    old "[mia] If you need to come back, go ahead. Help me clear the table. Right?!"
-    new "[mia] If you need to come back, go ahead. Help me clear the table. Right?!"
+    old "[mia], if you need to review for tomorrow, go ahead. [mc] will help me clear the table. Right?!"
+    new "[mia], if you need to review for tomorrow, go ahead. [mc] will help me clear the table. Right?!"
 
     # game/labels/at_table.rpy:140
     old "If I have to..."
