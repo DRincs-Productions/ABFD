@@ -33,14 +33,14 @@ translate crowdin after_deathA_86523359:
 # game/labels/dreams.rpy:17
 translate crowdin after_deathA_d007819b:
 
-    # "old man" "Do not see are busy, when the time comes you can ask all the questions you want." nointeract
-    "old man" "Do not see are busy, when the time comes you can ask all the questions you want." nointeract
+    # "old man" "Can't you see I'm busy. When it's your turn you can have all the answers you want." nointeract
+    "old man" "Can't you see I'm busy. When it's your turn you can have all the answers you want." nointeract
 
 # game/labels/dreams.rpy:20
 translate crowdin after_deathA_277133e5:
 
-    # mc "Ehmm... But... am I the only one?"
-    mc "Ehmm... But... am I the only one?"
+    # mc "Ehmm... But... I'm the only one."
+    mc "Ehmm... But... I'm the only one."
 
 # game/labels/dreams.rpy:21
 translate crowdin after_deathA_5bc4f294:
@@ -57,8 +57,8 @@ translate crowdin after_deathA_e38d4c5d:
 # game/labels/dreams.rpy:31
 translate crowdin after_deathA_61e42010:
 
-    # "(From pc of old humo you start to hear a very faint sound)"
-    "(From pc of old humo you start to hear a very faint sound)"
+    # "(From the old man's pc, you begin to hear a very faint sound)"
+    "(From the old man's pc, you begin to hear a very faint sound)"
 
 # game/labels/dreams.rpy:32
 translate crowdin after_deathA_cca01962:
@@ -129,20 +129,20 @@ translate crowdin after_deathA_partA_4cf36064:
 # game/labels/dreams.rpy:54
 translate crowdin after_deathA_partA_da8e88e9:
 
-    # "old man" "No, I'm sorry. It's not your area."
-    "old man" "No, I'm sorry. It's not your area."
+    # "old man" "No, I'm sorry. You can't have access to that area, that's restricted area."
+    "old man" "No, I'm sorry. You can't have access to that area, that's restricted area."
 
 # game/labels/dreams.rpy:57
 translate crowdin after_deathA_partA_58dd5a2f:
 
-    # mc "I have no more questions"
-    mc "I have no more questions"
+    # mc "No further questions."
+    mc "No further questions."
 
 # game/labels/dreams.rpy:58
 translate crowdin after_deathA_partA_6842a21a:
 
-    # "old man" "Ok... I found your file... [mc] of [mcI.age] years old... "
-    "old man" "Ok... I found your file... [mc] of [mcI.age] years old... "
+    # "old man" "Ok... I found your file... [mc] of [mcI.age] years old..."
+    "old man" "Ok... I found your file... [mc] of [mcI.age] years old..."
 
 # game/labels/dreams.rpy:59
 translate crowdin after_deathA_partA_50e2d0ec:
@@ -153,8 +153,8 @@ translate crowdin after_deathA_partA_50e2d0ec:
 # game/labels/dreams.rpy:60
 translate crowdin after_deathA_partA_8574059a:
 
-    # "old man" "Missing parents, still a virgin, no desire to strive, no good action in particular and not bad either...."
-    "old man" "Missing parents, still a virgin, no desire to strive, no good action in particular and not bad either...."
+    # "old man" "Missing parents, still a virgin, no desire to strive, no good/bad deeds in particular.... Nothing in particular."
+    "old man" "Missing parents, still a virgin, no desire to strive, no good/bad deeds in particular.... Nothing in particular."
 
 # game/labels/dreams.rpy:61
 translate crowdin after_deathA_partA_9880a557:
@@ -165,8 +165,8 @@ translate crowdin after_deathA_partA_9880a557:
 # game/labels/dreams.rpy:62
 translate crowdin after_deathA_partA_eb4260d9:
 
-    # "old man" "{i}I'm almost done with my shift, just didn't need your file. I should stay a few more hours."
-    "old man" "{i}I'm almost done with my shift, just didn't need your file. I should stay a few more hours."
+    # "old man" "{i}I'm almost done with my shift. Ouch, another practice. I should stay a few more hours."
+    "old man" "{i}I'm almost done with my shift. Ouch, another practice. I should stay a few more hours."
 
 # game/labels/dreams.rpy:63
 translate crowdin after_deathA_partA_7c64fbd2:
@@ -177,14 +177,14 @@ translate crowdin after_deathA_partA_7c64fbd2:
 # game/labels/dreams.rpy:64
 translate crowdin after_deathA_partA_9d6759cf:
 
-    # mc "Or..."
-    mc "Or..."
+    # mc "Or???"
+    mc "Or???"
 
 # game/labels/dreams.rpy:65
 translate crowdin after_deathA_partA_cfe4ce36:
 
-    # "old man" "Or?"
-    "old man" "Or?"
+    # "old man" "Or..."
+    "old man" "Or..."
 
 # game/labels/dreams.rpy:66
 translate crowdin after_deathA_partA_17890281:
@@ -213,8 +213,8 @@ translate crowdin after_deathA_partA_e39dd78c:
 # game/labels/dreams.rpy:71
 translate crowdin after_deathA_partA_b6d5f379:
 
-    # "old man" "While down there... eh down there it's great only you are the limit of your actions."
-    "old man" "While down there... eh down there it's great only you are the limit of your actions."
+    # "old man" "While down there... Eh, there's no limit down there. Only the limit of your imagination."
+    "old man" "While down there... Eh, there's no limit down there. Only the limit of your imagination."
 
 # game/labels/dreams.rpy:72
 translate crowdin after_deathA_partA_fc07b605:
@@ -261,14 +261,14 @@ translate crowdin after_deathA_partA_d314e52d:
 # game/labels/dreams.rpy:81
 translate crowdin after_deathA_partA_3fff85fb:
 
-    # "old man" "And another practice results just in time for the shift change."
-    "old man" "And another practice results just in time for the shift change."
+    # "old man" "Another case solved. Just in time for the shift change."
+    "old man" "Another case solved. Just in time for the shift change."
 
 translate crowdin strings:
 
     # game/labels/dreams.rpy:17
-    old "But am I the only one?"
-    new "But am I the only one?"
+    old "But I'm the only one."
+    new "But I'm the only one."
 
     # game/labels/dreams.rpy:17
     old "Ok"
