@@ -40,7 +40,7 @@ translate crowdin navigation_tuturial_ff0dcf51:
 translate crowdin navigation_tuturial_3ae9bef8:
 
     # mc "Ok, now for some good memories. This is the second month in [city]. I started to get more comfortable."
-    mc "Ok, ora qualche bel ricordo. Questo è il secondo mese ad [city]. I started to get more comfortable."
+    mc "Ok, ora qualche bel ricordo. Questo è il secondo mese ad [city]. Ho iniziato ad ambientarmi."
 
 # game/labels/tutorial.rpy:23
 translate crowdin navigation_tuturial_254087e7:
@@ -76,7 +76,7 @@ translate crowdin navigation_tuturial_bd547e68:
 translate crowdin navigation_tuturial_5530a4a6:
 
     # mc "As soon as I get a chance to visit other neighborhoods, just press here."
-    mc "As soon as I get a chance to visit other neighborhoods, just press here."
+    mc "Appena ho la possibilità di visitare altri quartieri, premere qui."
 
 # game/labels/tutorial.rpy:32
 translate crowdin navigation_tuturial_2e2f2275:
