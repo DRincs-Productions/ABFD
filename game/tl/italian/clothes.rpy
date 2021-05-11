@@ -14,7 +14,7 @@ translate crowdin strings:
 
     # game/clothes.rpy:7
     old "Usual clothes"
-    new "Usual clothes"
+    new "Abiti usuali"
 
     # game/clothes.rpy:7
     old "Home clothes"
@@ -42,5 +42,5 @@ translate crowdin strings:
 
     # game/clothes.rpy:35
     old "Usual clothes:"
-    new "Usual clothes:"
+    new "Abiti usuali:"
 
