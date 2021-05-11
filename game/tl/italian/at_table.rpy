@@ -88,7 +88,7 @@ translate crowdin at_table_dinner_A_9c64c2df:
 translate crowdin at_table_dinner_A_d107a06b:
 
     # mc "Yes, he's a reliable friend. Even if it is a little funny and boring."
-    mc "Sì, è un amico affidabile. Even if it is a little funny and boring."
+    mc "Sì, è un amico affidabile. Anche se non è molto simpatico e un po' noioso."
 
 # game/labels/at_table.rpy:108
 translate crowdin at_table_dinner_A_64e91d02:
@@ -292,7 +292,7 @@ translate crowdin at_table_dinner_A_c668a663:
 translate crowdin at_table_dinner_A_d2b56740:
 
     # emy "But I don't want to be too much trouble. You're a big boy now. Tomorrow she'll give you a ride, but then you'll have to make your own arrangements. You should get a public transportation pass, I'll give you the money."
-    emy "Ma non voglio dare troppo disturbo. Ormai sei grande. Domani ti darà un passaggio, ma poi dovrai arrangiamenti da solo. You should get a public transportation pass, I'll give you the money."
+    emy "Ma non voglio dare troppo disturbo. Ormai sei grande. Domani ti darà un passaggio, ma poi dovrai arrangiamenti da solo. Dovresti comprare l'abbonamento per il trasporto pubblico, ti darò io i soldi."
 
 # game/labels/at_table.rpy:170
 translate crowdin at_table_dinner_A_002abd73:
@@ -304,13 +304,13 @@ translate crowdin at_table_dinner_A_002abd73:
 translate crowdin at_table_dinner_A_b8c6c389:
 
     # emy "That piece of crap!? Honey, we haven't turned it on in years. I don't think it still works. I should get it checked out first."
-    emy "Quel catorcio!? Honey, we haven't turned it on in years. I don't think it still works. Dovrei farla controllare prima."
+    emy "Quel catorcio!? Tesoro, non la accendiamo da anni. Non penso che funzioni ancora. Dovrei farla controllare prima."
 
 # game/labels/at_table.rpy:174
 translate crowdin at_table_dinner_A_part2_975ba825:
 
     # emy "I won't say it again. So, are we clear?" nointeract
-    emy "I won't say it again. So, are we clear?" nointeract
+    emy "Non lo ripeterò di nuovo. Allora, tutto chiaro?" nointeract
 
 # game/labels/at_table.rpy:177
 translate crowdin at_table_dinner_A_part2_ded1eb5d:
@@ -322,7 +322,7 @@ translate crowdin at_table_dinner_A_part2_ded1eb5d:
 translate crowdin at_table_dinner_A_part2_1a1faa7b:
 
     # emy "Any store or newsstand. I know the sandwich shop at your school sells them."
-    emy "Any store or newsstand. So che il paninaro della tua scuola li vende."
+    emy "Qualsiasi negozio o edicola. So che il paninaro della tua scuola li vende."
 
 # game/labels/at_table.rpy:181
 translate crowdin at_table_dinner_A_part2_a528b8c6:
@@ -334,7 +334,7 @@ translate crowdin at_table_dinner_A_part2_a528b8c6:
 translate crowdin at_table_dinner_A_part2_001576e6:
 
     # emy "Do you see any pockets? I don't have any money on me."
-    emy "Vedi delle tasche? I don't have any money on me."
+    emy "Vedi delle tasche? Non ho denaro con me."
 
 # game/labels/at_table.rpy:185
 translate crowdin at_table_dinner_A_part2_3904fab1:
@@ -352,7 +352,7 @@ translate crowdin at_table_dinner_A_part2_1b74e0e3:
 translate crowdin at_table_dinner_A_part2_2bb66d88:
 
     # emy "No! And I don't want to talk about him for a while. I need a little distraction."
-    emy "No! E non voglio parlare di lui per un po'. I need a little distraction."
+    emy "No! E non voglio parlare di lui per un po'. Mi servirebbe un po' di distrazione."
 
 # game/labels/at_table.rpy:191
 translate crowdin at_table_dinner_A_part2_24a822f7:
@@ -404,7 +404,7 @@ translate crowdin strings:
 
     # game/labels/at_table.rpy:140
     old "[mia], if you need to review for tomorrow, go ahead. [mc] will help me clear the table. Right?!"
-    new "[mia], if you need to review for tomorrow, go ahead. [mc] will help me clear the table. Vero?!"
+    new "[mia], devi ripassare per domani, vai pure. [mc] mi aiuterà a sparecchiare. Vero?!"
 
     # game/labels/at_table.rpy:140
     old "If I have to..."
