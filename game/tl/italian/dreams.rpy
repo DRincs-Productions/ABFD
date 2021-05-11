@@ -34,13 +34,13 @@ translate crowdin after_deathA_86523359:
 translate crowdin after_deathA_d007819b:
 
     # "old man" "Can't you see I'm busy. When it's your turn you can have all the answers you want." nointeract
-    "old man" "Can't you see I'm busy. When it's your turn you can have all the answers you want." nointeract
+    "vecchietto" "Non vede che sono occupato. Quando sarà il suo turno potrà avere tutte le risposte che vuole." nointeract
 
 # game/labels/dreams.rpy:20
 translate crowdin after_deathA_277133e5:
 
     # mc "Ehmm... But... I'm the only one."
-    mc "Ehmm... Ma... I'm the only one."
+    mc "Ehmm... Ma... Sono l'unico."
 
 # game/labels/dreams.rpy:21
 translate crowdin after_deathA_5bc4f294:
@@ -58,7 +58,7 @@ translate crowdin after_deathA_e38d4c5d:
 translate crowdin after_deathA_61e42010:
 
     # "(From the old man's pc, you begin to hear a very faint sound)"
-    "(From the old man's pc, you begin to hear a very faint sound)"
+    "(Dal pc del vecchio, si inizia a sentire un suono molto debole)"
 
 # game/labels/dreams.rpy:32
 translate crowdin after_deathA_cca01962:
@@ -130,19 +130,19 @@ translate crowdin after_deathA_partA_4cf36064:
 translate crowdin after_deathA_partA_da8e88e9:
 
     # "old man" "No, I'm sorry. You can't have access to that area, that's restricted area."
-    "vecchietto" " No, mi dispiace. You can't have access to that area, that's restricted area."
+    "vecchietto" " No, mi dispiace. Non può avere accesso a quell'area, è una zona ristretta."
 
 # game/labels/dreams.rpy:57
 translate crowdin after_deathA_partA_58dd5a2f:
 
     # mc "No further questions."
-    mc "No further questions."
+    mc "Nessuna altra domanda."
 
 # game/labels/dreams.rpy:58
 translate crowdin after_deathA_partA_6842a21a:
 
     # "old man" "Ok... I found your file... [mc] of [mcI.age] years old..."
-    "vecchietto" "Ok... Ho trovato il tuo file... [mc] of [mcI.age] years old..."
+    "vecchietto" "Ok... Ho trovato il tuo file... [mc] di [mcI.age] anni...'
 
 # game/labels/dreams.rpy:59
 translate crowdin after_deathA_partA_50e2d0ec:
@@ -154,7 +154,7 @@ translate crowdin after_deathA_partA_50e2d0ec:
 translate crowdin after_deathA_partA_8574059a:
 
     # "old man" "Missing parents, still a virgin, no desire to strive, no good/bad deeds in particular.... Nothing in particular."
-    "old man" "Missing parents, still a virgin, no desire to strive, no good/bad deeds in particular.... Nothing in particular."
+    "vecchietto" "Genitori scomparsi, ancora vergine, svogliato, nessuna buona/cattiva azione in particolare.... Nothing in particular."
 
 # game/labels/dreams.rpy:61
 translate crowdin after_deathA_partA_9880a557:
@@ -166,7 +166,7 @@ translate crowdin after_deathA_partA_9880a557:
 translate crowdin after_deathA_partA_eb4260d9:
 
     # "old man" "{i}I'm almost done with my shift. Ouch, another practice. I should stay a few more hours."
-    "old man" "{i}I'm almost done with my shift. Ouch, another practice. Dovrei rimanere qualche ora in più."
+    "vecchietto" "{i}Ho quasi finito il mio turno. Ouch, un'altra pratica. Dovrei rimanere qualche ora in più."
 
 # game/labels/dreams.rpy:63
 translate crowdin after_deathA_partA_7c64fbd2:
@@ -178,13 +178,13 @@ translate crowdin after_deathA_partA_7c64fbd2:
 translate crowdin after_deathA_partA_9d6759cf:
 
     # mc "Or???"
-    mc "Or???"
+    mc "Oppure???"
 
 # game/labels/dreams.rpy:65
 translate crowdin after_deathA_partA_cfe4ce36:
 
     # "old man" "Or..."
-    "old man" "Or..."
+    "vecchietto" "Oppure..."
 
 # game/labels/dreams.rpy:66
 translate crowdin after_deathA_partA_17890281:
@@ -214,7 +214,7 @@ translate crowdin after_deathA_partA_e39dd78c:
 translate crowdin after_deathA_partA_b6d5f379:
 
     # "old man" "While down there... Eh, there's no limit down there. Only the limit of your imagination."
-    "vecchietto" "Mentre laggiù... Eh, there's no limit down there. Only the limit of your imagination."
+    "vecchietto" "Mentre laggiù... Eh, lì non ci sono limiti. Solo la tua immaginazione."
 
 # game/labels/dreams.rpy:72
 translate crowdin after_deathA_partA_fc07b605:
@@ -262,13 +262,13 @@ translate crowdin after_deathA_partA_d314e52d:
 translate crowdin after_deathA_partA_3fff85fb:
 
     # "old man" "Another case solved. Just in time for the shift change."
-    "old man" "Another case solved. Just in time for the shift change."
+    "vecchietto" "Un altra pratica risolta. Giusto in tempo per il cambio di turno."
 
 translate crowdin strings:
 
     # game/labels/dreams.rpy:17
     old "But I'm the only one."
-    new "But I'm the only one."
+    nuovo "Ma sono l'unico."
 
     # game/labels/dreams.rpy:17
     old "Ok"
@@ -276,7 +276,7 @@ translate crowdin strings:
 
     # game/labels/dreams.rpy:25
     old "{size=120}A few hours later."
-    nuovo "{size=120}Qualche ora dopo."
+    new "{size=120}Qualche ora dopo."
 
     # game/labels/dreams.rpy:41
     old "The speaker?"
