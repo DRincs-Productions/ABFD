@@ -20,5 +20,5 @@ translate crowdin strings:
 
     # game/labels/combact.rpy:62
     old "Lethal Tickling"
-    new "Lethal Tickling"
+    new "Solletico letale"
 
