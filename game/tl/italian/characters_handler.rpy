@@ -230,11 +230,11 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:230
     old "landlord"
-    nuovo "padrone di casa"
+    new "padrone di casa"
 
     # game/tool/characters_handler.rpy:231
     old "leaseholder"
-    nuovo "leaseholder"
+    new "leaseholder"
 
     # game/tool/characters_handler.rpy:234
     old "housemate"
