@@ -97,7 +97,7 @@ label at_table_dinner_A:
     mc "Yesterday... If I remember correctly... We played some [console], and talked a little bit about school and old times."
     emy "What did you guys eat?"
     mc "Last night [tam] wasn't home, so we ordered pizza from [pizzeria]. While for breakfast/lunch we got takeout at mcdonald with [tam]."
-    emy "It sounds like [tam] didn't really want to sew. Ha, haha...  However, it is not very healthy as they eat.... so don't get used to it."
+    emy "It seems that [tam] didn't really want to cook.. Ha, haha...  However, it is not very healthy as they eat.... so don't get used to it."
     menu:
         emy "You and [bff] have a good friendship, you seem almost like brothers. Even though you are very different."
         "Yeah, because...":
