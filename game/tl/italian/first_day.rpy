@@ -268,121 +268,121 @@ translate crowdin prologue_5d1ef22d:
 translate crowdin prologue_063d6293:
 
     # emy "Come on, sit down."
-    emy "Come on, sit down."
+    emy "Dai, siediti."
 
 # game/labels/first_day.rpy:177
 translate crowdin prologue_55626a62:
 
     # emy "When I woke up I found this in the kitchen. Do you realize... [mia] could have found it."
-    emy "When I woke up I found this in the kitchen. Do you realize... [mia] could have found it."
+    emy "Quando mi sono svegliata ho trovato questo in cucina. Ti rendi conto... [mia] avrebbe potuto trovarlo."
 
 # game/labels/first_day.rpy:187
 translate crowdin prologue_d17c1849:
 
     # emy "Now how are we going to do without him!?"
-    emy "Now how are we going to do without him!?"
+    emy "Adesso come faremo senza di lui!?"
 
 # game/labels/first_day.rpy:192
 translate crowdin prologue_bd3782a4:
 
     # mc "[emyR.NPClabel] if anyone has lost, it's him. I could never leave a woman like you."
-    mc "[emyR.NPClabel] if anyone has lost, it's him. I could never leave a woman like you."
+    mc "[emyR.NPClabel] se qualcuno ci ha perso, è lui. Non potrei mai lasciare una donna come te."
 
 # game/labels/first_day.rpy:193
 translate crowdin prologue_721bb2d8:
 
     # emy "Honey, I'm lucky to have you who know how to cheer me up."
-    emy "Honey, I'm lucky to have you who know how to cheer me up."
+    emy "Tesoro, sono fortunato ad avere te che sai come consolarmi."
 
 # game/labels/first_day.rpy:199
 translate crowdin prologue_1925bafb:
 
     # mc "What happened? Did he put his hands on you?"
-    mc "What happened? Did he put his hands on you?"
+    mc "Cosa è successo? Ti ha messo le mani addosso?"
 
 # game/labels/first_day.rpy:200
 translate crowdin prologue_86435f9b:
 
     # emy "No No, honey we just had a fight as usual. You know that since he came back from [jnMission] he has become a different person."
-    emy "No No, honey we just had a fight as usual. You know that since he came back from [jnMission] he has become a different person."
+    emy "No No, tesoro abbiamo solo litigato come al solito. Sai che da quando è tornato dal [jnMission] è diventato una persona diversa."
 
 # game/labels/first_day.rpy:201
 translate crowdin prologue_c2a201c9:
 
     # mc "Yesterday I tried to hide the [jnAlcol], but it was useless. He found it and got drunk even more than usual."
-    mc "Yesterday I tried to hide the [jnAlcol], but it was useless. He found it and got drunk even more than usual."
+    mc "Ieri ho cercato di nascondere il [jnAlcol], ma è stato inutile. Lo ha trovato e si ubriacato anche più del solito."
 
 # game/labels/first_day.rpy:202
 translate crowdin prologue_d1ae86a6:
 
     # emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. And if he wanted to continue, he could leave."
-    emy "Honey, you know, I tried to help him, but yesterday I couldn't take it anymore. I told him he could do what he wanted, but this is not a home for junkies or alcoholics. And if he wanted to continue, he could leave."
+    emy "Tesoro, tu lo sai, ho cercato di aiutarlo, ma ieri non ce la facevo più. Gli ho detto che poteva fare quello che voleva, ma questa non è una casa per i tossici o alcolizzati. E se voleva continuare, quella è la porta."
 
 # game/labels/first_day.rpy:206
 translate crowdin prologue_5e467b9b:
 
     # mc "Okay, but I wanted to understand what happened yesterday. If he left for some reason or something you told him."
-    mc "Okay, but I wanted to understand what happened yesterday. If he left for some reason or something you told him."
+    mc "Okay, ma volevo capire cosa è successo ieri. Se se n'è andato per qualche motivo o per qualcosa che gli hai detto."
 
 # game/labels/first_day.rpy:207
 translate crowdin prologue_965dba69:
 
     # emy "So in your opinion it may be my fault that he left!?"
-    emy "So in your opinion it may be my fault that he left!?"
+    emy "Quindi secondo te può essere stata colpa mia sè se ne anda!?"
 
 # game/labels/first_day.rpy:208
 translate crowdin prologue_3eb68609:
 
     # mc "No! I didn't mean that. It's just that..."
-    mc "No! I didn't mean that. It's just that..."
+    mc "No! Non intendevo quello. È solo che..."
 
 # game/labels/first_day.rpy:209
 translate crowdin prologue_4e38f9b3:
 
     # emy "Now I want to be alone for a while, go ahead."
-    emy "Now I want to be alone for a while, go ahead."
+    emy "Ora voglio stare un po' da sola, vai pure."
 
 # game/labels/first_day.rpy:214
 translate crowdin prologue_a1ba1e66:
 
     # mc "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
-    mc "OK, [emyR.NPClabel]. Now I'm a little tired, I'm going to my room."
+    mc "OK, [emyR.NPClabel]. Ora sono un po' stanco, vado in camera mia."
 
 # game/labels/first_day.rpy:216
 translate crowdin prologue_eaf16fc3:
 
     # emy "I've kept you long enough, go ahead."
-    emy "I've kept you long enough, go ahead."
+    emy "Ti ho trattenuto anche abbastanza, vai pure."
 
 # game/labels/first_day.rpy:221
 translate crowdin prologue_end_10bae983:
 
     # mc "{i}Shit! I have enough problems on my own, that's all we needed."
-    mc "{i}Shit! I have enough problems on my own, that's all we needed."
+    mc "{i}Merda! Ho abbastanza problemi per conto mio, ora ci mancava solo questo."
 
 # game/labels/first_day.rpy:222
 translate crowdin prologue_end_6e9f6796:
 
     # mc "{i}Who knows how is [mia]?! Maybe I should talk to her, she will probably tell me something more."
-    mc "{i}Who knows how is [mia]?! Maybe I should talk to her, she will probably tell me something more."
+    mc "{i}Chi sà come sta [mia]?! Forse dovrei parlare con lei, probabilmente mi dirà qualcosa in più."
 
 # game/labels/first_day.rpy:225
 translate crowdin prologue_end_46b4346e:
 
     # mc "But first:" nointeract
-    mc "But first:" nointeract
+    mc "Ma prima:" nointeract
 
 # game/labels/first_day.rpy:236
 translate crowdin introD_emy_94d4383a:
 
     # "For now it's better to dry her off. I could talk to [mia]..."
-    "For now it's better to dry her off. I could talk to [mia]..."
+    "For now it's better to dry her off. Potrei parlare con [mia]..."
 
 # game/labels/first_day.rpy:244
 translate crowdin introD_8433c3d9:
 
     # "knock-knock"
-    "knock-knock"
+    "toc-toc"
 
 # game/labels/first_day.rpy:255
 translate crowdin introD_14df7d45:
@@ -394,85 +394,85 @@ translate crowdin introD_14df7d45:
 translate crowdin introD_part2_9d31b6d2:
 
     # mc "How is the study going?"
-    mc "How is the study going?"
+    mc "Come va lo studio?"
 
 # game/labels/first_day.rpy:264
 translate crowdin introD_part2_43a08131:
 
     # mia "Ehilà, Yes...I was reviewing tomorrow I have a math test."
-    mia "Ehilà, Yes...I was reviewing tomorrow I have a math test."
+    mia "Ehilà, Sì... Stavo ripassando per domani, ho una verifica di matematica."
 
 # game/labels/first_day.rpy:265
 translate crowdin introD_part2_13f3c3ef:
 
     # mc "Are you ready?"
-    mc "Are you ready?"
+    mc "Sei pronta?"
 
 # game/labels/first_day.rpy:266
 translate crowdin introD_part2_19139ee8:
 
     # mia "I mean, math is not my strong suit."
-    mia "I mean, math is not my strong suit."
+    mia "Insomma, la matematica non è il mio forte."
 
 # game/labels/first_day.rpy:267
 translate crowdin introD_part2_612db440:
 
     # mc "Ah, I hear you."
-    mc "Ah, I hear you."
+    mc "Ah, ti capisco."
 
 # game/labels/first_day.rpy:272
 translate crowdin introD_part2_43576ccf:
 
     # mc "Do you have a minute? I wanted to talk a little bit about [emyR.NPClabel]."
-    mc "Do you have a minute? I wanted to talk a little bit about [emyR.NPClabel]."
+    mc "Hai un minuto? Volevo parlare un po' di [emyR.NPClabel]."
 
 # game/labels/first_day.rpy:273
 translate crowdin introD_part2_e0a3bfeb:
 
     # mia "Yeah, you know about last night? About what... happened."
-    mia "Yeah, you know about last night? About what... happened."
+    mia "Sì, sai già di ieri sera? Su cosa... è successo."
 
 # game/labels/first_day.rpy:274
 translate crowdin introD_part2_f3840c20:
 
     # mc "Eh I already know, unfortunately."
-    mc "Eh I already know, unfortunately."
+    mc "Eh già lo so, purtroppo."
 
 # game/labels/first_day.rpy:278
 translate crowdin introD_part2_707c2836:
 
     # mc "How are you? I know what happened yesterday."
-    mc "How are you? I know what happened yesterday."
+    mc "Come stai? So cosa è successo ieri."
 
 # game/labels/first_day.rpy:279
 translate crowdin introD_part2_66628875:
 
     # mia "I'm fine, but..."
-    mia "I'm fine, but..."
+    mia "Sto bene, ma..."
 
 # game/labels/first_day.rpy:283
 translate crowdin introD_part2_88c1e5c8:
 
     # mia "[mc]?! You wanted to talk to me?"
-    mia "[mc]?! You wanted to talk to me?"
+    mia "[mc]?! Voleva parlare con me?"
 
 # game/labels/first_day.rpy:284
 translate crowdin introD_part2_29415f2c:
 
     # mc "Yes, yes, sorry. I was just thinking for a second..."
-    mc "Yes, yes, sorry. I was just thinking for a second..."
+    mc "Sì, sì, scusa. Stavo solo pensando un'attimo..."
 
 # game/labels/first_day.rpy:285
 translate crowdin introD_part2_e98eded8:
 
     # mc "I wanted to ask you what happened last night."
-    mc "I wanted to ask you what happened last night."
+    mc "Volevo chiederti cosa è successo la scorsa notte."
 
 # game/labels/first_day.rpy:288
 translate crowdin introD_part2_cd9c4194:
 
     # mia "Last night I overheard [emy] and [jn] discussing their relationship... their problems..."
-    mia "Last night I overheard [emy] and [jn] discussing their relationship... their problems..."
+    mia "Ieri sera ho sentito [emy] e [jn] discutere della loro relazione... dei loro problemi..."
 
 # game/labels/first_day.rpy:289
 translate crowdin introD_part2_33e3f8c6:
@@ -484,13 +484,13 @@ translate crowdin introD_part2_33e3f8c6:
 translate crowdin introD_part2_508d8f30:
 
     # mia "However, this time [for_emyR.MClabel] started screaming and then went to bed. While [jn] stayed in the jump. Then around 3 o'clock I heard some unusual noises, then slamming the door of the house."
-    mia "However, this time [for_emyR.MClabel] started screaming and then went to bed. While [jn] stayed in the jump. Then around 3 o'clock I heard some unusual noises, then slamming the door of the house."
+    mia "Anche se, questa volta [for_emyR.MClabel] ha iniziato a urlare e poi è andato a letto. Mentre [jn] è rimasto in sala. Poi intorno alle 3 ho sentito qualche rumore insolito, poi sbattere la porta di casa."
 
 # game/labels/first_day.rpy:291
 translate crowdin introD_part2_48358ee2:
 
     # mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it."
-    mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it."
+    mia "Pensavo che fosse un ladro o qualcuno con cattive intenzioni, ma era la voce di [jn]. Mi sono andata in sala, ma non c'era nessuno. Except for a postit on the refrigerator... there was... there was writing on it."
 
 # game/labels/first_day.rpy:292
 translate crowdin introD_part2_8beab4ae:
