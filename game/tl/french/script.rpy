@@ -4,7 +4,7 @@
 translate crowdin start_c09080c3:
 
     # "Welcome to [config.name]"
-    "Welcome to [config.name]"
+    "Bienvenue à [config.name]"
 
 # TODO: Translation updated at 2021-05-09 23:45
 
@@ -12,5 +12,5 @@ translate crowdin strings:
 
     # game/script.rpy:20
     old "Little bastard"
-    new "Little bastard"
+    new "Petit bâtard"
 
