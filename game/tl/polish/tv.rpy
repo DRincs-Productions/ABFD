@@ -4,97 +4,97 @@
 translate crowdin intro_wach_tv_3debaa5f:
 
     # mc "Has the movie started yet?"
-    mc "Has the movie started yet?"
+    mc "Czy film już się zaczął?”
 
 # game/labels/tv.rpy:36
 translate crowdin intro_wach_tv_2fa0fa4d:
 
     # emy "No, there's still time"
-    emy "No, there's still time"
+    emy "Jeszcze nie"
 
 # game/labels/tv.rpy:41
 translate crowdin intro_wach_tv_5ec12594:
 
     # mc "I'll go brush my teeth first."
-    mc "I'll go brush my teeth first."
+    mc "To pójdę umyć zęby."
 
 # game/labels/tv.rpy:42
 translate crowdin intro_wach_tv_102f8c7e:
 
     # emy "As you wish"
-    emy "As you wish"
+    emy "Jak chcesz"
 
 # game/labels/tv.rpy:47
 translate crowdin intro_wach_tv_f444af27:
 
     # "Advertisement" "Do you want to have a better life? Do you want to really enjoy life? Whether at the beach or in the mountains?"
-    "Advertisement" "Do you want to have a better life? Do you want to really enjoy life? Whether at the beach or in the mountains?"
+    "Advertisement" "Czy chcesz mieć lepsze życie? Czy chcesz naprawdę cieszyć się życiem? Czy to na plaży, czy w górach?"
 
 # game/labels/tv.rpy:48
 translate crowdin intro_wach_tv_9eeab049:
 
     # "Advertisement" "Now you can! With the new Audi, don't mind the price with Audi you can."
-    "Advertisement" "Now you can! With the new Audi, don't mind the price with Audi you can."
+    "Advertisement" "Teraz możesz! Z nowym Audi, nie przejmuj się ceną z Audi można."
 
 # game/labels/tv.rpy:49
 translate crowdin intro_wach_tv_6b7096e9:
 
     # "Advertisement" "(The classic movie introduction begins)"
-    "Advertisement" "(The classic movie introduction begins)"
+    "Advertisement" "(Zaczyna się klasyczny filmowy wstęp)"
 
 # game/labels/tv.rpy:50
 translate crowdin intro_wach_tv_af0dfe53:
 
     # emy "[mia], hurry up! The movie is starting."
-    emy "[mia], hurry up! The movie is starting."
+    emy "[mia], pośpiesz się! Film się zaczyna."
 
 # game/labels/tv.rpy:51
 translate crowdin intro_wach_tv_5d55a2c6:
 
     # mia "I'm coming!!!"
-    mia "I'm coming!!!"
+    mia "Idę!!!"
 
 # game/labels/tv.rpy:54
 translate crowdin intro_wach_tv_c2e5e734:
 
     # mia "What kind of movie is it?"
-    mia "What kind of movie is it?"
+    mia "Co to za film?"
 
 # game/labels/tv.rpy:55
 translate crowdin intro_wach_tv_f65f348b:
 
     # mc "I don't know, it looks good from the commercial."
-    mc "I don't know, it looks good from the commercial."
+    mc "Nie wiem, na reklamie wygląda dobrze."
 
 # game/labels/tv.rpy:57
 translate crowdin intro_wach_tv_b3f96ddb:
 
     # mia "Ok, I'll just stand here."
-    mia "Ok, I'll just stand here."
+    mia "Ok, postoję tutaj."
 
 # game/labels/tv.rpy:58
 translate crowdin intro_wach_tv_4b04d597:
 
     # emy "Why? We have such a big couch."
-    emy "Why? We have such a big couch."
+    emy "Czemu? Mamy taką dużą kanapę."
 
 # game/labels/tv.rpy:59
 translate crowdin intro_wach_tv_cc2b442d:
 
     # mia "Because from here it looks huge it looks huge."
-    mia "Because from here it looks huge it looks huge."
+    mia "Ponieważ stąd wygląda na ogromną."
 
 # game/labels/tv.rpy:60
 translate crowdin intro_wach_tv_b9a975e6:
 
     # "TV" "We break into the broadcast, to air an extraordinary live broadcast of the [city] news."
-    "TV" "We break into the broadcast, to air an extraordinary live broadcast of the [city] news."
+    "TV" "Przerywamy transmisję żeby nadać niezwykłą wiadomość z [city]."
 
 # game/labels/tv.rpy:61
 translate crowdin intro_wach_tv_b9e94afd:
 
     # mia "Phew, I wanted to see the movie."
-    mia "Phew, I wanted to see the movie."
+    mia "Phew, chciałam zobaczyć ten film."
 
 # game/labels/tv.rpy:62
 translate crowdin intro_wach_tv_ef5e6b55:
@@ -106,13 +106,13 @@ translate crowdin intro_wach_tv_ef5e6b55:
 translate crowdin News01_4c069dcb:
 
     # mia "Look at [for_emyR.MClabel]! There's [nnc]. She was an old classmate of [for_emyR.MClabel]."
-    mia "Look at [for_emyR.MClabel]! There's [nnc]. She was an old classmate of [for_emyR.MClabel]."
+    mia "Spójrz na [for_emyR.MClabel]! Tam jest [nnc]. Była starą koleżanką z klasy [for_emyR.MClabel]."
 
 # game/labels/tv.rpy:74
 translate crowdin News01_04f7d3a9:
 
     # emy "Yeah! By now, all you have to do to work in this macho TV is sleep with the right people.... That's why he had so much practice in high school in high school."
-    emy "Yeah! By now, all you have to do to work in this macho TV is sleep with the right people.... That's why he had so much practice in high school in high school."
+    emy "Tak! Ale teraz, wszystko co musisz zrobić żeby pracować w TV to przespać się z odpowiednimi osobami.... Dlatego miała tak dużo praktyk w liceum."
 
 # game/labels/tv.rpy:75
 translate crowdin News01_0eda7e25:
