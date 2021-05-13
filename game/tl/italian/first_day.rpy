@@ -490,7 +490,7 @@ translate crowdin introD_part2_508d8f30:
 translate crowdin introD_part2_48358ee2:
 
     # mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it."
-    mia "Pensavo che fosse un ladro o qualcuno con cattive intenzioni, ma era la voce di [jn]. Mi sono andata in sala, ma non c'era nessuno. Except for a postit on the refrigerator... there was... there was writing on it."
+    mia "Pensavo che fosse un ladro o qualcuno con cattive intenzioni, ma era la voce di [jn]. Mi sono andata in sala, ma non c'era nessuno. A parte un postit sul frigorifero... c'era... there was writing on it."
 
 # game/labels/first_day.rpy:292
 translate crowdin introD_part2_8beab4ae:
