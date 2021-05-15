@@ -375,8 +375,8 @@ translate crowdin prologue_end_46b4346e:
 # game/labels/first_day.rpy:236
 translate crowdin introD_emy_94d4383a:
 
-    # "For now it's better to dry her off. I could talk to [mia]..."
-    "For now it's better to dry her off. Potrei parlare con [mia]..."
+    # "For now, it's best to leave her alone. I could talk to [mia]..."
+    "Per adesso, è meglio lasciarla da solo. Potrei parlare con [mia]..."
 
 # game/labels/first_day.rpy:244
 translate crowdin introD_8433c3d9:
@@ -478,7 +478,7 @@ translate crowdin introD_part2_cd9c4194:
 translate crowdin introD_part2_33e3f8c6:
 
     # mc "Same as other days, nothing new."
-    mc "Same as other days, nothing new."
+    mc "Come altri giorni, niente di nuovo."
 
 # game/labels/first_day.rpy:290
 translate crowdin introD_part2_508d8f30:
@@ -489,182 +489,182 @@ translate crowdin introD_part2_508d8f30:
 # game/labels/first_day.rpy:291
 translate crowdin introD_part2_48358ee2:
 
-    # mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it."
-    mia "Pensavo che fosse un ladro o qualcuno con cattive intenzioni, ma era la voce di [jn]. Mi sono andata in sala, ma non c'era nessuno. A parte un postit sul frigorifero... c'era... there was writing on it."
+    # mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it..."
+    mia "Pensavo che fosse un ladro o qualcuno con cattive intenzioni, ma era la voce di [jn]. Mi sono andata in sala, ma non c'era nessuno. A parte un postit sul frigorifero... c'era... c'era scritto..."
 
 # game/labels/first_day.rpy:292
 translate crowdin introD_part2_8beab4ae:
 
     # mc "Unfortunately, I already know what it said. [emy] made me read it."
-    mc "Unfortunately, I already know what it said. [emy] made me read it."
+    mc "Purtroppo so già cosa ha detto. [emy] me l'ha fatto leggere."
 
 # game/labels/first_day.rpy:299
 translate crowdin introD_part3_fc48d785:
 
     # mc "What about [vct]? I haven't seen her since yesterday."
-    mc "What about [vct]? I haven't seen her since yesterday."
+    mc "E [vct]? Non la vedo da ieri."
 
 # game/labels/first_day.rpy:300
 translate crowdin introD_part3_50a6ef0c:
 
     # mia "She already knows everything, I wrote her what happened. Yesterday she stayed over at the college. Her friend's roommate was at her parents', so she had an extra bed."
-    mia "She already knows everything, I wrote her what happened. Yesterday she stayed over at the college. Her friend's roommate was at her parents', so she had an extra bed."
+    mia "Sa già tutto, le ho già scritto per dirle cosa è successo. Ieri è rimasta al college. La coinquilina della sua amica era dai suoi genitori, e quindi aveva un letto in più."
 
 # game/labels/first_day.rpy:303
 translate crowdin introD_part3_1dea11ed:
 
     # mc "And then what happened? Did you talk to [emy]?"
-    mc "And then what happened? Did you talk to [emy]?"
+    mc "E poi cos'è successo? Hai parlato con [emy]?"
 
 # game/labels/first_day.rpy:304
 translate crowdin introD_part3_65d3fbce:
 
-    # mia "What could I do, I put the note back where it was and then played it cool. This night I hardly got a wink of sleep."
-    mia "What could I do, I put the note back where it was and then played it cool. This night I hardly got a wink of sleep."
+    # mia "What could I do, I put the note back where it was and went back to bed. I didn't sleep a wink last night."
+    mia "Cosa potevo fare, ho rimesso la nota dove era e sono tornato a letto. Non ho chiuso occhio ieri sera."
 
 # game/labels/first_day.rpy:305
 translate crowdin introD_part3_7ca3cff3:
 
     # mia "The next day you could tell [emy] had been crying a lot, but I didn't know what to do. She tried to play it cool."
-    mia "The next day you could tell [emy] had been crying a lot, but I didn't know what to do. She tried to play it cool."
+    mia "Il giorno dopo si capiva che [emy] aveva pianto molto, ma non sapevo cosa fare. Ha provato a fare fina di nulla."
 
 # game/labels/first_day.rpy:306
 translate crowdin introD_part3_f56be986:
 
     # mia "I had breakfast and then stayed in my room. By lunch she had recovered a little. All she told me was that [jn] will be gone for a while. You know he doesn't talk to me about these things."
-    mia "I had breakfast and then stayed in my room. By lunch she had recovered a little. All she told me was that [jn] will be gone for a while. You know he doesn't talk to me about these things."
+    mia "Ho fatto colazione e poi sono rimasta in camera mia. A pranzo si era ripresa un po'. Tutto quello che mi ha detto era che [jn] se n'è andato per un po'. Lo sai che con me non parla di queste cose."
 
 # game/labels/first_day.rpy:308
 translate crowdin introD_part3_7a596e35:
 
-    # mc "OK, OK, that's enough. "
-    mc "OK, OK, that's enough. "
+    # mc "OK, OK, that's enough."
+    mc "OK, OK, basta."
 
 # game/labels/first_day.rpy:309
 translate crowdin introD_part3_134eacbe:
 
     # mc "I don't want to see you so sad. I know a remedy to cheer up that sad little face."
-    mc "I don't want to see you so sad. I know a remedy to cheer up that sad little face."
+    mc "Non voglio vederti così triste. Conosco un modo per rallegrare quel facciotto triste."
 
 # game/labels/first_day.rpy:310
 translate crowdin introD_part3_d0790ea9:
 
     # mia "What's that? What is it?"
-    mia "What's that? What is it?"
+    mia "Cioè? Che cos'è?"
 
 # game/labels/first_day.rpy:312
 translate crowdin introD_part3_cd3542cb:
 
     # mia "Ha, haha... Stop it."
-    mia "Ha, haha... Stop it."
+    mia "Ha, haha... Smettila."
 
 # game/labels/first_day.rpy:313
 translate crowdin introD_part3_41d86957:
 
     # mc "What did you say? I don't have to stop?! Ok..."
-    mc "What did you say? I don't have to stop?! Ok..."
+    mc "Cosa hai detto? Non devo smetterla?! Ok..."
 
 # game/labels/first_day.rpy:314
 translate crowdin introD_part3_cd3542cb_1:
 
     # mia "Ha, haha... Stop it."
-    mia "Ha, haha... Stop it."
+    mia "Ha, haha... Basta."
 
 # game/labels/first_day.rpy:316
 translate crowdin introD_part3_aa624697:
 
     # "([mia] picks up the pillow and starts the fight.)"
-    "([mia] picks up the pillow and starts the fight.)"
+    "([mia] raccoglie il cuscino e dà inizio alla battaglia.)"
 
 # game/labels/first_day.rpy:320
 translate crowdin introD_fight_797fce85:
 
     # "{color=#ec5c09}Patreon" "In development"
-    "{color=#ec5c09}Patreon" "In development"
+    "{color=#ec5c09}Patreon" "In sviluppo"
 
 # game/labels/first_day.rpy:343
 translate crowdin introF_eecf460f:
 
     # mia "Hey, [for_emyR.MClabel]. He's opening his eyes."
-    mia "Hey, [for_emyR.MClabel]. He's opening his eyes."
+    mia "Ehi, [for_emyR.MClabel]. Sta aprendo gli occhi."
 
 # game/labels/first_day.rpy:347
 translate crowdin introF_25cc95ad:
 
     # mc "{i}It was all a dream! Good thing."
-    mc "{i}It was all a dream! Good thing."
+    mc "{i}Era tutto un sogno! Meno male."
 
 # game/labels/first_day.rpy:348
 translate crowdin introF_7a65a9f9:
 
     # mia "[mc]. Sorry, I didn't do it on purpose."
-    mia "[mc]. Sorry, I didn't do it on purpose."
+    mia "[mc]. Mi dispiace, non l'ho fatto apposta."
 
 # game/labels/first_day.rpy:352
 translate crowdin introF_097f3eb1:
 
     # mc "{i}Huh? What?"
-    mc "{i}Huh? What?"
+    mc "{i}Huh? Cosa?"
 
 # game/labels/first_day.rpy:353
 translate crowdin introF_26961bca:
 
     # emy "I told you with a little time and a little vinegar, you'll wake even a corpse."
-    emy "I told you with a little time and a little vinegar, you'll wake even a corpse."
+    emy "Te l'ho detto, con un po' di tempo e un po' di aceto, puoi risvegliare anche un cadavere."
 
 # game/labels/first_day.rpy:357
 translate crowdin introF_fdc7d6c2:
 
     # mc "Arg! What's that smell?!"
-    mc "Arg! What's that smell?!"
+    mc "Arg! Cos'è questa puzza?!"
 
 # game/labels/first_day.rpy:358
 translate crowdin introF_9c8d75d6:
 
     # emy "Honey, be quiet."
-    emy "Honey, be quiet."
+    emy "Tesoro, fai piano."
 
 # game/labels/first_day.rpy:360
 translate crowdin introF_11cb8322:
 
     # mc "Arg! What a headache. What happened?"
-    mc "Arg! What a headache. What happened?"
+    mc "Arg! Che mal di testa. Cosa è successo?"
 
 # game/labels/first_day.rpy:361
 translate crowdin introF_f2661570:
 
     # mia "Don't you remember? We were playing and you tripped."
-    mia "Don't you remember? We were playing and you tripped."
+    mia "Non ti ricordi? We were playing and you tripped."
 
 # game/labels/first_day.rpy:363
 translate crowdin introF_e9603ad4:
 
-    # emy "Wow, that must have been a pretty bad beat. How are you feeling?"
-    emy "Wow, that must have been a pretty bad beat. How are you feeling?"
+    # emy "Wow, that must have been a bad beat. How are you feeling?"
+    emy "Wow, deve essere stato un bel colpo. Come ti senti?"
 
 # game/labels/first_day.rpy:364
 translate crowdin introF_e2fa4206:
 
     # mc "{i}Wow, she got so worried about me. She didn't even notice that her big boobs were right in front of me."
-    mc "{i}Wow, she got so worried about me. She didn't even notice that her big boobs were right in front of me."
+    mc "{i}Wow, si è così preoccupata per me. Non si è nemmeno accorta che le sue enormi tette sono proprio di fronte a me."
 
 # game/labels/first_day.rpy:369
 translate crowdin introF_240046f0:
 
     # mc "Much better now."
-    mc "Much better now."
+    mc "Molto meglio ora."
 
 # game/labels/first_day.rpy:372
 translate crowdin introF_7df2b9ab:
 
     # mc "I'm starting to get better."
-    mc "I'm starting to get better."
+    mc "Inizio a stare meglio."
 
 # game/labels/first_day.rpy:375
 translate crowdin introF_8a95d214:
 
     # mc "Mhmm... I feel like milk."
-    mc "Mhmm... I feel like milk."
+    mc "Mhmm... Ho voglia di latte."
 
 # game/labels/first_day.rpy:378
 translate crowdin introF_d15f5459:
@@ -676,13 +676,13 @@ translate crowdin introF_d15f5459:
 translate crowdin introF_f20485b0:
 
     # emy "Damn! It's so late! I'm going to...make something...in the kitchen. I have something in the oven..."
-    emy "Damn! It's so late! I'm going to...make something...in the kitchen. I have something in the oven..."
+    emy "Accidenti! È così tardi! Sto andando a...preparare qualcosa...in cucina. Ho qualcosa nel forno..."
 
 # game/labels/first_day.rpy:382
 translate crowdin introF_3b5aecea:
 
     # emy "[mia], come down and come help me."
-    emy "[mia], come down and come help me."
+    emy "[mia], scendi e vieni ad aiutarmi."
 
 # game/labels/first_day.rpy:383
 translate crowdin introF_42f15cf7:
@@ -693,20 +693,20 @@ translate crowdin introF_42f15cf7:
 # game/labels/first_day.rpy:384
 translate crowdin introF_c6cd59e7:
 
-    # mc "{i}Fuck what has gotten into me! Who knows what [emy] must have thought."
-    mc "{i}Fuck what has gotten into me! Who knows what [emy] must have thought."
+    # mc "{i}Fucking got me! Who knows what [emy] must have thought."
+    mc "{i}Che cazzo mi è preso! Chissà che cosa ha pensato [emy]."
 
 # game/labels/first_day.rpy:385
 translate crowdin introF_85e719f8:
 
-    # emy "{i}Oh my god, [emy] why didn't you put your bra on. If you would have done that I wouldn't ... have seen ... that bulge in her pants. I just don't want to think about it anymore."
-    emy "{i}Oh my god, [emy] why didn't you put your bra on. If you would have done that I wouldn't ... have seen ... that bulge in her pants. I just don't want to think about it anymore."
+    # emy "{i}Oh my god, [emy] why didn't you put your bra on. If you would have done that I wouldn't ... have seen... that bulge in her pants. I don't have to think about it anymore."
+    emy "{i}Oh mio dio, [emy] perché non hai messo il reggiseno. Se lo avresti fatto non lo avresti... visto... quel rigonfio nei suoi pantaloni. Basta, non devo più pensarci."
 
 # game/labels/first_day.rpy:386
 translate crowdin introF_f546882c:
 
     # emy "{i}I didn't think he was that gifted though."
-    emy "{i}I didn't think he was that gifted though."
+    emy "{i}Però non pensavo che fosse così dotato."
 
 # game/labels/first_day.rpy:387
 translate crowdin introF_496800e7:
@@ -718,25 +718,25 @@ translate crowdin introF_496800e7:
 translate crowdin intro_sleep_2d6660c3:
 
     # mc "{i}What a strange day today has been. With everything that's happened to me I keep thinking about what that old man said. There's only one life, I mustn't waste it."
-    mc "{i}What a strange day today has been. With everything that's happened to me I keep thinking about what that old man said. There's only one life, I mustn't waste it."
+    mc "{i}Che strana giornata è stata oggi. Con tutto quello che mi è successo continuo a pensare a quello che ha detto quel vecchio. C'è solo una vita, non devo sprecarla."
 
 # game/labels/first_day.rpy:401
 translate crowdin intro_sleep_4c0d2229:
 
     # mc "{i}Mhmm... I have too many thoughts in my head..." nointeract
-    mc "{i}Mhmm... I have too many thoughts in my head..." nointeract
+    mc "{i}Mhmm... Ho troppi pensieri in testa..." nointeract
 
 # game/labels/first_day.rpy:404
 translate crowdin intro_sleep_7ec92eb5:
 
     # mc "{i}A hand job might help."
-    mc "{i}A hand job might help."
+    mc "{i}Una seghina mi potrebbe aiutare."
 
 # game/labels/first_day.rpy:406
 translate crowdin intro_sleep_98c5ef69:
 
     # mc "{i}It would be better, take a tissue."
-    mc "{i}It would be better, take a tissue."
+    mc "{i}Meglio prendere un fazzoletto."
 
 # game/labels/first_day.rpy:421
 translate crowdin intro_sleep_ec3fcaa5:
@@ -748,55 +748,55 @@ translate crowdin intro_sleep_ec3fcaa5:
 translate crowdin intro_sleep_03650294:
 
     # mc "{i}Ehm... What was that noise!!! The wind or... the burglars...?"
-    mc "{i}Ehm... What was that noise!!! The wind or... the burglars...?"
+    mc "{i}Ehm... Che cos'è stato quel rumore!!! Il vento o... i ladri...?"
 
 # game/labels/first_day.rpy:435
 translate crowdin intro_sleep_96adaef3:
 
     # mc "{i}Maybe I should go check it out:" nointeract
-    mc "{i}Maybe I should go check it out:" nointeract
+    mc "{i}Forse dovrei andare a controllare:" nointeract
 
 # game/labels/first_day.rpy:438
 translate crowdin intro_sleep_3c06e7ae:
 
     # mc "{i}It would be better, take my baseball bat."
-    mc "{i}It would be better, take my baseball bat."
+    mc "{i}Sarebbe meglio, prendere la mia mazza da baseball."
 
 # game/labels/first_day.rpy:445
 translate crowdin intro_sleep_c8d9632b:
 
     # mc "{i}Na... Nothing came out."
-    mc "{i}Na... Nothing came out."
+    mc "{i}Na... Non è stato nulla."
 
 # game/labels/first_day.rpy:464
 translate crowdin intro_victoria_67a1631f:
 
     # mc "{i}Oh Fuck! There's someone. This voice, though... it's familiar."
-    mc "{i}Oh Fuck! There's someone. This voice, though... it's familiar."
+    mc "{i}Oh cazzo! C'è qualcuno. Questa voce, però... mi è familiare."
 
 # game/labels/first_day.rpy:465
 translate crowdin intro_victoria_3bc62212:
 
     # mc "{i}Is that Victoria? Wow, that's the first time I've ever seen her so drunk. Nice little redheaded friend, though."
-    mc "{i}Is that Victoria? Wow, that's the first time I've ever seen her so drunk. Nice little redheaded friend, though."
+    mc "{i}È Victoria? Wow, è la prima volta che la vedo così sbronza. Nice little redheaded friend, though."
 
 # game/labels/first_day.rpy:467
 translate crowdin intro_victoria_3b9f032e:
 
     # vct "Ha, haha... I'm drunk. Is this my house? Or yours?"
-    vct "Ha, haha... I'm drunk. Is this my house? Or yours?"
+    vct "Ha, haha... Sono ubriaca. Questa è casa mia? O tua?"
 
 # game/labels/first_day.rpy:468
 translate crowdin intro_victoria_00822e71:
 
     # vct "Ha, haha... I'm kidding. I know I'm funny. This night is still young. We'll knock back two more beers, then go throw bottles at some cars."
-    vct "Ha, haha... I'm kidding. I know I'm funny. This night is still young. We'll knock back two more beers, then go throw bottles at some cars."
+    vct "Ha, haha... Scherzo. Sono divertente. Questa notte è ancora giovane. We'll knock back two more beers, then go throw bottles at some cars."
 
 # game/labels/first_day.rpy:469
 translate crowdin intro_victoria_52a19ad2:
 
     # "Red girl" "But if you can't even stand up. Ha, haha..."
-    "Red girl" "But if you can't even stand up. Ha, haha..."
+    "Ragazza rossa" "Ma se non si riesce nemmeno a stare in piedi. Ha, haha..."
 
 # game/labels/first_day.rpy:472
 translate crowdin intro_victoria_453896e9:
@@ -808,31 +808,31 @@ translate crowdin intro_victoria_453896e9:
 translate crowdin intro_victoria_7861e7b2:
 
     # vct "Hey! [krn] don't say what I can or what I... ... Oh my God, what was it like? A already! Or that I can not do."
-    vct "Hey! [krn] don't say what I can or what I... ... Oh my God, what was it like? A already! Or that I can not do."
+    vct "Hey! [krn] non dire quello che posso o quello che... ... Oh mio Dio, com'era? A già! O che non posso fare."
 
 # game/labels/first_day.rpy:480
 translate crowdin intro_victoria_ddcec8e8:
 
-    # vct "Now you, beauty. You stay right here. And I'm going to go get those damn beers. And when I come back, let's do what I said. "
-    vct "Now you, beauty. You stay right here. And I'm going to go get those damn beers. And when I come back, let's do what I said. "
+    # vct "Now you, beauty. You stay right here. And I'm going to go get those damn beers. And when I come back, let's do what I said."
+    vct "Ora tu, bellezza. Rimani qui. E vado a prendere quelle maledette birre. E quando torno, facciamo quello che ho detto."
 
 # game/labels/first_day.rpy:481
 translate crowdin intro_victoria_291a865c:
 
-    # "([vct] tries to walk on her own, but can't take a single step and falls on Kristen's back.)"
-    "([vct] tries to walk on her own, but can't take a single step and falls on Kristen's back.)"
+    # "([vct] tries to walk on her own, but can't take a single step and falls on Kristen's back)"
+    "([vct] cerca di camminare da solo, ma non riesce a fare un solo passo e cade addosso a Kristen)"
 
 # game/labels/first_day.rpy:483
 translate crowdin intro_victoria_d9ef6e38:
 
     # krn "Look out! [vct], are you okay?"
-    krn "Look out! [vct], are you okay?"
+    krn "Attenta! [vct], stai bene?"
 
 # game/labels/first_day.rpy:484
 translate crowdin intro_victoria_e04c2959:
 
     # vct "Okay, okay. I admit it. I'm a little too drunk. You win. Now let's do whatever you want."
-    vct "Okay, okay. I admit it. I'm a little too drunk. You win. Now let's do whatever you want."
+    vct "Ok, ok. Lo ammetto. Sono un po' ubriaca. Hai vinto. Ora facciamo quello che vuoi tu."
 
 # game/labels/first_day.rpy:485
 translate crowdin intro_victoria_c641bf7b:
@@ -844,37 +844,37 @@ translate crowdin intro_victoria_c641bf7b:
 translate crowdin intro_victoria_d3e2b29c:
 
     # vct "No, I said what you want. We both know what you want."
-    vct "No, I said what you want. We both know what you want."
+    vct "No, ho detto quello che vuoi tu. Sappiamo entrambe cosa vuoi."
 
 # game/labels/first_day.rpy:487
 translate crowdin intro_victoria_865f2d9c:
 
     # krn "[vct], I don't know what you're talking..."
-    krn "[vct], I don't know what you're talking..."
+    krn "[vct], Non so di cosa stai parlando..."
 
 # game/labels/first_day.rpy:488
 translate crowdin intro_victoria_9ddd64e0:
 
     # vct "Shut up! And let me taste your tongue."
-    vct "Shut up! And let me taste your tongue."
+    vct "Zitta! E lasciami assaggiare la tua lingua."
 
 # game/labels/first_day.rpy:489
 translate crowdin intro_victoria_bc2b5968:
 
     # mc "{i}Oh my God, It can't really happen. What do I do now:" nointeract
-    mc "{i}Oh my God, It can't really happen. What do I do now:" nointeract
+    mc "{i}Oh mio Dio, non può essere che sta realmente succedendo. Cosa faccio adesso:" nointeract
 
 # game/labels/first_day.rpy:492
 translate crowdin intro_victoria_04cdc7e5:
 
     # mc "{i}Better intervene before it gets too late."
-    mc "{i}Better intervene before it gets too late."
+    mc "{i}Meglio intervenire prima che diventa troppo tardi."
 
 # game/labels/first_day.rpy:495
 translate crowdin intro_victoria_86d70613:
 
     # mc "{i}Let's see! I'm really curious what happens next."
-    mc "{i}Let's see! I'm really curious what happens next."
+    mc "{i}Vediamo! I'm really curious what happens next."
 
 # game/labels/first_day.rpy:498
 translate crowdin intro_victoria_4e7a3128:
@@ -886,31 +886,31 @@ translate crowdin intro_victoria_4e7a3128:
 translate crowdin intro_victoria_47fa4aa1:
 
     # krn "What? [vct] is too drunk. Haha..."
-    krn "What? [vct] is too drunk. Haha..."
+    krn "Cosa? [vct] is too drunk. Haha..."
 
 # game/labels/first_day.rpy:504
 translate crowdin intro_victoria_abba356b:
 
     # vct "Come on. I know. You were glued to me the whole time."
-    vct "Come on. I know. You were glued to me the whole time."
+    vct "Avanti. Lo so. Sei stato incollato a me tutto il tempo."
 
 # game/labels/first_day.rpy:505
 translate crowdin intro_victoria_16a1a6ba:
 
     # krn "[vct] you're drunk, you don't know what you're saying."
-    krn "[vct] you're drunk, you don't know what you're saying."
+    krn "[vct] sei ubriaca, non sai cosa stai dicendo."
 
 # game/labels/first_day.rpy:506
 translate crowdin intro_victoria_eacb5bcd:
 
     # vct "Kiss me, redhead. You won't get another chance."
-    vct "Kiss me, redhead. You won't get another chance."
+    vct "Baciami, rossa. Non avrai un'altra occasione."
 
 # game/labels/first_day.rpy:509
 translate crowdin intro_victoria_2388adb5:
 
     # "([krn] shyly approaches [vct]'s mouth)"
-    "([krn] shyly approaches [vct]'s mouth)"
+    "([krn] si avvicina timidamente alla bocca di [vct])"
 
 # game/labels/first_day.rpy:512
 translate crowdin intro_victoria_ef8c4ec0:
@@ -976,7 +976,7 @@ translate crowdin morning_intro_part2_879b45c8:
 translate crowdin morning_intro_part2_ba07746f:
 
     # krn "[krn]. Nice to meet you. [vct] told me about you, I know you guys haven't had a bit that you've had ups and downs lately."
-    krn "[krn]. Nice to meet you. [vct] told me about you, I know you guys haven't had a bit that you've had ups and downs lately."
+    krn "[krn]. Piacere di conoscerti. [vct] told me about you, I know you guys haven't had a bit that you've had ups and downs lately."
 
 # game/labels/first_day.rpy:534
 translate crowdin morning_intro_part2_86bd746d:
@@ -988,7 +988,7 @@ translate crowdin morning_intro_part2_86bd746d:
 translate crowdin morning_intro_part2_3c4c60da:
 
     # vct "Hi. [krn], he's [mc], my [vctR.MClabel]. Sorry, I forgot... you have already introduced yourselves."
-    vct "Hi. [krn], he's [mc], my [vctR.MClabel]. Sorry, I forgot... you have already introduced yourselves."
+    vct "Ciao. [krn], he's [mc], my [vctR.MClabel]. Sorry, I forgot... you have already introduced yourselves."
 
 # game/labels/first_day.rpy:536
 translate crowdin morning_intro_part2_5c26ecb9:
@@ -1118,15 +1118,15 @@ translate crowdin strings:
 
     # game/labels/first_day.rpy:161
     old "Why?"
-    new "Why?"
+    new "Perché?"
 
     # game/labels/first_day.rpy:161
     old "Well"
-    new "Well"
+    new "Bene"
 
     # game/labels/first_day.rpy:161
     old "{i}I knew it..."
-    new "{i}I knew it..."
+    new "{i}lo sapevo..."
 
     # game/labels/first_day.rpy:179
     old "{color=#000}{size=120}{font=fonts/handwriting_alphabetizedcassettetapes-classic.ttf}My presence \n only causes problem. \n I will fix our problem, \n but then I will not come back \n\n    [jn]{/color}"
@@ -1134,15 +1134,15 @@ translate crowdin strings:
 
     # game/labels/first_day.rpy:188
     old "His loss"
-    new "His loss"
+    new "Ci ha perso lui"
 
     # game/labels/first_day.rpy:188
     old "What happened? {color=#f00}(Probability 10%%)"
-    new "What happened? {color=#f00}(Probability 10%%)"
+    new "Cosa è successo? {color=#f00}(Probabilità 10%%)"
 
     # game/labels/first_day.rpy:188
     old "Go away"
-    new "Go away"
+    new "Vai via"
 
     # game/labels/first_day.rpy:225
     old "Tutorial"
@@ -1150,23 +1150,23 @@ translate crowdin strings:
 
     # game/labels/first_day.rpy:241
     old "The door is closed:"
-    new "The door is closed:"
+    new "La porta è chiusa:"
 
     # game/labels/first_day.rpy:241
     old "Knock"
-    new "Knock"
+    new "Bussa"
 
     # game/labels/first_day.rpy:259
     old "How is the study going?"
-    new "How is the study going?"
+    new "Come va lo studio?"
 
     # game/labels/first_day.rpy:259
     old "Do you have a minute?"
-    new "Do you have a minute?"
+    new "Hai un minuto?"
 
     # game/labels/first_day.rpy:259
     old "How are you?"
-    new "How are you?"
+    new "Come stai?"
 
     # game/labels/first_day.rpy:259
     old "Be quiet"
@@ -1174,15 +1174,15 @@ translate crowdin strings:
 
     # game/labels/first_day.rpy:297
     old "What about [vct]?"
-    new "What about [vct]?"
+    new "[vct]?"
 
     # game/labels/first_day.rpy:297
     old "And then?"
-    new "And then?"
+    new "E poi?"
 
     # game/labels/first_day.rpy:297
     old "OK, that's enough."
-    new "OK, that's enough."
+    new "OK, basta."
 
     # game/labels/first_day.rpy:325
     old "Want to skip the \"dream\"?"
@@ -1190,7 +1190,7 @@ translate crowdin strings:
 
     # game/labels/first_day.rpy:325
     old "Continue"
-    new "Continue"
+    new "Continua"
 
     # game/labels/first_day.rpy:366
     old "Much better"
@@ -1202,19 +1202,19 @@ translate crowdin strings:
 
     # game/labels/first_day.rpy:366
     old "Milk"
-    new "Milk"
+    new "Latte"
 
     # game/labels/first_day.rpy:366
     old "Remain silent"
-    new "Remain silent"
+    new "Rimani in silenzio"
 
     # game/labels/first_day.rpy:401
     old "Jerk off"
-    new "Jerk off"
+    new "Masturbati"
 
     # game/labels/first_day.rpy:401
     old "Try to sleep"
-    new "Try to sleep"
+    new "Prova a dormire"
 
     # game/labels/first_day.rpy:470
     old "Stay"
@@ -1222,11 +1222,11 @@ translate crowdin strings:
 
     # game/labels/first_day.rpy:489
     old "Intervene"
-    new "Intervene"
+    new "Interveni"
 
     # game/labels/first_day.rpy:489
     old "Stay and watch"
-    new "Stay and watch"
+    new "Rimani a guardare"
 
     # game/labels/first_day.rpy:517
     old "Introduce yourself"
@@ -1238,11 +1238,11 @@ translate crowdin strings:
 
     # game/labels/first_day.rpy:541
     old "University?"
-    new "University?"
+    new "Università?"
 
     # game/labels/first_day.rpy:541
     old "Are you from here?"
-    new "Are you from here?"
+    new "Sei di qui?"
 
     # game/labels/first_day.rpy:541
     old "End"
