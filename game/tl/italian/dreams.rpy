@@ -154,7 +154,7 @@ translate crowdin after_deathA_partA_50e2d0ec:
 translate crowdin after_deathA_partA_8574059a:
 
     # "old man" "Missing parents, still a virgin, no desire to strive, no good/bad deeds in particular.... Nothing in particular."
-    "vecchietto" "Genitori scomparsi, ancora vergine, svogliato, nessuna buona/cattiva azione in particolare.... Nothing in particular."
+    "vecchietto" "Genitori scomparsi, ancora vergine, svogliato, nessuna buona/cattiva azione in particolare.... Niente di particolare."
 
 # game/labels/dreams.rpy:61
 translate crowdin after_deathA_partA_9880a557:
