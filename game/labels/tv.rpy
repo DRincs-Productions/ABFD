@@ -33,13 +33,13 @@ image tv Meteo01 3 = "/TV/Meteo01-3.webp"
 label intro_wach_tv:
     show bg tv Emily01
     mc "Has the movie started yet?"
-    emy "No, there's still time"
+    emy "No, there's still time."
     menu:
         "Have a seat":
             pass 
         "Back": 
             mc "I'll go brush my teeth first."
-            emy "As you wish"
+            emy "As you wish."
             $ cur_room = prev_room
             return 
 
@@ -71,7 +71,7 @@ label News01:
     show emy tv
     show mc TV
     mia "Look at [for_emyR.MClabel]! There's [nnc]. She was an old classmate of [for_emyR.MClabel]."
-    emy "Yeah! By now, all you have to do to work in this macho TV is sleep with the right people.... That's why he had so much practice in high school in high school."
+    emy "Yeah! By now, all you have to do to work in this macho TV is sleep with the right people... That's why he had so much practice in high school in high school."
     mc "{i}Wow, I've never heard [emy] say that. They must have been enemies in high school."
     mia "Eh... [for_emyR.MClabel] I didn't understand. What did you practice with? Maybe I could do it too to become famous."
     emy "Haha... [mia]... you're still too young to understand these things. You don't need to be like her to become famous."
