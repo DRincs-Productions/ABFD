@@ -233,7 +233,7 @@ label prologue_end:
     return
 label introD_emy:
     $ cur_room = prev_room
-    "For now it's better to dry her off. I could talk to [mia]..."
+    "For now, it's best to leave her alone. I could talk to [mia]..."
     return
 
 label introD:
@@ -288,7 +288,7 @@ label introD_part2:
     mia "Last night I overheard [emy] and [jn] discussing their relationship... their problems..."
     mc "Same as other days, nothing new."
     mia "However, this time [for_emyR.MClabel] started screaming and then went to bed. While [jn] stayed in the jump. Then around 3 o'clock I heard some unusual noises, then slamming the door of the house."
-    mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it."
+    mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it..."
     mc "Unfortunately, I already know what it said. [emy] made me read it."
 
     label introD_part3:
@@ -301,11 +301,11 @@ label introD_part2:
             jump introD_part3
         "And then?":
             mc "And then what happened? Did you talk to [emy]?"
-            mia "What could I do, I put the note back where it was and then played it cool. This night I hardly got a wink of sleep."
+            mia "What could I do, I put the note back where it was and went back to bed. I didn't sleep a wink last night."
             mia "The next day you could tell [emy] had been crying a lot, but I didn't know what to do. She tried to play it cool."
             mia "I had breakfast and then stayed in my room. By lunch she had recovered a little. All she told me was that [jn] will be gone for a while. You know he doesn't talk to me about these things."
         "OK, that's enough.":
-            mc "OK, OK, that's enough. "
+            mc "OK, OK, that's enough."
     mc "I don't want to see you so sad. I know a remedy to cheer up that sad little face."
     mia "What's that? What is it?"
     show bg prologue D03A
@@ -360,7 +360,7 @@ label introF:
     mc "Arg! What a headache. What happened?"
     mia "Don't you remember? We were playing and you tripped."
     show bg prologue F02B
-    emy "Wow, that must have been a pretty bad beat. How are you feeling?"
+    emy "Wow, that must have been a bad beat. How are you feeling?"
     mc "{i}Wow, she got so worried about me. She didn't even notice that her big boobs were right in front of me."
     show screen countdown(timer_range=3, timer_call='menu_slow')
     menu:
@@ -381,8 +381,8 @@ label introF:
     emy "Damn! It's so late! I'm going to...make something...in the kitchen. I have something in the oven..."
     emy "[mia], come down and come help me."
     mia "Ok, [for_emyR.MClabel]."
-    mc "{i}Fuck what has gotten into me! Who knows what [emy] must have thought."
-    emy "{i}Oh my god, [emy] why didn't you put your bra on. If you would have done that I wouldn't ... have seen ... that bulge in her pants. I just don't want to think about it anymore."
+    mc "{i}Fucking got me! Who knows what [emy] must have thought."
+    emy "{i}Oh my god, [emy] why didn't you put your bra on. If you would have done that I wouldn't ... have seen... that bulge in her pants. I don't have to think about it anymore."
     emy "{i}I didn't think he was that gifted though."
     mia "{i}..."
 

@@ -375,8 +375,8 @@ translate crowdin prologue_end_46b4346e:
 # game/labels/first_day.rpy:236
 translate crowdin introD_emy_94d4383a:
 
-    # "For now it's better to dry her off. I could talk to [mia]..."
-    "For now it's better to dry her off. I could talk to [mia]..."
+    # "For now, it's best to leave her alone. I could talk to [mia]..."
+    "For now, it's best to leave her alone. I could talk to [mia]..."
 
 # game/labels/first_day.rpy:244
 translate crowdin introD_8433c3d9:
@@ -489,8 +489,8 @@ translate crowdin introD_part2_508d8f30:
 # game/labels/first_day.rpy:291
 translate crowdin introD_part2_48358ee2:
 
-    # mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it."
-    mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it."
+    # mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it..."
+    mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it..."
 
 # game/labels/first_day.rpy:292
 translate crowdin introD_part2_8beab4ae:
@@ -519,8 +519,8 @@ translate crowdin introD_part3_1dea11ed:
 # game/labels/first_day.rpy:304
 translate crowdin introD_part3_65d3fbce:
 
-    # mia "What could I do, I put the note back where it was and then played it cool. This night I hardly got a wink of sleep."
-    mia "What could I do, I put the note back where it was and then played it cool. This night I hardly got a wink of sleep."
+    # mia "What could I do, I put the note back where it was and went back to bed. I didn't sleep a wink last night."
+    mia "What could I do, I put the note back where it was and went back to bed. I didn't sleep a wink last night."
 
 # game/labels/first_day.rpy:305
 translate crowdin introD_part3_7ca3cff3:
@@ -537,8 +537,8 @@ translate crowdin introD_part3_f56be986:
 # game/labels/first_day.rpy:308
 translate crowdin introD_part3_7a596e35:
 
-    # mc "OK, OK, that's enough. "
-    mc "OK, OK, that's enough. "
+    # mc "OK, OK, that's enough."
+    mc "OK, OK, that's enough."
 
 # game/labels/first_day.rpy:309
 translate crowdin introD_part3_134eacbe:
@@ -639,8 +639,8 @@ translate crowdin introF_f2661570:
 # game/labels/first_day.rpy:363
 translate crowdin introF_e9603ad4:
 
-    # emy "Wow, that must have been a pretty bad beat. How are you feeling?"
-    emy "Wow, that must have been a pretty bad beat. How are you feeling?"
+    # emy "Wow, that must have been a bad beat. How are you feeling?"
+    emy "Wow, that must have been a bad beat. How are you feeling?"
 
 # game/labels/first_day.rpy:364
 translate crowdin introF_e2fa4206:
@@ -693,14 +693,14 @@ translate crowdin introF_42f15cf7:
 # game/labels/first_day.rpy:384
 translate crowdin introF_c6cd59e7:
 
-    # mc "{i}Fuck what has gotten into me! Who knows what [emy] must have thought."
-    mc "{i}Fuck what has gotten into me! Who knows what [emy] must have thought."
+    # mc "{i}Fucking got me! Who knows what [emy] must have thought."
+    mc "{i}Fucking got me! Who knows what [emy] must have thought."
 
 # game/labels/first_day.rpy:385
 translate crowdin introF_85e719f8:
 
-    # emy "{i}Oh my god, [emy] why didn't you put your bra on. If you would have done that I wouldn't ... have seen ... that bulge in her pants. I just don't want to think about it anymore."
-    emy "{i}Oh my god, [emy] why didn't you put your bra on. If you would have done that I wouldn't ... have seen ... that bulge in her pants. I just don't want to think about it anymore."
+    # emy "{i}Oh my god, [emy] why didn't you put your bra on. If you would have done that I wouldn't ... have seen... that bulge in her pants. I don't have to think about it anymore."
+    emy "{i}Oh my god, [emy] why didn't you put your bra on. If you would have done that I wouldn't ... have seen... that bulge in her pants. I don't have to think about it anymore."
 
 # game/labels/first_day.rpy:386
 translate crowdin introF_f546882c:
