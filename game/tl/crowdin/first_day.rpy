@@ -813,14 +813,14 @@ translate crowdin intro_victoria_7861e7b2:
 # game/labels/first_day.rpy:480
 translate crowdin intro_victoria_ddcec8e8:
 
-    # vct "Now you, beauty. You stay right here. And I'm going to go get those damn beers. And when I come back, let's do what I said. "
-    vct "Now you, beauty. You stay right here. And I'm going to go get those damn beers. And when I come back, let's do what I said. "
+    # vct "Now you, beauty. You stay right here. And I'm going to go get those damn beers. And when I come back, let's do what I said."
+    vct "Now you, beauty. You stay right here. And I'm going to go get those damn beers. And when I come back, let's do what I said."
 
 # game/labels/first_day.rpy:481
 translate crowdin intro_victoria_291a865c:
 
-    # "([vct] tries to walk on her own, but can't take a single step and falls on Kristen's back.)"
-    "([vct] tries to walk on her own, but can't take a single step and falls on Kristen's back.)"
+    # "([vct] tries to walk on her own, but can't take a single step and falls on Kristen's back)"
+    "([vct] tries to walk on her own, but can't take a single step and falls on Kristen's back)"
 
 # game/labels/first_day.rpy:483
 translate crowdin intro_victoria_d9ef6e38:

@@ -477,8 +477,8 @@ label intro_victoria:
             pass
 
     vct "Hey! [krn] don't say what I can or what I... ... Oh my God, what was it like? A already! Or that I can not do."
-    vct "Now you, beauty. You stay right here. And I'm going to go get those damn beers. And when I come back, let's do what I said. "
-    "([vct] tries to walk on her own, but can't take a single step and falls on Kristen's back.)"
+    vct "Now you, beauty. You stay right here. And I'm going to go get those damn beers. And when I come back, let's do what I said."
+    "([vct] tries to walk on her own, but can't take a single step and falls on Kristen's back)"
     show bg prologue G02A
     krn "Look out! [vct], are you okay?"
     vct "Okay, okay. I admit it. I'm a little too drunk. You win. Now let's do whatever you want."
