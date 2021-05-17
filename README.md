@@ -21,6 +21,7 @@ Inside the repo there is only the code. Were you looking for another repo?
 ### Tools used
 - [Dating sim toolkit](https://github.com/DonRP/DS-toolkit)
 - [Purple in Gold GUI](https://github.com/DonRP/PG-GUI)
+- [Navigation Quest Time Routine System](https://github.com/DonRP/NQTR-toolkit)
 
 ## Translation
 Hi guys, a main goal of this project is to give the possibility to everyone to enjoy it. And since I know what it means to be born as a non-English native speaker I've studied a way to give everyone the possibility to translate it and use the most updated translation.
