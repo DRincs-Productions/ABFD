@@ -4,27 +4,27 @@
 translate crowdin error_label_cde7440f:
 
     # "ERROR"
-    "ERROR"
+    "BŁĄD"
 
 # game/tool/action_label.rpy:47
 translate crowdin development_62f6e59d:
 
     # "In development"
-    "In development"
+    "W rozwoju"
 
 translate crowdin strings:
 
     # game/tool/action_label.rpy:10
     old "Nap for 3 hour"
-    new "Nap for 3 hour"
+    new "Drzemka 3 godzinna"
 
     # game/tool/action_label.rpy:10
     old "Sleep"
-    new "Sleep"
+    new "Sen"
 
     # game/tool/action_label.rpy:23
     old "What time do you want to set the alarm?"
-    new "What time do you want to set the alarm?"
+    new "O której chcesz wstać?"
 
     # game/tool/action_label.rpy:23
     old "[tm.hour_new_day]:00"
