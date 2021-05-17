@@ -10,11 +10,11 @@ translate crowdin check_block_spendtime_1c8ca0dc:
 translate crowdin wait_75201fb1:
 
     # "(It's late, you have to go to bed)"
-    "(It's late, you have to go to bed)"
+    "(Jest już późno, trzeba iść spać)"
 
 translate crowdin strings:
 
     # game/tool/time_label.rpy:4
     old "You can't do it now"
-    new "You can't do it now"
+    new "Nie możesz tego zrobić teraz"
 
