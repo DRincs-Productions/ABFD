@@ -22,7 +22,7 @@ translate crowdin intro_wach_tv_5ec12594:
 translate crowdin intro_wach_tv_102f8c7e:
 
     # emy "As you wish."
-    emy "As you wish."
+    emy "Come vuoi."
 
 # game/labels/tv.rpy:47
 translate crowdin intro_wach_tv_f444af27:
