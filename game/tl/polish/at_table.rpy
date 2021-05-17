@@ -16,7 +16,7 @@ translate crowdin first_at_table_preparation_612e2ac5:
 translate crowdin first_at_table_preparation_de3c2312:
 
     # mia "Haha... Make it quick, we're hungry here."
-    mia " Haha... Zrób to szybko, jesteśmy głodni."
+    mia "Haha... Zrób to szybko, jesteśmy głodni."
 
 # game/labels/at_table.rpy:81
 translate crowdin helpA_a4315a3c:
@@ -196,7 +196,7 @@ translate crowdin at_table_dinner_A_215aa469:
 translate crowdin at_table_dinner_A_78e28535:
 
     # emy "You mean \"was\"."
-    emy "You mean \"was\"."
+emy "Masz na myśli \"był\"."
 
 # game/labels/at_table.rpy:138
 translate crowdin at_table_dinner_A_fa027119:
