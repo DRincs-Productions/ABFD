@@ -484,7 +484,7 @@ translate crowdin introD_part2_33e3f8c6:
 translate crowdin introD_part2_508d8f30:
 
     # mia "However, this time [for_emyR.MClabel] started screaming and then went to bed. While [jn] stayed in the jump. Then around 3 o'clock I heard some unusual noises, then slamming the door of the house."
-    mia "However, this time [for_emyR.MClabel] started screaming and then went to bed. Podczas gdy [jn] pozostał w szoku. Następnie około 3: 00 rano usłyszałam jakieś niezwykłe odgłosy, a potem trzaśnięcie drzwiami domu."
+    mia "Jednak tym razem [for_emyR.MClabel] zaczęła krzyczeć a następnie poszła do łóżka. Podczas gdy [jn] pozostał w szoku. Następnie około 3: 00 rano usłyszałam jakieś niezwykłe odgłosy, a potem trzaśnięcie drzwiami domu."
 
 # game/labels/first_day.rpy:291
 translate crowdin introD_part2_48358ee2:
