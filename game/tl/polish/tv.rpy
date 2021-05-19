@@ -10,7 +10,7 @@ translate crowdin intro_wach_tv_3debaa5f:
 translate crowdin intro_wach_tv_2fa0fa4d:
 
     # emy "No, there's still time."
-    emy "No, there's still time."
+    emy "Nie, jeszcze jest czas."
 
 # game/labels/tv.rpy:41
 translate crowdin intro_wach_tv_5ec12594:
@@ -22,7 +22,7 @@ translate crowdin intro_wach_tv_5ec12594:
 translate crowdin intro_wach_tv_102f8c7e:
 
     # emy "As you wish."
-    emy "As you wish."
+    emy "Jak chcesz."
 
 # game/labels/tv.rpy:47
 translate crowdin intro_wach_tv_f444af27:
@@ -112,7 +112,7 @@ translate crowdin News01_4c069dcb:
 translate crowdin News01_04f7d3a9:
 
     # emy "Yeah! By now, all you have to do to work in this macho TV is sleep with the right people... That's why he had so much practice in high school in high school."
-    emy "Tak! By now, all you have to do to work in this macho TV is sleep with the right people... Dlatego miała tak dużo praktyk w liceum."
+    emy "Tak! Ale teraz żeby pracować w tym macho TV wystarczy wiedzieć z kim spać... Dlatego miała tak dużo praktyk w liceum."
 
 # game/labels/tv.rpy:75
 translate crowdin News01_0eda7e25:
