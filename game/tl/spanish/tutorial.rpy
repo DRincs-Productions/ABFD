@@ -4,19 +4,19 @@
 translate crowdin navigation_tuturial_33108235:
 
     # mc "Wow, it seems to be working. This old camera is giving a bit of trouble, but it seems more durable than expected."
-    mc "Wow, it seems to be working. This old camera is giving a bit of trouble, but it seems more durable than expected."
+    mc "Vaya, parece que funciona. Esta vieja cámara está dando un poco de problemas, pero parece más duradera de lo esperado."
 
 # game/labels/tutorial.rpy:12
 translate crowdin navigation_tuturial_98c9dec5:
 
-    # mc "This is the video diary from 08/06/2019... And it is also the concluding video of my research on facial expressions. It would look like a great way to cheat at poker... or at least it does on \"Lite to Me\"."
-    mc "This is the video diary from 08/06/2019... And it is also the concluding video of my research on facial expressions. It would look like a great way to cheat at poker... or at least it does on \"Lite to Me\"."
+    # mc "This is the video diary from 08/06/2019... And it is also the concluding video of my research on facial expressions. It would look like a great way to cheat at poker... o al menos lo hace en \"Lite to Me\"."
+    mc "Este es el video diario del 08/06/2019... Y también es el vídeo final de mi investigación sobre las expresiones faciales. Parecería una gran manera de hacer trampa en el póker... o al menos lo hace en \"Lite to Me\"."
 
 # game/labels/tutorial.rpy:14
 translate crowdin navigation_tuturial_77206532:
 
     # mc "Well... this... is the last video. Because I've come to the conclusion that..."
-    mc "Well... this... is the last video. Because I've come to the conclusion that..."
+    mc "Bien... esto... es el último vídeo. Because I've come to the conclusion that..."
 
 # game/labels/tutorial.rpy:15
 translate crowdin navigation_tuturial_5b94cf91:
