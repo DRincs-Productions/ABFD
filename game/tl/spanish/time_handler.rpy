@@ -4,17 +4,17 @@ translate crowdin strings:
 
     # game/tool/time_handler.rpy:3
     old "Night"
-    new "Night"
+    new "Noche"
 
     # game/tool/time_handler.rpy:3
     old "Morning"
-    new "Morning"
+    new "Mañana"
 
     # game/tool/time_handler.rpy:3
     old "Afternoon"
-    new "Afternoon"
+    new "Tarde"
 
     # game/tool/time_handler.rpy:3
     old "Evening"
-    new "Evening"
+    new "Por la tarde noche"
 
