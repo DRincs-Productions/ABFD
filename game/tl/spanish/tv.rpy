@@ -4,97 +4,97 @@
 translate crowdin intro_wach_tv_3debaa5f:
 
     # mc "Has the movie started yet?"
-    mc "Has the movie started yet?"
+    mc "¿Ya empezó la película?"
 
 # game/labels/tv.rpy:36
 translate crowdin intro_wach_tv_2fa0fa4d:
 
     # emy "No, there's still time."
-    emy "No, there's still time."
+    emy "No, aún estamos a tiempo."
 
 # game/labels/tv.rpy:41
 translate crowdin intro_wach_tv_5ec12594:
 
     # mc "I'll go brush my teeth first."
-    mc "I'll go brush my teeth first."
+    mc "Primero voy a lavarme los dientes."
 
 # game/labels/tv.rpy:42
 translate crowdin intro_wach_tv_102f8c7e:
 
     # emy "As you wish."
-    emy "As you wish."
+    emy "Como quieras."
 
 # game/labels/tv.rpy:47
 translate crowdin intro_wach_tv_f444af27:
 
     # "Advertisement" "Do you want to have a better life? Do you want to really enjoy life? Whether at the beach or in the mountains?"
-    "Advertisement" "Do you want to have a better life? Do you want to really enjoy life? Whether at the beach or in the mountains?"
+    " Aviso" "¿Quieres tener una vida mejor? ¿Quieres disfrutar realmente de la vida? En la playa o en la montaña?"
 
 # game/labels/tv.rpy:48
 translate crowdin intro_wach_tv_9eeab049:
 
     # "Advertisement" "Now you can! With the new Audi, don't mind the price with Audi you can."
-    "Advertisement" "Now you can! With the new Audi, don't mind the price with Audi you can."
+    "Aviso" "¡Ahora puedes! Con el nuevo Audi, no te importa el precio con Audi puedes."
 
 # game/labels/tv.rpy:49
 translate crowdin intro_wach_tv_6b7096e9:
 
     # "Advertisement" "(The classic movie introduction begins)"
-    "Advertisement" "(The classic movie introduction begins)"
+    "Aviso" "(Comienza la clásica introducción de la película)"
 
 # game/labels/tv.rpy:50
 translate crowdin intro_wach_tv_af0dfe53:
 
     # emy "[mia], hurry up! The movie is starting."
-    emy "[mia], hurry up! The movie is starting."
+    emy "[mia], ¡date prisa! La película va a empezar."
 
 # game/labels/tv.rpy:51
 translate crowdin intro_wach_tv_5d55a2c6:
 
     # mia "I'm coming!!!"
-    mia "I'm coming!!!"
+    mia "¡¡¡Ya voy!!!"
 
 # game/labels/tv.rpy:54
 translate crowdin intro_wach_tv_c2e5e734:
 
     # mia "What kind of movie is it?"
-    mia "What kind of movie is it?"
+    mia "¿Qué tipo de película es?"
 
 # game/labels/tv.rpy:55
 translate crowdin intro_wach_tv_f65f348b:
 
     # mc "I don't know, it looks good from the commercial."
-    mc "I don't know, it looks good from the commercial."
+    mc "No sé, se ve bien en el comercial."
 
 # game/labels/tv.rpy:57
 translate crowdin intro_wach_tv_b3f96ddb:
 
     # mia "Ok, I'll just stand here."
-    mia "Ok, I'll just stand here."
+    mia "Ok, me quedaré aquí."
 
 # game/labels/tv.rpy:58
 translate crowdin intro_wach_tv_4b04d597:
 
     # emy "Why? We have such a big couch."
-    emy "Why? We have such a big couch."
+    emy "¿Por qué? Tenemos un gran sofá."
 
 # game/labels/tv.rpy:59
 translate crowdin intro_wach_tv_cc2b442d:
 
     # mia "Because from here it looks huge it looks huge."
-    mia "Because from here it looks huge it looks huge."
+    mia "Porque desde aquí se ve enorme se ve enorme."
 
 # game/labels/tv.rpy:60
 translate crowdin intro_wach_tv_b9a975e6:
 
     # "TV" "We break into the broadcast, to air an extraordinary live broadcast of the [city] news."
-    "TV" "We break into the broadcast, to air an extraordinary live broadcast of the [city] news."
+    "TV" ""TV" "Interrumpimos la transmisión, para emitir una noticia extraordinaria en directo [city]."
 
 # game/labels/tv.rpy:61
 translate crowdin intro_wach_tv_b9e94afd:
 
     # mia "Phew, I wanted to see the movie."
-    mia "Phew, I wanted to see the movie."
+    mia "Uf, quería ver la película."
 
 # game/labels/tv.rpy:62
 translate crowdin intro_wach_tv_ef5e6b55:
@@ -106,85 +106,85 @@ translate crowdin intro_wach_tv_ef5e6b55:
 translate crowdin News01_4c069dcb:
 
     # mia "Look at [for_emyR.MClabel]! There's [nnc]. She was an old classmate of [for_emyR.MClabel]."
-    mia "Look at [for_emyR.MClabel]! There's [nnc]. She was an old classmate of [for_emyR.MClabel]."
+    mia "¡Mira[for_emyR.MClabel]! Ahi [nnc]. Era una antigua compañera de clase de [for_emyR.MClabel]."
 
 # game/labels/tv.rpy:74
 translate crowdin News01_04f7d3a9:
 
     # emy "Yeah! By now, all you have to do to work in this macho TV is sleep with the right people... That's why he had so much practice in high school in high school."
-    emy "Yeah! By now, all you have to do to work in this macho TV is sleep with the right people... That's why he had so much practice in high school in high school."
+    emy "¡Si! A estas alturas, lo único que hay que hacer para trabajar en esta televisión machista es acostarse con la gente adecuada... Por eso tuvo tanta práctica en el instituto en la escuela secundaria."
 
 # game/labels/tv.rpy:75
 translate crowdin News01_0eda7e25:
 
     # mc "{i}Wow, I've never heard [emy] say that. They must have been enemies in high school."
-    mc "{i}Wow, I've never heard [emy] say that. They must have been enemies in high school."
+    mc "{i}Wow, nunca he oído [emy] decir eso. Deben haber sido enemigas en la escuela secundaria."
 
 # game/labels/tv.rpy:76
 translate crowdin News01_a580f33b:
 
     # mia "Eh... [for_emyR.MClabel] I didn't understand. What did you practice with? Maybe I could do it too to become famous."
-    mia "Eh... [for_emyR.MClabel] I didn't understand. What did you practice with? Maybe I could do it too to become famous."
+    mia "Eh... [for_emyR.MClabel] No entendí. ¿Con qué practicabas? Tal vez yo también pueda hacerlo para ser famoso."
 
 # game/labels/tv.rpy:77
 translate crowdin News01_1516aec4:
 
     # emy "Haha... [mia]... you're still too young to understand these things. You don't need to be like her to become famous."
-    emy "Haha... [mia]... you're still too young to understand these things. You don't need to be like her to become famous."
+    emy "Haha... [mia]... todavía eres demasiado joven para entender estas cosas. No hace falta ser como ella para ser famoso."
 
 # game/labels/tv.rpy:78
 translate crowdin News01_94e3957f:
 
     # nnc "Good evening, [city] viewers. We interrupted the normal live broadcast because to report a shooting in [city] north."
-    nnc "Good evening, [city] viewers. We interrupted the normal live broadcast because to report a shooting in [city] north."
+    nnc "Buenas noches, espectadores de [city]. Interrumpimos la emisión normal en directo para informar de un tiroteo en el norte de la [city]."
 
 # game/labels/tv.rpy:79
 translate crowdin News01_623d2a9f:
 
     # nnc "The police have already intervened. Police suspect that the shooting that occurred is the clash between two gangs, but the reason is still unclear."
-    nnc "The police have already intervened. Police suspect that the shooting that occurred is the clash between two gangs, but the reason is still unclear."
+    nnc "La policía ya ha intervenido. La policía sospecha que el tiroteo que se produjo es el enfrentamiento entre dos bandas, pero el motivo aún no está claro."
 
 # game/labels/tv.rpy:80
 translate crowdin News01_2bed67ba:
 
     # nnc "Some sources say that these gangs are going to sell new drugs on the black market."
-    nnc "Some sources say that these gangs are going to sell new drugs on the black market."
+    nnc "Algunas fuentes dicen que estas bandas van a vender nuevas drogas en el mercado negro."
 
 # game/labels/tv.rpy:81
 translate crowdin News01_dae2e0b6:
 
     # mia "Oh no! [for_jnR.MClabel] is out there by himself...."
-    mia "Oh no! [for_jnR.MClabel] is out there by himself...."
+    mia "Oh no! [for_jnR.MClabel] está ahí por sí mismo...."
 
 # game/labels/tv.rpy:82
 translate crowdin News01_0a0aaa8b:
 
     # emy "Yeah! I don't want anything to happen to him. But [for_emyR.NPClabel], don't worry. He's seen worse things than a little gunfight."
-    emy "Yeah! I don't want anything to happen to him. But [for_emyR.NPClabel], don't worry. He's seen worse things than a little gunfight."
+    emy "Si! No quiero que le pase nada. Pero [for_emyR.NPClabel], no te preocupes. Ha visto cosas peores que un pequeño tiroteo."
 
 # game/labels/tv.rpy:83
 translate crowdin News01_42879e7a:
 
     # nnc "We take advantage of this time to announce other news as well.... blah blah...."
-    nnc "We take advantage of this time to announce other news as well.... blah blah...."
+    nnc "Aprovechamos este momento para anunciar también otras novedades.... blah blah...."
 
 # game/labels/tv.rpy:84
 translate crowdin News01_c67cb45c:
 
     # nnc "This extraordinary live broadcast is over, I leave you the vision of the weather."
-    nnc "This extraordinary live broadcast is over, I leave you the vision of the weather."
+    nnc "Esta extraordinaria emisión en directo ha terminado, los dejamos con el pronostico del tiempo."
 
 # game/labels/tv.rpy:86
 translate crowdin News01_e6a03635:
 
     # "Young girl" "Good morning ... Emm ... good evening television viewers."
-    "Young girl" "Good morning ... Emm ... good evening television viewers."
+    "Young girl" "Buenos días ... Emm ... buenas noches televidentes."
 
 # game/labels/tv.rpy:87
 translate crowdin News01_83ed7bf8:
 
     # emy "And good night... TV has now reached the bottom."
-    emy "And good night... TV has now reached the bottom."
+    emy "Y buenas noches... La TV ha tocado fondo."
 
 # game/labels/tv.rpy:89
 translate crowdin News01_09a605c7:
@@ -196,25 +196,25 @@ translate crowdin News01_09a605c7:
 translate crowdin News01_3dfd67a0:
 
     # "Young girl" "Opss shrug...my earring fell out. Where are you? Stupid thing..."
-    "Young girl" "Opss shrug...my earring fell out. Where are you? Stupid thing..."
+    "Young girl" "Opss encoge de hombros... se me cayó el aro. ¿Dónde está? Estúpido..."
 
 # game/labels/tv.rpy:99
 translate crowdin News01_8bd7f0c8:
 
     # mc "{i}Wow I can't believe that just happened."
-    mc "{i}Wow I can't believe that just happened."
+    mc "{i}Wow no puedo creer lo que acaba de suceder."
 
 # game/labels/tv.rpy:106
 translate crowdin News01_3a2fbd60:
 
     # mc "{i}NOOO!!! Where did you go nice ass...."
-    mc "{i}NOOO!!! Where did you go nice ass...."
+    mc "{i}NOOO!!! Dónde has ido bonito culo...."
 
 # game/labels/tv.rpy:111
 translate crowdin News01_918840d0:
 
     # emy "This channel has really tired me out. There must at least be something decent around here."
-    emy "This channel has really tired me out. There must at least be something decent around here."
+    emy "Este canal me ha cansado mucho. Al menos debe haber algo decente por aquí."
 
 # game/labels/tv.rpy:112
 translate crowdin News01_e984499f:
