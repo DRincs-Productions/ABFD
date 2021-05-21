@@ -10,5 +10,5 @@ translate crowdin strings:
 
     # game/tool/nav_label.rpy:28
     old "Now is not the time to go outside"
-    new "Now is not the time to go outside"
+    new "Ahora no es el momento de salir"
 
