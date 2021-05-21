@@ -4,17 +4,17 @@ translate crowdin strings:
 
     # game/tool/nav_value.rpy:1
     old "[mc] room"
-    new "[mc] room"
+    new "[mc] Cuarto"
 
     # game/tool/nav_value.rpy:1
     old "[mia] room"
-    new "[mia] room"
+    new "[mia] Cuarto"
 
     # game/tool/nav_value.rpy:1
     old "Lounge"
-    new "Lounge"
+    new "Sala de Estar"
 
     # game/tool/nav_value.rpy:7
     old "MC house"
-    new "MC house"
+    new "casa de MC"
 
