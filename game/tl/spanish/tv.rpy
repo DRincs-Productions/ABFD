@@ -220,41 +220,41 @@ translate crowdin News01_918840d0:
 translate crowdin News01_e984499f:
 
     # mc "{i}[emyR.NPClabel]?! Fuck [emyR.NPClabel]."
-    mc "{i}[emyR.NPClabel]?! Fuck [emyR.NPClabel]."
+    mc "{i}[emyR.NPClabel]?! Mierda [emyR.NPClabel]."
 
 # game/labels/tv.rpy:114
 translate crowdin News01_cfafde95:
 
     # emy "Enough! I'm tired. I'm going to bed."
-    emy "Enough! I'm tired. I'm going to bed."
+    emy "¡Suficiente! Estoy cansado. Me voy a la cama."
 
 # game/labels/tv.rpy:115
 translate crowdin News01_2dcb7732:
 
     # mc "{i}Shit, she's so weird today."
-    mc "{i}Shit, she's so weird today."
+    mc "{i}Mierda, está muy rara hoy."
 
 # game/labels/tv.rpy:116
 translate crowdin News01_52fe74bc:
 
     # emy "[mia], it's late! go brush your teeth and let's go to bed. you're sleeping with me today, you'll keep me company."
-    emy "[mia], it's late! go brush your teeth and let's go to bed. you're sleeping with me today, you'll keep me company."
+    emy "[mia], ¡es tarde! ve a lavarte los dientes y vamos a la cama. hoy duermes conmigo, me harás compañía."
 
 # game/labels/tv.rpy:117
 translate crowdin News01_facfbd59:
 
     # emy "[mc], don't be too late."
-    emy "[mc], don't be too late."
+    emy "[mc], no llegues tarde."
 
 # game/labels/tv.rpy:118
 translate crowdin News01_af504d83:
 
     # mia "Uffa! Why can you stay and I can't?! I'm a big girl now."
-    mia "Uffa! Why can you stay and I can't?! I'm a big girl now."
+    mia "Uffa! ¿Por qué tú puedes quedarte y yo no?! Ya soy una chica grande."
 
 translate crowdin strings:
 
     # game/labels/tv.rpy:37
     old "Have a seat"
-    new "Have a seat"
+    new "Toma asiento"
 
