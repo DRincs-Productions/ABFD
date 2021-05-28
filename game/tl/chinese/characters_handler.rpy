@@ -4,13 +4,13 @@
 translate crowdin renaming_mc_24748d50:
 
     # "Player" "My name is:"
-    "Player" "My name is:"
+    "玩家" "我的名字是："
 
 # game/tool/characters_handler.rpy:162
 translate crowdin renaming_mc_e6f6fb33:
 
     # "Player" "My surname is:"
-    "Player" "My surname is:"
+    "玩家" "我的姓氏是："
 
 # game/tool/characters_handler.rpy:196
 translate crowdin live_with_42cd0ea9:
@@ -182,43 +182,43 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:198
     old "son"
-    new "son"
+    new "儿子"
 
     # game/tool/characters_handler.rpy:199
     old "mom"
-    new "mom"
+    new "母亲"
 
     # game/tool/characters_handler.rpy:201
     old "dad"
-    new "dad"
+    new "父亲"
 
     # game/tool/characters_handler.rpy:202
     old "brother"
-    new "brother"
+    new "兄弟"
 
     # game/tool/characters_handler.rpy:203
     old "sister"
-    new "sister"
+    new "姐妹"
 
     # game/tool/characters_handler.rpy:209
     old "daughter"
-    new "daughter"
+    new "女儿"
 
     # game/tool/characters_handler.rpy:212
     old "sisters"
-    new "sisters"
+    new "姐妹"
 
     # game/tool/characters_handler.rpy:214
     old "friend's son"
-    new "friend's son"
+    new "朋友的儿子"
 
     # game/tool/characters_handler.rpy:215
     old "mom's friend"
-    new "mom's friend"
+    new "母亲的朋友"
 
     # game/tool/characters_handler.rpy:217
     old "dad's friend"
-    new "dad's friend"
+    new "父亲的朋友"
 
     # game/tool/characters_handler.rpy:218
     old "family friend"
@@ -226,7 +226,7 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:228
     old "housemates"
-    new "housemates"
+    new "室友"
 
     # game/tool/characters_handler.rpy:230
     old "landlord"
@@ -238,7 +238,7 @@ translate crowdin strings:
 
     # game/tool/characters_handler.rpy:234
     old "housemate"
-    new "housemate"
+    new "室友"
 
     # game/tool/characters_handler.rpy:326
     old "Do you want to assign the last two values to the other [housemates] too?"
