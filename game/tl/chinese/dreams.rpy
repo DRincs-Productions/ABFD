@@ -4,13 +4,13 @@
 translate crowdin after_deathA_229980ed:
 
     # mc "{i}Huh?"
-    mc "{i}Huh?"
+    mc "{i}啊？"
 
 # game/labels/dreams.rpy:12
 translate crowdin after_deathA_fd0a4bed:
 
     # mc "{i}What? What is this place?"
-    mc "{i}What? What is this place?"
+    mc "{i}什么？ 这是哪里？"
 
 # game/labels/dreams.rpy:14
 translate crowdin after_deathA_68dd24f6:
