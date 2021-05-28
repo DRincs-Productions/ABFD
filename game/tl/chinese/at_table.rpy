@@ -4,25 +4,25 @@
 translate crowdin first_at_table_preparation_bba393c8:
 
     # emy "Ok. it's ready, let's have dinner."
-    emy "Ok. it's ready, let's have dinner."
+    emy "好。 晚饭准备好了，来吃吧。"
 
 # game/labels/at_table.rpy:71
 translate crowdin first_at_table_preparation_612e2ac5:
 
     # emy "Dinner is almost ready. Go change if you want to eat."
-    emy "Dinner is almost ready. Go change if you want to eat."
+    emy "晚饭就快好了。 先把衣服换了再来吃。"
 
 # game/labels/at_table.rpy:72
 translate crowdin first_at_table_preparation_de3c2312:
 
     # mia "Haha... Make it quick, we're hungry here."
-    mia "Haha... Make it quick, we're hungry here."
+    mia "哈哈... 搞快一点，我们饿着呢。"
 
 # game/labels/at_table.rpy:81
 translate crowdin helpA_a4315a3c:
 
     # mc "{i}It's a boring job, but someone had to do it."
-    mc "{i}It's a boring job, but someone had to do it."
+    mc "{i}是份无聊的差事，但总得有人做啊。"
 
 # game/labels/at_table.rpy:91
 translate crowdin at_table_dinner_A_271eaadf:
@@ -34,37 +34,37 @@ translate crowdin at_table_dinner_A_271eaadf:
 translate crowdin at_table_dinner_A_cec7c78a:
 
     # mc "{i}Mhmm, maybe I should break the ice by congratulating [emy] on dinner. But I don't know if that's appropriate."
-    mc "{i}Mhmm, maybe I should break the ice by congratulating [emy] on dinner. But I don't know if that's appropriate."
+    mc "{i}呃，也许我该在餐桌上庆祝一下 [emy] 来打破这尴尬的局面。 但我不知道这合不合适。"
 
 # game/labels/at_table.rpy:95
 translate crowdin at_table_dinner_A_c8876fdc:
 
     # emy "Sorry honey, I didn't even ask you how it went at [bff]'s house today."
-    emy "Sorry honey, I didn't even ask you how it went at [bff]'s house today."
+    emy "对不起，亲爱的。我都没有问你今天在 [bff] 的家过得怎么样。"
 
 # game/labels/at_table.rpy:96
 translate crowdin at_table_dinner_A_1c5dc3b7:
 
     # mc "Don't apologize, you don't have to."
-    mc "Don't apologize, you don't have to."
+    mc "不用，你没必要道歉。"
 
 # game/labels/at_table.rpy:97
 translate crowdin at_table_dinner_A_55e2a73e:
 
     # mc "Yesterday... If I remember correctly... We played some [console], and talked a little bit about school and old times."
-    mc "Yesterday... If I remember correctly... We played some [console], and talked a little bit about school and old times."
+    mc "昨天... 如果我没记错的话... 我们玩了会 [console]，还聊了聊校园往事。"
 
 # game/labels/at_table.rpy:98
 translate crowdin at_table_dinner_A_c223c518:
 
     # emy "What did you guys eat?"
-    emy "What did you guys eat?"
+    emy "那你们吃什么了？"
 
 # game/labels/at_table.rpy:99
 translate crowdin at_table_dinner_A_48606c77:
 
     # mc "Last night [tam] wasn't home, so we ordered pizza from [pizzeria]. While for breakfast/lunch we got takeout at mcdonald with [tam]."
-    mc "Last night [tam] wasn't home, so we ordered pizza from [pizzeria]. While for breakfast/lunch we got takeout at mcdonald with [tam]."
+    mc "昨天晚上 [tam] 不在家，我们就点了 [pizzeria] 的披萨。 早中饭则和 [tam] 买了麦当劳带回来吃。"
 
 # game/labels/at_table.rpy:100
 translate crowdin at_table_dinner_A_c331f251:
@@ -76,19 +76,19 @@ translate crowdin at_table_dinner_A_c331f251:
 translate crowdin at_table_dinner_A_2cc787ab:
 
     # emy "You and [bff] have a good friendship, you seem almost like brothers. Even though you are very different." nointeract
-    emy "You and [bff] have a good friendship, you seem almost like brothers. Even though you are very different." nointeract
+    emy "你和 [bff] 的关系真好，就像亲兄弟一样。 虽然你们在各种方面完全不同。" nointeract
 
 # game/labels/at_table.rpy:104
 translate crowdin at_table_dinner_A_9c64c2df:
 
     # mc "Yeah, we're very close. I've known him for a long time and then we have a very similar background."
-    mc "Yeah, we're very close. I've known him for a long time and then we have a very similar background."
+    mc "确实，我也这么觉得。 我认识他很长时间了，我们的背景也大致相同。"
 
 # game/labels/at_table.rpy:106
 translate crowdin at_table_dinner_A_d107a06b:
 
     # mc "Yes, he's a reliable friend. Even if it is a little funny and boring."
-    mc "Yes, he's a reliable friend. Even if it is a little funny and boring."
+    mc "没错，他是个可靠的朋友。 Even if it is a little funny and boring."
 
 # game/labels/at_table.rpy:108
 translate crowdin at_table_dinner_A_64e91d02:
@@ -100,103 +100,103 @@ translate crowdin at_table_dinner_A_64e91d02:
 translate crowdin at_table_dinner_A_bef7a488:
 
     # mia "Do you miss [old_city]? I mean you left everyone you knew behind."
-    mia "Do you miss [old_city]? I mean you left everyone you knew behind."
+    mia "你想念 [old_city] 吗？ 毕竟你切断了与那里的一切联系。"
 
 # game/labels/at_table.rpy:110
 translate crowdin at_table_dinner_A_a9510619:
 
     # emy "[mia]! You don't have to ask those questions. It is obvious that he still suffers."
-    emy "[mia]! You don't have to ask those questions. It is obvious that he still suffers."
+    emy "[mia]！ 你问这个干嘛！ It is obvious that he still suffers."
 
 # game/labels/at_table.rpy:113
 translate crowdin at_table_dinner_A_26b073b2:
 
     # mc "Yeah, I miss it a little bit. But it's not bad here."
-    mc "Yeah, I miss it a little bit. But it's not bad here."
+    mc "没错，我是有点想念。 但这里也不错呀。"
 
 # game/labels/at_table.rpy:115
 translate crowdin at_table_dinner_A_ee982cd2:
 
     # mc "Absolutely not, it was a horrible place."
-    mc "Absolutely not, it was a horrible place."
+    mc "不，这地方一点都不好。"
 
 # game/labels/at_table.rpy:117
 translate crowdin at_table_dinner_A_c848fd66:
 
     # mc "Fuck [old_city] and whoever lives there. It brought me nothing but trouble."
-    mc "Fuck [old_city] and whoever lives there. It brought me nothing but trouble."
+    mc "去他妈的 [old_city] 和住在那里的人。 他们只会给我找麻烦。"
 
 # game/labels/at_table.rpy:119
 translate crowdin at_table_dinner_A_ad72c338:
 
     # mc "I'd rather not talk about it yet, I think you'll understand."
-    mc "I'd rather not talk about it yet, I think you'll understand."
+    mc "我还不想谈，希望你能理解我。"
 
 # game/labels/at_table.rpy:120
 translate crowdin at_table_dinner_A_739dcef9:
 
     # mia "Mhmm, I understand."
-    mia "Mhmm, I understand."
+    mia "呃，我明白了。"
 
 # game/labels/at_table.rpy:122
 translate crowdin at_table_dinner_A_379631f0:
 
     # emy "What about you [mia]?! Are you ready for the exam tomorrow?"
-    emy "What about you [mia]?! Are you ready for the exam tomorrow?"
+    emy "那你呢 [mia]？！ 你准备好明天的考试了吗？"
 
 # game/labels/at_table.rpy:123
 translate crowdin at_table_dinner_A_e6bdb60e:
 
     # mia "Mhmm, yes... but... the professor is up too strict. I'm sure he hates me."
-    mia "Mhmm, yes... but... the professor is up too strict. I'm sure he hates me."
+    mia "呃，准备好了... 但... 教授有点过于严苛了。 我很确定他讨厌我。"
 
 # game/labels/at_table.rpy:124
 translate crowdin at_table_dinner_A_aaa8f66c:
 
     # emy "Haha... yes of course, of course."
-    emy "Haha... yes of course, of course."
+    emy "哈哈... 当然了，你说的都对。"
 
 # game/labels/at_table.rpy:125
 translate crowdin at_table_dinner_A_6797fb3f:
 
     # mia "But he does."
-    mia "But he does."
+    mia "但他真的讨厌我。"
 
 # game/labels/at_table.rpy:126
 translate crowdin at_table_dinner_A_d3b5293a:
 
     # emy "And... Why would he hate you?"
-    emy "And... Why would he hate you?"
+    emy "那... 为什么呢？"
 
 # game/labels/at_table.rpy:127
 translate crowdin at_table_dinner_A_66e7f5dc:
 
     # mia "I don't know, that's the problem."
-    mia "I don't know, that's the problem."
+    mia "我不知道，这就是问题所在了。"
 
 # game/labels/at_table.rpy:128
 translate crowdin at_table_dinner_A_9ce965a5:
 
     # emy "I'm sure if you studied you'll get through it."
-    emy "I'm sure if you studied you'll get through it."
+    emy "我觉得你要是学习好，那他肯定不会讨厌你了。"
 
 # game/labels/at_table.rpy:132
 translate crowdin at_table_dinner_A_b597a82e:
 
     # "(A half hour later)"
-    "(A half hour later)"
+    "(半小时后)"
 
 # game/labels/at_table.rpy:136
 translate crowdin at_table_dinner_A_215aa469:
 
     # mc "Great dinner. everything is great."
-    mc "Great dinner. everything is great."
+    mc "美味的一餐。 一切都很美味。"
 
 # game/labels/at_table.rpy:137
 translate crowdin at_table_dinner_A_78e28535:
 
     # emy "You mean \"was\"."
-    emy "You mean \"was\"."
+    emy "你指的是 \"过去的\" 一切吧。"
 
 # game/labels/at_table.rpy:138
 translate crowdin at_table_dinner_A_fa027119:
