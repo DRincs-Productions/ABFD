@@ -4,11 +4,11 @@ translate crowdin strings:
 
     # game/tool/nav_value.rpy:1
     old "[mc] room"
-    new "[mc] room"
+    new "[mc] 的房间"
 
     # game/tool/nav_value.rpy:1
     old "[mia] room"
-    new "[mia] room"
+    new "[mia] 的房间"
 
     # game/tool/nav_value.rpy:1
     old "Lounge"
