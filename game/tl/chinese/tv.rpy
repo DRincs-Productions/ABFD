@@ -4,79 +4,79 @@
 translate crowdin intro_wach_tv_3debaa5f:
 
     # mc "Has the movie started yet?"
-    mc "Has the movie started yet?"
+    mc "电影开始了吗？"
 
 # game/labels/tv.rpy:36
 translate crowdin intro_wach_tv_2fa0fa4d:
 
     # emy "No, there's still time."
-    emy "No, there's still time."
+    emy "没，还有一会呢。"
 
 # game/labels/tv.rpy:41
 translate crowdin intro_wach_tv_5ec12594:
 
     # mc "I'll go brush my teeth first."
-    mc "I'll go brush my teeth first."
+    mc "我先去刷个牙。"
 
 # game/labels/tv.rpy:42
 translate crowdin intro_wach_tv_102f8c7e:
 
     # emy "As you wish."
-    emy "As you wish."
+    emy "去吧。"
 
 # game/labels/tv.rpy:47
 translate crowdin intro_wach_tv_f444af27:
 
     # "Advertisement" "Do you want to have a better life? Do you want to really enjoy life? Whether at the beach or in the mountains?"
-    "Advertisement" "Do you want to have a better life? Do you want to really enjoy life? Whether at the beach or in the mountains?"
+    "广告" "您想要拥有更加美好的人生吗？ 您想要享受人生吗？ 无论是在海滩上，还是在群峦中？"
 
 # game/labels/tv.rpy:48
 translate crowdin intro_wach_tv_9eeab049:
 
     # "Advertisement" "Now you can! With the new Audi, don't mind the price with Audi you can."
-    "Advertisement" "Now you can! With the new Audi, don't mind the price with Audi you can."
+    "广告" "没问题！ 只要您购买新款奥迪，不在意价格的话，就可以！"
 
 # game/labels/tv.rpy:49
 translate crowdin intro_wach_tv_6b7096e9:
 
     # "Advertisement" "(The classic movie introduction begins)"
-    "Advertisement" "(The classic movie introduction begins)"
+    "广告" "(经典电影片头播放)"
 
 # game/labels/tv.rpy:50
 translate crowdin intro_wach_tv_af0dfe53:
 
     # emy "[mia], hurry up! The movie is starting."
-    emy "[mia], hurry up! The movie is starting."
+    emy "[mia]，快点！ 电影开始了！"
 
 # game/labels/tv.rpy:51
 translate crowdin intro_wach_tv_5d55a2c6:
 
     # mia "I'm coming!!!"
-    mia "I'm coming!!!"
+    mia "来了！"
 
 # game/labels/tv.rpy:54
 translate crowdin intro_wach_tv_c2e5e734:
 
     # mia "What kind of movie is it?"
-    mia "What kind of movie is it?"
+    mia "这是什么电影？"
 
 # game/labels/tv.rpy:55
 translate crowdin intro_wach_tv_f65f348b:
 
     # mc "I don't know, it looks good from the commercial."
-    mc "I don't know, it looks good from the commercial."
+    mc "不知道，但它的广告感觉还不错。"
 
 # game/labels/tv.rpy:57
 translate crowdin intro_wach_tv_b3f96ddb:
 
     # mia "Ok, I'll just stand here."
-    mia "Ok, I'll just stand here."
+    mia "我就站在这看了。"
 
 # game/labels/tv.rpy:58
 translate crowdin intro_wach_tv_4b04d597:
 
     # emy "Why? We have such a big couch."
-    emy "Why? We have such a big couch."
+    emy "为什么？ 这沙发这么大。"
 
 # game/labels/tv.rpy:59
 translate crowdin intro_wach_tv_cc2b442d:
