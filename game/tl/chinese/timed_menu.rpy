@@ -4,5 +4,5 @@
 translate crowdin menu_slow_f2b1b39a:
 
     # "(too slow)"
-    "(too slow)"
+    "(过慢)"
 
