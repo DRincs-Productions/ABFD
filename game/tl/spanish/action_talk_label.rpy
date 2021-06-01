@@ -57,13 +57,13 @@ translate crowdin talk_back_e4bab0a7:
 # game/tool/action_talk_label.rpy:65
 translate crowdin talk_back_264b9d6e:
 
-    # mc "Se suponía que debía decirte algo más.... But I don't remember."
+    # mc "Se suponía que debía decirte algo más.... Pero no lo recuerdo."
     mc "Se suponía que debía decirte algo más....
  Pero no lo recuerdo"
 
 # game/tool/action_talk_label.rpy:66
 translate crowdin talk_back_7bceb5cf:
 
-    # mc "Patience when it comes back to me I'll let you know, bye."
+    # mc "Paciencia cuando lo recuerde te lo dire, adiós."
     mc "Paciencia cuando recuerde te lo haré saber, adiós."
 
