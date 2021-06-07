@@ -4,7 +4,7 @@
 translate crowdin NTR_enabler_0259bb1f:
 
     # "Do you want to enable {b}NTR{/b}?"
-    "Quieres habilitar el {b}NTR{/b}?"
+    "¿Desea habilitar {b}NTR{/b}?"
 
 # game/NTR.rpy:8
 translate crowdin NTR_enabler_886ea9ee:
