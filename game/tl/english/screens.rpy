@@ -4,7 +4,7 @@ translate crowdin strings:
 
     # game/tool/screens.rpy:188
     old "Talk"
-    new "Talk"
+    new "Options"
 
     # game/tool/screens.rpy:196
     old "Wait"
@@ -12,7 +12,7 @@ translate crowdin strings:
 
     # game/tool/screens.rpy:229
     old "Settings"
-    new "Settings"
+    old "Preferences"
 
     # game/tool/screens.rpy:239
     old "Characters info"
