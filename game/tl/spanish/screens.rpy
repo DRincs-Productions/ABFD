@@ -4,35 +4,35 @@ translate crowdin strings:
 
     # game/tool/screens.rpy:188
     old "Talk"
-    new "Hablar"
+    new "Saltando"
 
     # game/tool/screens.rpy:196
     old "Wait"
-    new "Esperar"
+    new "Sí"
 
     # game/tool/screens.rpy:229
     old "Settings"
-    new "Ajustes"
+    new "Opciones"
 
     # game/tool/screens.rpy:239
     old "Characters info"
-    new "Información de los personajes"
+    new "Acerca de"
 
     # game/tool/screens.rpy:250
     old "Memo"
-    new "Memo"
+    new "Mando"
 
     # game/tool/screens.rpy:288
     old "Backpack"
-    new "Mochila"
+    new "Lado de retroceso"
 
     # game/tool/screens.rpy:298
     old "Smartphone"
-    new "Celular"
+    new "Idioma"
 
     # game/tool/screens.rpy:308
     old "Map"
-    new "Mapa"
+    new "Salir"
 
     # game/tool/screens.rpy:394
     old "It is currently the end of this story, unfortunately you have to wait for an update to continue this story."
@@ -40,5 +40,5 @@ translate crowdin strings:
 
     # game/tool/screens.rpy:396
     old "You have completed all the quests."
-    new "Has completado todas las misiones."
+    new "Accede al menu del juego."
 
