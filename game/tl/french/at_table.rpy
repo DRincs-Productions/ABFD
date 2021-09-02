@@ -70,7 +70,7 @@ translate crowdin at_table_dinner_A_48606c77:
 translate crowdin at_table_dinner_A_c331f251:
 
     # emy "It sounds like [tam] didn't really want to sew. Ha, haha... However, it is not very healthy as they eat.... so don't get used to it."
-    emy "It sounds like [tam] didn't really want to sew. Ha, haha... Par contre, ce n'est pas très sain ce que vous mangez.... donc ne vous y habitué pas. "
+    emy "On dirait que [tam] ne voulait pas vraiment cuisiner. Ha, haha... Par contre, ce n'est pas très sain ce que vous mangez.... donc ne vous y habitué pas. "
 
 # game/labels/at_table.rpy:101
 translate crowdin at_table_dinner_A_2cc787ab:
