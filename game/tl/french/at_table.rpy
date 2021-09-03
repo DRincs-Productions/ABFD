@@ -226,25 +226,25 @@ translate crowdin at_table_dinner_A_df4048f6:
 translate crowdin at_table_dinner_A_b50f5b2a:
 
     # emy "What?! No... You make it come."
-    emy "Quoi?! Non... You make it come."
+    emy "Quoi?! Non... Tu la fais venir."
 
 # game/labels/at_table.rpy:148
 translate crowdin at_table_dinner_A_ba9fb2d2:
 
     # mc "Okay, [emyR.NPClabel]."
-    mc "Okay, [emyR.NPClabel]."
+    mc "Ok, [emyR.NPClabel]."
 
 # game/labels/at_table.rpy:151
 translate crowdin at_table_dinner_A_e530c3a3:
 
     # mc "If I have to..."
-    mc "If I have to..."
+    mc "Si je dois..."
 
 # game/labels/at_table.rpy:152
 translate crowdin at_table_dinner_A_342072ee:
 
     # emy "Yes, honey. Thank you."
-    emy "Yes, honey. Thank you."
+    emy "Oui, chéri. Merci."
 
 # game/labels/at_table.rpy:159
 translate crowdin at_table_dinner_A_5402f101:
