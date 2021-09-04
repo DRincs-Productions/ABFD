@@ -10,7 +10,7 @@ translate crowdin error_label_cde7440f:
 translate crowdin development_62f6e59d:
 
     # "In development"
-    "In development"
+    "En développement"
 
 translate crowdin strings:
 
