@@ -4,25 +4,31 @@
 translate crowdin intro_add709f6:
 
     # mc "Hi, I'm a normal [mcI.age] year old boy with classic problems and no desire to commit, but just to have fun. I don't have a {b}girlfriend{/b}, a {b}job{/b} or concrete plans for the future and my school situation is gross. In the {b}school report of the first quarter{/b} I have all [school_grades_mc.average]."
-    mc "Ciao, sono un ragazzo normale di [mcI.age] con i classici problemi e nessuna voglia di impegnarmi, ma tanta per divertirmi. Non ho una {b}fidanzata{/b}, un {b}lavoro{/b} o piani concreti per il futuro e la mia situazione scolastica è indecente. Nella {b}pagella del prima quadrimestre{/b} ho tutte [school_grades_mc.average]."
+    Schermo nero
+Hello, Friend! {B}Hello, Friend... {B}Non mi piace, forse dovrei darti un nome. 
+Show fade
+Tu sai casi tanto di me anche se io così poco di te.
+Nome:
+...
+Credo di essere un ragazzo normale. O meglio... Ho i classici problemi adolescenziali, poca voglia di impegnarmi, ma tanta per divertirmi. Non ho una {b}ragazza{/b}, tanto meno un {b}lavoro{/b} o piani concreti per il futuro. E la mia situazione scolastica è indecente. Nella pagella ho preso tutte  [school_grades_mc.average], ma almeno é qualora de primo quadrimestre. Ho ancora tempo per recuperare.
 
 # game/labels/first_day.rpy:13
 translate crowdin intro_ea546e9e:
 
     # mc "My family is worried about my poor results and some of my behaviors, which is why they are deciding whether to keep me at home or have me transferred to a hateful [catholic_institute]. I have to make sure that this will never happen."
-    mc "La mia famiglia è preoccupata per i miei scarsi risultati e per alcuni comportamenti, per questo stanno decidendo se tenermi a casa o fare in modo che venga trasferito in un odioso [catholic_institute]. Devo fare in modo che questo non accada mai."
+    mc "La mia famiglia è preoccupata per i miei scarsi risultati e comportamenti. Perciò stanno valutando di iscrivermi in un collegio cattolico  Lo dicano per spronarmi... O mio lo penso. Ad ogni modo non andrò mai in un cazzo di coso cattolixlco. 
 
 # game/labels/first_day.rpy:14
 translate crowdin intro_308b7484:
 
     # mc "To be honest, my real family died in a plane crash. After their death I moved from [old_city] to [city] where I started a new life."
-    mc "Ad essere onesti, la mia vera famiglia è morta in un incidente aereo. Dopo la loro morte mi trasferì da [old_city] a [city] dove ho iniziato una nuova vita."
+    mc "Ad essere onesti, la mia vera famiglia è morta in un incidente aereo. Dopo la loro morte me ne andai da [old_city]... Cercando di lasciarmi tutto il dolore alle spalle. Per rifarmi una vita a [city]"
 
 # game/labels/first_day.rpy:19
 translate crowdin presentations_c48a2b2d:
 
     # "{color=#ec5c09}Patreon" "Some characters are still in development. I will use {b}public votes{/b} to decide their appearance. Check my {b}{a=https://www.patreon.com/posts/revisiting-of-37922891}Post{/b}."
-    "{color=#ec5c09}Patreon" "Alcuni personaggi sono ancora in fase di sviluppo. Utilizzerò {b}votazioni pubbliche{/b} per decidere il loro aspetto. Dai un'occhiata al mio {b}{a=https://www.patreon.com/posts/revisiting-of-37922891}Post{/b}."
+    ,....... ..... ....
 
 # game/labels/first_day.rpy:20
 translate crowdin presentations_52b3d4ce:
@@ -34,19 +40,19 @@ translate crowdin presentations_52b3d4ce:
 translate crowdin presentations_059a5711:
 
     # mc "[jn] is married to [emy], for me he is like a second father. He is a former Navy Seals, with the last mission in [jnMission] he was awarded the pension. [jnMission] has changed him, he started drinking, he is never at home and when he is there he speaks very little. [emy] tried to help him, but she got only quarrels and insults."
-    mc "[jn] è sposato con [emy], per me è come un secondo padre. È un ex Navy Seals, con l’ultima missione in [jnMission] gli è stata riconosciuta la pensione. [jnMission] lo ha cambiato, ha iniziato a bere, non c'è mai a casa e quando c'è parla davvero poco. [emy] ha provato ad aiutarlo, ma ha ottenuto solo litigi e insulti."
+    mc "[jn] è sposato con [emy], per me è come un secondo padre. Era  un un militare e un  ex Navy Seals. L'ultima missione lo ha devastato, é stata talmente dura che ha deciso discutere tutto ciò che gli dovevano e lasciare il lavoro. Deve essere seccusso qualcosa lo fori, qualcuna che  lo ha cambiato... ha iniziato a bere, raramente è a casa e quando c'è é come se non ci fosse ....
 
 # game/labels/first_day.rpy:45
 translate crowdin presentations_125c6f5a:
 
     # mc "[emy] is the classic housewife, cooks, washes and takes care of the family. When she was young she was a {b}model{/b}, but she is very reserved about her past. Sometimes when I come home I see her flipping through old magazines. She leaves home very little, [jn] never takes her anywhere."
-    mc "[emy] è la classica casalinga, cucina, lava e si prende cura della famiglia. Quando era giovane era una {b}modella{/b}, ma è molto riservata con il suo passato. A volte, quando torno a casa, la vedo sfogliare vecchie riviste. Esce molto poco da casa, [jn] non la porta mai da nessuna parte."
+    mc "[emy] è la classica casalinga, cucina, lava e si prende cura della propria famiglia. Credo che abbia nostalgia del suo passato da {b}modella{/b}, anche se ne so davvero poco al riguardo. Su questo é molto riservata. A volte, quando torno a casa, la vedo sfogliare vecchie riviste. Esce molto poco da casa, praticamente solo per fare la spesa
 
 # game/labels/first_day.rpy:48
 translate crowdin presentations_f9938f03:
 
     # mc "[arn] is the same age as me, we attend the same {b}school{/b} and are in the same year, but in different classes. Her class is the best in the history of our school, while mine is probably the worst. That's why, 2 days ago, they left on a school trip while we didn't."
-    mc "[arn] è la mia stessa età, frequentiamo la {b}stessa scuola{/b} e siamo allo stesso anno, ma in classi differenti. La sua classe è la migliore nella storia della nostra scuola, mentre la mia è probabilmente la peggiore. Ecco perché, 2 giorni fa, sono partiti in gita mentre noi no."
+    mc "[arn] ha la mia stessa età. La da poco  frequentiamo la {b}lo stesso istituto{/b}, la suo scola aveva poco spazio quindi ha occupato qualche aula da noi. La sua classe è la migliore nella storia della nostra scuola, mentre la mia è probabilmente la peggiore. Ecco perché, 2 giorni fa, sono partiti in gita mentre noi no."
 
 # game/labels/first_day.rpy:51
 translate crowdin presentations_d32b7d45:
