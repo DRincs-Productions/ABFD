@@ -52,7 +52,7 @@ translate crowdin presentations_125c6f5a:
 translate crowdin presentations_f9938f03:
 
     # mc "[arn] is the same age as me, we attend the same {b}school{/b} and are in the same year, but in different classes. Her class is the best in the history of our school, while mine is probably the worst. That's why, 2 days ago, they left on a school trip while we didn't."
-    mc "[arn] ha la mia stessa età. La da poco  frequentiamo la {b}lo stesso istituto{/b}, la suo scola aveva poco spazio quindi ha occupato qualche aula da noi. La sua classe è la migliore nella storia della nostra scuola, mentre la mia è probabilmente la peggiore. Ecco perché, 2 giorni fa, sono partiti in gita mentre noi no."
+    mc "[arn] ha la mia stessa età. E da poco frequentiamo la {b}lo stesso istituto{/b}, perché la sua scuola non avendo più aule libere ha spostato qualche classe nella nostra struttura. Queste nuove classi non sono state bene accolte dagli alunni. Qui la maggior parte di noi non ha un reddito così alto o é scito come me con una media alta dalla scola primaria. Ecco perché, 2 giorni fa, sono partiti in gita mentre noi no."
 
 # game/labels/first_day.rpy:51
 translate crowdin presentations_d32b7d45:
