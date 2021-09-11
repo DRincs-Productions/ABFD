@@ -4,7 +4,7 @@
 translate crowdin error_label_cde7440f:
 
     # "ERROR"
-    "ERROR"
+    "ERRO"
 
 # game/tool/action_label.rpy:47
 translate crowdin development_62f6e59d:
