@@ -4,5 +4,5 @@ translate crowdin strings:
 
     # game/tool/action_value.rpy:7
     old "Nap"
-    new "Nap"
+    new "Soneca"
 
