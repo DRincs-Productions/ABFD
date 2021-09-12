@@ -4,73 +4,73 @@
 translate crowdin first_at_table_preparation_bba393c8:
 
     # emy "Ok. it's ready, let's have dinner."
-    emy "Ok. it's ready, let's have dinner."
+    emy "Certo. está pronto, vamos jantar. "
 
 # game/labels/at_table.rpy:71
 translate crowdin first_at_table_preparation_612e2ac5:
 
     # emy "Dinner is almost ready. Go change if you want to eat."
-    emy "Dinner is almost ready. Go change if you want to eat."
+    emy " O jantar está quase pronto. Vá se trocar se quiser comer."
 
 # game/labels/at_table.rpy:72
 translate crowdin first_at_table_preparation_de3c2312:
 
     # mia "Haha... Make it quick, we're hungry here."
-    mia "Haha... Make it quick, we're hungry here."
+    mia "Haha... Vai rápido. Estamos famintos aqui."
 
 # game/labels/at_table.rpy:81
 translate crowdin helpA_a4315a3c:
 
     # mc "{i}It's a boring job, but someone had to do it."
-    mc "{i}It's a boring job, but someone had to do it."
+    mc "{i}É um trabalho chato, mas alguém tinha que fazer isso. "
 
 # game/labels/at_table.rpy:91
 translate crowdin at_table_dinner_A_271eaadf:
 
     # "(Silence a very awkward)"
-    "(Silence a very awkward)"
+    "(Silêncio muito estranho)"
 
 # game/labels/at_table.rpy:92
 translate crowdin at_table_dinner_A_cec7c78a:
 
     # mc "{i}Mhmm, maybe I should break the ice by congratulating [emy] on dinner. But I don't know if that's appropriate."
-    mc "{i}Mhmm, maybe I should break the ice by congratulating [emy] on dinner. But I don't know if that's appropriate."
+    mc "{i}Hmmm, talvez eu deva quebrar o gelo parabenizando [emy] no jantar. Mas eu não sei se isso é apropriado. "
 
 # game/labels/at_table.rpy:95
 translate crowdin at_table_dinner_A_c8876fdc:
 
     # emy "Sorry honey, I didn't even ask you how it went at [bff]'s house today."
-    emy "Sorry honey, I didn't even ask you how it went at [bff]'s house today."
+    emy "Desculpe meu bem, eu nem perguntei como foi na casa dos [bff] hoje."
 
 # game/labels/at_table.rpy:96
 translate crowdin at_table_dinner_A_1c5dc3b7:
 
     # mc "Don't apologize, you don't have to."
-    mc "Don't apologize, you don't have to."
+    mc "Não se desculpe, não é necessário"
 
 # game/labels/at_table.rpy:97
 translate crowdin at_table_dinner_A_55e2a73e:
 
     # mc "Yesterday... If I remember correctly... We played some [console], and talked a little bit about school and old times."
-    mc "Yesterday... If I remember correctly... We played some [console], and talked a little bit about school and old times."
+    mc " Ontem... Se eu me lembro corretamente... Jogamos alguns [console], e conversamos um pouco sobre a escola e os velhos tempos. "
 
 # game/labels/at_table.rpy:98
 translate crowdin at_table_dinner_A_c223c518:
 
     # emy "What did you guys eat?"
-    emy "What did you guys eat?"
+    emy "O que vocês comeram?"
 
 # game/labels/at_table.rpy:99
 translate crowdin at_table_dinner_A_48606c77:
 
     # mc "Last night [tam] wasn't home, so we ordered pizza from [pizzeria]. While for breakfast/lunch we got takeout at mcdonald with [tam]."
-    mc "Last night [tam] wasn't home, so we ordered pizza from [pizzeria]. While for breakfast/lunch we got takeout at mcdonald with [tam]."
+    mc " Na noite passada [tam] não estava em casa, então pedimos pizza da [pizzeria]. Enquanto para o café da manhã/almoço fomos ao mcdonald com [tam]. "
 
 # game/labels/at_table.rpy:100
 translate crowdin at_table_dinner_A_c331f251:
 
     # emy "It sounds like [tam] didn't really want to sew. Ha, haha... However, it is not very healthy as they eat.... so don't get used to it."
-    emy "It sounds like [tam] didn't really want to sew. Ha, haha... However, it is not very healthy as they eat.... so don't get used to it."
+    emy " Parece que [tam] não queria ter visto mesmo. Ha, haha... However, it is not very healthy as they eat.... so don't get used to it."
 
 # game/labels/at_table.rpy:101
 translate crowdin at_table_dinner_A_2cc787ab:
