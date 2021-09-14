@@ -22,19 +22,19 @@ translate crowdin after_deathA_68dd24f6:
 translate crowdin after_deathA_8b33ad12:
 
     # "old man" "Wait your turn."
-    "old man" "Espera tu turno."
+    "old man" "Wait your turn."
 
 # game/labels/dreams.rpy:16
 translate crowdin after_deathA_86523359:
 
     # mc "Turn?!"
-    mc "¡¿Turno?!"
+    mc "Turn?!"
 
 # game/labels/dreams.rpy:17
 translate crowdin after_deathA_d007819b:
 
     # "old man" "Can't you see I'm busy. When it's your turn you can have all the answers you want." nointeract
-    "old man" "No ves que estoy ocupado. Cuando te toque a ti puedes tener todas las respuestas que quieras." nointeract
+    "old man" "Can't you see I'm busy. Cuando te toque a ti puedes tener todas las respuestas que quieras." nointeract
 
 # game/labels/dreams.rpy:20
 translate crowdin after_deathA_277133e5:
