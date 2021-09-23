@@ -57,8 +57,7 @@ translate crowdin presentations_f9938f03:
 # game/labels/first_day.rpy:51
 translate crowdin presentations_d32b7d45:
 
-    mc "[vct] è una {b}matricola universitaria{/b}, le piace uscire, divertirsi e andare alle feste.
- The last few days have been difficult for her too, she often comes back completely {b}drunk{/b} in the evening. Our relationship is mostly love and hate."
+    # mc "[vct] is a {b}college freshman{/b}, she likes to go out in the evening and have fun with her friends. The last few days have been difficult for her too, she often comes back completely {b}drunk{/b} in the evening. Our relationship is mostly love and hate."
     mc "[vct] è una {b}matricola universitaria{/b}, le piace uscire la sera e divertirsi con le sue amiche. Sempre che anche per lei é un momento difficile. Ogni notte esce e torna sempre tardi ubriaca fradicia. Emily ha provato a dargli delle regole sugli orari, ma non é una figura così autoritaria  Il nostro rapporto è traballante, 
 
 # game/labels/first_day.rpy:54
@@ -71,7 +70,7 @@ translate crowdin presentations_4a1cf873:
 translate crowdin presentations_montell_a12d227b:
 
     # mc "{i}Now I'm on my way home, after spending the night at the {b}[tamI.sname]'s house{/b}. They are the only people from my old life that I still hang out with. Next to me there is:"
-    mc "{i}Ieri sono stato a casa dei [tamI.sname] , le uniche persone della mia vecchia vita che frequento ancora. A fianco a me c'è:"
+    mc "{i}Ieri sono stato a casa dei [tamI.sname] , le uniche persone della mia vecchia vita che frequento ancora. Lui è:"
 
 # game/labels/first_day.rpy:63
 translate crowdin presentations_montell_ec00e90a:
@@ -265,7 +264,7 @@ translate crowdin prologue_1d85bbe3:
 translate crowdin prologue_fcdd3dbf:
 
     # emy "Hey! You can't talk about your [jnR.NPClabel] like that."
-    emy "Ehi! Tu non parlare così di tuo [jnR.NPClabel]. Io posso ma tu non pui,  sei suo figklio"
+    emy "Ehi! Non parlare così di tuo [jnR.NPClabel]. Io posso ma tu no,  sei suo figklio"
 
 # game/labels/first_day.rpy:173
 translate crowdin prologue_5d1ef22d:
@@ -454,7 +453,7 @@ translate crowdin introD_part2_f3840c20:
 translate crowdin introD_part2_707c2836:
 
     # mc "How are you? I know what happened yesterday."
-    mc "Come stai? So cosa è successo ieri."
+    mc "Come stai? Ho saputo di ieri."
 
 # game/labels/first_day.rpy:279
 translate crowdin introD_part2_66628875:
@@ -496,7 +495,7 @@ translate crowdin introD_part2_33e3f8c6:
 translate crowdin introD_part2_508d8f30:
 
     # mia "However, this time [for_emyR.MClabel] started screaming and then went to bed. While [jn] stayed in the jump. Then around 3 o'clock I heard some unusual noises, then slamming the door of the house."
-    mia "Anche se, questa volta [for_emyR.MClabel] ha iniziato a urlare e poi è andato a letto. Mentre [jn] è rimasto in sala. Poi intorno alle 3 ho sentito qualche rumore insolito, poi sbattere la porta di casa."
+    mia "Anche se, questa volta [for_emyR.MClabel] ha iniziato a urlare e poi è andato a letto. . Poi intorno alle 3 ho sentito qualche rumore insolito, poi sbattere la porta di casa."
 
 # game/labels/first_day.rpy:291
 translate crowdin introD_part2_48358ee2:
