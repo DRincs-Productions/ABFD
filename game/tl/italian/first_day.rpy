@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2021-05-09 23:51
+# TODO: Traduzione aggiornata al 2021-05-09 23:51
 
 # game/labels/first_day.rpy:12
 translate crowdin intro_add709f6:
@@ -489,25 +489,25 @@ translate crowdin introD_part2_cd9c4194:
 translate crowdin introD_part2_33e3f8c6:
 
     # mc "Same as other days, nothing new."
-    mc "Come altri giorni, niente di nuovo."
+    mc "{i} Come altri giorni, niente di nuovo."
 
 # game/labels/first_day.rpy:290
 translate crowdin introD_part2_508d8f30:
 
     # mia "However, this time [for_emyR.MClabel] started screaming and then went to bed. While [jn] stayed in the jump. Then around 3 o'clock I heard some unusual noises, then slamming the door of the house."
-    mia "Anche se, questa volta [for_emyR.MClabel] ha iniziato a urlare e poi è andato a letto. . Poi intorno alle 3 ho sentito qualche rumore insolito, poi sbattere la porta di casa."
+    mia "Anche se, questa volta [for_emyR.MClabel] Emily era davvero infuriata. Questa volta Emily a chiuso subito il discorso ed è andata a letto sbattendo la porta. Capisci non è da lei. Mc {i} già... Mia .. e Poi in piena notte, ho sentito qualche rumore insolito, poi sbattere la porta di casa."
 
 # game/labels/first_day.rpy:291
 translate crowdin introD_part2_48358ee2:
 
     # mia "I thought it was a burglar or someone with bad intentions, but it was [jn]'s voice. I ran into the living room, but by then there was no one there. Except for a postit on the refrigerator... there was... there was writing on it..."
-    mia "Pensavo che fosse un ladro o qualcuno con cattive intenzioni, ma era la voce di [jn]. Sono scesa in sotto, ma non c'era nessuno. A parte un postit sul frigorifero... c'era... c'era scritto..."
+    mia "Pensavo che fosse un ladro o qualcuno con cattive intenzioni... ma era la voce di [jn]! Sono scesa in sotto, ma non c'era nessuno. A parte un postit sul frigorifero... c'era... c'era scritto..."
 
 # game/labels/first_day.rpy:292
 translate crowdin introD_part2_8beab4ae:
 
     # mc "Unfortunately, I already know what it said. [emy] made me read it."
-    mc "Purtroppo so già cosa ha detto. [emy] me l'ha fatto leggere."
+    mc "ferma, Purtroppo so già cosa ha detto. [emy] me l'ha fatto leggere."
 
 # game/labels/first_day.rpy:299
 translate crowdin introD_part3_fc48d785:
@@ -519,7 +519,7 @@ translate crowdin introD_part3_fc48d785:
 translate crowdin introD_part3_50a6ef0c:
 
     # mia "She already knows everything, I wrote her what happened. Yesterday she stayed over at the college. Her friend's roommate was at her parents', so she had an extra bed."
-    mia "Sa già tutto, le ho già scritto per dirle cosa è successo. Ieri è rimasta al college. La coinquilina della sua amica era dai suoi genitori, e quindi aveva un letto in più."
+    mia "Sa già tutto, le ho già scritto per dirle cosa è successo. . Ha preferito restare al collega. La coinquilina della sua amica era dai suoi genitori, e quindi aveva un letto in più."
 
 # game/labels/first_day.rpy:303
 translate crowdin introD_part3_1dea11ed:
@@ -531,7 +531,7 @@ translate crowdin introD_part3_1dea11ed:
 translate crowdin introD_part3_65d3fbce:
 
     # mia "What could I do, I put the note back where it was and went back to bed. I didn't sleep a wink last night."
-    mia "Cosa potevo fare, ho rimesso la nota dove era e sono tornato a letto. Non ho chiuso occhio ieri sera."
+    mia "Cosa potevo fare, ho rimesso la nota dove era e sono tornato a letto. Non ho chiuso occhio."
 
 # game/labels/first_day.rpy:305
 translate crowdin introD_part3_7ca3cff3:
@@ -543,7 +543,7 @@ translate crowdin introD_part3_7ca3cff3:
 translate crowdin introD_part3_f56be986:
 
     # mia "I had breakfast and then stayed in my room. By lunch she had recovered a little. All she told me was that [jn] will be gone for a while. You know he doesn't talk to me about these things."
-    mia "Ho fatto colazione e poi sono rimasta in camera mia. A pranzo si era ripresa un po'. Tutto quello che mi ha detto era che [jn] se n'è andato per un po'. Lo sai che con me non parla di queste cose."
+    mia "Ho fatto colazione e poi sono rimasta in camera mia. Mentre A pranzo si era ripresa un po'. . Ma Lo sai che con me non parla di queste cose."
 
 # game/labels/first_day.rpy:308
 translate crowdin introD_part3_7a596e35:
@@ -555,7 +555,7 @@ translate crowdin introD_part3_7a596e35:
 translate crowdin introD_part3_134eacbe:
 
     # mc "I don't want to see you so sad. I know a remedy to cheer up that sad little face."
-    mc "Non voglio vederti così triste. Conosco un modo per rallegrare quel facciotto triste."
+    mc "Non voglio vederti così triste. Mmm Conosco un modo per rallegrare quel facciotto triste."
 
 # game/labels/first_day.rpy:310
 translate crowdin introD_part3_d0790ea9:
@@ -603,7 +603,7 @@ translate crowdin introF_eecf460f:
 translate crowdin introF_25cc95ad:
 
     # mc "{i}It was all a dream! Good thing."
-    mc "{i}Era tutto un sogno! Meno male."
+    mc "{i}oh cazzo questi ricordi continuano a tormentarmi! "
 
 # game/labels/first_day.rpy:348
 translate crowdin introF_7a65a9f9:
@@ -645,7 +645,7 @@ translate crowdin introF_11cb8322:
 translate crowdin introF_f2661570:
 
     # mia "Don't you remember? We were playing and you tripped."
-    mia "Non ti ricordi? We were playing and you tripped."
+    mia "Non ti ricordi? Stavamo giocando e sei... inciampato.. so sei inciampato per sbaglio".
 
 # game/labels/first_day.rpy:363
 translate crowdin introF_e9603ad4:
