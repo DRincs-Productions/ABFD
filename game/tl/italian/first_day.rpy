@@ -22,7 +22,7 @@ translate crowdin intro_ea546e9e:
 translate crowdin intro_308b7484:
 
     # mc "To be honest, my real family died in a plane crash. After their death I moved from [old_city] to [city] where I started a new life."
-    mc "Ad essere onesti, la mia vera famiglia è morta in un incidente aereo. Dopo la loro morte me ne andai da [old_city]... Cercando di lasciarmi tutto il dolore alle spalle. Per rifarmi una vita a [city]"
+    mc "Ad essere onesti, la mia vera famiglia è morta in un incidente aereo. Ma i loro resti non vennero mai ritrovati e si seppe più nulla del incidente. Dopo la loro morte me ne andai da [old_city]... Cercando di lasciarmi tutto il dolore alle spalle. Per rifarmi una vita a [city]"
 
 # game/labels/first_day.rpy:19
 translate crowdin presentations_c48a2b2d:
@@ -603,7 +603,7 @@ translate crowdin introF_eecf460f:
 translate crowdin introF_25cc95ad:
 
     # mc "{i}It was all a dream! Good thing."
-    mc "{i}oh cazzo questi ricordi continuano a tormentarmi! "
+    mc "{i}oh cazzo, dinuovo questi sogni. "
 
 # game/labels/first_day.rpy:348
 translate crowdin introF_7a65a9f9:
