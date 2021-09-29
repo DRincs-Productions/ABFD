@@ -729,7 +729,7 @@ translate crowdin introF_496800e7:
 translate crowdin intro_sleep_2d6660c3:
 
     # mc "{i}What a strange day today has been. With everything that's happened to me I keep thinking about what that old man said. There's only one life, I mustn't waste it."
-    mc "{i}Che strana giornata è stata oggi. Con tutto quello che mi è successo continuo a pensare a quello che ha detto quel vecchio. C'è solo una vita, non devo sprecarla."
+    mc "{i}Che strana giornata è stata oggi. Con tutto quello che mi è successo continuo a pensare a quello stupido sogno. O è un ricordo? C'è solo una vita, non devo sprecarla."
 
 # game/labels/first_day.rpy:401
 translate crowdin intro_sleep_4c0d2229:
