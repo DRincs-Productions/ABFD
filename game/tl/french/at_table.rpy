@@ -250,7 +250,7 @@ translate crowdin at_table_dinner_A_342072ee:
 translate crowdin at_table_dinner_A_5402f101:
 
     # mc "This is the last dish."
-    mc "This is the last dish."
+    mc "C'est le dernier plat."
 
 # game/labels/at_table.rpy:160
 translate crowdin at_table_dinner_A_e458e5bb:
