@@ -4,7 +4,7 @@
 translate crowdin first_dress_up_e7f27efe:
 
     # "{i}Better to put on something clean."
-    {i}Mieux vaut mettre quelque chose de propre. »
+    "{i}Mieux vaut mettre quelque chose de propre."
 
 translate crowdin strings:
 
@@ -26,7 +26,7 @@ translate crowdin strings:
 
     # game/clothes.rpy:21
     old "Home clothes:"
-    new "Vêtements pour la maison"
+    new "Vêtements pour la maison:"
 
     # game/clothes.rpy:21
     old "Black T-shirt"
@@ -38,9 +38,9 @@ translate crowdin strings:
 
     # game/clothes.rpy:21
     old "Select and return"
-    new "Sélectionner et retour"
+    new "Sélectionner et revenir en arrière"
 
     # game/clothes.rpy:35
     old "Usual clothes:"
-    new "Vêtements décontractés"
+    new "Vêtements décontractés:"
 
