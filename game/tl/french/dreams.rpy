@@ -4,49 +4,49 @@
 translate crowdin after_deathA_229980ed:
 
     # mc "{i}Huh?"
-    mc "{i}Huh?"
+    mc "{i}Hum?"
 
 # game/labels/dreams.rpy:12
 translate crowdin after_deathA_fd0a4bed:
 
     # mc "{i}What? What is this place?"
-    mc "{i}What? What is this place?"
+    mc "{i}Quoi ? Quel est cet endroit ?"
 
 # game/labels/dreams.rpy:14
 translate crowdin after_deathA_68dd24f6:
 
     # mc "Hi, sorry but..."
-    mc "Hi, sorry but..."
+    mc "Bonjour, désolé, mais..."
 
 # game/labels/dreams.rpy:15
 translate crowdin after_deathA_8b33ad12:
 
     # "old man" "Wait your turn."
-    "old man" "Wait your turn."
+    "Vieil homme" "Attendez votre tour."
 
 # game/labels/dreams.rpy:16
 translate crowdin after_deathA_86523359:
 
     # mc "Turn?!"
-    mc "Turn?!"
+    mc "mon tour?!"
 
 # game/labels/dreams.rpy:17
 translate crowdin after_deathA_d007819b:
 
     # "old man" "Can't you see I'm busy. When it's your turn you can have all the answers you want." nointeract
-    "old man" "Can't you see I'm busy. When it's your turn you can have all the answers you want." nointeract
+    "vieil homme" "Vous ne voyez pas que je suis occupé. Quand c'est votre tour, vous pouvez avoir toutes les réponses que vous voudrez." nointeract
 
 # game/labels/dreams.rpy:20
 translate crowdin after_deathA_277133e5:
 
     # mc "Ehmm... But... I'm the only one."
-    mc "Ehmm... But... I'm the only one."
+    mc "Ehmm... Mais... Il y a personne d'autre."
 
 # game/labels/dreams.rpy:21
 translate crowdin after_deathA_5bc4f294:
 
     # "old man" "You have to wait."
-    "old man" "You have to wait."
+    "vieil homme" "Il faut attendre."
 
 # game/labels/dreams.rpy:23
 translate crowdin after_deathA_e38d4c5d:
@@ -58,49 +58,49 @@ translate crowdin after_deathA_e38d4c5d:
 translate crowdin after_deathA_61e42010:
 
     # "(From the old man's pc, you begin to hear a very faint sound)"
-    "(From the old man's pc, you begin to hear a very faint sound)"
+    "(Venant du pc du vieil homme, vous entendez, petit à petit, un son très faible)"
 
 # game/labels/dreams.rpy:32
 translate crowdin after_deathA_cca01962:
 
     # "Cronist" "... Maradona takes off from the middle of the field... goes for goal... and it's... GOAL!!! GOAL!!! Maradona's hat-trick."
-    "Cronist" "... Maradona takes off from the middle of the field... goes for goal... and it's... GOAL!!! GOAL!!! Maradona's hat-trick."
+    "Chroniqueur" " ... Maradona part du milieu du terrain... en direction du but ... et c'est ... BUT!!! BUT!!! Le coup de tête de Maradona."
 
 # game/labels/dreams.rpy:33
 translate crowdin after_deathA_75d0bdeb:
 
     # "old man" "GOAL!!! GOAL!!!"
-    "old man" "GOAL!!! GOAL!!!"
+    "Vieil homme" " BUT !!! BUT!!!"
 
 # game/labels/dreams.rpy:34
 translate crowdin after_deathA_82f2bfa6:
 
     # mc "{i}Fucking old man..."
-    mc "{i}Fucking old man..."
+    mc "{i}Putain de vieil homme... "
 
 # game/labels/dreams.rpy:35
 translate crowdin after_deathA_3f3a72e0:
 
     # "Cronist" "That's the end of this legendary match. It's over 6-0..."
-    "Cronist" "That's the end of this legendary match. It's over 6-0..."
+    "Chroniqueur" "C'est la fin de ce match de légende. C'est 6-0 ... "
 
 # game/labels/dreams.rpy:41
 translate crowdin after_deathA_partA_ba583e23:
 
     # "old man" "Come on, now it's your turn, if you have any questions start asking me." nointeract
-    "old man" "Come on, now it's your turn, if you have any questions start asking me." nointeract
+    "vieil homme" "Allons, maintenant à votre tour, si vous avez des questions, posez-les." nointeract
 
 # game/labels/dreams.rpy:44
 translate crowdin after_deathA_partA_f19973a5:
 
     # mc "I didn't hear any speakers..."
-    mc "I didn't hear any speakers..."
+    mc "Je n’ai entendu aucun haut-parleur..."
 
 # game/labels/dreams.rpy:45
 translate crowdin after_deathA_partA_491fcdbb:
 
     # "old man" "Um... Yes, but you can't hear."
-    "old man" "Um... Yes, but you can't hear."
+    "Vieil homme" " Um ... Oui, mais vous ne pouvez pas entendre."
 
 # game/labels/dreams.rpy:46
 translate crowdin after_deathA_partA_5ac23419:
@@ -112,7 +112,7 @@ translate crowdin after_deathA_partA_5ac23419:
 translate crowdin after_deathA_partA_bb019795:
 
     # mc "Where am I?"
-    mc "Where am I?"
+    mc "Où suis-je ?"
 
 # game/labels/dreams.rpy:50
 translate crowdin after_deathA_partA_84dffed7:
