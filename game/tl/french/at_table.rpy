@@ -22,7 +22,7 @@ translate crowdin first_at_table_preparation_de3c2312:
 translate crowdin helpA_a4315a3c:
 
     # mc "{i}It's a boring job, but someone had to do it."
-    mc "{i}C'est une tâche ennuyeuse, mais quelqu'un doit le faire."
+    mc "{i}C'est une tâche ennuyeuse, mais quelqu'un doit le faire.{/i}"
 
 # game/labels/at_table.rpy:91
 translate crowdin at_table_dinner_A_271eaadf:
@@ -34,7 +34,7 @@ translate crowdin at_table_dinner_A_271eaadf:
 translate crowdin at_table_dinner_A_cec7c78a:
 
     # mc "{i}Mhmm, maybe I should break the ice by congratulating [emy] on dinner. But I don't know if that's appropriate."
-    mc "{i}Mhmm, je devrais peut-être briser la glace en félicitant [emy] pour le dîner. Mais je ne sais pas si c'est approprié."
+    mc "{i}Mhmm, je devrais peut-être briser la glace en félicitant [emy] pour le dîner. Mais je ne sais pas si c'est approprié.{/i}"
 
 # game/labels/at_table.rpy:95
 translate crowdin at_table_dinner_A_c8876fdc:
@@ -64,13 +64,13 @@ translate crowdin at_table_dinner_A_c223c518:
 translate crowdin at_table_dinner_A_48606c77:
 
     # mc "Last night [tam] wasn't home, so we ordered pizza from [pizzeria]. While for breakfast/lunch we got takeout at mcdonald with [tam]."
-    mc "Hier soir, [tam] n'était pas à la maison, donc on a commandé de la pizza de chez [pizzeria]. Pour le petit déjeuner et le déjeuner on a pris à emporter à McDonald's avec [tam]."
+    mc "Hier soir, [tam] n'était pas à la maison, donc on a commandé de la pizza de chez [pizzeria]. Pour le petit déjeuner et le déjeuner on a pris à emporter au McDo avec [tam]."
 
 # game/labels/at_table.rpy:100
 translate crowdin at_table_dinner_A_c331f251:
 
     # emy "It sounds like [tam] didn't really want to sew. Ha, haha... However, it is not very healthy as they eat.... so don't get used to it."
-    emy "On dirait que [tam] ne voulait pas vraiment cuisiner. Ha, haha... Par contre, ce n'est pas très sain ce que vous mangez.... donc ne vous y habitué pas. "
+    emy "On dirait que [tam] ne voulait pas vraiment cuisiner. Ha, haha... Par contre, ce n'est pas très sain ce que vous mangez.... donc ne vous y habitué pas."
 
 # game/labels/at_table.rpy:101
 translate crowdin at_table_dinner_A_2cc787ab:
@@ -88,13 +88,13 @@ translate crowdin at_table_dinner_A_9c64c2df:
 translate crowdin at_table_dinner_A_d107a06b:
 
     # mc "Yes, he's a reliable friend. Even if it is a little funny and boring."
-    mc "Oui, c'est un ami fiable. Même si c'est un peu drôle et ennuyeux."
+    mc "Oui, c'est un ami fiable. Même si il n'est pas très drôle et qu'il est ennuyeux."
 
 # game/labels/at_table.rpy:108
 translate crowdin at_table_dinner_A_64e91d02:
 
     # mc "Yes, also because I haven't been here long. But I'm sure I'll be making more."
-    mc "Oui, mais aussi parce que je n'ai pas été ici depuis longtemps. Mais je suis sûr que je vais en faire plus. »
+    mc "Oui, mais aussi parce que je n'ai pas été ici depuis longtemps. Mais je suis sûr que je vais en faire plus."
 
 # game/labels/at_table.rpy:109
 translate crowdin at_table_dinner_A_bef7a488:
@@ -106,7 +106,7 @@ translate crowdin at_table_dinner_A_bef7a488:
 translate crowdin at_table_dinner_A_a9510619:
 
     # emy "[mia]! You don't have to ask those questions. It is obvious that he still suffers."
-    emy "[mia]! Vous n'avez pas à poser ces questions. C'est évident qu'il souffre toujours."
+    emy "[mia]! Tu n'as pas à poser ces questions. C'est évident qu'il souffre toujours."
 
 # game/labels/at_table.rpy:113
 translate crowdin at_table_dinner_A_26b073b2:
@@ -124,13 +124,13 @@ translate crowdin at_table_dinner_A_ee982cd2:
 translate crowdin at_table_dinner_A_c848fd66:
 
     # mc "Fuck [old_city] and whoever lives there. It brought me nothing but trouble."
-    mc "Nique [old_city] et tout ceux qui y vivent. Ça m'a apporté que des problèmes."
+    mc "Merde à [old_city] et tout ceux qui y vivent. Ça m'a apporté que des problèmes."
 
 # game/labels/at_table.rpy:119
 translate crowdin at_table_dinner_A_ad72c338:
 
     # mc "I'd rather not talk about it yet, I think you'll understand."
-    mc "Je préfère pas en parler pour l'instant, je pense que tu comprendra bien."
+    mc "Je préfère ne pas en parler pour l'instant, je pense que tu comprends."
 
 # game/labels/at_table.rpy:120
 translate crowdin at_table_dinner_A_739dcef9:
@@ -142,7 +142,7 @@ translate crowdin at_table_dinner_A_739dcef9:
 translate crowdin at_table_dinner_A_379631f0:
 
     # emy "What about you [mia]?! Are you ready for the exam tomorrow?"
-    emy "Et toi [mia]?! Es-tu prête pour l'examen demain?"
+    emy "Et toi [mia]?! Es-tu prête pour l'examen de demain?"
 
 # game/labels/at_table.rpy:123
 translate crowdin at_table_dinner_A_e6bdb60e:
@@ -178,7 +178,7 @@ translate crowdin at_table_dinner_A_66e7f5dc:
 translate crowdin at_table_dinner_A_9ce965a5:
 
     # emy "I'm sure if you studied you'll get through it."
-    emy "Je suis sûre que si tu as étudié tu vas le réussir."
+    my "Je suis sûre que si tu étudies, tu vas le réussir."
 
 # game/labels/at_table.rpy:132
 translate crowdin at_table_dinner_A_b597a82e:
@@ -195,8 +195,8 @@ translate crowdin at_table_dinner_A_215aa469:
 # game/labels/at_table.rpy:137
 translate crowdin at_table_dinner_A_78e28535:
 
-    # emy "Tu veux dire \"était\"."
-    emy "Tu veux dire \"était\"."
+    # emy "You mean \"was\"."
+    emy "Tu veux dire 'était'."
 
 # game/labels/at_table.rpy:138
 translate crowdin at_table_dinner_A_fa027119:
@@ -220,7 +220,7 @@ translate crowdin at_table_dinner_A_cc0fe43b:
 translate crowdin at_table_dinner_A_df4048f6:
 
     # mc "No, I don't really want to."
-    mc "Non, je ne veux pas vraiment"
+    mc "Non, je ne veux pas vraiment ça"
 
 # game/labels/at_table.rpy:147
 translate crowdin at_table_dinner_A_b50f5b2a:
@@ -262,167 +262,167 @@ translate crowdin at_table_dinner_A_e458e5bb:
 translate crowdin at_table_dinner_A_fe5602c9:
 
     # mc "{i}Why are you looking at me like that?"
-    mc "{i}Pourquoi tu me regardes comme ça?"
+    mc "{i}Pourquoi tu me regardes comme ça?{/i}"
 
 # game/labels/at_table.rpy:165
 translate crowdin at_table_dinner_A_ee415289:
 
     # emy "Honey, I called [tam]..."
-    emy "Honey, I called [tam]..."
+    emy "Chérie, j'ai appelé [tam]..."
 
 # game/labels/at_table.rpy:166
 translate crowdin at_table_dinner_A_d1a58592:
 
     # mc "{i}Oh no! She probably told her about the school report."
-    mc "{i}Oh no! She probably told her about the school report."
+    mc "{i}Oh non ! Elle lui a probablement parlé du rapport de l'école.{/i}"
 
 # game/labels/at_table.rpy:167
 translate crowdin at_table_dinner_A_2f443dab:
 
     # emy "Tomorrow morning, she'll give you a ride to school. Because that bastard took the car away too."
-    emy "Tomorrow morning, she'll give you a ride to school. Because that bastard took the car away too."
+    emy "Demain matin, elle vous conduira à l'école. Parce que ce bâtard a pris la voiture aussi."
 
 # game/labels/at_table.rpy:168
 translate crowdin at_table_dinner_A_c668a663:
 
     # mc "{i}Phew, danger averted."
-    mc "{i}Phew, danger averted."
+    mc "{i}Ouf, danger évité."
 
 # game/labels/at_table.rpy:169
 translate crowdin at_table_dinner_A_d2b56740:
 
     # emy "But I don't want to be too much trouble. You're a big boy now. Tomorrow she'll give you a ride, but then you'll have to make your own arrangements. You should get a public transportation pass, I'll give you the money."
-    emy "But I don't want to be too much trouble. You're a big boy now. Tomorrow she'll give you a ride, but then you'll have to make your own arrangements. You should get a public transportation pass, I'll give you the money."
+    emy "Mais je ne veux pas être trop ennuyeuse. Tu es un grand garçon maintenant. Demain, elle te conduira, mais ensuite tu devras prendre tes propres dispositions. Tu dois te procurer un abonnement pour les transports publics, je te donnerai de l'argent."
 
 # game/labels/at_table.rpy:170
 translate crowdin at_table_dinner_A_002abd73:
 
     # mc "Beh... we could use your car."
-    mc "Beh... we could use your car."
+    mc "Ben... nous pourrions utiliser ta voiture."
 
 # game/labels/at_table.rpy:171
 translate crowdin at_table_dinner_A_b8c6c389:
 
     # emy "That piece of crap!? Honey, we haven't turned it on in years. I don't think it still works. I should get it checked out first."
-    emy "That piece of crap!? Honey, we haven't turned it on in years. I don't think it still works. I should get it checked out first."
+    emy "Ce tas de boue!? Chérie, nous ne l'avons pas mis en marche depuis des années. Je ne pense pas que ça marche encore. Je devrais d'abord la faire vérifier."
 
 # game/labels/at_table.rpy:174
 translate crowdin at_table_dinner_A_part2_975ba825:
 
     # emy "I won't say it again. So, are we clear?" nointeract
-    emy "I won't say it again. So, are we clear?" nointeract
+    emy "Je ne le répéterai pas. Alors, sommes-nous clairs?" nointeract
 
 # game/labels/at_table.rpy:177
 translate crowdin at_table_dinner_A_part2_ded1eb5d:
 
     # mc "All clear, however I don't know where to get subscriptions."
-    mc "All clear, however I don't know where to get subscriptions."
+    mc "Tout est clair, mais je ne sais pas ou faire les abonnements"
 
 # game/labels/at_table.rpy:178
 translate crowdin at_table_dinner_A_part2_1a1faa7b:
 
     # emy "Any store or newsstand. I know the sandwich shop at your school sells them."
-    emy "Any store or newsstand. I know the sandwich shop at your school sells them."
+    emy "Dans n'importe quel magasin ou kiosque. Je sais que la boutique de sandwich de ton école en vends."
 
 # game/labels/at_table.rpy:181
 translate crowdin at_table_dinner_A_part2_a528b8c6:
 
     # mc "Could you give me the money right away? I'm afraid I might forget."
-    mc "Could you give me the money right away? I'm afraid I might forget."
+    mc "Peux-tu me donner l'argent tout de suite? J'ai peur que j'oublie de le faire."
 
 # game/labels/at_table.rpy:183
 translate crowdin at_table_dinner_A_part2_001576e6:
 
     # emy "Do you see any pockets? I don't have any money on me."
-    emy "Do you see any pockets? I don't have any money on me."
+    emy "Tu vois un porte-monnaie? Je n'ai pas d'argent sur moi."
 
 # game/labels/at_table.rpy:185
 translate crowdin at_table_dinner_A_part2_3904fab1:
 
     # emy "No, honey. I'll remember it."
-    emy "No, honey. I'll remember it."
+    emy "Non, chéri. Je m'en souviendrai."
 
 # game/labels/at_table.rpy:188
 translate crowdin at_table_dinner_A_part2_1b74e0e3:
 
     # mc "Have you heard from [jnR.NPClabel]?"
-    mc "Have you heard from [jnR.NPClabel]?"
+    mc "As-tu entendu parler de [jnR.NPClabel] ?"
 
 # game/labels/at_table.rpy:189
 translate crowdin at_table_dinner_A_part2_2bb66d88:
 
     # emy "No! And I don't want to talk about him for a while. I need a little distraction."
-    emy "No! And I don't want to talk about him for a while. I need a little distraction."
+    emy "Non! Et je ne veux plus parler de lui pendant un moment. J'ai besoin d'une petite distraction. "
 
 # game/labels/at_table.rpy:191
 translate crowdin at_table_dinner_A_part2_24a822f7:
 
     # mc "Okay, all clear."
-    mc "Okay, all clear."
+    mc "Ok, c'est bon."
 
 # game/labels/at_table.rpy:194
 translate crowdin at_table_dinner_A_part2_ddf8fbc8:
 
     # mc "There should be a good movie on tonight."
-    mc "There should be a good movie on tonight."
+    mc "Il devrait y avoir un bon film ce soir."
 
 # game/labels/at_table.rpy:195
 translate crowdin at_table_dinner_A_part2_29c49ec9:
 
     # emy "A good movie is just what you need. I'm going to start sitting on the couch, as soon as you want to join me. Thanks again for the help, honey."
-    emy "A good movie is just what you need. I'm going to start sitting on the couch, as soon as you want to join me. Thanks again for the help, honey."
+    emy "Un bon film est exactement ce dont on a besoin. Je vais aller m'asseoir sur le canapé dès que tu veux tu peux me rejoindre. Merci encore pour ton aide, chéri!"
 
 translate crowdin strings:
 
     # game/labels/at_table.rpy:73
     old "Wardrobe"
-    new "Wardrobe"
+    new "Garde-robe"
 
     # game/labels/at_table.rpy:101
     old "Yeah, because..."
-    new "Yeah, because..."
+    new "Oui, parce que..."
 
     # game/labels/at_table.rpy:101
     old "He's not that great"
-    new "He's not that great"
+    new "Il n'est pas si grand"
 
     # game/labels/at_table.rpy:101
     old "For now"
-    new "For now"
+    new "Pour l'instant"
 
     # game/labels/at_table.rpy:111
     old "Yeah"
-    new "Yeah"
+    new "Ouais"
 
     # game/labels/at_table.rpy:111
     old "Fuck [old_city]"
-    new "Fuck [old_city]"
+    new "Merde de [old_city]"
 
     # game/labels/at_table.rpy:111
     old "I do not want to talk about it"
-    new "I do not want to talk about it"
+    new "Je ne veux plus en parler"
 
     # game/labels/at_table.rpy:140
     old "[mia], if you need to review for tomorrow, go ahead. [mc] will help me clear the table. Right?!"
-    new "[mia], if you need to review for tomorrow, go ahead. [mc] will help me clear the table. Right?!"
+    new"[mia], si tu as besoin de réviser pour demain, vas-y. [mc] va m'aider à débarrasser la table. N'est-ce pas?!"
 
     # game/labels/at_table.rpy:140
     old "If I have to..."
-    new "If I have to..."
+    new "Si je dois le faire..."
 
     # game/labels/at_table.rpy:174
     old "Where do I go?"
-    new "Where do I go?"
+    new "Où puis-je aller ?"
 
     # game/labels/at_table.rpy:174
     old "I would like the money now"
-    new "I would like the money now"
+    new "Je veux l'argent maintenant"
 
     # game/labels/at_table.rpy:174
     old "Talk about [jn]"
-    new "Talk about [jn]"
+    new "Parler de [jn]"
 
     # game/labels/at_table.rpy:174
     old "No questions"
-    new "No questions"
+    new "Pas d'autres questions"
 
