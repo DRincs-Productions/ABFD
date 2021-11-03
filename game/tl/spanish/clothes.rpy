@@ -4,29 +4,29 @@
 translate crowdin first_dress_up_e7f27efe:
 
     # "{i}Better to put on something clean."
-    "{i}Es mejor ponerse algo limpio."
+    "{i}Better to put on something clean."
 
 translate crowdin strings:
 
     # game/clothes.rpy:7
     old "What do you want to change?"
-    new "Qué quieres cambiar?"
+    new "What do you want to change?"
 
     # game/clothes.rpy:7
     old "Usual clothes"
-    new "Ropa habitual"
+    new "Usual clothes"
 
     # game/clothes.rpy:7
     old "Home clothes"
-    new "Ropa de casa"
+    new "Home clothes"
 
     # game/clothes.rpy:7
     old "Close Wardrobe"
-    new "Armario cerrado"
+    new "Close Wardrobe"
 
     # game/clothes.rpy:21
     old "Home clothes:"
-    new "Ropa de casa:"
+    new "Home clothes:"
 
     # game/clothes.rpy:21
     old "Black T-shirt"
@@ -34,11 +34,11 @@ translate crowdin strings:
 
     # game/clothes.rpy:21
     old "White T-shirt"
-    new "Remera Blanca"
+    new "White T-shirt"
 
     # game/clothes.rpy:21
     old "Select and return"
-    new "Seleccionar y regresar"
+    new "Select and return"
 
     # game/clothes.rpy:35
     old "Usual clothes:"
