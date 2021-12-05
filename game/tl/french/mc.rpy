@@ -4,19 +4,19 @@
 translate crowdin optional_name_9cf2bc19:
 
     # mc "{i}Mhmm... Which one of these porns?" nointeract
-    mc "{i}Mhmm... Which one of these porns?" nointeract
+    mc "{i}Mhmm... Quel porno ?" nointeract
 
 # game/labels/mc.rpy:66
 translate crowdin optional_name_571631ed:
 
     # mc "{i}Oh, YES! Oh, shit!"
-    mc "{i}Oh, YES! Oh, shit!"
+    mc "{i}Oh, OUAIS ! Oh, merde !"
 
 translate crowdin strings:
 
     # game/labels/mc.rpy:17
     old "Black on blonde"
-    new "Black on blonde"
+    new "Black et blonde"
 
     # game/labels/mc.rpy:17
     old "Milfing"
