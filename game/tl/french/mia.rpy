@@ -28,7 +28,7 @@ translate crowdin intro_mia_change_clothes_f8a952e7:
 translate crowdin intro_mia_change_clothes_239eb3df:
 
     # mc "{i}Fuck! Just in time. Better leave before she suspects something."
-    mc "{i}Fuck! Just in time. Better leave before she suspects something."
+    mc "{i}Fuck! Juste à temps. Better leave before she suspects something."
 
 # game/labels/mia.rpy:27
 translate crowdin intro_mia_change_clothes_471b0dc3:
