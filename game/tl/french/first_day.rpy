@@ -892,7 +892,7 @@ translate crowdin intro_victoria_47fa4aa1:
 translate crowdin intro_victoria_abba356b:
 
     # vct "Come on. I know. You were glued to me the whole time."
-    vct "Come on. I know. You were glued to me the whole time."
+    vct "Come on. Je sais. You were glued to me the whole time."
 
 # game/labels/first_day.rpy:505
 translate crowdin intro_victoria_16a1a6ba:
@@ -1072,7 +1072,7 @@ translate crowdin morning_intro_part3_1d27cc7f:
 translate crowdin morning_intro_part3_cf0fdd4c:
 
     # mc "Yeah... you too. Hi"
-    mc "Yeah... you too. Hi"
+    mc "Yeah... toi aussi. Hi"
 
 # game/labels/first_day.rpy:565
 translate crowdin morning_intro_part3_1dac07fa:
