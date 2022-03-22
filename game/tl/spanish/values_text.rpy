@@ -4,7 +4,7 @@ translate crowdin strings:
 
     # game/values_text.rpy:12
     old "[jn], my [jnR.NPClabel], is a former Navy Seals. As a boy he was a tough guy and a rebel, but military life changed him."
-    nuevo"[jn], mi [jnR.NPClabel], es un antiguo Seas de la Marina. As a boy he was a tough guy and a rebel, but military life changed him."
+    nuevo"[jn], mi [jnR.NPClabel], es un antiguo Seas de la Marina.[jnR.NPClabel]. As a boy he was a tough guy and a rebel, but military life changed him."
 
     # game/values_text.rpy:13
     old "[emy], my [emyR.NPClabel], is the classic housewife. She married [jn] when you find out you are pregnant with [vct]."
