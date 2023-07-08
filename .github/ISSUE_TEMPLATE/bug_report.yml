@@ -36,9 +36,3 @@ body:
         - v0.1.0
     validations:
       required: true
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Additional context**
-Add any other context about the problem here.
