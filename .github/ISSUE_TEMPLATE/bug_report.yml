@@ -44,7 +44,6 @@ body:
       options:
         - label: Yes I want to help
           required: false
-
   - type: textarea
     id: additional-description
     attributes:
