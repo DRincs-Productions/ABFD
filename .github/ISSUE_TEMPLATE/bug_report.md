@@ -14,15 +14,6 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
   - type: dropdown
     id: device
     attributes:
@@ -46,7 +37,6 @@ body:
         - v0.1.0
     validations:
       required: true
-
 ---
 
 **Screenshots**
