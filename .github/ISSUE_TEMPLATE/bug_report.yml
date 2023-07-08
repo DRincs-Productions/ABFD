@@ -13,24 +13,7 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: textarea
-    id: additional-description
-    attributes:
-      label: Additional Description
-      description: Add a description to help us understand
-      placeholder: Description
-    validations:
-      required: false
-  - type: textarea
-    id: screenshot
-    attributes:
-      label: "Screenshots"
-      description: If applicable, add screenshots to help explain your problem.
-      placeholder: ![DESCRIPTION](LINK.png)
-      render: bash
-    validations:
-      required: false
-  - type: dropdown
+        - type: dropdown
     id: device
     attributes:
       label: Device
@@ -53,3 +36,29 @@ body:
         - v0.1.0
     validations:
       required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Would you be of sposte to implement it yourself?
+      description: Support is very important to us. (Also consider your skills)
+      options:
+        - label: Yes I want to help
+          required: false
+
+  - type: textarea
+    id: additional-description
+    attributes:
+      label: Additional Description
+      description: Add a description to help us understand
+      placeholder: Description
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshots"
+      description: If applicable, add screenshots to help explain your problem.
+      placeholder: ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
