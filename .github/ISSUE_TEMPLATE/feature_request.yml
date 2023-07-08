@@ -23,5 +23,5 @@ body:
       label: Would you be of sposte to implement it yourself?
       description: Support is very important to us. (Also consider your skills)
       options:
-        - label: Also consider your skills
+        - label: Yes I want to help
           required: false
