@@ -13,7 +13,7 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-        - type: dropdown
+  - type: dropdown
     id: device
     attributes:
       label: Device
