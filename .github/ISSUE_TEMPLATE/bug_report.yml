@@ -1,8 +1,9 @@
-name: Bug report
+name: "Bug report"
 about: Create a report to help us improve
 title: "[Report]"
-labels: bug
-assignees: ''
+labels: [
+  "bug"
+]
 body:
   - type: textarea
     id: what-happened
