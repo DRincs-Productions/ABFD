@@ -22,3 +22,6 @@ body:
     attributes:
       label: Would you be of sposte to implement it yourself?
       description: Support is very important to us. (Also consider your skills)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: false
