@@ -4,21 +4,53 @@ about: Create a report to help us improve
 title: "[Report]"
 labels: bug
 assignees: ''
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      description: Which device were you using?
+      options:
+        - Windows
+        - Linux
+        - MacOS
+        - Android
+        - IOS
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - v0.1.1
+        - v0.1.0
+    validations:
+      required: true
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
-
-**Device (please complete the following information):**
- - OS: [Androi, iOS, Windows, Linux, Windows]
- - Version [e.g. 0.1.1]
 
 **Additional context**
 Add any other context about the problem here.
