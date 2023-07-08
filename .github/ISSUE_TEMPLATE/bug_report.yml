@@ -45,19 +45,19 @@ body:
         - label: Yes I want to help
           required: false
   - type: textarea
-    id: additional-description
-    attributes:
-      label: Additional Description
-      description: Add a description to help us understand
-      placeholder: Description
-    validations:
-      required: false
-  - type: textarea
     id: screenshot
     attributes:
       label: "Screenshots"
       description: If applicable, add screenshots to help explain your problem.
       placeholder: ![DESCRIPTION](LINK.png)
       render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: additional-description
+    attributes:
+      label: Additional Description
+      description: Add a description to help us understand
+      placeholder: Description
     validations:
       required: false
