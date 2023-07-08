@@ -14,6 +14,15 @@ body:
       value: "A bug happened!"
     validations:
       required: true
+  - type: textarea
+    id: additional-description
+    attributes:
+      label: Additional Description
+      description: Add a description to help us understand
+      placeholder: Description
+      value: "A bug happened!"
+    validations:
+      required: false
   - type: dropdown
     id: device
     attributes:
