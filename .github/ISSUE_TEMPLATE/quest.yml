@@ -8,7 +8,7 @@ body:
     attributes:
       label: Explanation and instructions
       description: If you link a public word file, it is better. Respect the legend below.
-      placeholder: [Word file](https://onedrive.live.com/#################)
+      placeholder: "[Word file](https://onedrive.live.com/#################)"
     validations:
       required: true
   - type: textarea
