@@ -24,7 +24,7 @@ body:
     attributes:
       label: Legend
       description: Change the recommended legend only in special cases
-      value:"| Text Color | Type  | Description | Requirements |
+      value: "| Text Color | Type  | Description | Requirements |
 | ------------- | ------------- | ------------- | ------------- |
 | ⚫Black 🖋️ | General  | Explanations of the events and acts that follow. |Divide the various acts by titles. Detailed explanations. Acts should be in chronological order and explain where there are ramifications.  |
 | 🟩Green 🖋️ | 3D Development | Explanation of images to be shown at that time| Number of images to be shown in that act  |
