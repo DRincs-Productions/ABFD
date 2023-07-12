@@ -1,0 +1,33 @@
+name: New Character
+description: Dedicated only for developers
+title: "[Character]"
+labels: ["daz assert"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the character you want to create. What does he look like? What is he or she like? Does he have any relatives or friends? 
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue Links Linked and Why
+      description: Why do you need it?
+    validations:
+      required: true
+  - type: textarea
+    id: inspired
+    attributes:
+      label: What to be inspired by
+      description: Famous characters or images to be inspired by
+    validations:
+      required: false
+  - type: textarea
+    id: assert
+    attributes:
+      label: Recommended assert daz links
+      description: You can find the asserts on [daz] or render-state
+    validations:
+      required: false
