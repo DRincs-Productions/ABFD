@@ -1,7 +1,7 @@
 name: New Character
 description: Dedicated only for developers
-title: "[Request]"
-labels: ["enhancement"]
+title: "[Character]"
+labels: ["daz assert"]
 body:
   - type: textarea
     id: description
