@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: 'Discussion'
+    url: https://github.com/DRincs-Productions/ABFD/discussions
+    about: 'For Discussion and Ask'
   - name: 'Writing or Translation'
     url: https://github.com/DRincs-Productions/ABFD-writing/issues/new/choose
     about: 'For issues relating to the Writing or Translation'
@@ -9,3 +12,6 @@ contact_links:
   - name: 'Discord'
     url: https://github.com/DRincs-Productions/drincs-discord-bot/issues/new/choose
     about: 'For issues relating to the Discord'
+  - name: 'Daz Assert Problem'
+    url: https://github.com/DRincs-Productions/daz-assert-ABFD-all-in-one/issues/new/choose
+    about: 'Dedicated only for 3D developers'
