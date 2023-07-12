@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 'Writing or Translation'
+    url: https://github.com/DRincs-Productions/ABFD-writing/issues/new/choose
+    about: 'For issues relating to the Writing or Translation'
+  - name: 'WebSite or Support'
+    url: https://github.com/DRincs-Productions/drincs-website/issues/new/choose
+    about: 'For issues relating to the WebSite or Support'
+  - name: 'Discord'
+    url: https://github.com/DRincs-Productions/drincs-discord-bot/issues/new/choose
+    about: 'For issues relating to the Discord'
