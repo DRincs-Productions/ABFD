@@ -1,7 +1,7 @@
 name: New Quest-Mission
 description: Suggest an Quest/mission for this project
 title: "[Draft]"
-labels: quest
+labels: ["quest", "3d-posing-scenes", "writing"]
 body:
   - type: textarea
     id: description
