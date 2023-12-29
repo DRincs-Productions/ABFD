@@ -1,0 +1,28 @@
+[submodule "pythonpackages/renpy_utility"]
+	path = pythonpackages/renpy_utility
+	url = https://github.com/DRincs-Productions/renpy-utility-lib
+	branch = python-lib
+[submodule "game/renpy_utility_tool"]
+	path = game/renpy_utility_tool
+	url = https://github.com/DRincs-Productions/renpy-utility-lib
+	branch = renpy-lib
+[submodule "game/screens_style"]
+	path = game/screens_style
+	url = https://github.com/DRincs-Productions/renpy-screens-style
+	branch = main
+[submodule "pythonpackages/nqtr"]
+	path = pythonpackages/nqtr
+	url = https://github.com/DRincs-Productions/NQTR-System
+	branch = python-lib
+[submodule "game/nqtr_tool"]
+	path = game/nqtr_tool
+	url = https://github.com/DRincs-Productions/NQTR-System
+	branch = renpy-lib
+[submodule "game/nqtr_screens"]
+	path = game/nqtr_screens
+	url = https://github.com/DRincs-Productions/NQTR-System
+	branch = screens
+[submodule "game/nqtr_interface"]
+	path = game/nqtr_interface
+	url = https://github.com/DRincs-Productions/NQTR-System
+	branch = interface-images
