@@ -26,3 +26,7 @@
 	path = game/nqtr_interface
 	url = https://github.com/DRincs-Productions/NQTR-System
 	branch = interface-images
+[submodule "game/images"]
+	path = game/images
+	url = https://github.com/DRincs-Productions/ABFD-renders
+	branch = 2160p
