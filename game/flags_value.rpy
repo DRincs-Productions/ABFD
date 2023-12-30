@@ -2,6 +2,12 @@
 define flag_keys = [
     # Block all spend_time
     "not_can_spend_time",
+    # which_contents_to_enable
+    "lesbian_sharing_content",
+    "lesbian_ntr_content",
+    "sharing_content",
+    "ntr_content",
+    # Olther flags
     "goout",
     "weekend",
 ]
