@@ -30,3 +30,15 @@
 	path = game/images
 	url = https://github.com/DRincs-Productions/ABFD-renders
 	branch = 2160p
+[submodule "pythonpackages/ds"]
+	path = pythonpackages/ds
+	url = https://github.com/DRincs-Productions/DS-toolkit
+	branch = python-lib
+[submodule "game/ds_tool"]
+	path = game/ds_tool
+	url = https://github.com/DRincs-Productions/DS-toolkit
+	branch = renpy-lib
+[submodule "game/ds_screens"]
+	path = game/ds_screens
+	url = https://github.com/DRincs-Productions/DS-toolkit
+	branch = screens
