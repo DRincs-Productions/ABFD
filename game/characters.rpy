@@ -20,3 +20,7 @@ init -1:
         info_screen = "mc_character_info",
         color = "#37b3f3", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
+    define beaver = Character(_("{b}Il Castoro{/b}"),
+        icon = None,
+        color = "#d7f337", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
+    )
