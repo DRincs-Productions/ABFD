@@ -93,7 +93,7 @@ init -1:
             arianna: "sister",
         },
     )
-    define mia = Character("{b}[ariannaI.name]{/b}",
+    define mia = Character("{b}[miaI.name]{/b}",
         icon = None,
         color = "#d600d0", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
