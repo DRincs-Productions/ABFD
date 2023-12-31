@@ -15,11 +15,11 @@ init -1:
     default mcI = CharacterInfo(
         name = "Liam", surname = "Johnson", age = 19, gender = GenderEnum.MALE,
         relationships = {
-            john: "dad",
-            emily: "mom",
-            victoria: "sister",
-            arianna: "sister",
-            mia: "sister",
+            john: "landlord",
+            emily: "landlord",
+            victoria: "housemate",
+            arianna: "housemate",
+            mia: "housemate",
         },
     )
     define mc = Character("{b}[mcI.name]{/b}",
@@ -30,11 +30,11 @@ init -1:
     default johnI = CharacterInfo(
         name = "John", surname = "Davis", age = 53, gender = GenderEnum.MALE,
         relationships = {
-            mc: "son",
+            mc: "tenant",
             emily: "wife",
-            victoria: "daughter",
-            arianna: "daughter",
-            mia: "daughter",
+            victoria: "tenant",
+            arianna: "tenant",
+            mia: "tenant",
         },
     )
     define john = Character("{b}[johnI.name]{/b}",
@@ -44,11 +44,11 @@ init -1:
     default emilyI = CharacterInfo(
         name = "Emily", surname = "Caruso", age = 49, gender = GenderEnum.FEMALE,
         relationships = {
-            mc: "son",
+            mc: "tenant",
             john: "husband",
-            victoria: "daughter",
-            arianna: "daughter",
-            mia: "daughter",
+            victoria: "tenant",
+            arianna: "tenant",
+            mia: "tenant",
         },
     )
     define emily = Character("{b}[emilyI.name]{/b}",
@@ -58,11 +58,11 @@ init -1:
     default victoriaI = CharacterInfo(
         name = "Victoria", surname = "[johnI.surname]", age = (mcI.age+4), gender = GenderEnum.FEMALE,
         relationships = {
-            mc: "brother",
-            john: "dad",
-            emily: "mom",
-            arianna: "sister",
-            mia: "sister",
+            mc: "housemate",
+            john: "landlord",
+            emily: "landlord",
+            arianna: "housemate",
+            mia: "housemate",
         },
     )
     define victoria = Character("{b}[victoriaI.name]{/b}",
@@ -72,11 +72,11 @@ init -1:
     default ariannaI = CharacterInfo(
         name = "Arianna", surname = "[johnI.surname]", age = (mcI.age), gender = GenderEnum.FEMALE,
         relationships = {
-            mc: "brother",
-            john: "dad",
-            emily: "mom",
-            victoria: "sister",
-            mia: "sister",
+            mc: "housemate",
+            john: "landlord",
+            emily: "landlord",
+            victoria: "housemate",
+            mia: "housemate",
         },
     )
     define arianna = Character("{b}[ariannaI.name]{/b}",
@@ -86,11 +86,11 @@ init -1:
     default miaI = CharacterInfo(
         name = "Mia", surname = "[johnI.surname]", age = (mcI.age-1), gender = GenderEnum.FEMALE,
         relationships = {
-            mc: "brother",
-            john: "dad",
-            emily: "mom",
-            victoria: "sister",
-            arianna: "sister",
+            mc: "housemate",
+            john: "landlord",
+            emily: "landlord",
+            victoria: "housemate",
+            arianna: "housemate",
         },
     )
     define mia = Character("{b}[miaI.name]{/b}",
