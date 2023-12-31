@@ -19,6 +19,7 @@ init -1:
             emily: "mom",
             victoria: "sister",
             arianna: "sister",
+            mia: "sister",
         },
     )
     define mc = Character("{b}[mcI.name]{/b}",
@@ -33,6 +34,7 @@ init -1:
             emily: "wife",
             victoria: "daughter",
             arianna: "daughter",
+            mia: "daughter",
         },
     )
     define john = Character("{b}[johnI.name]{/b}",
@@ -46,6 +48,7 @@ init -1:
             john: "husband",
             victoria: "daughter",
             arianna: "daughter",
+            mia: "daughter",
         },
     )
     define emily = Character("{b}[emilyI.name]{/b}",
@@ -59,6 +62,7 @@ init -1:
             john: "dad",
             emily: "mom",
             arianna: "sister",
+            mia: "sister",
         },
     )
     define victoria = Character("{b}[victoriaI.name]{/b}",
@@ -72,11 +76,26 @@ init -1:
             john: "dad",
             emily: "mom",
             victoria: "sister",
+            mia: "sister",
         },
     )
     define arianna = Character("{b}[ariannaI.name]{/b}",
         icon = None,
         color = "#a800a3", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
+    )
+    default miaI = CharacterInfo(
+        name = "Mia", surname = "[johnI.surname]", age = (mcI.age-1), gender = GenderEnum.FEMALE,
+        relationships = {
+            mc: "brother",
+            john: "dad",
+            emily: "mom",
+            victoria: "sister",
+            arianna: "sister",
+        },
+    )
+    define mia = Character("{b}[ariannaI.name]{/b}",
+        icon = None,
+        color = "#d600d0", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
     # Cops and thugs
     define beaver = Character(_("{b}Il Castoro{/b}"),
