@@ -12,17 +12,18 @@ define relactions = {
     "boyfriend": __("Fidanzato"),
     "wife": __("Moglie"),
     "husband": __("Marito"),
-    "landlord": __("Locatore"),
 }
 define relactions_male = {
     "cousin": __("Cugino"),
     "friend": __("Amico"),
     "housemate": __("Coinquilino"),
     "tenant": __("Inquilino"),
+    "landlord": __("Locatore"),
 }
 define relactions_female = {
     "cousin": __("Cugina"),
     "friend": __("Amica"),
     "housemate": __("Coinquilina"),
     "tenant": __("Inquilina"),
+    "landlord": __("Locatrice"),
 }
