@@ -15,11 +15,11 @@ init -1:
         name = "Liam", surname = "Johnson", age = 19, gender = GenderEnum.MALE,
         relationships = {
             john: "dad",
+            emily: "mom",
         },
     )
     define mc = Character("{b}[mcI.name]{/b}",
         icon = None,
-        info_screen = "mc_character_info",
         color = "#37b3f3", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
     define beaver = Character(_("{b}Il Castoro{/b}"),
@@ -30,10 +30,21 @@ init -1:
         name = "John", surname = "Davis", age = 53, gender = GenderEnum.MALE,
         relationships = {
             mc: "son",
+            emily: "wife",
         },
     )
     define john = Character("{b}[johnI.name]{/b}",
         icon = None,
-        info_screen = "mc_character_info",
         color = "#0058ff", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
+    )
+    default emilyI = CharacterInfo(
+        name = "Emily", surname = "Caruso", age = 49, gender = GenderEnum.FEMALE,
+        relationships = {
+            mc: "son",
+            john: "husband",
+        },
+    )
+    define emily = Character("{b}[emilyI.name]{/b}",
+        icon = None,
+        color = "#8a0086", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
