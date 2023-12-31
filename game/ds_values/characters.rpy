@@ -8,7 +8,7 @@ init -10 python:
 init -1:
     # https://drincs-website.web.app/wiki?route=Characters
     # Special
-    define dv = Character(_("{b}Developer{/b}"),
+    define dv = Character(_("{b}Professor Oak{/b}"),
         color = "#f3a837", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
     # Family
