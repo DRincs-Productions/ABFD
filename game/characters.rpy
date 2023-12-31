@@ -16,6 +16,7 @@ init -1:
         relationships = {
             john: "dad",
             emily: "mom",
+            victoria: "sister",
         },
     )
     define mc = Character("{b}[mcI.name]{/b}",
@@ -31,6 +32,7 @@ init -1:
         relationships = {
             mc: "son",
             emily: "wife",
+            victoria: "daughter",
         },
     )
     define john = Character("{b}[johnI.name]{/b}",
@@ -42,9 +44,22 @@ init -1:
         relationships = {
             mc: "son",
             john: "husband",
+            victoria: "daughter",
         },
     )
     define emily = Character("{b}[emilyI.name]{/b}",
         icon = None,
         color = "#8a0086", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
+    )
+    default victoriaI = CharacterInfo(
+        name = "Victoria", surname = "[johnI.surname]", age = (mcI.age+4), gender = GenderEnum.FEMALE,
+        relationships = {
+            mc: "brother",
+            john: "dad",
+            emily: "mom",
+        },
+    )
+    define victoria = Character("{b}[victoriaI.name]{/b}",
+        icon = None,
+        color = "#a800a3", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
