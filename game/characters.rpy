@@ -6,17 +6,19 @@ init -10 python:
     from pythonpackages.ds.character_type import GenderEnum
 
 init -1:
+    # https://drincs-website.web.app/wiki?route=Characters
     # Special
     define dv = Character(_("{b}Developer{/b}"),
         color = "#f3a837", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
-    # Main
+    # Family
     default mcI = CharacterInfo(
         name = "Liam", surname = "Johnson", age = 19, gender = GenderEnum.MALE,
         relationships = {
             john: "dad",
             emily: "mom",
             victoria: "sister",
+            arianna: "sister",
         },
     )
     define mc = Character("{b}[mcI.name]{/b}",
@@ -33,6 +35,7 @@ init -1:
             mc: "son",
             emily: "wife",
             victoria: "daughter",
+            arianna: "daughter",
         },
     )
     define john = Character("{b}[johnI.name]{/b}",
@@ -45,6 +48,7 @@ init -1:
             mc: "son",
             john: "husband",
             victoria: "daughter",
+            arianna: "daughter",
         },
     )
     define emily = Character("{b}[emilyI.name]{/b}",
@@ -57,9 +61,23 @@ init -1:
             mc: "brother",
             john: "dad",
             emily: "mom",
+            arianna: "sister",
         },
     )
     define victoria = Character("{b}[victoriaI.name]{/b}",
+        icon = None,
+        color = "#8000d0", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
+    )
+    default ariannaI = CharacterInfo(
+        name = "Arianna", surname = "[johnI.surname]", age = (mcI.age), gender = GenderEnum.FEMALE,
+        relationships = {
+            mc: "brother",
+            john: "dad",
+            emily: "mom",
+            victoria: "sister",
+        },
+    )
+    define arianna = Character("{b}[ariannaI.name]{/b}",
         icon = None,
         color = "#a800a3", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
