@@ -13,7 +13,9 @@ init -1:
     # Main
     default mcI = CharacterInfo(
         name = "Liam", surname = "Johnson", age = 19, gender = GenderEnum.MALE,
-        other_values = {},
+        relationships = {
+            john: "dad",
+        },
     )
     define mc = Character("{b}[mcI.name]{/b}",
         icon = None,
@@ -23,4 +25,15 @@ init -1:
     define beaver = Character(_("{b}Il Castoro{/b}"),
         icon = None,
         color = "#d7f337", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
+    )
+    default johnI = CharacterInfo(
+        name = "John", surname = "Davis", age = 53, gender = GenderEnum.MALE,
+        relationships = {
+            mc: "son",
+        },
+    )
+    define john = Character("{b}[johnI.name]{/b}",
+        icon = None,
+        info_screen = "mc_character_info",
+        color = "#0058ff", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
