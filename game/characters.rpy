@@ -25,10 +25,7 @@ init -1:
         icon = None,
         color = "#37b3f3", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
-    define beaver = Character(_("{b}Il Castoro{/b}"),
-        icon = None,
-        color = "#d7f337", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
-    )
+    # Housemates
     default johnI = CharacterInfo(
         name = "John", surname = "Davis", age = 53, gender = GenderEnum.MALE,
         relationships = {
@@ -80,4 +77,9 @@ init -1:
     define arianna = Character("{b}[ariannaI.name]{/b}",
         icon = None,
         color = "#a800a3", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
+    )
+    # Cops and thugs
+    define beaver = Character(_("{b}Il Castoro{/b}"),
+        icon = None,
+        color = "#d7f337", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
