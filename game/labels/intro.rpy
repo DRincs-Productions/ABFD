@@ -61,9 +61,9 @@ label live_with:
                 mcI.relationships = {
                     john: "landlord",
                     emily: "landlord",
-                    victoria: "tenant",
-                    arianna: "tenant",
-                    mia: "tenant",
+                    victoria: "housemate",
+                    arianna: "housemate",
+                    mia: "housemate",
                 }
                 johnI.relationships = {
                     mc: "tenant",
@@ -80,25 +80,25 @@ label live_with:
                     mia: "tenant",
                 }
                 victoriaI.relationships = {
-                    mc: "tenant",
+                    mc: "housemate",
                     john: "landlord",
                     emily: "landlord",
-                    arianna: "tenant",
-                    mia: "tenant",
+                    arianna: "housemate",
+                    mia: "housemate",
                 }
                 ariannaI.relationships = {
-                    mc: "tenant",
+                    mc: "housemate",
                     john: "landlord",
                     emily: "landlord",
-                    victoria: "tenant",
-                    mia: "tenant",
+                    victoria: "housemate",
+                    mia: "housemate",
                 }
                 miaI.relationships = {
-                    mc: "tenant",
+                    mc: "housemate",
                     john: "landlord",
                     emily: "landlord",
-                    victoria: "tenant",
-                    arianna: "tenant",
+                    victoria: "housemate",
+                    arianna: "housemate",
                 }
         "( Personalizzata )":
             call customize_mc_family
@@ -110,23 +110,23 @@ label customize_mc_family:
     "Il nome di lei è:"
     $ emilyI.changeName()
     "[emily] è mia:"
-    $ mcI.setRelationNameByCharacter(character = emily, relation_key = "mom", relaction_types = relactions | relactions_female)
+    $ mcI.setRelationNameByCharacter(character = emily, relation_key = "landlord", relaction_types = relactions | relactions_female)
     "Io sono il suo:"
-    $ emilyI.setRelationNameByCharacter(character = mc, relation_key = "son", relaction_types = relactions | relactions_male)
+    $ emilyI.setRelationNameByCharacter(character = mc, relation_key = "tenant", relaction_types = relactions | relactions_male)
     show screen arrow((0.05, 0.15), 0)
     "Il nome di lui è:"
     $ johnI.changeName()
     "[john] è mio:"
-    $ mcI.setRelationNameByCharacter(character = john, relation_key = "dad", relaction_types = relactions | relactions_male)
+    $ mcI.setRelationNameByCharacter(character = john, relation_key = "landlord", relaction_types = relactions | relactions_male)
     "Io sono il suo:"
-    $ johnI.setRelationNameByCharacter(character = mc, relation_key = "son", relaction_types = relactions | relactions_male)
+    $ johnI.setRelationNameByCharacter(character = mc, relation_key = "tenant", relaction_types = relactions | relactions_male)
     show screen arrow((0.38, 0.32), 180)
     "Il nome di lei è:"
     $ miaI.changeName()
     "[mia] è mia:"
-    $ mcI.setRelationNameByCharacter(character = mia, relation_key = "sister", relaction_types = relactions | relactions_female)
+    $ mcI.setRelationNameByCharacter(character = mia, relation_key = "housemate", relaction_types = relactions | relactions_female)
     "Io sono il suo:"
-    $ miaI.setRelationNameByCharacter(character = mc, relation_key = "brother", relaction_types = relactions | relactions_male)
+    $ miaI.setRelationNameByCharacter(character = mc, relation_key = "housemate", relaction_types = relactions | relactions_male)
 
     $ mia_is_for_mc = mcI.getRelationKeyByCharacter(mia)
     $ mc_is_for_mia = miaI.getRelationKeyByCharacter(mc)
@@ -149,7 +149,7 @@ label customize_mc_family:
     hide arrow
 
     "Per [emily], [john] chi è [victoria] (la stessa cosa per [arianna] e [mia])?"
-    $ emilyI.setRelationNameByCharacter(character = mc, relation_key = "daughter", relaction_types = relactions | relactions_female)
+    $ emilyI.setRelationNameByCharacter(character = mc, relation_key = "tenant", relaction_types = relactions | relactions_female)
     python:
         victoria_is_for_emily = emilyI.getRelationKeyByCharacter(victoria)
         emilyI.relationships = {
@@ -164,7 +164,7 @@ label customize_mc_family:
         }
 
     "Per [victoria], [arianna] e [mia] chi è [emily]?"
-    $ emilyI.setRelationNameByCharacter(character = victoria, relation_key = "mom", relaction_types = relactions | relactions_female)
+    $ emilyI.setRelationNameByCharacter(character = victoria, relation_key = "landlord", relaction_types = relactions | relactions_female)
     python:
         emily_is_for_victoria = victoriaI.getRelationKeyByCharacter(emily)
         victoriaI.relationships = {
@@ -178,7 +178,7 @@ label customize_mc_family:
         }
     
     "Per [victoria], [arianna] e [mia] chi è [john]?"
-    $ johnI.setRelationNameByCharacter(character = victoria, relation_key = "dad", relaction_types = relactions | relactions_male)
+    $ johnI.setRelationNameByCharacter(character = victoria, relation_key = "landlord", relaction_types = relactions | relactions_male)
     python:
         john_is_for_victoria = victoriaI.getRelationKeyByCharacter(john)
         victoriaI.relationships = {
