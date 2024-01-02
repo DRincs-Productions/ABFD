@@ -11,6 +11,7 @@ label start:
     dv "Ehi giocatore."
     dv "Non mi piace!"
     dv "Forse dovrei darti un nome..."
+    show profiles mc cartoon with dissolve
     call renaming_mc(mcI)
     dv "Benvenuto in [config.name]"
     dv "Ma prima di iniziare..."
@@ -23,7 +24,6 @@ label start:
         dv "Sembri troppo giovane per giocare a questo gioco."
         dv "Torna quando sarai maggiorenne."
         return
-    show profiles mc cartoon with dissolve
     call screen which_contents_to_enable
     pause
     show profiles mc with dissolve
