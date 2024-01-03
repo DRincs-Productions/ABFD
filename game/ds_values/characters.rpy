@@ -6,6 +6,8 @@ init -10 python:
     from pythonpackages.ds.character_type import GenderEnum
 
 init -1:
+    define mister_text = _("Mr.")
+    define missus_text = _("Mrs.")
     # https://drincs-website.web.app/wiki?route=Characters
     # Special
     define dv = Character(_("{b}Professor Oak{/b}"),
@@ -97,6 +99,42 @@ init -1:
         icon = None,
         color = "#d600d0", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
+    # Family Friends
+    default erikI = CharacterInfo(
+        name = "Erik", surname = "Johnson", age = (mcI.age), gender = GenderEnum.MALE,
+        relationships = {
+            tammy : "mom",
+            natalia : "sister",
+        },
+    )
+    define erik = Character("{b}[erikI.name]{/b}",
+        icon = None,
+        color = "#00d62e", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
+    )
+    define erik_dad = mister_text + " " + erikI.surname
+    default tammyI = CharacterInfo(
+        name = "Tammy", surname = "Bouvier", age = 51, gender = GenderEnum.FEMALE,
+        relationships = {
+            erik : "son",
+            natalia : "daughter",
+        },
+    )
+    define tammy = Character("{b}[tammyI.name]{/b}",
+        icon = None,
+        color = "#ad2727", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
+    )
+    default nataliaI = CharacterInfo(
+        name = "Natalia", surname = "[erikI.surname]", age = (erikI.Age+2), gender = GenderEnum.FEMALE,
+        relationships = {
+            erik : "brother",
+            tammy : "mom",
+        },
+    )
+    define natalia = Character("{b}[tammyI.name]{/b}",
+        icon = None,
+        color = "#b84776", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
+    )
+
     # Cops and thugs
     define beaver = Character(_("{b}Il Castoro{/b}"),
         icon = None,
