@@ -4,7 +4,7 @@
     mc "Non ho ne una {b}fidanzata{/b}, ne {b}soldi per pagare l'universita{/b} o piani concreti per il futuro e la mia situazione scolastica è pessima, ma ho tempo per rimediare."
     mc "Tutto normale... A parte il fatto che ogni tanto parlo con [beaver], una sorta di demone socratico o Grillo Parlante nelle vesti di un grasso {b}castoro{/b} con problemi di dipendenze che mi aiuta a prendere decisioni."
     show profiles family john
-    mc "Abito in una {b}casa{/b} enorme con anche la piscina e mi sto trovando bene con la mia {b}famiglia{/b}."
+    mc "Abito in una casa in collina enorme con anche la piscina, la citta è piena di {b}ragazze{/b} e {b}donne{/b} bellissime, e mi sto trovando bene con la mia {b}famiglia{/b}."
     mc "Ad essere onesto, la mia vera famiglia è morta in un incidente aereo. Per questo mi sono trasferito qui, per iniziare una nuova vita."
     call live_with
     call presentations
@@ -232,4 +232,88 @@ label presentations:
             call renaming_friend
             hide profile
             jump prologue
+    return
+
+label presentations_montell:
+    show bg animated residential
+    call travel_tammy_bff
+    mc_think "Ora sto tornando a casa, dopo aver passato la notte a casa dei [tammyI.surname]. Li conosco da quando sono piccolo, quando abitavo nella mia vecchia città."
+    mc_think "A fianco a me c'è [erik] e lei è [tammy], sua mamma."
+    mc_think "Si sono trasferiti qui da poco, per lo stesso mio motivo, cioè iniziare una nuova vita dopo la morte del marito cioè il padre di [erik], [erik_dad]."
+    mc_think "Anche lui era un giornalista come mio padre, ma è morto nello stesso incidente aereo."
+
+    tammy "Ehi, [mc]! [bff]! Siete svegli?! Qualcosa non va? Siete così silenziosi."
+    erick "Tutto bene. È che ieri abbiamo giocato a [card_game] fino a tardi."
+    tammy "Ahahah, non siete abbastanza grandi per giocare a carte?"
+    mc "[card_game] non è solo un gioco di carte..."
+    erik "È un modo composto da 5 colori in cui maghi, soldati, orchi... si scontrano per la supremazia."
+    erik "Ed io ho sopraffatto [mc] con la mia magia."
+    mc "È stato solo fortuna."
+    erik "shhh... questo è talento, devi allenarti per raggiungere il mio livello."
+    erik "Esiste un videogioco per PC, puoi allenarti con quello."
+    tammy "Ehh, [erik] passa ore e ore davanti a uno stupido schermo... o a giocare... o a segarsi davanti a strani cartoni giapponesi."
+    mc "..."
+
+    erik "Mamma! Non puoi dire queste cose!"
+    tammy "Non essere anarchico, [erik]. Non c'è niente di male parlare di queste cose. Ora non è più un tabù."
+    tammy "Comunque, non preoccuparti è una cosa naturale per un ragazzo della tua età."
+    tammy "Vorrei solo che uscissi di più, non è sano stare chiusi in casa tutto il giorno."
+    mc "Non ti preoccupare [tammy]. Usciremo in sieme e ci faremo degli amici. E magari [erik] si farà una ragazza..."
+    tammy "Ahahah, [mc]! Mi faresti un gran regalo."
+    mc "Allora è deciso, ora dovrò trovare una ragazza anche per [erik]. Cosi poi se trovo anche io una ragazza, potremo uscire tutti insieme."
+    tammy "Guarda che ti stai prendendo un impegno?! Non me lo dimenticherò. Se solo riuscissi ti potrei dare anche un regalo..."
+    mc_think "..."
+    tammy "Ti potrei offrire una cena o regalare delle carte per giocare a [card_game]."
+    mc "Ok, allora me lo segno negli appunti di cose da fare."
+    dv "... Dimenticavo... Durante il gioco prenderai degli impegni con i personaggi che incontri. Questi impegni ti permetteranno di ottenere contenuti"
+    # Todo: mostrare le immagini della Quest
+    dv "Dovrai decidere in che modo portare a termine gli impegni, potrai anche ignorare alcuni di essi o terminare questi impegni in modo negativo. Ma non preoccuparti, sarai ben informato da [beaver] sulle conseguenze delle tue azioni."
+    dv "Potrai vedere gli impegni presi negli appunti."
+    dv "Questo è l'elenco degli impegni che hai preso. Qui troverai anche le informazioni su come portare a termine gli impegni."
+    dv "Ogni impegno è diviso in fasi, per portare a termine un impegno dovrai completare tutte le fasi."
+    dv "Alcuni impegni o fasi richiedono delle statistiche, il raggiungimento di alcune relazioni o il completamento di altri fasi/impegni."
+
+    tammy "[erik]?! Non dici nulla?!"
+    erik "No, no... Continuate pure a parlare della mia vita privata... Senza rendermi partecipe..."
+    mc "Dai, stavamo solo prendendoti in giro. Non ti arrabbiare."
+    mc "E neanch'io non ho avuto stringere grandi amicizie qui, ne farmi una ragazza."
+    erik "Mmm... Ci servirebbe qualcosa da avere in comune oltre la scuola."
+    mc "Esatto! ... Vediamo... A scuola stanno cercando di formare una squadra di basket! Potremmo inscriverci!"
+    erik "Buona idea! Solo che... Io  non sono molto bravo a giocare a basket."
+    mc "Uhm... So che è parecchio tempo che stanno cercando di formare la squadra, se non raggiungono un numero minimo di giocatori, non potrai partecipare al campionato."
+    mc "Secondo me non preoccuparci molto."
+    erik "Ok, allora ci proviamo."
+    mc "E poi, si sa che le ragazze impazziscono per i giocatori di basket."
+    erik "Ahahah, è vero! Se ci impegniamo diventeranno dei fighi con dei fisici da paura."
+    tammy "I giocatori di basket sono gli sportivi più sexy... alti, snelli e con braccia muscolose."
+    tammy_think "Con ogni parte del corpo slanciata... anche sotto... che bei ricordi..."
+
+    tammy "[mc]..."
+    mc "Si?"
+    tammy "Hai fatto vedere la pagella del primo quadrimestre a [emy]?"
+    mc "No, ancora no... Glie la darò il prima possibile."
+    tammy "... [mc]... Se non gliela dai, gliela darò io quando la vedrò."
+    tammy "È meglio che gliela dai tu, altrimenti non so come reagirà."
+    mc "Ok, ok... Gliela darò sta sera."
+    erik "[mc], dobbiamo fare in modo che i nostri voti siano alti, altrimenti il college ci chiuderà la porta in faccia."
+    mc "Già, hai ragione. Dobbiamo impegnarci di più."
+    mc_think "Non ho proprio voglia di studiare, ma se non lo faccio, non potrò andare al college."
+    mc_think "E poi, devo trovare un modo per per pagare le tasse universitarie. Non voglio che [emily] e [john] si facciano carico di queste spese."
+
+    tammy "Bene [mc], sei arrivato."
+    tammy "Un momento, [mc]."
+    tammy "Ricordo quando eri piccolo e venivi a giocare con [erik]."
+    tammy "Poi restavi a cena e rimanevi a dormire. A volte d'estate rimanevi anche per una settimana."
+    mc "Si, mi ricordo. Mia mamma cercava di farmi tornare a casa, per non darti troppo disturbo, ma non riusci a convincermi."
+    mc "Alla fine lei ti portava la sua torta speciale e alla fine ci invitavi a cena."
+    erik "Ahahah, si ricordo anche io. Era una torta al cioccolato con la panna."
+    tammy "Già! Quello che ti volevo dire è che se vuoi rimanere a cena da noi o a dormire, non c'è problema. Fai come se fossi a casa tua."
+    mc "Grazie [tammy]. Verrò a trovarti spesso."
+    
+    dv "Bene questo è il momento giusto per dirtelo. Quando [mc] ha un buon rapporto con tutti i membri di una famiglia, il capo famigliare potrebbe dirti che d'ora in poi farai parte della famiglia."
+    dv "Questo significa che potrai rimanere a cena o a dormire a casa loro quando vuoi, proprio come se fosse una famiglia."
+
+    tammy "Bene, ti ho trattenuo abbastanza. Vai pure a casa."
+    mc "Ok, grazie per tutto. A presto."
+    erik "Ciao [mc], ci vediamo a scuola."
     return
