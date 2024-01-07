@@ -28,6 +28,10 @@ init -1:
         icon = None,
         color = "#37b3f3", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
+    define mc_think = Character("{b}[mcI.name]{/b}",
+        icon = None,
+        color = "#37b3f3", who_outlines = [(2,"#000000")], what_prefix = "( {i}", what_suffix = "{/i} )", what_outlines = [(2,"#000000")]
+    )
     # Housemates
     default johnI = CharacterInfo(
         name = "John", surname = "Davis", age = 53, gender = GenderEnum.MALE,
@@ -111,7 +115,7 @@ init -1:
         icon = None,
         color = "#00d62e", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
-    define erik_dad = mister_text + " " + erikI.surname
+    define erik_dad = mister_text + " Johnson"
     default tammyI = CharacterInfo(
         name = "Tammy", surname = "Bouvier", age = 51, gender = GenderEnum.FEMALE,
         relationships = {
@@ -123,8 +127,12 @@ init -1:
         icon = None,
         color = "#ad2727", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
+    define tammy = Character("{b}[tammyI.name]{/b}",
+        icon = None,
+        color = "#ad2727", who_outlines = [(2,"#000000")], what_prefix = "( {i}", what_suffix = "{/i} )", what_outlines = [(2,"#000000")]
+    )
     default nataliaI = CharacterInfo(
-        name = "Natalia", surname = "[erikI.surname]", age = (erikI.age+2), gender = GenderEnum.FEMALE,
+        name = "Natalia", surname = "Johnson", age = (erikI.age+2), gender = GenderEnum.FEMALE,
         relationships = {
             erik : "brother",
             tammy : "mom",

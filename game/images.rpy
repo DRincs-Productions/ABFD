@@ -29,23 +29,6 @@ image car_travel A01B = "car_travel/A01B.webp"
 image car_travel A02 = "car_travel/A02.webp"
 
 image car_travel A00A animation:
-    "car_travel A00A0A"
-    pause 2.0
-    "car_travel A00A0B" with Dissolve(1.0, alpha=True)
-    pause 2.0
-    "car_travel A00A0A" with Dissolve(1.0, alpha=True)
-    pause 2.0
-    "car_travel A00A0B" with Dissolve(1.0, alpha=True)
-    pause 2.0
-    "car_travel A00A0A" with Dissolve(1.0, alpha=True)
-    pause 2.0
-    "car_travel A00A0B" with Dissolve(1.0, alpha=True)
-    pause 2.0
-    "car_travel A00A0A" with Dissolve(1.0, alpha=True)
-    pause 2.0
-    "car_travel A00A0B" with Dissolve(1.0, alpha=True)
-    pause 2.0
-
     "car_travel A00A1A"
     pause 2.0
     "car_travel A00A1B" with Dissolve(1.0, alpha=True)
@@ -95,5 +78,22 @@ image car_travel A00A animation:
     "car_travel A00A3A" with Dissolve(1.0, alpha=True)
     pause 2.0
     "car_travel A00A3B" with Dissolve(1.0, alpha=True)
+    pause 2.0
+
+    "car_travel A00A0A"
+    pause 2.0
+    "car_travel A00A0B" with Dissolve(1.0, alpha=True)
+    pause 2.0
+    "car_travel A00A0A" with Dissolve(1.0, alpha=True)
+    pause 2.0
+    "car_travel A00A0B" with Dissolve(1.0, alpha=True)
+    pause 2.0
+    "car_travel A00A0A" with Dissolve(1.0, alpha=True)
+    pause 2.0
+    "car_travel A00A0B" with Dissolve(1.0, alpha=True)
+    pause 2.0
+    "car_travel A00A0A" with Dissolve(1.0, alpha=True)
+    pause 2.0
+    "car_travel A00A0B" with Dissolve(1.0, alpha=True)
     pause 2.0
     repeat
