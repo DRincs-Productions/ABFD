@@ -124,7 +124,7 @@ init -1:
         color = "#ad2727", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
     default nataliaI = CharacterInfo(
-        name = "Natalia", surname = "[erikI.surname]", age = (erikI.Age+2), gender = GenderEnum.FEMALE,
+        name = "Natalia", surname = "[erikI.surname]", age = (erikI.age+2), gender = GenderEnum.FEMALE,
         relationships = {
             erik : "brother",
             tammy : "mom",
