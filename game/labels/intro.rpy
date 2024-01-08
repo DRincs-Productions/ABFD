@@ -8,6 +8,7 @@
     mc "Ad essere onesto, la mia vera famiglia è morta in un incidente aereo. Per questo mi sono trasferito qui, per iniziare una nuova vita."
     call live_with
     call presentations
+    call prologue
     return
 
 label live_with:
@@ -226,36 +227,60 @@ label presentations:
             $ del emily_for_mia
             jump presentations
         "Continua con l'introduzione":
-            hide profile
-            jump presentations_montell
+            hide profiles
+            call presentations_montell
         "Skip":
-            call renaming_friend
-            hide profile
-            jump prologue
+            hide profiles
     return
 
 label presentations_montell:
-    show bg animated residential
-    call travel_tammy_bff
+    show car_travel A00A animation
     mc_think "Ora sto tornando a casa, dopo aver passato la notte a casa dei [tammyI.surname]. Li conosco da quando sono piccolo, quando abitavo nella mia vecchia città."
     mc_think "A fianco a me c'è [erik] e lei è [tammy], sua mamma."
     mc_think "Si sono trasferiti qui da poco, per lo stesso mio motivo, cioè iniziare una nuova vita dopo la morte del marito cioè il padre di [erik], [erik_dad]."
     mc_think "Anche lui era un giornalista come mio padre, ma è morto nello stesso incidente aereo."
 
-    tammy "Ehi, [mc]! [bff]! Siete svegli?! Qualcosa non va? Siete così silenziosi."
-    erick "Tutto bene. È che ieri abbiamo giocato a [card_game] fino a tardi."
+    window hide
+    show screen line_info(
+        "a",
+        "DRincs",
+        _("productions"),
+        (0.99, 0.7)
+    ) with dissolve
+    pause
+
+    tammy "Ehi, [mc]! [erik]! Siete svegli?! Qualcosa non va? Siete così silenziosi."
+    window hide
+    hide screen line_info with dissolve
+    erik "Tutto bene. È che ieri abbiamo giocato a [card_game] fino a tardi."
     tammy "Ahahah, non siete abbastanza grandi per giocare a carte?"
     mc "[card_game] non è solo un gioco di carte..."
     erik "È un modo composto da 5 colori in cui maghi, soldati, orchi... si scontrano per la supremazia."
     erik "Ed io ho sopraffatto [mc] con la mia magia."
     mc "È stato solo fortuna."
-    erik "shhh... questo è talento, devi allenarti per raggiungere il mio livello."
+    erik "Shhh... Questo è talento, devi allenarti per raggiungere il mio livello."
     erik "Esiste un videogioco per PC, puoi allenarti con quello."
     tammy "Ehh, [erik] passa ore e ore davanti a uno stupido schermo... o a giocare... o a segarsi davanti a strani cartoni giapponesi."
-    mc "..."
-
+    mc_think "..."
     erik "Mamma! Non puoi dire queste cose!"
     tammy "Non essere anarchico, [erik]. Non c'è niente di male parlare di queste cose. Ora non è più un tabù."
+
+    window hide
+    show screen thanks(
+        _("Un gioco nato per divertimento"),
+        (0.2, 0.3)
+    ) with dissolve
+    pause
+    window hide
+    show screen thanks(
+        _("Uno sfogo artistico/sessuale"),
+        (0.4, 0.38)
+    ) with dissolve
+    pause
+    window hide
+    hide screen thanks with dissolve
+    pause
+
     tammy "Comunque, non preoccuparti è una cosa naturale per un ragazzo della tua età."
     tammy "Vorrei solo che uscissi di più, non è sano stare chiusi in casa tutto il giorno."
     mc "Non ti preoccupare [tammy]. Usciremo in sieme e ci faremo degli amici. E magari [erik] si farà una ragazza..."
@@ -266,14 +291,24 @@ label presentations_montell:
     tammy "Ti potrei offrire una cena o regalare delle carte per giocare a [card_game]."
     mc "Ok, allora me lo segno negli appunti di cose da fare."
     dv "... Dimenticavo... Durante il gioco prenderai degli impegni con i personaggi che incontri. Questi impegni ti permetteranno di ottenere contenuti"
-    # Todo: mostrare le immagini della Quest
+    # TODO: mostrare le immagini della Quest
     dv "Dovrai decidere in che modo portare a termine gli impegni, potrai anche ignorare alcuni di essi o terminare questi impegni in modo negativo. Ma non preoccuparti, sarai ben informato da [beaver] sulle conseguenze delle tue azioni."
     dv "Potrai vedere gli impegni presi negli appunti."
     dv "Questo è l'elenco degli impegni che hai preso. Qui troverai anche le informazioni su come portare a termine gli impegni."
     dv "Ogni impegno è diviso in fasi, per portare a termine un impegno dovrai completare tutte le fasi."
     dv "Alcuni impegni o fasi richiedono delle statistiche, il raggiungimento di alcune relazioni o il completamento di altri fasi/impegni."
 
+    window hide
+    show screen thanks_double_line(
+        _("Non avrei mai iniziato senza l'aiuto di"),
+        _("f95zone"),
+        (0.7, 0.6)
+    ) with dissolve
+    pause
+
     tammy "[erik]?! Non dici nulla?!"
+    window hide
+    hide screen thanks_double_line with dissolve
     erik "No, no... Continuate pure a parlare della mia vita privata... Senza rendermi partecipe..."
     mc "Dai, stavamo solo prendendoti in giro. Non ti arrabbiare."
     mc "E neanch'io non ho avuto stringere grandi amicizie qui, ne farmi una ragazza."
@@ -288,9 +323,12 @@ label presentations_montell:
     tammy "I giocatori di basket sono gli sportivi più sexy... alti, snelli e con braccia muscolose."
     tammy_think "Con ogni parte del corpo slanciata... anche sotto... che bei ricordi..."
 
+    window hide
+    pause
+
     tammy "[mc]..."
     mc "Si?"
-    tammy "Hai fatto vedere la pagella del primo quadrimestre a [emy]?"
+    tammy "Hai fatto vedere la pagella del primo quadrimestre a [emily]?"
     mc "No, ancora no... Glie la darò il prima possibile."
     tammy "... [mc]... Se non gliela dai, gliela darò io quando la vedrò."
     tammy "È meglio che gliela dai tu, altrimenti non so come reagirà."
@@ -299,6 +337,9 @@ label presentations_montell:
     mc "Già, hai ragione. Dobbiamo impegnarci di più."
     mc_think "Non ho proprio voglia di studiare, ma se non lo faccio, non potrò andare al college."
     mc_think "E poi, devo trovare un modo per per pagare le tasse universitarie. Non voglio che [emily] e [john] si facciano carico di queste spese."
+
+    window hide
+    pause
 
     tammy "Bene [mc], sei arrivato."
     tammy "Un momento, [mc]."
@@ -313,7 +354,28 @@ label presentations_montell:
     dv "Bene questo è il momento giusto per dirtelo. Quando [mc] ha un buon rapporto con tutti i membri di una famiglia, il capo famigliare potrebbe dirti che d'ora in poi farai parte della famiglia."
     dv "Questo significa che potrai rimanere a cena o a dormire a casa loro quando vuoi, proprio come se fosse una famiglia."
 
+    window hide
+    pause
+
     tammy "Bene, ti ho trattenuo abbastanza. Vai pure a casa."
     mc "Ok, grazie per tutto. A presto."
     erik "Ciao [mc], ci vediamo a scuola."
+
+    hide car_travel
+
+    window hide
+    pause
+    window hide
+    show screen line_info(
+        "",
+        "",
+        _("Scusate per il ritardo"),
+        (0.99, 0.99)
+    ) with dissolve
+    pause
+    hide screen line_info with dissolve
+    window hide
+    pause
+
     return
+
