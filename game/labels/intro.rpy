@@ -105,7 +105,7 @@ label live_with:
                 }
         "( Personalizzata )":
             call customize_mc_family
-    hide profiles
+    hide bg
     return
 
 label customize_mc_family:
@@ -227,10 +227,10 @@ label presentations:
             $ del emily_for_mia
             jump presentations
         "Continua con l'introduzione":
-            hide profiles
+            hide bg
             call presentations_montell
         "Skip":
-            hide profiles
+            hide bg
     return
 
 label presentations_montell:
@@ -361,7 +361,7 @@ label presentations_montell:
     mc "Ok, grazie per tutto. A presto."
     erik "Ciao [mc], ci vediamo a scuola."
 
-    hide car_travel
+    hide bg
 
     window hide
     pause
