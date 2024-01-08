@@ -127,7 +127,7 @@ init -1:
         icon = None,
         color = "#ad2727", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
-    define tammy = Character("{b}[tammyI.name]{/b}",
+    define tammy_think = Character("{b}[tammyI.name]{/b}",
         icon = None,
         color = "#ad2727", who_outlines = [(2,"#000000")], what_prefix = "( {i}", what_suffix = "{/i} )", what_outlines = [(2,"#000000")]
     )
