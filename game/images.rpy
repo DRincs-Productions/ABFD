@@ -87,6 +87,14 @@ image bg car_travel A00A animation:
     pause 2.0
     repeat
 
+image car intro A01A = "intro/A01A Car.webp"
+image bg intro A01A = "intro/A01A.webp"
+image bg intro A01B = "intro/A01B.webp"
+image bg intro A01C = "intro/A01C.webp"
+image bg intro A01D = "intro/A01D.webp"
+image bg intro A01E = "intro/A01E.webp"
+image bg intro A01F = "intro/A01F.webp"
+
 image bg profiles arianna = "profiles/arianna.webp"
 image bg profiles emily = "profiles/emily.webp"
 image bg profiles family john = "profiles/family-john.webp"
