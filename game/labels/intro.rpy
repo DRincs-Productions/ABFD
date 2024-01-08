@@ -341,7 +341,9 @@ label presentations_montell:
     window hide
     pause
 
+    show bg car_travel A00A3B
     tammy "Bene [mc], sei arrivato."
+    show bg car_travel A01A
     tammy "Un momento, [mc]."
     tammy "Ricordo quando eri piccolo e venivi a giocare con [erik]."
     tammy "Poi restavi a cena e rimanevi a dormire. A volte d'estate rimanevi anche per una settimana."
@@ -349,14 +351,12 @@ label presentations_montell:
     mc "Alla fine lei ti portava la sua torta speciale e alla fine ci invitavi a cena."
     erik "Ahahah, si ricordo anche io. Era una torta al cioccolato con la panna."
     tammy "Già! Quello che ti volevo dire è che se vuoi rimanere a cena da noi o a dormire, non c'è problema. Fai come se fossi a casa tua."
+    show bg car_travel A01B
     mc "Grazie [tammy]. Verrò a trovarti spesso."
-    
+    # TODO: mostrare le immagini per spigere le immagini
     dv "Bene questo è il momento giusto per dirtelo. Quando [mc] ha un buon rapporto con tutti i membri di una famiglia, il capo famigliare potrebbe dirti che d'ora in poi farai parte della famiglia."
     dv "Questo significa che potrai rimanere a cena o a dormire a casa loro quando vuoi, proprio come se fosse una famiglia."
-
-    window hide
-    pause
-
+    show bg car_travel A01A
     tammy "Bene, ti ho trattenuo abbastanza. Vai pure a casa."
     mc "Ok, grazie per tutto. A presto."
     erik "Ciao [mc], ci vediamo a scuola."
