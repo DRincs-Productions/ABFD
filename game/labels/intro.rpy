@@ -361,6 +361,8 @@ label presentations_montell:
     mc "Ok, grazie per tutto. A presto."
     erik "Ciao [mc], ci vediamo a scuola."
 
+    $ _skipping = False
+
     hide bg
 
     window hide
@@ -376,6 +378,41 @@ label presentations_montell:
     hide screen line_info with dissolve
     window hide
     pause
+
+    image bg intro A01B animation:
+        "bg intro A01A"
+        pause 0.2
+        "bg intro A01B"
+        pause 3.2
+        "bg intro A01C"
+        pause 0.7
+        "bg intro A01D"
+        pause 0.7
+        "bg intro A01E"
+        pause 0.7
+        "bg intro A01F"
+    show bg intro A01B animation
+    show car intro A01A:
+        xalign 0
+        ypos convert_to_int(3 * gui.dr_multiplicateur)
+        linear 0.2 ypos 0
+        pause 0.2
+        linear 0.2 ypos convert_to_int(2 * gui.dr_multiplicateur)
+        linear 0.2 ypos convert_to_int(0 * gui.dr_multiplicateur)
+        linear 0.2 yalign 0
+        linear 1.5 xpos convert_to_int(-599 * gui.dr_multiplicateur)
+        linear 0.5 xpos convert_to_int(-1499 * gui.dr_multiplicateur)
+
+    window hide
+    pause
+
+    show bg intro A01F
+    hide car
+
+    window hide
+    pause
+
+    $ _skipping = True
 
     return
 
