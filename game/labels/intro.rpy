@@ -383,7 +383,7 @@ label presentations_montell:
         "bg intro A01A"
         pause 0.2
         "bg intro A01B"
-        pause 3.2
+        pause 2.7
         "bg intro A01C"
         pause 0.7
         "bg intro A01D"
@@ -400,7 +400,7 @@ label presentations_montell:
         linear 0.2 ypos convert_to_int(2 * gui.dr_multiplicateur)
         linear 0.2 ypos convert_to_int(0 * gui.dr_multiplicateur)
         linear 0.2 yalign 0
-        linear 1.5 xpos convert_to_int(-599 * gui.dr_multiplicateur)
+        linear 1.0 xpos convert_to_int(-599 * gui.dr_multiplicateur)
         linear 0.5 xpos convert_to_int(-1499 * gui.dr_multiplicateur)
 
     window hide
@@ -408,6 +408,25 @@ label presentations_montell:
 
     show bg intro A01F
     hide car
+    image logo animation:
+        "logo abig"
+        pause 0.7
+        "logo family"
+        pause 0.7
+        "logo indebit"
+        pause 0.7
+        "logo texts"
+        pause 1.0
+        "logo all" with dissolve
+        pause 0.5
+    show logo animation:
+        align (0.9, 0.1)
+
+    window hide
+    pause
+
+    hide logo
+    hide bg
 
     window hide
     pause
