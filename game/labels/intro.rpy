@@ -8,7 +8,7 @@
     mc "Ad essere onesto, la mia vera famiglia è morta in un incidente aereo. Per questo mi sono trasferito qui, per iniziare una nuova vita."
     call live_with
     call presentations
-    call prologue
+    call prologue_2
     return
 
 label live_with:
