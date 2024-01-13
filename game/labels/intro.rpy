@@ -207,7 +207,7 @@ label presentations:
     menu:
         mc "Per me è come se fossero la mia nuova famiglia."
         "Di più sulla mia nuova famiglia":
-            $ emily_for_mia = miaI.getRelationKeyByCharacter(emily)
+            $ emily_for_mia = miaI.getRelationNameByCharacter(emily)
             show bg profiles john
             mc "[john] è un ex Navy Seal, dopo la vita militare è caduto in depressione e alcol, iniziando una vita borderline."
             mc "Per me è come se fosse un secondo padre. È sposato con [emily], il loro rapporto ora è molto teso per colpa dell'alcolismo."
@@ -227,10 +227,10 @@ label presentations:
             $ del emily_for_mia
             jump presentations
         "Continua con l'introduzione":
-            hide bg
             call presentations_montell
         "Skip":
-            hide bg
+            pass
+    hide bg car_travel A00B0B
     return
 
 label presentations_montell:
@@ -322,6 +322,25 @@ label presentations_montell:
     tammy_think "Con ogni parte del corpo slanciata... anche sotto... che bei ricordi..."
 
     window hide
+    show screen thanks(
+        _("Ispirato da:") + " Milfy City, Timestamps, Man of the House, Loser, F.I.L.F.",
+        (0.5, 0.05)
+    ) with dissolve
+    pause
+    window hide
+    show screen thanks(
+        "Summertime Saga, Big Brother, Lucky Mark, The Twist, The Tyrant",
+        (0.5, 0.15)
+    ) with dissolve
+    pause
+    window hide
+    show screen thanks(
+        "A Family Venture, Photo Hunt and Bones' Tales",
+        (0.5, 0.25)
+    ) with dissolve
+    pause
+    window hide
+    hide screen thanks with dissolve
     pause
 
     tammy "[mc]..."
@@ -350,7 +369,7 @@ label presentations_montell:
     mc "Alla fine lei ti portava la sua torta speciale e alla fine ci invitavi a cena."
     erik "Ahahah, si ricordo anche io. Era una torta al cioccolato con la panna."
     tammy "Già! Quello che ti volevo dire è che se vuoi rimanere a cena da noi o a dormire, non c'è problema. Fai come se fossi a casa tua."
-    # TODO: aggiungere appunti
+    # TODO: aggiungere notifica
     mc "Grazie [tammy]. Verrò a trovarti spesso."
     show bg car_travel A01A
     tammy "Bene, ti ho trattenuo abbastanza. Vai pure a casa."
@@ -432,8 +451,8 @@ label presentations_montell:
     return
 
 label prologue_2:
-    $ emily_for_mc = mcI.getRelationKeyByCharacter(emily)
-    $ john_for_mc = mcI.getRelationKeyByCharacter(john)
+    $ emily_for_mc = mcI.getRelationNameByCharacter(emily)
+    $ john_for_mc = mcI.getRelationNameByCharacter(john)
 
     show bg intro A04A with dissolve
     mc "Heilà, sono tornato a casa."
@@ -466,7 +485,7 @@ label prologue_2:
             mc_think "..."
             emily "Tu non puoi parlare così di tuo [john_for_mc]! Lui ti ha ospitato in casa sua, ti ha dato un tetto e ti ha aiutato a superare la morte dei tuoi genitori."
         "{i} ( Lo sapevo... ) {/i}":
-            mc "Mi dispiace, [emyR.NPClabel]."
+            mc "Mi dispiace, [emily_for_mc]."
             mc_think "Lo sapevo che prima o poi sarebbe successo."
     
     emily "Avanti, siediti."
@@ -474,40 +493,54 @@ label prologue_2:
     mc_think "..."
     emily "Quando mi sono svegliata questa mattina, ho visto [mia] sconvolta..."
     emily "Lei ha... trovato questa lettera... in cucina. Doveva essere per me, ma lei l'ha trovata per prima."
+    show bg intro A06 with dissolve:
+        blur 7
+    # TODO: mostra lettera
     show text "Mi dispiace [emily] ma non posso vivere qui in questo modo. \n Dopo che ho l'asciato l'esercito non sono più l'uomo di una volta, ora sono un fallito. \n Ho cercato di far finta di niente. \n Il nostro rapporto è diventato strano. \n Non parlamo più, e non ti ho detto molte cose. \n Non voglio che tu e le bambine mi vediate com un peso o un alcolizzato. \n Per questo ho deciso di andarmene. \n Non so se tornerò, ma non voglio più essere un peso per voi."
-
+    window hide
+    pause
+    hide text
+    show bg intro A06 with dissolve:
+        blur 0
     emily "Non posso credere che che lui mi abbia lasciato. Non posso perdonarlo. Ma..."
-    show bg intro A08
-    $ probably_game = 10
-    $ text_color = bad_probability_color if probably_game < 50 else god_probability_color
+    python:
+        probably_game = 50
+        text_color = get_probability_color(probably_game)
     menu:
         emily "Ora come possiamo fare senza di lui!?"
         "Ci ha perso lui":
             show bg intro A07
             mc "[emily_for_mc] se qualcuno ha perso, è lui. Io non avrei mai lasciato una donna come te."
             emily "Tesoro, sono fortunata ad avere te. Tu si che sai come farmi sentire meglio una donna."
-        "Cosa è successo? {color=text_color}(Probabilità [probably_game]\%)":
-            $ val = renpy.random.randint(0, probably_game)
-            if (val < 2):
-                mc "Cosa è successo? Lui ti ha messo le mani addosso?"
+        "Cosa è successo? {color=[text_color]}(Probabilità [probably_game]\%)":
+            $ val = renpy.random.randint(0, 100)
+            if (val >= probably_game):
                 show bg intro A07
-                emily "No No, tesoro. Abbiamo solo litigato come al solito. Sa che da quando ha lasciato l'esercito il nostro rapporto è cambiato."
+                mc "Cosa è successo? Lui ti ha messo le mani addosso?"
+                emily "No no, tesoro. Abbiamo solo litigato come al solito. Sa che da quando ha lasciato l'esercito il nostro rapporto è cambiato."
                 emily "Ieri ho cercato di parlargli dei suoi problemi con l'alcol, ma è inutile. Non ha voluto parlare e si è ubriacato ancora più del solito."
+                # TODO: Add love
                 emily "Tesoro, sai che ho cercato di aiutarlo, ma ieri non ce l'ho fatta più. Gli ho detto che poteva fare quello che voleva, ma questa non è una casa per drogati o alcolizzati. E se voleva continuare, poteva andarsene."
             else:
                 mc "Ok, ma volevo capire cosa è successo ieri. Se lui è andato via per qualche motivo... o qualcosa che gli hai detto."
                 emily "Quindi secondo te è colpa mia se lui se n'è andato?!"
                 mc "No! Non volevo dire questo. È solo che..."
                 emily "Ora voglio stare sola per un po', vai pure via."
-                return
+                jump prologue_end
         "Vai via":
             mc "Ok, [emily_for_mc]. Ora sono un po' stanco, vado in camera mia."
-            return
+            jump prologue_end
 
     emily "Tesoro, ti ho trattenuo abbastanza. Vai pure a fare quello che devi fare."
     mc "Ok, [emily_for_mc]. Cerca di riprenderti."
 
-    show bg intro A09
+    python:
+        del john_for_mc
+        del emily_for_mc
+
+label prologue_end:
+    hide bg
+    show bg intro A09 with dissolve
     window hide
     pause
 
@@ -524,11 +557,12 @@ label prologue_2:
     return
 
 label tuturial:
-    show bg tuturial
-    show mc tutorial 01
+    # TODO add a REC image
+    show bg intro tutorial A01
+    show mc intro tutorial A01 01
     mc "Wow, sembra che funzioni. Questa vecchia videocamera dà un po' di problemi, ma sembra più resistente del previsto."
     mc "Questo è il video diario del 08/06/2019... Ed è anche il video conclusivo della mia ricerca sulle espressioni facciali. Sembra un ottimo modo per barare a poker... o almeno lo sembra su \"Lite to Me\"."
-    show mc tutorial 03
+    show mc intro tutorial A01 03
     mc "Bene... questo... è l'ultimo video. Perché sono giunto alla conclusione che..."
     mc "È uno studio molto complesso e lungo du cui... non ci ho capito niente. Quindi ho deciso di non continuare."
     mc "Ma dopo un po' di ricerche in sociopsicologia. Ho scoperto qualcosa di interessante sulla società..."
@@ -563,7 +597,7 @@ label tuturial:
     mc "[city_beach] è un ottimo posto per andare in vacanza, ma è anche un posto molto costoso."
     mc "Ed infine questa è la mia casa."
     mc "È una casa molto grande, in cui ci sono molte stanza."
-
+    show mc intro tutorial A01 02
     emily_shout "Ehi, [mc]! Il pranzo è pronto!!! Stiamo solo aspettando te."
     mc "Ok... [emily_for_mc]! Vengo subito!"
     mc "Ecco, ora devo andare a pranzo. Per ora è tutto, ci vediamo al prossimo video."

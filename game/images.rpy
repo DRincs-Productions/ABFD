@@ -144,7 +144,7 @@ image bg intro B09 = "intro/B09.webp"
 image bg intro B10 = "intro/B10.webp"
 
 image bg intro tutorial A01 = "intro/tutorial/A01.webp"
-image beaver intro tutorial A01 = "intro/tutorial/A01Beaver.webp"
+image beaver_im intro tutorial A01 = "intro/tutorial/A01Beaver.webp"
 image mc intro tutorial A01 01 = "intro/tutorial/A01MC01.webp"
 image mc intro tutorial A01 02 = "intro/tutorial/A01MC02.webp"
 image mc intro tutorial A01 03 = "intro/tutorial/A01MC03.webp"
