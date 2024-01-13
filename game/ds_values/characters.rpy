@@ -10,8 +10,11 @@ init -1:
     define missus_text = _("Mrs.")
     # https://drincs-website.web.app/wiki?route=Characters
     # Special
-    define dv = Character(_("{b}Professor Oak{/b}"),
+    define dv = Character(_("{b}Professore Oak{/b}"),
         color = "#f3a837", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
+    )
+    define unknown = Character(_("{b}Sconosciuto{/b}"),
+        color = "#292929", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
     # Family
     default mcI = CharacterInfo(

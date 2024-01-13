@@ -234,8 +234,12 @@ label presentations:
     return
 
 label presentations_montell:
-    show bg car_travel A00A animation
-    mc_think "Ora sto tornando a casa, dopo aver passato la notte a casa dei [tammyI.surname]. Li conosco da quando sono piccolo, quando abitavo nella mia vecchia città."
+    hide bg with dissolve
+    window hide
+    pause
+    
+    mc_think "Ora sto tornando a casa, dopo aver passato la notte a casa dei [erikI.surname]. Li conosco da quando sono piccolo, quando abitavo nella mia vecchia città."
+    show bg car_travel A00A animation with dissolve
     mc_think "A fianco a me c'è [erik] e lei è [tammy], sua mamma."
     mc_think "Si sono trasferiti qui da poco, per lo stesso mio motivo, cioè iniziare una nuova vita dopo la morte del marito cioè il padre di [erik], [erik_dad]."
     mc_think "Anche lui era un giornalista come mio padre, ma è morto nello stesso incidente aereo."
@@ -290,13 +294,7 @@ label presentations_montell:
     mc_think "..."
     tammy "Ti potrei offrire una cena o regalare delle carte per giocare a [card_game]."
     mc "Ok, allora me lo segno negli appunti di cose da fare."
-    dv "... Dimenticavo... Durante il gioco prenderai degli impegni con i personaggi che incontri. Questi impegni ti permetteranno di ottenere contenuti"
-    # TODO: mostrare le immagini della Quest
-    dv "Dovrai decidere in che modo portare a termine gli impegni, potrai anche ignorare alcuni di essi o terminare questi impegni in modo negativo. Ma non preoccuparti, sarai ben informato da [beaver] sulle conseguenze delle tue azioni."
-    dv "Potrai vedere gli impegni presi negli appunti."
-    dv "Questo è l'elenco degli impegni che hai preso. Qui troverai anche le informazioni su come portare a termine gli impegni."
-    dv "Ogni impegno è diviso in fasi, per portare a termine un impegno dovrai completare tutte le fasi."
-    dv "Alcuni impegni o fasi richiedono delle statistiche, il raggiungimento di alcune relazioni o il completamento di altri fasi/impegni."
+    # TODO: aggiungere appunti
 
     window hide
     show screen thanks_double_line(
@@ -347,15 +345,13 @@ label presentations_montell:
     tammy "Un momento, [mc]."
     tammy "Ricordo quando eri piccolo e venivi a giocare con [erik]."
     tammy "Poi restavi a cena e rimanevi a dormire. A volte d'estate rimanevi anche per una settimana."
+    show bg car_travel A01B
     mc "Si, mi ricordo. Mia mamma cercava di farmi tornare a casa, per non darti troppo disturbo, ma non riusci a convincermi."
     mc "Alla fine lei ti portava la sua torta speciale e alla fine ci invitavi a cena."
     erik "Ahahah, si ricordo anche io. Era una torta al cioccolato con la panna."
     tammy "Già! Quello che ti volevo dire è che se vuoi rimanere a cena da noi o a dormire, non c'è problema. Fai come se fossi a casa tua."
-    show bg car_travel A01B
+    # TODO: aggiungere appunti
     mc "Grazie [tammy]. Verrò a trovarti spesso."
-    # TODO: mostrare le immagini per spigere le immagini
-    dv "Bene questo è il momento giusto per dirtelo. Quando [mc] ha un buon rapporto con tutti i membri di una famiglia, il capo famigliare potrebbe dirti che d'ora in poi farai parte della famiglia."
-    dv "Questo significa che potrai rimanere a cena o a dormire a casa loro quando vuoi, proprio come se fosse una famiglia."
     show bg car_travel A01A
     tammy "Bene, ti ho trattenuo abbastanza. Vai pure a casa."
     mc "Ok, grazie per tutto. A presto."
@@ -363,7 +359,7 @@ label presentations_montell:
 
     $ _skipping = False
 
-    hide bg
+    hide bg with dissolve
 
     window hide
     pause
@@ -424,10 +420,10 @@ label presentations_montell:
 
     window hide
     pause
-
-    hide logo
-    hide bg
-
+    hide bg with dissolve
+    window hide
+    pause
+    hide logo with dissolve
     window hide
     pause
 
@@ -435,3 +431,140 @@ label presentations_montell:
 
     return
 
+label prologue_2:
+    $ emily_for_mc = mcI.getRelationKeyByCharacter(emily)
+    $ john_for_mc = mcI.getRelationKeyByCharacter(john)
+
+    show bg intro A04A with dissolve
+    mc "Heilà, sono tornato a casa."
+    window hide
+    pause
+    show bg intro A04B
+    unknown "Sigh sigh sigh..."
+    mc_think "Hey, ma chi sta piangendo?"
+    show bg intro A04C with Dissolve(1.7)
+    mc_think "Cosa? Cosa è successo? La [emily_for_mc] sta piangendo?!"
+    show bg intro A04A
+    emily "Oh, tesoro."
+    mc "Cosa è successo? Perché piangi?"
+    emily "Lui... [john]... se n'è andato!"
+    show bg intro A05
+    emily "Non so cosa fare, non so dove sia andato. Non mi ha detto nulla."
+    emily "Non... Non so nulla..."
+    emily "Solo... che..."
+
+    menu:
+        emily "Questa mattina mi sono svegliata e lui non c'era più. È andato via senza neanche dirmi nulla."
+        "Dove è andato?":
+            mc "Lui è andato!? Dove?"
+            emily "Eh, cosa ne so... È andato via di casa!"
+        "Perché?":
+            mc "Cosa è successo? Perché è andato via?"
+        "È un bene":
+            mc "Oh finalmente! È un bene che se ne sia andato. Non ne potevo più."
+            emily "Come puoi dire una cosa del genere?!"
+            mc_think "..."
+            emily "Tu non puoi parlare così di tuo [john_for_mc]! Lui ti ha ospitato in casa sua, ti ha dato un tetto e ti ha aiutato a superare la morte dei tuoi genitori."
+        "{i} ( Lo sapevo... ) {/i}":
+            mc "Mi dispiace, [emyR.NPClabel]."
+            mc_think "Lo sapevo che prima o poi sarebbe successo."
+    
+    emily "Avanti, siediti."
+    show bg intro A06
+    mc_think "..."
+    emily "Quando mi sono svegliata questa mattina, ho visto [mia] sconvolta..."
+    emily "Lei ha... trovato questa lettera... in cucina. Doveva essere per me, ma lei l'ha trovata per prima."
+    show text "Mi dispiace [emily] ma non posso vivere qui in questo modo. \n Dopo che ho l'asciato l'esercito non sono più l'uomo di una volta, ora sono un fallito. \n Ho cercato di far finta di niente. \n Il nostro rapporto è diventato strano. \n Non parlamo più, e non ti ho detto molte cose. \n Non voglio che tu e le bambine mi vediate com un peso o un alcolizzato. \n Per questo ho deciso di andarmene. \n Non so se tornerò, ma non voglio più essere un peso per voi."
+
+    emily "Non posso credere che che lui mi abbia lasciato. Non posso perdonarlo. Ma..."
+    show bg intro A08
+    $ probably_game = 10
+    $ text_color = bad_probability_color if probably_game < 50 else god_probability_color
+    menu:
+        emily "Ora come possiamo fare senza di lui!?"
+        "Ci ha perso lui":
+            show bg intro A07
+            mc "[emily_for_mc] se qualcuno ha perso, è lui. Io non avrei mai lasciato una donna come te."
+            emily "Tesoro, sono fortunata ad avere te. Tu si che sai come farmi sentire meglio una donna."
+        "Cosa è successo? {color=text_color}(Probabilità [probably_game]\%)":
+            $ val = renpy.random.randint(0, probably_game)
+            if (val < 2):
+                mc "Cosa è successo? Lui ti ha messo le mani addosso?"
+                show bg intro A07
+                emily "No No, tesoro. Abbiamo solo litigato come al solito. Sa che da quando ha lasciato l'esercito il nostro rapporto è cambiato."
+                emily "Ieri ho cercato di parlargli dei suoi problemi con l'alcol, ma è inutile. Non ha voluto parlare e si è ubriacato ancora più del solito."
+                emily "Tesoro, sai che ho cercato di aiutarlo, ma ieri non ce l'ho fatta più. Gli ho detto che poteva fare quello che voleva, ma questa non è una casa per drogati o alcolizzati. E se voleva continuare, poteva andarsene."
+            else:
+                mc "Ok, ma volevo capire cosa è successo ieri. Se lui è andato via per qualche motivo... o qualcosa che gli hai detto."
+                emily "Quindi secondo te è colpa mia se lui se n'è andato?!"
+                mc "No! Non volevo dire questo. È solo che..."
+                emily "Ora voglio stare sola per un po', vai pure via."
+                return
+        "Vai via":
+            mc "Ok, [emily_for_mc]. Ora sono un po' stanco, vado in camera mia."
+            return
+
+    emily "Tesoro, ti ho trattenuo abbastanza. Vai pure a fare quello che devi fare."
+    mc "Ok, [emily_for_mc]. Cerca di riprenderti."
+
+    show bg intro A09
+    window hide
+    pause
+
+    mc_think "Cazzo! Ho già abbastanza problemi per conto mio, non ci voleva anche questo."
+    mc_think "Chissà come sta [mia]? Forse dovrei andare a parlarle. Probabilmente mi dirà qualcosa di più."
+
+    hide bg with dissolve
+    menu:
+        dv "Ma prima..."
+        "Tutorial":
+            call tuturial
+        "Continua":
+            return
+    return
+
+label tuturial:
+    show bg tuturial
+    show mc tutorial 01
+    mc "Wow, sembra che funzioni. Questa vecchia videocamera dà un po' di problemi, ma sembra più resistente del previsto."
+    mc "Questo è il video diario del 08/06/2019... Ed è anche il video conclusivo della mia ricerca sulle espressioni facciali. Sembra un ottimo modo per barare a poker... o almeno lo sembra su \"Lite to Me\"."
+    show mc tutorial 03
+    mc "Bene... questo... è l'ultimo video. Perché sono giunto alla conclusione che..."
+    mc "È uno studio molto complesso e lungo du cui... non ci ho capito niente. Quindi ho deciso di non continuare."
+    mc "Ma dopo un po' di ricerche in sociopsicologia. Ho scoperto qualcosa di interessante sulla società..."
+    mc "Le relazione tra persone alla fine sono solo una questione di scambi di favori, denaro, affetto, sesso, ecc..."
+    mc "Per questo ho iniziato a segnarmi sull'aggenda tutte le necessità delle persone che incontro e gli impegni che prendo con loro."
+    mc "In questo modo posso ricordarmi di fare quello che devo fare e risquotere le mie ricompense che mi spettano."
+    mc "Questa è la mia agenda."
+    mc "Questo è l'elenco degli impegni che ho preso."
+    mc "Qui ci sono anche le istruzioni per portare a termine gli impegni."
+    mc "Ogni impegno è diviso in fasi, per portare a termine un impegno dovrai completare tutte le fasi."
+    mc "Non cancello mai le fasi precedenti. Se voglio rileggerle possp sfogliare le pagine precedenti."
+    beaver "Ricorda dovrai anche decidere in che modo terminare gli impegni. Potrai anche ignorare alcuni di essi o terminare questi impegni in modo negativo. Ma non preoccuparti, ti informero sempre sulle conseguenze delle tue azioni."
+    mc "Ok, grazie [beaver]."
+
+    mc "Alcuni impegni o fasi richiedono delle statistiche, il raggiungimento di alcune relazioni o il completamento di altri fasi/impegni."
+    mc "Qui posso vedere le statistiche e le relazioni che ho con le persone che conosco."
+    mc "Ho notato che se ho una buona relazione con tutti i membri di una famiglia, il capo famiglia a volte mi chiede di diventare un membro della famiglia. Forse perché sono orfano."
+    mc "Questo significa che potrò rimanere a cena o a dormire a casa loro quando voglio, proprio come se fossi un membro della famiglia."
+
+    mc "A volte le persone con cui ho una buona relazione mi inviano messaggi o mi chiamano per chiedermi di uscire o per chiedermi un favore."
+    mc "Sul cellulare posso vedere tutti i messaggi che ho ricevuto e le chiamate perse."
+    mc "Ci sono anche altre funzioni interessanti che non ho avuto modo di provare."
+
+    mc "Prima di finire..."
+    mc "Non è da molto che mi sono trasferito qui a [city_name]. È una buona cittadina piena di cose da fare e persone da conoscere."
+    mc "Ma a volte è fin troppo tranquilla. Per questo a volte prendo il bus per andare a [city_metro]."
+    mc "È una metropoli futuristica piena di vita, luci e rumori. È un posto molto interessante."
+    mc "A [city_metro] sembra non esserci molta criminalità, ma a [ghetto_name] è un altro discorso."
+    mc "È un ghetto pieno di criminali, drogati, prostitute, ecc... È un posto molto pericoloso."
+    mc "A [city_name] c'è anche una spiaggia, ma non è molto grande."
+    mc "Se voglio voglio prendermi una pausa, posso andare a [city_beach]."
+    mc "[city_beach] è un ottimo posto per andare in vacanza, ma è anche un posto molto costoso."
+    mc "Ed infine questa è la mia casa."
+    mc "È una casa molto grande, in cui ci sono molte stanza."
+
+    emily_shout "Ehi, [mc]! Il pranzo è pronto!!! Stiamo solo aspettando te."
+    mc "Ok... [emily_for_mc]! Vengo subito!"
+    mc "Ecco, ora devo andare a pranzo. Per ora è tutto, ci vediamo al prossimo video."
+    return
