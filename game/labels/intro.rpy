@@ -556,8 +556,16 @@ label prologue_end:
     return
 
 label tuturial:
-    show bg intro tutorial A01
-    show mc intro tutorial A01 01
+    show bg intro tutorial A01:
+        blur 14
+        linear 1.0 blur 3
+        linear 1.0 blur 14
+        linear 1.0 blur 0
+    show mc intro tutorial A01 01:
+        blur 14
+        linear 1.0 blur 3
+        linear 1.0 blur 14
+        linear 1.0 blur 0
     show REC:
         align (0.95, 0.05)
         ysize convert_to_int(100 * gui.dr_multiplicateur)
@@ -590,13 +598,13 @@ label tuturial:
 
     mc "Prima di finire..."
     mc "Non è da molto che mi sono trasferito qui a [city_name]. È una buona cittadina piena di cose da fare e persone da conoscere."
-    mc "Ma a volte è fin troppo tranquilla. Per questo a volte prendo il bus per andare a [city_metro]."
+    mc "Ma a volte è fin troppo tranquilla. Per questo a volte prendo il bus per andare a [metro_name]."
     mc "È una metropoli futuristica piena di vita, luci e rumori. È un posto molto interessante."
-    mc "A [city_metro] sembra non esserci molta criminalità, ma a [ghetto_name] è un altro discorso."
+    mc "A [metro_name] sembra non esserci molta criminalità, ma a [ghetto_name] è un altro discorso."
     mc "È un ghetto pieno di criminali, drogati, prostitute, ecc... È un posto molto pericoloso."
     mc "A [city_name] c'è anche una spiaggia, ma non è molto grande."
-    mc "Se voglio voglio prendermi una pausa, posso andare a [city_beach]."
-    mc "[city_beach] è un ottimo posto per andare in vacanza, ma è anche un posto molto costoso."
+    mc "Se voglio voglio prendermi una pausa, posso andare a [peninsula_name]."
+    mc "[peninsula_name] è un ottimo posto per andare in vacanza, ma è anche un posto molto costoso."
     mc "Ed infine questa è la mia casa."
     mc "È una casa molto grande, in cui ci sono molte stanza."
     show mc intro tutorial A01 02
