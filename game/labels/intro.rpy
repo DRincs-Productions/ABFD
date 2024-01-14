@@ -495,11 +495,10 @@ label prologue_2:
     emily "Lei ha... trovato questa lettera... in cucina. Doveva essere per me, ma lei l'ha trovata per prima."
     show bg intro A06 with dissolve:
         blur 7
-    # TODO: mostra lettera
-    show text "Mi dispiace [emily] ma non posso vivere qui in questo modo. \n Dopo che ho l'asciato l'esercito non sono più l'uomo di una volta, ora sono un fallito. \n Ho cercato di far finta di niente. \n Il nostro rapporto è diventato strano. \n Non parlamo più, e non ti ho detto molte cose. \n Non voglio che tu e le bambine mi vediate com un peso o un alcolizzato. \n Per questo ho deciso di andarmene. \n Non so se tornerò, ma non voglio più essere un peso per voi."
+    show screen paper01(_("Mi dispiace [emily] ma non posso vivere qui in questo modo. \n Dopo che ho l'asciato l'esercito non sono più l'uomo di una volta, ora sono un fallito. \n Ho cercato di far finta di niente. \n Il nostro rapporto è diventato strano. \n Non parlamo più, e non ti ho detto molte cose. \n Non voglio che tu e le bambine mi vediate com un peso o un alcolizzato. \n Per questo ho deciso di andarmene. \n Non so se tornerò, ma non voglio più essere un peso per voi."))
     window hide
     pause
-    hide text
+    hide screen paper01
     show bg intro A06 with dissolve:
         blur 0
     emily "Non posso credere che che lui mi abbia lasciato. Non posso perdonarlo. Ma..."
