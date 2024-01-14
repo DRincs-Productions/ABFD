@@ -1,3 +1,9 @@
+# maps
+image bg map grove = "/interface/map/grove[tm.timeslot_number].webp"
+image bg map night_city = "/interface/map/night_city.webp"
+image bg map tampa_beach = "/interface/map/tampa_beach[tm.timeslot_number].webp"
+image bg map tampa = "/interface/map/tampa[tm.timeslot_number].webp"
+
 # rooms
 ## enviroment_mc_home
 ### attic

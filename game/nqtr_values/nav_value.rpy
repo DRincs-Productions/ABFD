@@ -3,10 +3,10 @@ init python:
     from pythonpackages.nqtr.navigation import Location
     from pythonpackages.nqtr.navigation import Map
 
-define city_name = "{b}Orlando{/b}"
+define city_name = "{b}Tampa{/b}"
 define metro_name = "{b}Night City{/b}"
 define ghetto_name = "{b}Grove City{/b}"
-define peninsula_name = "{b}Wilson Beach{/b}"
+define peninsula_name = "{b}Tampa Beach{/b}"
 
 # Wiki: https://github.com/DRincs-Productions/NQTR-toolkit/wiki/Navigation-and-Map#room
 define rooms = [
@@ -24,13 +24,34 @@ define rooms = [
 
 # Wiki: https://github.com/DRincs-Productions/NQTR-toolkit/wiki/Navigation-and-Map#location
 define locations = [
-    Location(id = "house", map_id="map", external_room_id="bedroom_mc", name=_("Casa mia"), picture_in_background="icon map home", xalign=0.3, yalign=0.2),
+    Location(id = "house", map_id="map", external_room_id="enviroment_mc_home living_room", name=_("Casa mia"), picture_in_background="icon map home", xalign=0.3, yalign=0.2),
 ]
 
 # Wiki: https://github.com/DRincs-Productions/NQTR-toolkit/wiki/Navigation-and-Map#map
 define maps = {
     "map": Map(
-        name = "[city_name]", background = "bg map",
+        name = "[city_name]", background = "bg map grove",
+        map_id_north = None,
+        map_id_south = None,
+        map_id_west = None,
+        map_id_east = None,
+    ),
+    "night_city": Map(
+        name = "[metro_name]", background = "bg map night_city",
+        map_id_north = None,
+        map_id_south = None,
+        map_id_west = None,
+        map_id_east = None,
+    ),
+    "tampa_beach": Map(
+        name = "[peninsula_name]", background = "bg map tampa_beach",
+        map_id_north = None,
+        map_id_south = None,
+        map_id_west = None,
+        map_id_east = None,
+    ),
+    "grove": Map(
+        name = "[ghetto_name]", background = "bg map grove",
         map_id_north = None,
         map_id_south = None,
         map_id_west = None,
