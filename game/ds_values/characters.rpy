@@ -64,6 +64,10 @@ init -1:
         icon = None,
         color = "#8a0086", who_outlines = [(2,"#000000")], what_prefix = "", what_suffix = "", what_outlines = [(2,"#000000")]
     )
+    define emily_shout = Character("{b}[emilyI.name]{/b}",
+        icon = None,
+        color = "#8a0086", who_outlines = [(2,"#000000")], what_prefix = "{b}", what_suffix = "{/b}", what_outlines = [(2,"#000000")]
+    )
     default victoriaI = CharacterInfo(
         name = "Victoria", surname = "[johnI.surname]", age = (mcI.age+4), gender = GenderEnum.FEMALE,
         relationships = {

@@ -570,6 +570,7 @@ label tuturial:
         align (0.95, 0.05)
         ysize convert_to_int(100 * gui.dr_multiplicateur)
         xsize convert_to_int(200 * gui.dr_multiplicateur)
+    $ emily_for_mc = mcI.getRelationNameByCharacter(emily)
     mc "Wow, sembra che funzioni. Questa vecchia videocamera dà un po' di problemi, ma sembra più resistente del previsto."
     mc "Questo è il video diario del 08/06/2019... Ed è anche il video conclusivo della mia ricerca sulle espressioni facciali. Sembra un ottimo modo per barare a poker... o almeno lo sembra su \"Lite to Me\"."
     show mc intro tutorial A01 03
@@ -579,24 +580,34 @@ label tuturial:
     mc "Le relazione tra persone alla fine sono solo una questione di scambi di favori, denaro, affetto, sesso, ecc..."
     mc "Per questo ho iniziato a segnarmi sull'aggenda tutte le necessità delle persone che incontro e gli impegni che prendo con loro."
     mc "In questo modo posso ricordarmi di fare quello che devo fare e risquotere le mie ricompense che mi spettano."
+    # TODO: show button
     mc "Questa è la mia agenda."
+    # TODO: show image
     mc "Questo è l'elenco degli impegni che ho preso."
     mc "Qui ci sono anche le istruzioni per portare a termine gli impegni."
     mc "Ogni impegno è diviso in fasi, per portare a termine un impegno dovrai completare tutte le fasi."
+    hide mc
+    show bg intro tutorial A01:
+        blur 0
+    show beaver intro tutorial A01
+    show mc intro tutorial A01 03:
+        blur 0
     mc "Non cancello mai le fasi precedenti. Se voglio rileggerle possp sfogliare le pagine precedenti."
     beaver "Ricorda dovrai anche decidere in che modo terminare gli impegni. Potrai anche ignorare alcuni di essi o terminare questi impegni in modo negativo. Ma non preoccuparti, ti informero sempre sulle conseguenze delle tue azioni."
     mc "Ok, grazie [beaver]."
-
+    hide beaver
     mc "Alcuni impegni o fasi richiedono delle statistiche, il raggiungimento di alcune relazioni o il completamento di altri fasi/impegni."
     mc "Qui posso vedere le statistiche e le relazioni che ho con le persone che conosco."
     mc "Ho notato che se ho una buona relazione con tutti i membri di una famiglia, il capo famiglia a volte mi chiede di diventare un membro della famiglia. Forse perché sono orfano."
     mc "Questo significa che potrò rimanere a cena o a dormire a casa loro quando voglio, proprio come se fossi un membro della famiglia."
-
+    # TODO: show button
     mc "A volte le persone con cui ho una buona relazione mi inviano messaggi o mi chiamano per chiedermi di uscire o per chiedermi un favore."
+    # TODO: show image
     mc "Sul cellulare posso vedere tutti i messaggi che ho ricevuto e le chiamate perse."
     mc "Ci sono anche altre funzioni interessanti che non ho avuto modo di provare."
 
     mc "Prima di finire..."
+    # TODO: show image
     mc "Non è da molto che mi sono trasferito qui a [city_name]. È una buona cittadina piena di cose da fare e persone da conoscere."
     mc "Ma a volte è fin troppo tranquilla. Per questo a volte prendo il bus per andare a [metro_name]."
     mc "È una metropoli futuristica piena di vita, luci e rumori. È un posto molto interessante."
@@ -605,10 +616,12 @@ label tuturial:
     mc "A [city_name] c'è anche una spiaggia, ma non è molto grande."
     mc "Se voglio voglio prendermi una pausa, posso andare a [peninsula_name]."
     mc "[peninsula_name] è un ottimo posto per andare in vacanza, ma è anche un posto molto costoso."
+    # TODO: show image
     mc "Ed infine questa è la mia casa."
     mc "È una casa molto grande, in cui ci sono molte stanza."
     show mc intro tutorial A01 02
-    emily_shout "Ehi, [mc]! Il pranzo è pronto!!! Stiamo solo aspettando te."
+    emily_shout "EHI, [mcI.name!u]! IL PRANZO È PRONTO!!! STIAMO SOLO ASPETTANDO TE."
     mc "Ok... [emily_for_mc]! Vengo subito!"
+    show mc intro tutorial A01 01
     mc "Ecco, ora devo andare a pranzo. Per ora è tutto, ci vediamo al prossimo video."
     return
