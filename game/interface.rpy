@@ -21,3 +21,4 @@ image logo all = Composite( (1920, 1080),
     (0, 0), "logo family",
     (0, 0), "logo indebit",
 )
+image REC = "/interface/REC.webp"

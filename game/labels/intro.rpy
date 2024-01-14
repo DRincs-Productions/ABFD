@@ -557,9 +557,12 @@ label prologue_end:
     return
 
 label tuturial:
-    # TODO add a REC image
     show bg intro tutorial A01
     show mc intro tutorial A01 01
+    show REC:
+        align (0.95, 0.05)
+        ysize convert_to_int(100 * gui.dr_multiplicateur)
+        xsize convert_to_int(200 * gui.dr_multiplicateur)
     mc "Wow, sembra che funzioni. Questa vecchia videocamera dà un po' di problemi, ma sembra più resistente del previsto."
     mc "Questo è il video diario del 08/06/2019... Ed è anche il video conclusivo della mia ricerca sulle espressioni facciali. Sembra un ottimo modo per barare a poker... o almeno lo sembra su \"Lite to Me\"."
     show mc intro tutorial A01 03
