@@ -369,7 +369,9 @@ label presentations_montell:
     mc "Alla fine lei ti portava la sua torta speciale e alla fine ci invitavi a cena."
     erik "Ahahah, si ricordo anche io. Era una torta al cioccolato con la panna."
     tammy "Già! Quello che ti volevo dire è che se vuoi rimanere a cena da noi o a dormire, non c'è problema. Fai come se fossi a casa tua."
-    # TODO: aggiungere notifica
+    python:
+        set_flags("welcomed_into_tammy_house", True)
+        notify(welcomed_into_tammy_house_notify)
     mc "Grazie [tammy]. Verrò a trovarti spesso."
     show bg car_travel A01A
     tammy "Bene, ti ho trattenuo abbastanza. Vai pure a casa."

@@ -10,6 +10,8 @@ define flag_keys = [
     # Olther flags
     "goout",
     "weekend",
+    # you are welcomed into house
+    "welcomed_into_tammy_house",
 ]
 
 # Wiki: https://github.com/DRincs-Productions/renpy-utility-lib/wiki/Flags#update_current_flags
