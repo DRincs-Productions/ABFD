@@ -43,6 +43,13 @@ image action icon alarm = LayeredImageMask("pre action alarm",
     foreground="sprite foreground",
     background="sprite background"
 )
+image pre action sleep = Transform("/nqtr_interface/sleep.webp", xysize=(gui.sprite_size, gui.sprite_size))
+image action icon sleep = LayeredImageMask("pre action sleep",
+    Transform(crop=(0, 0, gui.sprite_size, gui.sprite_size)),
+    mask="sprite mask",
+    foreground="sprite foreground",
+    background="sprite background"
+)
 image pre action pc = Transform("/nqtr_interface/pc.webp", xysize=(gui.sprite_size, gui.sprite_size))
 image action icon pc = LayeredImageMask("pre action pc",
     Transform(crop=(0, 0, gui.sprite_size, gui.sprite_size)),
