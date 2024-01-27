@@ -16,6 +16,6 @@ define df_actions = {
     "bedroom_mc photo" : Act(name = _("Foto"),  picture_in_background = "action bedroom_mc photo", label_name = "nap"),
     "bedroom_mc poster" : Act(name = _("Poster"),  picture_in_background = "action bedroom_mc poster", label_name = "nap"),
     "bedroom_mc skateboard" : Act(name = _("Skateboard"),  picture_in_background = "action bedroom_mc skateboard", label_name = "nap"),
-    "bedroom_mc tengu_ronam" : Act(name = "Tengu Ronam",  picture_in_background = "action bedroom_mc tengu_ronam", label_name = "nap"),
+    "bedroom_mc tengu_ronam" : Act(name = "Tengu Ronam",  picture_in_background = "action bedroom_mc tengu_ronan", label_name = "nap"),
     "bedroom_mc tv" : Act(name = _("TV"),  picture_in_background = "action bedroom_mc tv", label_name = "nap"),
 }

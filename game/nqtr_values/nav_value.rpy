@@ -13,7 +13,9 @@ define rooms = [
     Room(id="enviroment_mc_home attic", location_id="house", name=_("Soffitta"), button_icon="icon enviroment_mc_home attic", background="bg enviroment_mc_home attic"),
     Room(id="enviroment_mc_home bathroom", location_id="house", name=_("Bagno"), button_icon="icon enviroment_mc_home bathroom", background="bg enviroment_mc_home bathroom"),
     Room(id="enviroment_mc_home bedroom_emily", location_id="house", name=_("La stanza di [emilyI.name]"), button_icon="icon enviroment_mc_home bedroom_emily", background="bg enviroment_mc_home bedroom_emily"),
-    Room(id="enviroment_mc_home bedroom_mc", location_id="house", name=_("La stanza di [mcI.name]"), button_icon="icon enviroment_mc_home bedroom_mc", background="bg enviroment_mc_home bedroom_mc"),
+    Room(id="enviroment_mc_home bedroom_mc", location_id="house", name=_("La stanza di [mcI.name]"), button_icon="icon enviroment_mc_home bedroom_mc", background="bg enviroment_mc_home bedroom_mc",
+        action_ids = ["bedroom_mc alarm", "bedroom_mc sleep", "bedroom_mc katana", "bedroom_mc memo", "bedroom_mc pc", "bedroom_mc photo", "bedroom_mc poster", "bedroom_mc skateboard", "bedroom_mc tengu_ronam", "bedroom_mc tv"]
+    ),
     Room(id="enviroment_mc_home bedroom_mia", location_id="house", name=_("La stanza di [miaI.name]"), button_icon="icon enviroment_mc_home bedroom_mia", background="bg enviroment_mc_home bedroom_mia"),
     Room(id="enviroment_mc_home bedroom_victoria", location_id="house", name=_("La stanza di [victoriaI.name]"), button_icon="icon enviroment_mc_home bedroom_victoria", background="bg enviroment_mc_home bedroom_victoria"),
     Room(id="enviroment_mc_home garage", location_id="house", name=_("Garage"), button_icon="icon enviroment_mc_home garage", background="bg enviroment_mc_home garage"),
