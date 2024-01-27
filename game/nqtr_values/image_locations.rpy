@@ -34,7 +34,11 @@ image icon enviroment_mc_home bedroom_emily = LayeredImageMask("pre icon envirom
     background="sprite background" 
 )
 ### bedroom_mc
-image bg enviroment_mc_home bedroom_mc = "enviroment_mc_home/bedroom_mc[tm.timeslot_number].webp"
+image bg enviroment_mc_home bedroom_mc = Composite( (config.screen_width, config.screen_height),
+    (0, 0), "enviroment_mc_home/bedroom_mc[tm.timeslot_number].webp",
+    (0, 0), "enviroment_mc_home/bedroom_mc/poster[skateboard_type][tm.timeslot_number].webp",
+    (0, 0), "enviroment_mc_home/bedroom_mc/skateboard[skateboard_type][tm.timeslot_number].webp",
+)
 image pre icon enviroment_mc_home bedroom_mc = Transform("bg enviroment_mc_home bedroom_mc", xysize=(gui.sprite_size_x, gui.sprite_size))
 image icon enviroment_mc_home bedroom_mc = LayeredImageMask("pre icon enviroment_mc_home bedroom_mc",
     Transform(crop=(gui.sprite_size_padding_x, 0, gui.sprite_size, gui.sprite_size)),
