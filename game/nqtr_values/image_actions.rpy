@@ -15,6 +15,7 @@ image action bedroom_mc memo:
 image action bedroom_mc pc:
     "enviroment_mc_home/bedroom_mc/button/pc.webp"
     alpha 0.01
+image action bedroom_mc pc selected = "enviroment_mc_home/bedroom_mc/pc[tm.timeslot_number].webp"
 image action bedroom_mc photo:
     "enviroment_mc_home/bedroom_mc/button/photo.webp"
     alpha 0.01
@@ -30,3 +31,4 @@ image action bedroom_mc tengu_ronan:
 image action bedroom_mc tv:
     "enviroment_mc_home/bedroom_mc/button/tv.webp"
     alpha 0.01
+image action bedroom_mc tv selected = "enviroment_mc_home/bedroom_mc/tv[tm.timeslot_number].webp"

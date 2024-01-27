@@ -12,10 +12,10 @@ define df_actions = {
     "bedroom_mc sleep" : Act(name = _("Dormi"),  picture_in_background = "action bedroom_mc bed", label_name = "nap"),
     "bedroom_mc katana" : Act(name = _("Katana"),  picture_in_background = "action bedroom_mc katana", label_name = "nap"),
     "bedroom_mc memo" : Act(name = _("Appunti"),  picture_in_background = "action bedroom_mc memo", label_name = "nap"),
-    "bedroom_mc pc" : Act(name = _("PC"),  picture_in_background = "action bedroom_mc pc", label_name = "nap"),
+    "bedroom_mc pc" : Act(name = _("PC"),  picture_in_background = "action bedroom_mc pc", picture_in_background_selected = "action bedroom_mc pc selected", label_name = "nap"),
     "bedroom_mc photo" : Act(name = _("Foto"),  picture_in_background = "action bedroom_mc photo", label_name = "nap"),
     "bedroom_mc poster" : Act(name = _("Poster"),  picture_in_background = "action bedroom_mc poster", label_name = "nap"),
     "bedroom_mc skateboard" : Act(name = _("Skateboard"),  picture_in_background = "action bedroom_mc skateboard", label_name = "nap"),
     "bedroom_mc tengu_ronam" : Act(name = "Tengu Ronam",  picture_in_background = "action bedroom_mc tengu_ronan", label_name = "nap"),
-    "bedroom_mc tv" : Act(name = _("TV"),  picture_in_background = "action bedroom_mc tv", label_name = "nap"),
+    "bedroom_mc tv" : Act(name = _("TV"),  picture_in_background = "action bedroom_mc tv", picture_in_background_selected = "action bedroom_mc tv selected", label_name = "nap"),
 }
