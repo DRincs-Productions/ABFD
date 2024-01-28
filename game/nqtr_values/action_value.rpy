@@ -8,7 +8,7 @@ default skateboard_type = "A"
 # dictionary that cannot be modified at runtime, only by modifying the code. (content is not based on saves, but from the code)
 # Wiki: https://github.com/DRincs-Productions/NQTR-toolkit/wiki/Action#add-an-action-in-dictionary
 define df_actions = {
-    "bedroom_mc alarm" : Act(name = _("Svieglia"), picture_in_background = "action bedroom_mc alarm", label_name = "nap"),
+    "bedroom_mc alarm" : Act(name = _("Svieglia"), picture_in_background = "action bedroom_mc alarm", label_name = "allarm_info"),
     "bedroom_mc nap" : Act(name = _("Pisolino"), button_icon = "action icon alarm", picture_in_background = "action bedroom_mc bed", label_name = "nap", hour_start = 5, hour_stop = 23),
     "bedroom_mc sleep" : Act(name = _("Dormi"), button_icon = "action icon sleep", picture_in_background = "action bedroom_mc bed", label_name = "sleep", hour_start = 23, hour_stop = 5),
     "bedroom_mc katana" : Act(name = _("Katana"), picture_in_background = "action bedroom_mc katana", label_name = "nap"),

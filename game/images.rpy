@@ -87,6 +87,16 @@ image bg car_travel A00A animation:
     pause 2.0
     repeat
 
+image alarm = "general/alarm.webp"
+image mc feeling_unwellA = "general/feeling_unwellA.webp"
+image mc feeling_unwellB = "general/feeling_unwellB.webp"
+image mc fix = "general/fix.webp"
+image mc katana = "general/katana.webp"
+image photo = "general/photo.webp"
+image tengu_ronan = "general/tengu_ronan.webp"
+image mc tink = "general/tink.webp"
+image mc tink2 = "general/tink2.webp"
+
 image car intro A01A = "intro/A01A Car.webp"
 image bg intro A01A = "intro/A01A.webp"
 image bg intro A01B = "intro/A01B.webp"
